@@ -159,7 +159,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - Cyrillic script / 西里尔文字 [`Cyrl`](https://scriptsource.org/scr/Cyrl)
   - Russ / 俄文 [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
 - Lisu Zhushu script / 傈僳竹书
-- Nüshu script / 女书 [`Nshu`](https://scriptsource.org/scr/Nshu)
+- [Nüshu script / 女书](https://kushim-jiang.github.io/posts/2024-06-12-nushu/) [`Nshu`](https://scriptsource.org/scr/Nshu)
 - Bopomofo script / 注音字母 [`Bopo`](https://scriptsource.org/scr/Bopo)
   - Han / 注音字母 [`zh-Bopo`](https://scriptsource.org/ws/zh-Bopo)
   - Yi / 彝语注音字母 (1920 version)
