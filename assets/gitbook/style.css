@@ -28,8 +28,36 @@ audio:not([controls]) {
     display: none
 }
 
+@font-face {
+    font-family: "Alegreya Sans";
+    src: url("../fonts/AlegreyaSans-Medium.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alegreya Sans";
+    src: url("../fonts/AlegreyaSans-MediumItalic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Alegreya Sans";
+    src: url("../fonts/AlegreyaSans-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alegreya Sans";
+    src: url("../fonts/AlegreyaSans-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+
 html {
-    font-family: sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -3175,7 +3203,7 @@ table {
 }
 
 .book-header {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     overflow: visible;
     height: 50px;
     padding: 0 8px;
@@ -3380,7 +3408,7 @@ table {
 }
 
 .book-summary {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     position: absolute;
     top: 0;
     left: -300px;
@@ -4311,7 +4339,7 @@ html {
 body {
     text-rendering: optimizeLegibility;
     font-smoothing: antialiased;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     font-size: 14px;
     letter-spacing: .2px;
     text-size-adjust: 100%;
