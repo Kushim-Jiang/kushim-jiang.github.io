@@ -30,28 +30,28 @@ audio:not([controls]) {
 
 @font-face {
     font-family: "Alegreya Sans";
-    src: url("../fonts/AlegreyaSans-Medium.ttf");
+    src: url("../fonts/AlegreyaSans-Medium.woff");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Alegreya Sans";
-    src: url("../fonts/AlegreyaSans-MediumItalic.ttf");
+    src: url("../fonts/AlegreyaSans-MediumItalic.woff");
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Alegreya Sans";
-    src: url("../fonts/AlegreyaSans-Bold.ttf");
+    src: url("../fonts/AlegreyaSans-Bold.woff");
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Alegreya Sans";
-    src: url("../fonts/AlegreyaSans-BoldItalic.ttf");
+    src: url("../fonts/AlegreyaSans-BoldItalic.woff");
     font-weight: 700;
     font-style: italic;
 }
