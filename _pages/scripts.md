@@ -153,7 +153,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - Tangut script / 西夏文字 [`Tang`](https://scriptsource.org/scr/Tang)
 - Sui script / 水书 [`Shui`](https://scriptsource.org/scr/Shui)
 - Khitan Large script / 契丹大字 [`Kitl`](https://scriptsource.org/scr/Kitl)
-- Khitan Small Script / 契丹小字 [`Kits`](https://scriptsource.org/scr/Kits)
+- [Khitan Small Script / 契丹小字](https://kushim-jiang.github.io/posts/2024-07-12-kss/) [`Kits`](https://scriptsource.org/scr/Kits)
 - Jurchen script / 女真文字 [`Jurc`](https://scriptsource.org/scr/Jurc)
 - hPhags-pa script / 八思巴字 [`Phag`](https://scriptsource.org/scr/Phag)
 - Cyrillic script / 西里尔文字 [`Cyrl`](https://scriptsource.org/scr/Cyrl)

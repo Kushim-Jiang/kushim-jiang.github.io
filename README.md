@@ -261,9 +261,3 @@ permalink: /
     }
     loadQuestion();
 </script>
-
-<div class="frame">
-    <div class="quiz-container" id="core-spec">
-        <h4 id="question"><a href="https://kushim-jiang.github.io/core-spec/">Click here for the working draft of the Unicode Standard Core Specification.</a></h4>
-    </div>
-</div>
