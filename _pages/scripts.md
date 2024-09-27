@@ -71,9 +71,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Dongxiang Xiaojing [`sce-Arab`](https://scriptsource.org/ws/sce-Arab)
   - Bonan Xiaojing `peh-Arab`
 - Latin script / 拉丁文字 [`Latn`](https://scriptsource.org/scr/Latn)
-  - Uygur / 维吾尔新文字 [`ug-Latn`](https://scriptsource.org/ws/ug-Latn)
-  - Lisu / 新傈僳文 [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
-  - Jingpo / 景颇文 (original, 1940 version, 1957 version) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
+  - Lisu / 新傈僳文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-in-1957-orthography)) [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
+  - Jingpo / 景颇文 ([original](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1895-orthography), [1940 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1940-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1957-orthography)) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
   - Zaiwa / 载瓦文 (1920 version, 1927 version, 1957 version, 1983 version) [`atb-Latn`](https://scriptsource.org/ws/atb-Latn)
   - Lahu / 拉祜文 (original, 1957 version) [`lhu-Latn`](https://scriptsource.org/ws/lhu-Latn)
   - Zhuang / 壮文 (1957 version, 1982 version) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
