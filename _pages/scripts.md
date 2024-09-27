@@ -6,7 +6,7 @@ category: pages
 
 ## Introduction
 
-In the field of information technology, the term __Chinese writing systems__ (中文 _zhōngwén_) refers to all the writing systems that are or have been used by the various minzu (for recording their languages) in China throughout history [(Dai, 2020)](https://doi.org/10.3969/j.issn.1671-539X.2020.06.005), and therefore does not refer to the national common writing system of China.
+In the field of information technology, the term **Chinese writing systems** (中文 _zhōngwén_) refers to all the writing systems that are or have been used by the various minzu (for recording their languages) in China throughout history [(Dai, 2020)](https://doi.org/10.3969/j.issn.1671-539X.2020.06.005), and therefore does not refer to the national common writing system of China.
 
 This concept is based on the writing systems used by various minzu in China. When referring to a writing system, the most common expression is to add the word _writing system_ to the name of the minzu, as in the case of Mongol minzu using “Mongolian writing system”, Zang minzu using “Tibetan writing system”, and so on. Considering that the Jingpo branch and the Zaiwa branch of the Jingpo minzu use the “Jingpo writing system” and “Zaiwa writing system” respectively, which is also related to the fact that Jingpo and Zaiwa are different languages spoken by different branches of the same minzu, the word _writing system_ is actually added to the name of the language.
 
@@ -14,7 +14,7 @@ Furthermore, even when recording the same language, different scripts have been 
 
 Further investigation reveals that even writing systems that use the same script to record the same language have developed different orthographies at different times in history. For example, after the Arabic script was used to record the Uygur language, people continued to improve its orthography, with the 1937 orthography containing 32 letters, the 1954 orthography containing 30 letters, and the 1984 orthography containing 32 letters, with the order of the letters also adjusted. In another example, the Modern Han script was used to record the Zhuang language, and later the Latin script was used, with the 1957 orthography containing 32 letters, and the 1982 orthography containing 26 letters.
 
-Thus, in the context of Chinese writing systems, it takes three parts to accurately refer to a writing system: the language, the scripts (a writing system may use more than one script, e.g. the _Han writing system_ actually uses Modern Han script, Latin script, Greek script, and so on), and the version of the orthography. The concept of __script__ is the result of a reorganization and generalization of the textual elements used by these writing systems.
+Thus, in the context of Chinese writing systems, it takes three parts to accurately refer to a writing system: the language, the scripts (a writing system may use more than one script, e.g. the _Han writing system_ actually uses Modern Han script, Latin script, Greek script, and so on), and the version of the orthography. The concept of **script** is the result of a reorganization and generalization of the textual elements used by these writing systems.
 
 ## A List of Chinese Writing Systems
 
