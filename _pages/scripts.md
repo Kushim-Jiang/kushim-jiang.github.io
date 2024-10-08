@@ -21,7 +21,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - Modern Han script / 现代汉文字 [`Hani`](https://scriptsource.org/scr/Hani)
   - Han / 现代汉字 [`zh-Hans`](https://scriptsource.org/ws/zh-Hans) [`zh-Hant`](https://scriptsource.org/ws/zh-Hant)
   - Zhuang / 方块壮字 [`za-Hani`](https://scriptsource.org/ws/za-Hani)
-  - Buyei / 方块布依字 (摩经古文字) [`pcc-Hani`](https://scriptsource.org/ws/pcc-Hani)
+  - Buyi / 方块布依字 (摩经古文字) [`pcc-Hani`](https://scriptsource.org/ws/pcc-Hani)
   - Bai / 方块白字 [`bca-Hani`](https://scriptsource.org/ws/bca-Hani) [`bfs-Hani`](https://scriptsource.org/ws/bfs-Hani) <span style="color:#bbb">▷ According to 白语简志 [^1], 段信苴宝摩崖碑 found in Eryuan (洱源) is regarded as a record of the Jianchuan dialect `bca`, and 词记山花·咏苍洱境碑 found in Dali (大理) is considered to be a record of the Dali dialect `bfs`.</span>
   - Yao / 方块瑶字 `mji-Hani` <span style="color:#bbb">▷ According to 瑶族语言简志 [^2], songbooks written by Kim Mun people in Hekou (河口) are considered to be records of the Mien-Kim dialect Kim Mun subdialect of Mienic language `mji`.</span>
   - Yi / 阿细彝字 `yix-Hani` <span style="color:#bbb">▷ According to 汉字和文化问题 [^3], the 彝语阿细方块字 (阿细字) was designed by the Christian to record the southeastern dialect of Yi language `yix`.</span>
@@ -71,12 +71,12 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Dongxiang Xiaojing [`sce-Arab`](https://scriptsource.org/ws/sce-Arab)
   - Bonan Xiaojing `peh-Arab`
 - Latin script / 拉丁文字 [`Latn`](https://scriptsource.org/scr/Latn)
-  - Lisu / 新傈僳文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-in-1957-orthography)) [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
+  - Lisu / 新傈僳文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-and-cyrillic-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-in-1957-orthography)) [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
   - Jingpo / 景颇文 ([original](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1895-orthography), [1940 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1940-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1957-orthography)) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
   - Zaiwa / 载瓦文 ([1927 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1927-orthography), 1956 version, [1957 version, 1983 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1983-orthography)) [`atb-Latn`](https://scriptsource.org/ws/atb-Latn)
   - Lahu / 拉祜文 ([1910 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1910-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1957-orthography)) [`lhu-Latn`](https://scriptsource.org/ws/lhu-Latn)
-  - Zhuang / 壮文 (1957 version, 1982 version) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
-  - Buyei / 布依文 (1956 version, 1981 version, 1985 version) [`pcc-Latn`](https://scriptsource.org/ws/pcc-Latn)
+  - Zhuang / 壮文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-and-cyrillic-in-1957-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-in-1982-orthography)) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
+  - Buyi / 布依文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1956-orthography), 1958 version, [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1982-orthography), [1985 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1985-orthography)) [`pcc-Latn`](https://scriptsource.org/ws/pcc-Latn)
   - Qiandong Miao / 黔东苗文 (1957 version, 1959 version, 1981 version) [`hms-Latn`](https://scriptsource.org/ws/hms-Latn)
   - Xiangxi Miao / 湘西苗文 [`mmr-Latn`](https://scriptsource.org/ws/mmr-Latn) <span style="color:#bbb">▷ The standard phonology of the Xiangxi dialect is set in Yiping village, Huayuan county (花垣), belongs to the western subdialect `mmr`.</span>
   - Chuanqiandian Miao / 川黔滇苗文 [`cqd-Latn`](https://scriptsource.org/ws/cqd-Latn)
