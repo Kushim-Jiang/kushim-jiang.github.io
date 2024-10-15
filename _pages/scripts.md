@@ -82,8 +82,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Chuanqiandian Miao / 川黔滇苗文 [`cqd-Latn`](https://scriptsource.org/ws/cqd-Latn)
   - Diandongbei Miao / 滇东北新苗文 [`hmd-Latn`](https://scriptsource.org/ws/hmd-Latn)
   - [Dong / 侗文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#dong-written-with-latin-in-1958-orthography) [`kmc-Latn`](https://scriptsource.org/ws/kmc-Latn) <span style="color:#bbb">▷ The standard phonology of Dong language is set in Rongjiang county (榕江), belongs to the southern dialect `kmc`.</span>
-  - Tu / 土文 [`mjg-Latn`](https://scriptsource.org/ws/mjg-Latn)
-  - Salar / 撒拉文 [`slr-Latn`](https://scriptsource.org/ws/slr-Latn) <span style="color:#bbb">▷ According to 胡振华文集 (vol. 2) [^9], Salar people in Xunhua (循化) develope the 撒拉语拉丁字母标音符号 based on Latin letters to record the Salar language.</span>
+  - [Tu / 土文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#tu-written-with-latin-in-1981-orthography) [`mjg-Latn`](https://scriptsource.org/ws/mjg-Latn)
+  - [Salar / 撒拉文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#sala-written-with-latin-in-2008-orthography) [`slr-Latn`](https://scriptsource.org/ws/slr-Latn) <span style="color:#bbb">▷ According to 胡振华文集 (vol. 2) [^9], Salar people in Xunhua (循化) develope the 撒拉语拉丁字母标音符号 based on Latin letters to record the Salar language.</span>
   - Va / 撒拉佤文, 佧佤文 [`prk-Latn`](https://scriptsource.org/ws/prk-Latn)
   - Hani / 哈尼文 (1957 version, 1958 version, 1983 version) [`hni-Latn`](https://scriptsource.org/ws/hni-Latn) `byo-Latn` <span style="color:#bbb">▷ The 哈尼方言文字 is based on the Hani subdialect of Ha-Ya dialect `hni`, and the 碧卡方言文字 is based on the Biyue subdialect of Bi-Ka dialect `byo`.</span>
   - Naxi / 纳西文 [`nxq-Latn`](https://scriptsource.org/ws/nxq-Latn)
