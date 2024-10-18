@@ -66,7 +66,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Tajik / 塔吉克文 [`tg-Arab`](https://scriptsource.org/ws/tg-Arab)
   - Karakhanid / 喀喇汗王朝突厥文 `xqa-Arab`
   - Chagatai / 察合台文 [`chg-Arab`](https://scriptsource.org/ws/chg-Arab)
-  - Salar / 撒拉文 `slr-Arab`
+  - Sala / 撒拉文 `slr-Arab`
   - Hui Xiaojing [`zh-Arab`](https://scriptsource.org/ws/zh-Arab)
   - Dongxiang Xiaojing [`sce-Arab`](https://scriptsource.org/ws/sce-Arab)
   - Bonan Xiaojing `peh-Arab`
@@ -83,8 +83,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Diandongbei Miao / 滇东北新苗文 [`hmd-Latn`](https://scriptsource.org/ws/hmd-Latn)
   - [Dong / 侗文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#dong-written-with-latin-in-1958-orthography) [`kmc-Latn`](https://scriptsource.org/ws/kmc-Latn) <span style="color:#bbb">▷ The standard phonology of Dong language is set in Rongjiang county (榕江), belongs to the southern dialect `kmc`.</span>
   - [Tu / 土文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#tu-written-with-latin-in-1981-orthography) [`mjg-Latn`](https://scriptsource.org/ws/mjg-Latn)
-  - [Salar / 撒拉文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#sala-written-with-latin-in-2008-orthography) [`slr-Latn`](https://scriptsource.org/ws/slr-Latn) <span style="color:#bbb">▷ According to 胡振华文集 (vol. 2) [^9], Salar people in Xunhua (循化) develope the 撒拉语拉丁字母标音符号 based on Latin letters to record the Salar language.</span>
-  - Va / 撒拉佤文, 佧佤文 [`prk-Latn`](https://scriptsource.org/ws/prk-Latn)
+  - [Sala / 撒拉文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#sala-written-with-latin-in-2008-orthography) [`slr-Latn`](https://scriptsource.org/ws/slr-Latn)
+  - Wa / 佤文 ([1912 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1912-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1958-orthography)) [`prk-Latn`](https://scriptsource.org/ws/prk-Latn)
   - Hani / 哈尼文 (1957 version, 1958 version, 1983 version) [`hni-Latn`](https://scriptsource.org/ws/hni-Latn) `byo-Latn` <span style="color:#bbb">▷ The 哈尼方言文字 is based on the Hani subdialect of Ha-Ya dialect `hni`, and the 碧卡方言文字 is based on the Biyue subdialect of Bi-Ka dialect `byo`.</span>
   - Naxi / 纳西文 [`nxq-Latn`](https://scriptsource.org/ws/nxq-Latn)
   - Iu Mien Yao / 勉方言文字方案 (1982 version) [`ium-Latn`](https://scriptsource.org/ws/ium-Latn)
