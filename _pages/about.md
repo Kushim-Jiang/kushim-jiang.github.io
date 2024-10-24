@@ -27,34 +27,38 @@ category: pages
   - `U+2B738`
     - **Kushim Jiang**. Disunification of U+2F83A. [IRG N2447 = L2/21-046](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2447_2F83A.pdf).
   - `U+2B739`, `U+5F50`
-    - ※ Alexander Zapryagaev. Disunification Request for U+5F50. [IRG N2509](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2509.pdf).
-    - **Kushim Jiang**. G-source Implementation Report on U+5F50. [IRG N2509 Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2509KushimFeedback.pdf).
+    - ※ Alexander Zapryagaev. Disunification request for U+5F50. [IRG N2509](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2509.pdf).
+    - **Kushim Jiang**. G-source implementation report on U+5F50. [IRG N2509 Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2509KushimFeedback.pdf).
   - `U+FA99`, `U+FAB0`, `U+FAD1`
     - **Kushim Jiang**. Disunification request for 3 characters. [IRG N2510](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg57/IRGN2510_Disunify-3-chars.pdf).
     - **Kushim Jiang**. Proposal to add two characters and change the status field of one character in UAX #45. [L2/21-178](http://www.unicode.org/L2/L2021/21178-jiang-two-characters.pdf).
     - **Kushim Jiang**. Response to three feedbacks to IRG N2510. [IRG N2510 Response](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2510_KJresponse.pdf).
   - `U+4E30`
-    - ※ Unicode. Error Report: CJK chart U+4E30 mixed up. [IRG N2539](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2539_4E30Issue.pdf).
-    - **Kushim Jiang**. Feedback on Response to Feedback on the Error Report. [IRG N2539 Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2539KushimFeedbck.pdf).
+    - ※ Unicode. Error report: CJK chart U+4E30 mixed up. [IRG N2539](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2539_4E30Issue.pdf).
+    - **Kushim Jiang**. Feedback on response to feedback on the error report. [IRG N2539 Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg58/IRGN2539KushimFeedbck.pdf).
   - `WS2021-00001`
     - ※ IRG. IRG WS2021 Version 5.0, [Attributes](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2606WS2021v5.xlsx) and [Summary](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2606WS2021v5-import-summary.pdf). IRG N2606.
-    - **Kushim Jiang**. Review of Studies on WS2021-00001. [IRG N2606 Kushim Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2606KushimFeedback-ws2021-00001.pdf).
+    - **Kushim Jiang**. Review of studies on WS2021-00001. [IRG N2606 Kushim Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2606KushimFeedback-ws2021-00001.pdf).
   - `U+203D8`, `U+2D156`, `U+25B9F`
-    - **Kushim Jiang**. Proposal to Update Reference Glyphs. [IRG N2642](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2642-update-3-characters.pdf).
+    - **Kushim Jiang**. Proposal to update the reference glyphs for 3 characters. [IRG N2642 = L2/23-245](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2642-update-3-characters.pdf).
+  - `WS2024-00687`, `WS2024-00631`, `WS2024-01605`, `WS2024-02861`, `WS2024-00692`, `WS2024-00623`, `WS2024-00734`, `WS2024-01147`, `WS2024-00545`, `WS2024-00147`
+    - **Kushim Jiang**. Proposal to add 10 characters used in Putian–Xianyou Puxianxi Opera to UAX #45. [L2/24-041](https://www.unicode.org/L2/L2024/24041-add-10-chars.pdf).
 - **other topics**
   - IDC
     - ※ Yang Tao, Eiso Chan, Yifan Wang. Submission of 3 IDCes. [IRG N2273](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg49/IRGN2273Proposed3NewIDCs.pdf).
     - ※ Yang Tao, Eiso Chan, Yifan Wang. Proposal of 4 IDCs. [IRG N2273R = L2/17-386](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg50/IRGN2273Proposed4NewIDCRevised.pdf).
-    - **Kushim Jiang**. Feedback on Proposals of 4 IDCs (IRG N2273R). [IRG N2273R Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2273R_Kushim_Feedback.pdf).
+    - **Kushim Jiang**. Feedback on proposals of 4 IDCs (IRG N2273R). [IRG N2273R Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg53/IRGN2273R_Kushim_Feedback.pdf).
   - Han ligatures
     - ※ IRG. IRG WS2021 Version 4.0, [Attributes](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg59/IRGN2581WS2021v4.0-attributes.xlsx) and [Summary](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg59/IRGN2581WS2021v4.0-import-summary.pdf). IRG N2581.
-    - ※ Tianheng Shen. About the Encoding Model on Han Ligatures. [IRG N2581 Tianheng Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg60/IRGN2581FeedbackHanLigatures.pdf).
-    - **Kushim Jiang**. Feedback on the Encoding Model of Han Ligatures. [IRG N2606 Kushim Feedback 2](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2606KushimFeedback-cjk-ligature.pdf).
+    - ※ Tianheng Shen. About the encoding model on Han ligatures. [IRG N2581 Tianheng Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg60/IRGN2581FeedbackHanLigatures.pdf).
+    - **Kushim Jiang**. Feedback on the encoding model of Han ligatures. [IRG N2606 Kushim Feedback 2](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2606KushimFeedback-cjk-ligature.pdf).
   - Hybrid characters
     - ※ Gen Kojitani. Script-hybrid and abreviated CJK letters. [IRG N2637](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2637.pdf).
     - **Kushim Jiang**. Feedback on hybrid characters. [IRG N2637 Kushim Feedback](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2637KushimFeedback-hybrid-cjk.pdf).
   - ORT
     - **Kushim Jiang**, Eiso Chan, Yi Bai, Tianheng Shen. Proposal to maintain an evidence collection system in ORT. [IRG N2607R](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg60/IRGN2607_evidence_collection.pdf).
+  - CJK components
+    - **Kushim Jiang**, Huidan Liu, Yang Tao. Preliminary proposal to encode 131 CJK components for GF 3001—1997 and GF 0014—2009. [IRG N2733R](https://www.unicode.org/irg/docs/n2733r-CJKComponents4IDS.pdf).
 
 ### Latin
 
