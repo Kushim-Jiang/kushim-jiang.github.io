@@ -72,7 +72,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Bonan Xiaojing `peh-Arab`
 - Latin script / 拉丁文字 [`Latn`](https://scriptsource.org/scr/Latn)
   - Lisu / 新傈僳文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-and-cyrillic-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-in-1957-orthography)) [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
-  - Jingpo / 景颇文 ([original](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1895-orthography), [1940 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1940-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1957-orthography)) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
+  - Jingpo / 景颇文 ([original](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1895-orthography), [1940 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1940-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1957-orthography), [Password](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-password-written-with-latin-in-1930-orthography)) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
   - Zaiwa / 载瓦文 ([1927 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1927-orthography), 1956 version, [1957 version, 1983 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1983-orthography)) [`atb-Latn`](https://scriptsource.org/ws/atb-Latn)
   - Lahu / 拉祜文 ([1910 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1910-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1957-orthography), [1989 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1989-orthography)) [`lhu-Latn`](https://scriptsource.org/ws/lhu-Latn)
   - Zhuang / 壮文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-and-cyrillic-in-1957-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-in-1982-orthography), [Wenshan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wenshan-zhuang-written-with-latin-in-1984-orthography), [Qiubei version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#qiubei-zhuang-written-with-latin-in-1985-orthography), [Yunnan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#yunnan-zhuang-written-with-latin-in-2014-orthography)) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
@@ -87,18 +87,18 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Wa / 佤文 ([1912 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1912-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1958-orthography)) [`prk-Latn`](https://scriptsource.org/ws/prk-Latn)
   - Hani / 哈尼文 (1957 version, 1958 version, 1983 version) [`hni-Latn`](https://scriptsource.org/ws/hni-Latn) `byo-Latn` <span style="color:#bbb">▷ The 哈尼方言文字 is based on the Hani subdialect of Ha-Ya dialect `hni`, and the 碧卡方言文字 is based on the Biyue subdialect of Bi-Ka dialect `byo`.</span>
   - [Naxi / 纳西文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#naxi-written-with-latin-in-1957-orthography) [`nxq-Latn`](https://scriptsource.org/ws/nxq-Latn)
-  - Iu Mien Yao / 勉方言文字方案 (1982 version) [`ium-Latn`](https://scriptsource.org/ws/ium-Latn)
-  - Kim Mun Yao / 门话文字方案 (1982 version) [`mji-Latn`](https://scriptsource.org/ws/mji-Latn)
+  - [Iu Mien Yao / 勉话瑶文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#iu-mien-written-with-latin-in-1982-orthography) [`ium-Latn`](https://scriptsource.org/ws/ium-Latn)
+  - [Kim Mun Yao / 门话瑶文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#kim-mun-written-with-latin-in-1982-orthography) [`mji-Latn`](https://scriptsource.org/ws/mji-Latn)
   - Bai / 白文 (1958 version, 1982 version) [`bca-Latn`](https://scriptsource.org/ws/bca-Latn) <span style="color:#bbb">▷ The 白族新文字方案 is based on the central dialect of Bai language `bca`, with due regard to other dialects.</span>
-  - Li / 黎文 (1957 version, 1984 version, 2005 version) <span style="color:#bbb">▷ The 1957 version is based on the Ha dialect of Li language (侾方言, unencoded), and the revised versions seem to be no change in standard phonology.</span>
+  - Li / 黎文 (1957 version, 1984 version, 2005 version) [`lic-Latn`](https://scriptsource.org/ws/lic-Latn) <span style="color:#bbb">▷ The 1957 version is based on the Ha dialect of Li language (侾方言, unencoded), and the revised versions seem to be no change in standard phonology.</span>
   - Axi Yi / 阿细拉丁化彝文 (1956 version, 1986 version) `yix-Latn`
   - Liangshan Yi / 新彝文 [`ii-Latn`](https://scriptsource.org/ws/ii-Latn)
-  - Jingpo / 景颇密码文字 [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
+  - Daur / 达斡尔文 [`dta-Latn`](https://scriptsource.org/ws/dta-Latn)
   - Derung / 独龙文 [`duu-Latn`](https://scriptsource.org/ws/duu-Latn)
   - She / 拉丁景宁畲文 `shx-Latn`
   - Qiang / 拉丁羌文 [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu district, Mao county (茂县).</span>
   - Kazak / 哈萨克新文字, 拉丁哈萨克文 [`kk-Latn`](https://scriptsource.org/ws/kk-Latn)
-  - Uygur / 拉丁维吾尔文 [`ug-Latn`](https://scriptsource.org/ws/ug-Latn)
+  - Uygur / 维吾尔新文字, 拉丁维吾尔文 [`ug-Latn`](https://scriptsource.org/ws/ug-Latn)
   - Han / 汉语拼音 [`zh-Latn`](https://scriptsource.org/ws/zh-Latn)
   - Gin / 拉丁京文 [`vi-Latn`](https://scriptsource.org/ws/vi-Latn)
   - Ewenki / 拉丁鄂温克文 [`evn-Latn`](https://scriptsource.org/ws/evn-Latn)
@@ -220,12 +220,12 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 
 ## Reference
 
-[^1]: 徐琳, 赵衍荪. 白语简志. 北京: 民族出版社, 1984.
-[^2]: 毛宗武, 蒙朝吉, 郑宗泽. 瑶族语言简志. 北京: 民族出版社, 1982.
-[^3]: 周有光. 汉字和文化问题. 沈阳: 辽宁人民出版社, 2001.
-[^4]: 中央民族大学中国少数民族语言文学学院 (编). 戴庆厦文集 第 5 卷: 汉语和非汉语比较研究. 北京: 中央民族大学出版社, 2012, p. 233.
-[^5]: 牛林杰 (主编), 刘宝全 (主编). 中韩人文社会科学研究 第 2 辑. 济南: 山东大学出版社, 2007, pp. 230-232.
-[^6]: 陈康. 土家语研究. 北京: 中央民族大学出版社, 2006.
-[^7]: 中国民族古文字研究会 (编). 中国民族古文字研究 第 3 辑. 天津: 天津古籍出版社, 1991, pp. 215-220.
-[^8]: 人民政治协商会议怒江傈僳族自治州委员会文史资料研究委员会. 怒江文史资料选辑 第 12 辑: 兰坪普米族社会历史调查专辑. 政协怒江僳僳族自治州委员会兰坪白族普米族自治县委员会文史研究委员会, 1989, p. 148.
-[^9]: 中央民族大学中国少数民族语言文学学院 (编). 胡振华文集 (下). 北京: 中央民族大学出版社, 2011, p. 205.
+[^1]: 徐琳, 赵衍荪. [白语简志](https://search.worldcat.org/zh-cn/title/20343118). 北京: 民族出版社, 1984.
+[^2]: 毛宗武, 蒙朝吉, 郑宗泽. [瑶族语言简志](https://search.worldcat.org/zh-cn/title/21037670). 北京: 民族出版社, 1982.
+[^3]: 周有光. [汉字和文化问题](https://search.worldcat.org/zh-cn/title/1462850694). 沈阳: 辽宁人民出版社, 2001.
+[^4]: 中央民族大学中国少数民族语言文学学院 (编). [戴庆厦文集 第 5 卷: 汉语和非汉语比较研究](https://search.worldcat.org/zh-cn/title/886141114). 北京: 中央民族大学出版社, 2012, p. 233.
+[^5]: 牛林杰 (主编), 刘宝全 (主编). [中韩人文社会科学研究 第 2 辑](https://search.worldcat.org/zh-cn/title/288995600). 济南: 山东大学出版社, 2007, pp. 230-232.
+[^6]: 陈康. [土家语研究](https://search.worldcat.org/zh-cn/title/1462729026). 北京: 中央民族大学出版社, 2006.
+[^7]: 中国民族古文字研究会 (编). [中国民族古文字研究 第 3 辑](https://book.duxiu.com/views/specific/4010/bookDetail.jsp?dxNumber=000003115295&d=51F9DFA71F22511D883A4C0E72E98E53&fenlei=0803&sw=%E4%B8%AD%E5%9B%BD%E6%B0%91%E6%97%8F%E5%8F%A4%E6%96%87%E5%AD%97%E7%A0%94%E7%A9%B6+%E7%AC%AC+3+%E8%BE%91). 天津: 天津古籍出版社, 1991, pp. 215-220.
+[^8]: 人民政治协商会议怒江傈僳族自治州委员会文史资料研究委员会. [怒江文史资料选辑 第 12 辑: 兰坪普米族社会历史调查专辑](https://book.duxiu.com/views/specific/4010/bookDetail.jsp?dxNumber=000005793328&d=D98C0F27BEAD07683DCAB13FF33D9816&fenlei=110308&sw=%E6%80%92%E6%B1%9F%E6%96%87%E5%8F%B2%E8%B5%84%E6%96%99%E9%80%89%E8%BE%91%E7%AC%AC12%E8%BE%91). 政协怒江僳僳族自治州委员会兰坪白族普米族自治县委员会文史研究委员会, 1989, p. 148.
+[^9]: 中央民族大学中国少数民族语言文学学院 (编). [胡振华文集 (下)](https://search.worldcat.org/zh-cn/title/1160213194). 北京: 中央民族大学出版社, 2011, p. 205.

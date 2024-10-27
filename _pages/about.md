@@ -84,6 +84,9 @@ category: pages
 - **encoding model**
   - shaping rules
     - **Kushim Jiang**. Text representation and shaping manual of the Mongolian script. [L2/23-101](http://www.unicode.org/L2/L2023/23101-mongolian-draft-utn.pdf).
+- **other scripts**
+  - Wagindara script
+    - Jiaxu Yehenara, **Kushim Jiang**, Uju Tunggiya, Tupo Liu. Preliminary proposal to encode Wagindara letters for the Mongolian script. [L2/24-242](https://www.unicode.org/L2/L2024/24242-wagindara.pdf).
 
 ### Yi Ideographs
 
