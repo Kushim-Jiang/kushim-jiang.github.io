@@ -64,8 +64,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Uzbek / 乌孜别克文 [`uz-Arab`](https://scriptsource.org/ws/uz-Arab)
   - Tatar / 塔塔尔文 (original, 1910 version, 1918 version, 1941 version) [`tt-Arab`](https://scriptsource.org/ws/tt-Arab)
   - Tajik / 塔吉克文 [`tg-Arab`](https://scriptsource.org/ws/tg-Arab)
-  - Karakhanid / 喀喇汗王朝突厥文 `xqa-Arab`
-  - Chagatai / 察合台文 [`chg-Arab`](https://scriptsource.org/ws/chg-Arab)
+  - [Karakhanid / 喀喇汗王朝突厥文](https://kushim-jiang.github.io/scripts/2024-10-30-arab/#karakhanid-written-with-arabic-nastaliq-in-1000-orthography) `xqa-Arab`
+  - [Chagatai / 察合台文](https://kushim-jiang.github.io/scripts/2024-10-30-arab/#chagatai-written-with-arabic-nastaliq-in-1400-orthography) `chg-Aran` [`chg-Arab`](https://scriptsource.org/ws/chg-Arab)
   - Sala / 撒拉文 `slr-Arab`
   - Hui Xiaojing [`zh-Arab`](https://scriptsource.org/ws/zh-Arab)
   - Dongxiang Xiaojing [`sce-Arab`](https://scriptsource.org/ws/sce-Arab)
