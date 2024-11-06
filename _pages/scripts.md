@@ -102,7 +102,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Han / 汉语拼音 [`zh-Latn`](https://scriptsource.org/ws/zh-Latn)
   - Gin / 拉丁京文 [`vi-Latn`](https://scriptsource.org/ws/vi-Latn)
   - Ewenki / 拉丁鄂温克文 [`evn-Latn`](https://scriptsource.org/ws/evn-Latn)
-  - Maonan / 毛南文 [`mmd-Latn`](https://scriptsource.org/ws/mmd-Latn)
+  - [Maonan / 毛南文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#maonan-written-with-latin-in-2015-orthography) [`mmd-Latn`](https://scriptsource.org/ws/mmd-Latn)
   - Nu / 怒语拼音方案 [`nuf-Latn`](https://scriptsource.org/ws/nuf-Latn) <span style="color:#bbb">▷ The 怒语拼音方案 is based on Nusu language `nuf` in Fugong (福贡), with due regard to other languages.</span>
 - Korean script / 朝鲜文字 [`Hang`](https://scriptsource.org/scr/Hang)
 - Tai Tham script / 西双版纳老傣文字 [`Lana`](https://scriptsource.org/scr/Lana)
@@ -199,10 +199,17 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Miao cloth symbols / 苗族衣饰文字
   - She cloth symbols / 畲族织锦文字
   - Yao cloth symbols / 瑶族织锦文字
+- architectural symbols
+  - Dong architectural symbols / 侗族墨师文
 - bone symbols
   - Changle bone symbols / 昌乐骨刻文
   - Shouguang bone symbols / 寿光骨刻文
   - southern Guangxi bone symbols / 桂南骨刻文
+- stone symbols
+  - Dankou stone symbols / 丹口石刻苗文 (城步古苗文)
+  - Gansang stone symbols / 甘桑骆越石刻文
+  - Xianju stone symbols / 仙居高凉石刻文 (中央坑摩崖石刻)
+  - Hua’an stone symbols / 华安仙字潭摩崖石刻
 - ancient symbols
   - Hongya symbols / 红崖天书 <span style="color:#bbb">▷ Found in 红岩碑.</span>
   - Yelang symbols / 夜郎天书
@@ -211,12 +218,10 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Cangjie symbols / 仓圣鸟迹书碑 <span style="color:#bbb">▷ Found in 仓圣鸟迹书碑.</span>
   - Xiayushu symbols / 夏禹书 <span style="color:#bbb">▷ Found in 淳化秘阁法帖.</span>
   - Cangjieshu symbols / 仓颉书 <span style="color:#bbb">▷ Found in 淳化秘阁法帖.</span>
-  - Gansang stone symbols / 甘桑石刻文
-  - Jianghua Yao symbols / 江华瑶篆
+  - Jianghua Yao symbols / 江华瑶篆, 江华瑶族古文字
   - Chenshu Tujia symbols / 陈书土家古文字
   - Jiutian Gelao symbols / 九天书仡佬文 <span style="color:#bbb">▷ Found in 九天大濮史录.</span>
-  - Chengbu Miao symbols / 城步古苗文字
-  - Sawgoek (Sawva) symbols / 本源书 (花纹书)
+  - Sawgoek (Sawva) Zhuang symbols / 壮族本源书 (花纹书)
 
 ## Reference
 
