@@ -49,10 +49,11 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - Soyombo script / 索永布文字 [`Soyo`](https://scriptsource.org/scr/Soyo)
 - Zanabazar Square script / 札那巴札尔文字 [`Zanb`](https://scriptsource.org/scr/Zanb)
 - Tibetan script / 藏文字 [`Tibt`](https://scriptsource.org/scr/Tibt)
-  - Tibetan / 藏文 [`xct-Tibt`](https://scriptsource.org/ws/xct-Tibt)
+  - Tibetan / 藏文 [`xct-Tibt.dbucan` `xct-Tibt.dbumed`](https://scriptsource.org/ws/xct-Tibt)
   - ※ Sanskrit / 梵文 `sa-Tibt`
   - rGyalrong / 嘉绒文 [`jya-Tibt`](https://scriptsource.org/ws/jya-Tibt) <span style="color:#bbb">▷ Found in 华夷译语, 嘉绒口语学习读本 and so on.</span>
-  - Pumi / 韩规文 (普米文) `pmi-Tibt` <span style="color:#bbb">▷ According to 怒江文史资料选辑 (vol. 12) [^8], classic books found in Muli (木里) and Yanyuan (盐源) are considered to be records of the northern dialect of Pumi language `pmi`.</span>
+  - Pumi / 韩规文 (普米文) `pmi-Tibt.dbumed` <span style="color:#bbb">▷ According to 怒江文史资料选辑 (vol. 12) [^8], classic books found in Muli (木里) and Yanyuan (盐源) are considered to be records of the northern dialect of Pumi language `pmi`.</span>
+  - Minyag / 木雅文 `wmg-Tibt.dbucan` <span style="color:#bbb">▷ The first author of 木雅藏语方言词汇 [^10] is a teacher in Kangding (康定), so the book is considered to be records of the western dialect of Muya language `wmg`.</span>
 - sPungs-chen script / 大食文字邦钦体
 - sPungs-chung script / 大食文字邦琼体
 - sMar-chen script / 象雄文字玛尔钦体 [`Marc`](https://scriptsource.org/scr/Marc)
@@ -76,7 +77,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Zaiwa / 载瓦文 ([1927 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1927-orthography), 1956 version, [1957 version, 1983 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1983-orthography)) [`atb-Latn`](https://scriptsource.org/ws/atb-Latn)
   - Lahu / 拉祜文 ([1910 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1910-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1957-orthography), [1989 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1989-orthography)) [`lhu-Latn`](https://scriptsource.org/ws/lhu-Latn)
   - Zhuang / 壮文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-and-cyrillic-in-1957-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-in-1982-orthography), [Wenshan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wenshan-zhuang-written-with-latin-in-1984-orthography), [Qiubei version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#qiubei-zhuang-written-with-latin-in-1985-orthography), [Yunnan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#yunnan-zhuang-written-with-latin-in-2014-orthography)) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
-  - Buyi / 布依文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1956-orthography), 1958 version, [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1982-orthography), [1985 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1985-orthography)) [`pcc-Latn`](https://scriptsource.org/ws/pcc-Latn)
+  - Buyi / 布依文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1982-orthography), [1985 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1985-orthography)) [`pcc-Latn`](https://scriptsource.org/ws/pcc-Latn)
   - Qiandong Miao / 黔东苗文 (1957 version, 1959 version, 1981 version) [`hms-Latn`](https://scriptsource.org/ws/hms-Latn)
   - Xiangxi Miao / 湘西苗文 [`mmr-Latn`](https://scriptsource.org/ws/mmr-Latn) <span style="color:#bbb">▷ The standard phonology of the Xiangxi dialect is set in Yiping village, Huayuan county (花垣), belongs to the western subdialect `mmr`.</span>
   - Chuanqiandian Miao / 川黔滇苗文 [`cqd-Latn`](https://scriptsource.org/ws/cqd-Latn)
@@ -234,3 +235,4 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 [^7]: 中国民族古文字研究会 (编). [中国民族古文字研究 第 3 辑](https://book.duxiu.com/views/specific/4010/bookDetail.jsp?dxNumber=000003115295&d=51F9DFA71F22511D883A4C0E72E98E53&fenlei=0803&sw=%E4%B8%AD%E5%9B%BD%E6%B0%91%E6%97%8F%E5%8F%A4%E6%96%87%E5%AD%97%E7%A0%94%E7%A9%B6+%E7%AC%AC+3+%E8%BE%91). 天津: 天津古籍出版社, 1991, pp. 215-220.
 [^8]: 人民政治协商会议怒江傈僳族自治州委员会文史资料研究委员会. [怒江文史资料选辑 第 12 辑: 兰坪普米族社会历史调查专辑](https://book.duxiu.com/views/specific/4010/bookDetail.jsp?dxNumber=000005793328&d=D98C0F27BEAD07683DCAB13FF33D9816&fenlei=110308&sw=%E6%80%92%E6%B1%9F%E6%96%87%E5%8F%B2%E8%B5%84%E6%96%99%E9%80%89%E8%BE%91%E7%AC%AC12%E8%BE%91). 政协怒江僳僳族自治州委员会兰坪白族普米族自治县委员会文史研究委员会, 1989, p. 148.
 [^9]: 中央民族大学中国少数民族语言文学学院 (编). [胡振华文集 (下)](https://search.worldcat.org/zh-cn/title/1160213194). 北京: 中央民族大学出版社, 2011, p. 205.
+[^10]: 吉呷, 林强. [木雅藏语方言词汇](https://mp.weixin.qq.com/s/Erght2atLTIYN1nPMubPSA). 成都: 四川民族出版社, 2023.
