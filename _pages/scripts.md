@@ -78,7 +78,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Lahu / 拉祜文 ([1910 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1910-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1957-orthography), [1989 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1989-orthography)) [`lhu-Latn`](https://scriptsource.org/ws/lhu-Latn)
   - Zhuang / 壮文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-and-cyrillic-in-1957-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-in-1982-orthography), [Wenshan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wenshan-zhuang-written-with-latin-in-1984-orthography), [Qiubei version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#qiubei-zhuang-written-with-latin-in-1985-orthography), [Yunnan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#yunnan-zhuang-written-with-latin-in-2014-orthography)) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
   - Buyi / 布依文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1982-orthography), [1985 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1985-orthography)) [`pcc-Latn`](https://scriptsource.org/ws/pcc-Latn)
-  - Qiandong Miao / 黔东苗文 (1957 version, 1959 version, 1981 version) [`hms-Latn`](https://scriptsource.org/ws/hms-Latn)
+  - Qiandong Miao / 黔东苗文 ([1950 version, 1952 version, 1956 version, 1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1982-orthography)) [`hms-Latn`](https://scriptsource.org/ws/hms-Latn)
   - Xiangxi Miao / 湘西苗文 [`mmr-Latn`](https://scriptsource.org/ws/mmr-Latn) <span style="color:#bbb">▷ The standard phonology of the Xiangxi dialect is set in Yiping village, Huayuan county (花垣), belongs to the western subdialect `mmr`.</span>
   - Chuanqiandian Miao / 川黔滇苗文 [`cqd-Latn`](https://scriptsource.org/ws/cqd-Latn)
   - Diandongbei Miao / 滇东北新苗文 [`hmd-Latn`](https://scriptsource.org/ws/hmd-Latn)
@@ -196,6 +196,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Jingpo pictographs / 景颇图画文字 (景颇实物表意文字)
   - Poya pictographs / 坡芽歌书
   - Babao pictographs / 八宝歌书
+  - Miao Gebang pictographs / 苗族歌棒文字
 - cloth symbols
   - Miao cloth symbols / 苗族衣饰文字
   - She cloth symbols / 畲族织锦文字
@@ -208,6 +209,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - southern Guangxi bone symbols / 桂南骨刻文
 - stone symbols
   - Dankou stone symbols / 丹口石刻苗文 (城步古苗文)
+  - Leigongshan stone symbols / 雷公山苗文碑 (雷公山古苗文)
   - Gansang stone symbols / 甘桑骆越石刻文
   - Xianju stone symbols / 仙居高凉石刻文 (中央坑摩崖石刻)
   - Hua’an stone symbols / 华安仙字潭摩崖石刻
