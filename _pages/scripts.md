@@ -90,10 +90,10 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - [Naxi / 纳西文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#naxi-written-with-latin-in-1957-orthography) [`nxq-Latn`](https://scriptsource.org/ws/nxq-Latn)
   - [Iu Mien Yao / 勉话瑶文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#iu-mien-written-with-latin-in-1982-orthography) [`ium-Latn`](https://scriptsource.org/ws/ium-Latn)
   - [Kim Mun Yao / 门话瑶文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#kim-mun-written-with-latin-in-1982-orthography) [`mji-Latn`](https://scriptsource.org/ws/mji-Latn)
-  - Bai / 白文 (1958 version, 1982 version) [`bca-Latn`](https://scriptsource.org/ws/bca-Latn) <span style="color:#bbb">▷ The 白族新文字方案 is based on the central dialect of Bai language `bca`, with due regard to other dialects.</span>
-  - Li / 黎文 (1957 version, 1984 version, 2005 version) [`lic-Latn`](https://scriptsource.org/ws/lic-Latn) <span style="color:#bbb">▷ The 1957 version is based on the Ha dialect of Li language (侾方言, unencoded), and the revised versions seem to be no change in standard phonology.</span>
-  - Axi Yi / 阿细拉丁化彝文 (1956 version, 1986 version) `yix-Latn`
-  - Liangshan Yi / 新彝文 [`ii-Latn`](https://scriptsource.org/ws/ii-Latn)
+  - Bai / 白文 ([1958 version, 1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#bai-written-with-latin-in-1982-orthography), [1993 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#bai-written-with-latin-in-1933-orthography)) [`bca-Latn`](https://scriptsource.org/ws/bca-Latn) <span style="color:#bbb">▷ The 白族新文字方案 is based on the central dialect of Bai language `bca`, with due regard to other dialects.</span>
+  - Li / 黎文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1957-orthography), [1984 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1984-orthography), [2005 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-2005-orthography)) [`lic-Latn`](https://scriptsource.org/ws/lic-Latn) <span style="color:#bbb">▷ The 1957 version is based on the Ha dialect of Li language (侾方言, unencoded), and the revised versions seem to be no change in standard phonology.</span>
+  - Axi Yi / 阿细拉丁化彝文 ([1953 version, 1956 version, 1986 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#axi-yi-written-with-latin-in-1953-orthography)) `yix-Latn`
+  - Liangshan Yi / 新彝文 ([1951 version, 1956 version, 1975 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-1975-orthography), [2010 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-2010-orthography)) [`ii-Latn`](https://scriptsource.org/ws/ii-Latn)
   - Daur / 达斡尔文 [`dta-Latn`](https://scriptsource.org/ws/dta-Latn)
   - Derung / 独龙文 [`duu-Latn`](https://scriptsource.org/ws/duu-Latn)
   - She / 拉丁景宁畲文 `shx-Latn`
@@ -197,6 +197,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Poya pictographs / 坡芽歌书
   - Babao pictographs / 八宝歌书
   - Miao Gebang pictographs / 苗族歌棒文字
+  - Li Bamboo pictographs / 黎族刻竹木文字
 - cloth symbols
   - Miao cloth symbols / 苗族衣饰文字
   - She cloth symbols / 畲族织锦文字
