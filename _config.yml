@@ -55,6 +55,9 @@ collections:
   scripts:
     output: true
     permalink: /:collection/:path/
+  tools:
+    output: true
+    permalink: /:collection/:path/
 
 page_width: 800px
 

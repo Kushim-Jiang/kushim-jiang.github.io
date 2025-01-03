@@ -1,0 +1,4772 @@
+[
+  {
+    "doc": "1751",
+    "no": "1-1",
+    "char": "𪴒",
+    "ref": "TE-353F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1751",
+    "no": "1-2",
+    "char": "𪽜",
+    "ref": "TD-5127",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1751",
+    "no": "1-3",
+    "char": "𫀛",
+    "ref": "TD-4223",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1751",
+    "no": "1-4",
+    "char": "𫂉",
+    "ref": "TD-5278",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1751",
+    "no": "1-5",
+    "char": "𫂏",
+    "ref": "TD-6162",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-1",
+    "char": "𠆁",
+    "ref": "GKX-0089.21",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-2",
+    "char": "𢃑",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-3",
+    "char": "𢏲",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-4",
+    "char": "𢐽",
+    "ref": "GHZ-80018.06",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-5",
+    "char": "𣁙",
+    "ref": "GHZ-32170.17",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-6",
+    "char": "𤰣",
+    "ref": "GKX-0760.03",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-7",
+    "char": "𥅳",
+    "ref": "GHZ-42484.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-8",
+    "char": "𥔂",
+    "ref": "GKX-0833.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "2-9",
+    "char": "𥠅",
+    "ref": "GKX-0856.12",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-10",
+    "char": "𥦺",
+    "ref": "GKX-0867.03",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-11",
+    "char": "𥮟",
+    "ref": "GKX-0889.11",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-12",
+    "char": "𥼗",
+    "ref": "GKX-0912.40",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-13",
+    "char": "𦇅",
+    "ref": "GKX-0943.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-14",
+    "char": "𦈅",
+    "ref": "GKX-0944.23",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-15",
+    "char": "𦊣",
+    "ref": "GHZ-42916.02",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-16",
+    "char": "𦝝",
+    "ref": "GKX-0988.02",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-17",
+    "char": "𦡖",
+    "ref": "GHZ-32115.13",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-18",
+    "char": "𦽣",
+    "ref": "GKX-1062.29",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "3-19",
+    "char": "𧆆",
+    "ref": "GHZ-53339.04",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-20",
+    "char": "𧔠",
+    "ref": "GKX-1102.20",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-21",
+    "char": "𧕱",
+    "ref": "GKX-1104.22",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-22",
+    "char": "𧙤",
+    "ref": "GKX-1116.14",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-23",
+    "char": "𧛓",
+    "ref": "GKX-1120.29",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-24",
+    "char": "𧠘",
+    "ref": "GHZ-63665.12",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-25",
+    "char": "𧡿",
+    "ref": "GHZ-80038.19",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-26",
+    "char": "𧤩",
+    "ref": "GHZ-63931.12",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-27",
+    "char": "𧥯",
+    "ref": "GKX-1149.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-28",
+    "char": "𨌂",
+    "ref": "GKX-1243.16",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "4-29",
+    "char": "𨘇",
+    "ref": "GKX-1267.06",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "5-30",
+    "char": "𨭙",
+    "ref": "GKX-1323.28",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "5-31",
+    "char": "𨼭",
+    "ref": "GKX-1360.41",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "5-32",
+    "char": "𩃁",
+    "ref": "GKX-1375.03",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "5-33",
+    "char": "𩒜",
+    "ref": "GKX-1404.05",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "5-34",
+    "char": "𩧤",
+    "ref": "GHZ-74585.09",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "5-35",
+    "char": "𩮚",
+    "ref": "GKX-1455.47",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "5-36",
+    "char": "𩴆",
+    "ref": "GKX-1462.52",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1752",
+    "no": "6-1",
+    "char": "𥺛",
+    "ref": "GKX-0910.02",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "6-2",
+    "char": "𥾨",
+    "ref": "GKX-0919.06",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "7-3",
+    "char": "𥼟",
+    "ref": "GKX-0913.12",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "7-4",
+    "char": "𥓓",
+    "ref": "GKX-0832.11",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "8-5",
+    "char": "𥟑",
+    "ref": "GKX-0855.03",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "8-6",
+    "char": "𥐬",
+    "ref": "GKX-0828.23",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "9-7",
+    "char": "𦕿",
+    "ref": "GKX-0967.35",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "9-8",
+    "char": "𦁗",
+    "ref": "GKX-0929.21",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "10-9",
+    "char": "𦝠",
+    "ref": "GKX-0988.14",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "10-10",
+    "char": "𧕠",
+    "ref": "GKX-1104.08",
+    "comment": "no change"
+  },
+  {
+    "doc": "1752",
+    "no": "11-11",
+    "char": "𧥷",
+    "ref": "GKX-1151.15",
+    "comment": "no change"
+  },
+  {
+    "doc": "1753",
+    "no": "1-1",
+    "char": "㺬",
+    "ids": "⿰𤣩凡(巩)",
+    "evi": "GKX@《集韻》古勇切，音拱，璧也。本作珙，通作拱。",
+    "ref": "GKX-0727.11",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1753",
+    "no": "1-2",
+    "char": "𤣲",
+    "ids": "⿰𤣩卂",
+    "evi": "GHZ@《玉篇》息進切。玉名。",
+    "ref": "GHZ-21102.14",
+    "comment": "no change"
+  },
+  {
+    "doc": "1754",
+    "no": "1-1",
+    "char": "𦚝",
+    "comment": "unification"
+  },
+  {
+    "doc": "1754",
+    "no": "2-1",
+    "char": "𦚫",
+    "comment": "unification"
+  },
+  {
+    "doc": "1754",
+    "no": "2-2",
+    "char": "𦜒",
+    "comment": "unification"
+  },
+  {
+    "doc": "1754",
+    "no": "2-3",
+    "char": "𠢅",
+    "comment": "unification"
+  },
+  {
+    "doc": "1755",
+    "no": "1-1",
+    "char": "𠏝",
+    "ref": "K4-000D",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1755",
+    "no": "1-2",
+    "char": "𥕦",
+    "ref": "K4-008A",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1778",
+    "no": "1-1",
+    "char": "𬤹",
+    "evi": "this@廖~莊, liu yee chong",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1778",
+    "no": "1-2",
+    "char": "~㛇",
+    "ids": "⿰女庒",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1780",
+    "no": "1-1",
+    "char": "~薓",
+    "ids": "𮑵",
+    "ref": "CY101438",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1780",
+    "no": "1-2",
+    "char": "~匘",
+    "ref": "GH100129",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1780",
+    "no": "1-3",
+    "char": "~𱋾",
+    "ref": "GH102953",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1780",
+    "no": "1-4",
+    "char": "~𬡇",
+    "ref": "GH201513",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1780",
+    "no": "2-1",
+    "char": "~旹",
+    "ids": "⿱㞢旦",
+    "ref": "GHC100378",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1780",
+    "no": "2-2",
+    "char": "~𦑶",
+    "ids": "⿰羽𬑔",
+    "ref": "GHC101298",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1780",
+    "no": "3-1",
+    "char": "→鏋",
+    "ids": "𬭮",
+    "evi": "this@商务印书馆辞书研究中心（编），《新华多功能字典》，北京：商务印书馆，2005 年，第 1071 页。",
+    "ref": "CY102132",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1780",
+    "no": "3-2",
+    "char": "→顁",
+    "ids": "𬱫",
+    "evi": "this@商务印书馆辞书研究中心（编），《新华多功能字典》，北京：商务印书馆，2005 年，第 998 页。",
+    "ref": "CY102338",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1780",
+    "no": "3-3",
+    "char": "→摌",
+    "ids": "𫼪",
+    "evi": "this@商务印书馆辞书研究中心（编），《新华多功能字典》，北京：商务印书馆，2005 年，第 978 页。",
+    "ref": "GJZ00043",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1780",
+    "no": "3-4",
+    "char": "→槻",
+    "ids": "𬃀",
+    "evi": "this@商务印书馆辞书研究中心（编），《新华多功能字典》，北京：商务印书馆，2005 年，第 253 页。",
+    "ref": "GJZ00049",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1780",
+    "no": "4-1",
+    "char": "→譔",
+    "ids": "𬤥",
+    "evi": "GGH@《古代汉语词典》编写组（编），《古代汉语词典》，北京：商务印书馆，2002 年，第 2056 页。",
+    "ref": "XC301692",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1780",
+    "no": "4-2",
+    "char": "→紶",
+    "ids": "𬘛",
+    "evi": "this@商务印书馆辞书研究中心（编），《新华多功能字典》，北京：商务印书馆，2005 年，第 1103 页。",
+    "ref": "GJZ00100",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1780",
+    "no": "4-3",
+    "char": "→𨭗",
+    "ids": "𬭇",
+    "evi": "this@商务印书馆辞书研究中心（编），《新华多功能字典》，北京：商务印书馆，2005 年，第 1015 页。",
+    "ref": "GJZ00192",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1791",
+    "no": "1-1",
+    "char": "𬒀",
+    "ref": "MAC00003",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-2",
+    "char": "𬋋",
+    "ref": "MAC00009",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-3",
+    "char": "𬞆",
+    "ref": "MAC00013",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-4",
+    "char": "𫲐",
+    "ref": "MAC00015",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-5",
+    "char": "𬫃",
+    "ref": "MAC00016",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-6",
+    "char": "𫺢",
+    "ref": "MAC00023",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-7",
+    "char": "𨩌",
+    "ref": "MAC00024",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-8",
+    "char": "𬰚",
+    "ref": "MAC00025",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-9",
+    "char": "𬊧",
+    "ref": "MAC00026",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-10",
+    "char": "𬊏",
+    "ref": "MAC00027",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-11",
+    "char": "𬎆",
+    "ref": "MAC00028",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-12",
+    "char": "𠿮",
+    "ref": "MAC00030",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-13",
+    "char": "𬮍",
+    "ref": "MAC00031",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-14",
+    "char": "𬌲",
+    "ref": "MAC00046",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-15",
+    "char": "𬄾",
+    "ref": "MAC00047",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-16",
+    "char": "𬍳",
+    "ref": "MAC00048",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-17",
+    "char": "𬔻",
+    "ref": "MAC00049",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-18",
+    "char": "𬁆",
+    "ref": "MAC00050",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-19",
+    "char": "𬐨",
+    "ref": "MAC00051",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-20",
+    "char": "𫰋",
+    "ref": "MAC00052",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-21",
+    "char": "𬳧",
+    "ref": "MAC00053",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-22",
+    "char": "𫯜",
+    "ref": "MAC00055",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-23",
+    "char": "𫦪",
+    "ref": "MAC00056",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-24",
+    "char": "𬀲",
+    "ref": "MAC00057",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-25",
+    "char": "𬉷",
+    "ref": "MAC00059",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-26",
+    "char": "𬯋",
+    "ref": "MAC00060",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-27",
+    "char": "𬊕",
+    "ref": "MAC00061",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-28",
+    "char": "𬁝",
+    "ref": "MAC00062",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-29",
+    "char": "𬗋",
+    "ref": "MAC00063",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-30",
+    "char": "𬓥",
+    "ref": "MAC00064",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-31",
+    "char": "𫨨",
+    "ref": "MAC00065",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-32",
+    "char": "𬠸",
+    "ref": "MAC00066",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-33",
+    "char": "𬈹",
+    "ref": "MAC00067",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-34",
+    "char": "𫤪",
+    "ref": "MAC00070",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-35",
+    "char": "𬇣",
+    "ref": "MAC00071",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-36",
+    "char": "~尚",
+    "ids": "𫩠",
+    "ref": "MAC00074",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-37",
+    "char": "𡛩",
+    "ref": "MAC00075",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-38",
+    "char": "𫣲",
+    "ref": "MAC00076",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-39",
+    "char": "𡊐",
+    "ref": "MAC00077",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-40",
+    "char": "~蘍",
+    "ids": "𬟓",
+    "ref": "MAC00078",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-41",
+    "char": "啚",
+    "ref": "MAC00079",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-42",
+    "char": "~㛇",
+    "ids": "⿸㚧𡈽",
+    "ref": "MAC00081",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-43",
+    "char": "~𠲘",
+    "ids": "⿱𦍌口",
+    "ref": "MAC00082",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-44",
+    "char": "~𡩴",
+    "ref": "MAC00083",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-45",
+    "char": "~衆",
+    "ids": "⿱丿𬑔",
+    "ref": "MAC00087",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-46",
+    "char": "廸",
+    "ref": "MAC00089",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-47",
+    "char": "𫲄",
+    "ref": "MAC00094",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-48",
+    "char": "𫾻",
+    "ref": "MAC00106",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-49",
+    "char": "𫵷",
+    "ref": "MAC00107",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-50",
+    "char": "𬍰",
+    "ref": "MAC00109",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-51",
+    "char": "𬇞",
+    "ref": "MAC00110",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-52",
+    "char": "𬒔",
+    "ref": "MAC00111",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-53",
+    "char": "𬮼",
+    "ref": "MAC00112",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-54",
+    "char": "𬒰",
+    "ref": "MAC00113",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-55",
+    "char": "~啗",
+    "ref": "MAC00115",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "1-56",
+    "char": "𬏺",
+    "ref": "MAC00116",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-1",
+    "char": "𢊈",
+    "ref": "MAC00117",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-2",
+    "char": "𬍂",
+    "ref": "MAC00118",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-3",
+    "char": "𬱃",
+    "ref": "MAC00119",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-4",
+    "ids": "⿰木已",
+    "ref": "MAC00120",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-5",
+    "char": "~養",
+    "ref": "MAC00121",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-6",
+    "char": "𭒨",
+    "ref": "MAC00123",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-7",
+    "ids": "⿱艹已",
+    "ref": "MAC00125",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-8",
+    "char": "~衆",
+    "ref": "MAC00126",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-9",
+    "char": "~隶",
+    "ref": "MAC00127",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-10",
+    "char": "~沗",
+    "ids": "⿱天水",
+    "ref": "MAC00130",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-11",
+    "char": "𪸛",
+    "ref": "MAC00131",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1791",
+    "no": "2-12",
+    "char": "~剆",
+    "ids": "⿰良刂",
+    "ref": "MAC00132",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1792",
+    "no": "1-1",
+    "char": "𣹔",
+    "ref": "V2-7A50",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "1-2",
+    "char": "𤑈",
+    "ref": "V2-7B76",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "1-3",
+    "char": "𤓇",
+    "ref": "V3-337D",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "1-4",
+    "char": "𤬲",
+    "ref": "V2-7C6A",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "1-5",
+    "char": "𦄓",
+    "ref": "V2-8121",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-1",
+    "char": "𨖙",
+    "ref": "V4-5565",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-2",
+    "char": "𠾺",
+    "ref": "V2-7161",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-3",
+    "char": "𡄰",
+    "ref": "V3-353A",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-4",
+    "char": "𡅐",
+    "ref": "V0-4870",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-5",
+    "char": "𨙛",
+    "ref": "V2-8552",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-6",
+    "char": "𢢆",
+    "ref": "V0-364E",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-7",
+    "char": "𢥉",
+    "ref": "V0-3665",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "2-8",
+    "char": "𪐾",
+    "ref": "V2-886B",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-1",
+    "char": "𠬉",
+    "ref": "V2-6F6D",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-2",
+    "char": "𠯋",
+    "ref": "V2-6F74",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-3",
+    "char": "𡄥",
+    "ref": "V2-725C",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-4",
+    "char": "𡆖",
+    "ref": "V0-3428",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-5",
+    "char": "𡊸",
+    "ref": "V2-727C",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-6",
+    "char": "𡔍",
+    "ref": "V2-7353",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-7",
+    "char": "𡯀",
+    "ref": "V2-7456",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "3-8",
+    "char": "𢚶",
+    "ref": "V0-3579",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-1",
+    "char": "𢱛",
+    "ref": "V0-382C",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-2",
+    "char": "𣃲",
+    "ref": "V2-783C",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-3",
+    "char": "𣞄",
+    "ref": "V2-7971",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-4",
+    "char": "𣟃",
+    "ref": "V2-796F",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-5",
+    "char": "𣠑",
+    "ref": "V0-3A6A",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-6",
+    "char": "𣠘",
+    "ref": "V2-797D",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-7",
+    "char": "𣡤",
+    "ref": "V2-7A26",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-8",
+    "char": "𤠷",
+    "ref": "V2-7C4F",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-9",
+    "char": "𤮘",
+    "ref": "V3-345B",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "4-10",
+    "char": "𤺮",
+    "ref": "V2-7D47",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-1",
+    "char": "𢶽",
+    "ref": "V3-323C",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-2",
+    "char": "𢷆",
+    "ref": "V0-3871",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-3",
+    "char": "𣇞",
+    "ref": "V0-3949",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-4",
+    "char": "𣛯",
+    "ref": "V2-7951",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-5",
+    "char": "𣟂",
+    "ref": "V2-7968",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-6",
+    "char": "𣼷",
+    "ref": "V2-7A64",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-7",
+    "char": "𤃞",
+    "ref": "V2-7B2F",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-8",
+    "char": "𤎏",
+    "ref": "V2-7B69",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-9",
+    "char": "𥋕",
+    "ref": "V0-3E77",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "5-10",
+    "char": "𥋹",
+    "ref": "V0-476D",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-1",
+    "char": "𥱪",
+    "ref": "V0-4023",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-2",
+    "char": "𥸠",
+    "ref": "V2-802A",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-3",
+    "char": "𦋦",
+    "ref": "V2-6F31",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-4",
+    "char": "𦲿",
+    "ref": "V2-823E",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-5",
+    "char": "𨆒",
+    "ref": "V2-8475",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-6",
+    "char": "𩞝",
+    "ref": "V0-473E",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-7",
+    "char": "𢩣",
+    "ref": "V0-467E",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "6-8",
+    "char": "𣼽",
+    "ref": "V0-3B63",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1792",
+    "no": "7-1",
+    "char": "𤠳",
+    "ref": "V0-3D3B",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "2-1",
+    "char": "𢢢",
+    "ref": "GKX-0406.09",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "2-2",
+    "char": "𢦐",
+    "ref": "GKX-0411.09",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "2-3",
+    "char": "𠑱",
+    "ref": "GHZ-10240.12",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "2-4",
+    "char": "𠗆",
+    "ref": "GKX-0132.20",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "2-5",
+    "char": "𠗱",
+    "ref": "GKX-0133.11",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "2-6",
+    "char": "𡆓",
+    "ref": "GKX-0216.13",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "2-7",
+    "char": "𡖂",
+    "ref": "GKX-0245.29",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-1",
+    "char": "𠀖",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-2",
+    "char": "𠆅",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-3",
+    "char": "𠊔",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-4",
+    "char": "𠕢",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-5",
+    "char": "𠮗",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-6",
+    "char": "𡬙",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-7",
+    "char": "𡽺",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "3-8",
+    "char": "𡾙",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "4-9",
+    "char": "𡾞",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "4-10",
+    "char": "𢂄",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "4-11",
+    "char": "𢖖",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "4-12",
+    "char": "𢢛",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "4-13",
+    "char": "𢣧",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "4-14",
+    "char": "𢥼",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "4-15",
+    "char": "𢾶",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-1",
+    "char": "𠆁",
+    "ref": "GKX-0089.21",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-2",
+    "char": "𢃑",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-3",
+    "char": "𢏲",
+    "ref": "UCS2003",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-4",
+    "char": "𢐽",
+    "ref": "GHZ-80018.06",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-5",
+    "char": "𣁙",
+    "ref": "GHZ-32170.17",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-6",
+    "char": "𤰣",
+    "ref": "GKX-0760.03",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-7",
+    "char": "𥅳",
+    "ref": "GHZ-42484.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-8",
+    "char": "𥔂",
+    "ref": "GKX-0833.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "5-9",
+    "char": "𥠅",
+    "ref": "GKX-0856.12",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-10",
+    "char": "𥦺",
+    "ref": "GKX-0867.03",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-11",
+    "char": "𥮟",
+    "ref": "GKX-0889.11",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-12",
+    "char": "𥼗",
+    "ref": "GKX-0912.40",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-13",
+    "char": "𦇅",
+    "ref": "GKX-0943.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-14",
+    "char": "𦈅",
+    "ref": "GKX-0944.23",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-15",
+    "char": "𦊣",
+    "ref": "GHZ-42916.02",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-16",
+    "char": "𦝝",
+    "ref": "GKX-0988.02",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-17",
+    "char": "𦡖",
+    "ref": "GHZ-32115.13",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-18",
+    "char": "𦽣",
+    "ref": "GKX-1062.29",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "6-19",
+    "char": "𧆆",
+    "ref": "GHZ-53339.04",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-20",
+    "char": "𧔠",
+    "ref": "GKX-1102.20",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-21",
+    "char": "𧕱",
+    "ref": "GKX-1104.22",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-22",
+    "char": "𧙤",
+    "ref": "GKX-1116.14",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-23",
+    "char": "𧛓",
+    "ref": "GKX-1120.29",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-24",
+    "char": "𧠘",
+    "ref": "GHZ-63665.12",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-25",
+    "char": "𧡿",
+    "ref": "GHZ-80038.19",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-26",
+    "char": "𧤩",
+    "ref": "GHZ-63931.12",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-27",
+    "char": "𧥯",
+    "ref": "GKX-1149.07",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-28",
+    "char": "𨌂",
+    "ref": "GKX-1243.16",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "7-29",
+    "char": "𨘇",
+    "ref": "GKX-1267.06",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "8-30",
+    "char": "𨭙",
+    "ref": "GKX-1323.28",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "8-31",
+    "char": "𨼭",
+    "ref": "GKX-1360.41",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "8-32",
+    "char": "𩃁",
+    "ref": "GKX-1375.03",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "8-33",
+    "char": "𩒜",
+    "ref": "GKX-1404.05",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "8-34",
+    "char": "𩧤",
+    "ref": "GHZ-74585.09",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "8-35",
+    "char": "𩮚",
+    "ref": "GKX-1455.47",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "8-36",
+    "char": "𩴆",
+    "ref": "GKX-1462.52",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "9-1",
+    "char": "𡼬",
+    "ref": "GHZ-10796.16",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1793",
+    "no": "9-2",
+    "char": "𪄺",
+    "ref": "GKX-1498.40",
+    "comment": "G reference update"
+  },
+  {
+    "doc": "1794",
+    "no": "2-1",
+    "char": "𧀎",
+    "ref": "K4-00C5",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1794",
+    "no": "3-1",
+    "char": "𠏝",
+    "ref": "K4-000D",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1794",
+    "no": "3-2",
+    "char": "𥕦",
+    "ref": "K4-008A",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1794",
+    "no": "4-1",
+    "char": "𧀎",
+    "ref": "K4-00C5",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "1-1",
+    "char": "𩥴",
+    "ref": "T7-564E",
+    "comment": "T move 𩦄 to 𩥴"
+  },
+  {
+    "doc": "1795",
+    "no": "1-2",
+    "char": "𩦄",
+    "ref": "T5-7234",
+    "comment": "T move 𩥴 to 𩦄"
+  },
+  {
+    "doc": "1795",
+    "no": "2-1",
+    "char": "𠀄",
+    "ref": "T6-212D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "2-2",
+    "char": "𠂰",
+    "ref": "T2-2562",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "2-3",
+    "char": "𠂙",
+    "ref": "T6-222F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "2-4",
+    "char": "𠄄",
+    "ref": "T6-5051",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "2-5",
+    "char": "𠄷",
+    "ref": "T6-352C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "2-6",
+    "char": "𠆀",
+    "ref": "T6-5052",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "3-1",
+    "char": "𠆉",
+    "ref": "T7-2123",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "3-2",
+    "char": "𠆏",
+    "ref": "T7-2C3E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "3-3",
+    "char": "𠇃",
+    "ref": "T6-234B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "3-4",
+    "char": "𠌋",
+    "ref": "T5-3657",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "3-5",
+    "char": "𠎂",
+    "ref": "T6-5A67",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "3-6",
+    "char": "𠔜",
+    "ref": "T6-353E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "3-7",
+    "char": "𠔴",
+    "ref": "TF-534F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "4-1",
+    "char": "𠔵",
+    "ref": "TF-5350",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "4-2",
+    "char": "𠔶",
+    "ref": "T5-6134",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "4-3",
+    "char": "𠔷",
+    "ref": "TF-5E33",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "4-4",
+    "char": "𠔸",
+    "ref": "T7-4624",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "4-5",
+    "char": "𠔹",
+    "ref": "T7-462B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-1",
+    "char": "𠝨",
+    "ref": "T5-365E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-2",
+    "char": "𠡭",
+    "ref": "T4-2B74",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-3",
+    "char": "𠦔",
+    "ref": "T6-2375",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-4",
+    "char": "𠦱",
+    "ref": "TF-3954",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-5",
+    "char": "𠩽",
+    "ref": "T6-3D5D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-6",
+    "char": "𠪠",
+    "ref": "TF-466D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-7",
+    "char": "𠪳",
+    "ref": "T7-2142",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "5-8",
+    "char": "𠪽",
+    "ref": "TF-5359",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "6-1",
+    "char": "𠵑",
+    "ref": "T5-3138",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "6-2",
+    "char": "𠺇",
+    "ref": "TF-405C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "6-3",
+    "char": "𡅸",
+    "ref": "T7-5B47",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "6-4",
+    "char": "𡐢",
+    "ref": "T7-216F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "6-5",
+    "char": "𡒴",
+    "ref": "T7-3F33",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "6-6",
+    "char": "𡔂",
+    "ref": "T7-575B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "6-7",
+    "char": "𡕒",
+    "ref": "T5-212F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "7-1",
+    "char": "𡕼",
+    "ref": "T7-464A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "7-2",
+    "char": "𡙠",
+    "ref": "T4-3C5D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "7-3",
+    "char": "𡙼",
+    "ref": "T7-217E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "7-4",
+    "char": "𡜑",
+    "ref": "T6-2F7E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "7-5",
+    "char": "𡢩",
+    "ref": "TF-5423",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "7-6",
+    "char": "𡣕",
+    "ref": "T4-5625",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "8-1",
+    "char": "𡦹",
+    "ref": "T6-2169",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "8-2",
+    "char": "𡧂",
+    "ref": "T4-225A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "8-3",
+    "char": "𡧴",
+    "ref": "T6-3029",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "8-4",
+    "char": "𡨴",
+    "ref": "T4-312F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "8-5",
+    "char": "𡴒",
+    "ref": "T5-2876",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "8-6",
+    "char": "𡾂",
+    "ref": "T7-465A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "9-1",
+    "char": "𢀻",
+    "ref": "T6-3058",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "9-2",
+    "char": "𢂞",
+    "ref": "T6-305A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "9-3",
+    "char": "𢂮",
+    "ref": "T6-3064",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "9-4",
+    "char": "𢄐",
+    "ref": "T4-3D24",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "9-5",
+    "char": "𢇖",
+    "ref": "T7-576D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "9-6",
+    "char": "𢇭",
+    "ref": "T6-2743",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "9-7",
+    "char": "𢍞",
+    "ref": "T6-4851",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "10-1",
+    "char": "𢎄",
+    "ref": "T6-2b32",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "10-2",
+    "char": "𢎲",
+    "ref": "T6-246A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "10-3",
+    "char": "𢗻",
+    "ref": "T6-2B43",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "10-4",
+    "char": "𢜚",
+    "ref": "T6-3F78",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "10-5",
+    "char": "𢟂",
+    "ref": "TF-4828",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "10-6",
+    "char": "𢧍",
+    "ref": "T6-4929",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "11-1",
+    "char": "𢫂",
+    "ref": "T6-2B62",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "11-2",
+    "char": "𢭉",
+    "ref": "T6-3157",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "11-3",
+    "char": "𢮮",
+    "ref": "T6-402E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "11-4",
+    "char": "𢲀",
+    "ref": "T5-3F4F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "11-5",
+    "char": "𢸏",
+    "ref": "TF-5E69",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "11-6",
+    "char": "𢺕",
+    "ref": "T7-577B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "11-7",
+    "char": "𢺬",
+    "ref": "T7-6238",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "12-1",
+    "char": "𢿩",
+    "ref": "T7-2E49",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "12-2",
+    "char": "𣀊",
+    "ref": "T5-5B5B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "12-3",
+    "char": "𣀱",
+    "ref": "T5-7026",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "12-4",
+    "char": "𣂆",
+    "ref": "T4-436A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "12-5",
+    "char": "𣉻",
+    "ref": "T7-2361",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "12-6",
+    "char": "𣊆",
+    "ref": "T7-2362",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "12-7",
+    "char": "𣊮",
+    "ref": "T7-2E54",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "13-1",
+    "char": "𣎐",
+    "ref": "T6-5D5E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "13-2",
+    "char": "𣎙",
+    "ref": "TF-4F3C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "13-3",
+    "char": "𣎻",
+    "ref": "T6-247E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "13-4",
+    "char": "𣏅",
+    "ref": "T6-282B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "13-5",
+    "char": "𣑾",
+    "ref": "T6-3852",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "13-6",
+    "char": "𣒏",
+    "ref": "T6-4063",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "13-7",
+    "char": "𣚎",
+    "ref": "T4-505F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "14-1",
+    "char": "𣝧",
+    "ref": "T7-3F7C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "14-2",
+    "char": "𣞉",
+    "ref": "T7-4022",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "14-3",
+    "char": "𣞿",
+    "ref": "TF-625E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "14-4",
+    "char": "𣡏",
+    "ref": "T7-6071",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "14-5",
+    "char": "𣥑",
+    "ref": "T6-2C36",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "14-6",
+    "char": "𣦘",
+    "ref": "T7-2421",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "14-7",
+    "char": "𣩌",
+    "ref": "T6-5D2D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "15-1",
+    "char": "𣲇",
+    "ref": "TF-225C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "15-2",
+    "char": "𣺏",
+    "ref": "T6-5440",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "15-3",
+    "char": "𤃔",
+    "ref": "TF-6271",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "15-4",
+    "char": "𤈹",
+    "ref": "T6-4153",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "15-5",
+    "char": "𤐯",
+    "ref": "T4-5B63",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "15-6",
+    "char": "𤑋",
+    "ref": "T7-392A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "15-7",
+    "char": "𤕈",
+    "ref": "T7-5368",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "16-1",
+    "char": "𤖊",
+    "ref": "T6-4B25",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "16-2",
+    "char": "𤫬",
+    "ref": "T5-2A46",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "16-3",
+    "char": "𤮡",
+    "ref": "T5-683F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "16-4",
+    "char": "𤮩",
+    "ref": "T5-704B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "16-5",
+    "char": "𤽔",
+    "ref": "T6-3329",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "16-6",
+    "char": "𥂅",
+    "ref": "T6-5F4B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "16-7",
+    "char": "𥅉",
+    "ref": "T6-3A2B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-1",
+    "char": "𥏰",
+    "ref": "T5-4770",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-2",
+    "char": "𥘍",
+    "ref": "T6-2D48",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-3",
+    "char": "𥙷",
+    "ref": "T6-4C36",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-4",
+    "char": "𥝇",
+    "ref": "T7-3060",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-5",
+    "char": "𥜊",
+    "ref": "TF-5B50",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-6",
+    "char": "𥟞",
+    "ref": "T6-557C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-7",
+    "char": "𥡳",
+    "ref": "T7-306C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "17-8",
+    "char": "𥡴",
+    "ref": "T7-3061",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-1",
+    "char": "𥧽",
+    "ref": "T5-5655",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-2",
+    "char": "𥨐",
+    "ref": "T4-574E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-3",
+    "char": "𥬃",
+    "ref": "TF-3168",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-4",
+    "char": "𥬟",
+    "ref": "T6-4278",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-5",
+    "char": "𥰉",
+    "ref": "T7-2652",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-6",
+    "char": "𥱍",
+    "ref": "T5-565B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-7",
+    "char": "𥸇",
+    "ref": "T7-612D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "18-8",
+    "char": "𥺠",
+    "ref": "T6-6032",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "19-1",
+    "char": "𥼢",
+    "ref": "T7-4E78",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "19-2",
+    "char": "𦁥",
+    "ref": "T6-6038",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "19-3",
+    "char": "𦆏",
+    "ref": "T7-485E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "19-4",
+    "char": "𦌨",
+    "ref": "T7-3A4A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "19-5",
+    "char": "𦎫",
+    "ref": "T4-4C48",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "19-6",
+    "char": "𦒛",
+    "ref": "T7-416B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "19-7",
+    "char": "𦓁",
+    "ref": "T7-2726",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "20-1",
+    "char": "𦕥",
+    "ref": "T6-4D35",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "20-2",
+    "char": "𦕦",
+    "ref": "T6-4D35",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "20-3",
+    "char": "𦜠",
+    "ref": "T6-4D47",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "20-4",
+    "char": "𦠼",
+    "ref": "T7-4221",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "20-5",
+    "char": "𦡰",
+    "ref": "T4-5C75",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "20-6",
+    "char": "𦢃",
+    "ref": "T7-417D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "20-7",
+    "char": "𦣽",
+    "ref": "T6-2D70",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "21-1",
+    "char": "𦦟",
+    "ref": "TF-6044",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "21-2",
+    "char": "𦦴",
+    "ref": "TF-6835",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "21-3",
+    "char": "𦨷",
+    "ref": "T4-3A53",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "21-4",
+    "char": "𦫁",
+    "ref": "T7-5450",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "21-5",
+    "char": "𦫂",
+    "ref": "T7-5451",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "21-6",
+    "char": "𦰧",
+    "ref": "T5-3525",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "21-7",
+    "char": "𦱠",
+    "ref": "T6-6132",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "22-1",
+    "char": "𦴠",
+    "ref": "T6-5759",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "22-2",
+    "char": "𦶼",
+    "ref": "TF-4B6F",
+    "comment": "T glyph add"
+  },
+  {
+    "doc": "1795",
+    "no": "22-3",
+    "char": "𦹉",
+    "ref": "T7-575C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "22-4",
+    "char": "𦻃",
+    "ref": "T5-575C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "22-5",
+    "char": "𦻞",
+    "ref": "T5-5757",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "22-6",
+    "char": "𦻩",
+    "ref": "T7-3259",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "22-7",
+    "char": "𦽱",
+    "ref": "T7-4935",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "23-1",
+    "char": "𧁖",
+    "ref": "T7-275A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "23-2",
+    "char": "𧂗",
+    "ref": "T7-4F62",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "23-3",
+    "char": "𧄋",
+    "ref": "T7-5458",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "23-4",
+    "char": "𧇕",
+    "ref": "T7-2828",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "23-5",
+    "char": "𧋰",
+    "ref": "T7-496B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "23-6",
+    "char": "𧏂",
+    "ref": "T5-5773",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "23-7",
+    "char": "𧏝",
+    "ref": "T7-3323",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "24-1",
+    "char": "𧑨",
+    "ref": "T7-4269",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "24-2",
+    "char": "𧖏",
+    "ref": "T7-636D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "24-3",
+    "char": "𧗦",
+    "ref": "T5-3036",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "24-4",
+    "char": "𧙤",
+    "ref": "T5-3C33",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "24-5",
+    "char": "𧝢",
+    "ref": "T7-4323",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "24-6",
+    "char": "𧜑",
+    "ref": "T7-332E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "24-7",
+    "char": "𧞌",
+    "ref": "T7-4F7D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "25-1",
+    "char": "𧡖",
+    "ref": "T5-506E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "25-2",
+    "char": "𧡠",
+    "ref": "T7-2861",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "25-3",
+    "char": "𧢮",
+    "ref": "T4-6E3B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "25-4",
+    "char": "𧦂",
+    "ref": "T6-4475",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "25-5",
+    "char": "𧦆",
+    "ref": "T6-446E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "25-6",
+    "char": "𧦻",
+    "ref": "T6-4E75",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "25-7",
+    "char": "𧬈",
+    "ref": "T4-6141",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "26-1",
+    "char": "𧮸",
+    "ref": "T4-474D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "26-2",
+    "char": "𧷫",
+    "ref": "TF-6067",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "26-3",
+    "char": "𧸮",
+    "ref": "TF-684F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "26-4",
+    "char": "𧾫",
+    "ref": "T7-594B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "26-5",
+    "char": "𨆼",
+    "ref": "TF-6854",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "26-6",
+    "char": "𨍿",
+    "ref": "T5-5F24",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "27-1",
+    "char": "𨑃",
+    "ref": "T6-292C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "27-2",
+    "char": "𨓒",
+    "ref": "T6-455A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "27-3",
+    "char": "𨔱",
+    "ref": "T6-5933",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "27-4",
+    "char": "𨕛",
+    "ref": "T5-4357",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "27-5",
+    "char": "𨖘",
+    "ref": "TF-5252",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "28-1",
+    "char": "𨘎",
+    "ref": "TF-612B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "28-2",
+    "char": "𨘢",
+    "ref": "T7-4B22",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "28-3",
+    "char": "𨟈",
+    "ref": "T7-442A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "28-4",
+    "char": "𨡋",
+    "ref": "T7-2A28",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "28-5",
+    "char": "𨢱",
+    "ref": "T7-4436",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "29-1",
+    "char": "𨢈",
+    "ref": "T5-5F43",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "29-2",
+    "char": "𨤸",
+    "ref": "TF-685D",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "29-3",
+    "char": "𨧾",
+    "ref": "T5-5933",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "29-4",
+    "char": "𨪟",
+    "ref": "T5-6555",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "29-5",
+    "char": "𨬴",
+    "ref": "TF-6662",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "29-6",
+    "char": "𨱘",
+    "ref": "T6-2934",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "30-1",
+    "char": "𨽱",
+    "ref": "T7-5F78",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "30-2",
+    "char": "𩂭",
+    "ref": "T6-637E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "30-3",
+    "char": "𩂾",
+    "ref": "T5-5243",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "30-4",
+    "char": "𩎷",
+    "ref": "T5-595A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "31-1",
+    "char": "𩓱",
+    "ref": "T7-3D6B",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "31-2",
+    "char": "𩕣",
+    "ref": "T7-5A2F",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "31-3",
+    "char": "𩗟",
+    "ref": "T5-5975",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "31-4",
+    "char": "𩝮",
+    "ref": "T7-4529",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "31-5",
+    "char": "𩞟",
+    "ref": "T4-653E",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "31-6",
+    "char": "𩡮",
+    "ref": "T6-5047",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "32-1",
+    "char": "𩣛",
+    "ref": "T7-3E27",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "32-2",
+    "char": "𩥜",
+    "ref": "T7-5167",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "32-3",
+    "char": "𩦕",
+    "ref": "TF-6A38",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "32-4",
+    "char": "𩫗",
+    "ref": "T5-6040",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "32-5",
+    "char": "𩕀",
+    "ref": "T4-6534",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "33-1",
+    "char": "𪋥",
+    "ref": "T7-5E3A",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "33-2",
+    "char": "𪗲",
+    "ref": "T4-4878",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1795",
+    "no": "33-3",
+    "char": "𪅰",
+    "ref": "T7-5E27",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1798",
+    "no": "1-1",
+    "char": "𦺈",
+    "ref": "H-87CD",
+    "comment": "H glyph update"
+  },
+  {
+    "doc": "1811",
+    "no": "2-1",
+    "char": "㐌",
+    "ref": "K6-1000",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-2",
+    "char": "亻",
+    "ref": "K6-1001",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-3",
+    "char": "倸",
+    "ref": "K6-1002",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-4",
+    "char": "㓁",
+    "ref": "K6-1003",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-5",
+    "char": "㖠",
+    "ref": "K6-1004",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-6",
+    "char": "啫",
+    "ref": "K6-1005",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-7",
+    "char": "𡲰",
+    "ref": "K6-1006",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-8",
+    "char": "𡱁",
+    "ref": "K6-1007",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-9",
+    "char": "屰",
+    "ref": "K6-1008",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-10",
+    "char": "巠",
+    "ref": "K6-1009",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-11",
+    "char": "𢄼",
+    "ref": "K6-100A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-12",
+    "char": "廰",
+    "ref": "K6-100B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-13",
+    "char": "𢈴",
+    "ref": "K6-100C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-14",
+    "char": "𢐧",
+    "ref": "K6-100D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-15",
+    "char": "𢏆",
+    "ref": "K6-100E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-16",
+    "char": "𢏳",
+    "ref": "K6-100F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-17",
+    "char": "𢏮",
+    "ref": "K6-1010",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-18",
+    "char": "㣺",
+    "ref": "K6-1011",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "2-19",
+    "char": "𢠵",
+    "ref": "K6-1012",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-20",
+    "char": "𢢜",
+    "ref": "K6-1013",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-21",
+    "char": "𢜫",
+    "ref": "K6-1014",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-22",
+    "char": "㬉",
+    "ref": "K6-1015",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-23",
+    "char": "榠",
+    "ref": "K6-1016",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-24",
+    "char": "桒",
+    "ref": "K6-1017",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-25",
+    "char": "𣑿",
+    "ref": "K6-1018",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-26",
+    "char": "㮈",
+    "ref": "K6-1019",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-27",
+    "char": "㮋",
+    "ref": "K6-101A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-28",
+    "char": "欵",
+    "ref": "K6-101B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-29",
+    "char": "氊",
+    "ref": "K6-101C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-30",
+    "char": "氺",
+    "ref": "K6-101D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-31",
+    "char": "𣶏",
+    "ref": "K6-101E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-32",
+    "char": "𣷯",
+    "ref": "K6-101F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-33",
+    "char": "黙",
+    "ref": "K6-1020",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-34",
+    "char": "焴",
+    "ref": "K6-1021",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-35",
+    "char": "㺬",
+    "ref": "K6-1022",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-36",
+    "char": "𤥭",
+    "ref": "K6-1023",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "3-37",
+    "char": "㽋",
+    "ref": "K6-1024",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-38",
+    "char": "㼚",
+    "ref": "K6-1025",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-39",
+    "char": "𤭁",
+    "ref": "K6-1026",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-40",
+    "char": "𤭛",
+    "ref": "K6-1027",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-41",
+    "char": "畱",
+    "ref": "K6-1028",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-42",
+    "char": "𤸯",
+    "ref": "K6-1029",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-43",
+    "char": "㿗",
+    "ref": "K6-102A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-44",
+    "char": "㾏",
+    "ref": "K6-102B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-45",
+    "char": "痩",
+    "ref": "K6-102C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-46",
+    "char": "皡",
+    "ref": "K6-102D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-47",
+    "char": "皂",
+    "ref": "K6-102E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-48",
+    "char": "睱",
+    "ref": "K6-102F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-49",
+    "char": "𥔰",
+    "ref": "K6-1030",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-50",
+    "char": "磗",
+    "ref": "K6-1031",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-51",
+    "char": "磘",
+    "ref": "K6-1032",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-52",
+    "char": "硡",
+    "ref": "K6-1033",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-53",
+    "char": "硭",
+    "ref": "K6-1034",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-54",
+    "char": "䈇",
+    "ref": "K6-1035",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "4-55",
+    "char": "䂺",
+    "ref": "K6-1036",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-56",
+    "char": "𥛚",
+    "ref": "K6-1037",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-57",
+    "char": "䄠",
+    "ref": "K6-1038",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-58",
+    "char": "祦",
+    "ref": "K6-1039",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-59",
+    "char": "𥟅",
+    "ref": "K6-103A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-60",
+    "char": "𥧔",
+    "ref": "K6-103B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-61",
+    "char": "𥪁",
+    "ref": "K6-103C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-62",
+    "char": "篘",
+    "ref": "K6-103D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-63",
+    "char": "𥴩",
+    "ref": "K6-103E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-64",
+    "char": "簶",
+    "ref": "K6-103F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-65",
+    "char": "𥬯",
+    "ref": "K6-1040",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-66",
+    "char": "䇭",
+    "ref": "K6-1041",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-67",
+    "char": "䈜",
+    "ref": "K6-1042",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-68",
+    "char": "𥸴",
+    "ref": "K6-1043",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-69",
+    "char": "𥻓",
+    "ref": "K6-1044",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-70",
+    "char": "絕",
+    "ref": "K6-1045",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-71",
+    "char": "𫃵",
+    "ref": "K6-1046",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-72",
+    "char": "缹",
+    "ref": "K6-1047",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "5-73",
+    "char": "䍽",
+    "ref": "K6-1048",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-74",
+    "char": "羐",
+    "ref": "K6-1049",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-75",
+    "char": "𦍩",
+    "ref": "K6-104A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-76",
+    "char": "𦐄",
+    "ref": "K6-104B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-77",
+    "char": "翓",
+    "ref": "K6-104C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-78",
+    "char": "𦕠",
+    "ref": "K6-104D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-79",
+    "char": "𦖋",
+    "ref": "K6-104E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-80",
+    "char": "𦞦",
+    "ref": "K6-104F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-81",
+    "char": "肶",
+    "ref": "K6-1050",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-82",
+    "char": "𦚞",
+    "ref": "K6-1051",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-83",
+    "char": "䑔",
+    "ref": "K6-1052",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-84",
+    "char": "蓗",
+    "ref": "K6-1053",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-85",
+    "char": "蕂",
+    "ref": "K6-1054",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-86",
+    "char": "䔿",
+    "ref": "K6-1055",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-87",
+    "char": "𦼫",
+    "ref": "K6-1056",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-88",
+    "char": "𧀰",
+    "ref": "K6-1057",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-89",
+    "char": "𧃐",
+    "ref": "K6-1058",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-90",
+    "char": "苄",
+    "ref": "K6-1059",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "6-91",
+    "char": "𧐋",
+    "ref": "K6-105A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-92",
+    "char": "𧐖",
+    "ref": "K6-105B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-93",
+    "char": "𧑅",
+    "ref": "K6-105C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-94",
+    "char": "𧓕",
+    "ref": "K6-105D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-95",
+    "char": "𧉧",
+    "ref": "K6-105E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-96",
+    "char": "蚭",
+    "ref": "K6-105F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-97",
+    "char": "䖹",
+    "ref": "K6-1060",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-98",
+    "char": "䗐",
+    "ref": "K6-1061",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-99",
+    "char": "𧞤",
+    "ref": "K6-1062",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-100",
+    "char": "𧘐",
+    "ref": "K6-1063",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-101",
+    "char": "𧴖",
+    "ref": "K6-1064",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-102",
+    "char": "𧸘",
+    "ref": "K6-1065",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-103",
+    "char": "𧵅",
+    "ref": "K6-1066",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-104",
+    "char": "𧿫",
+    "ref": "K6-1067",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-105",
+    "char": "遅",
+    "ref": "K6-1068",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-106",
+    "char": "𨠒",
+    "ref": "K6-1069",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-107",
+    "char": "𨪏",
+    "ref": "K6-106A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "7-108",
+    "char": "𨫏",
+    "ref": "K6-106B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-109",
+    "char": "𨬋",
+    "ref": "K6-106C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-110",
+    "char": "䥷",
+    "ref": "K6-106D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-111",
+    "char": "鑹",
+    "ref": "K6-106E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-112",
+    "char": "鋄",
+    "ref": "K6-106F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-113",
+    "char": "𨧫",
+    "ref": "K6-1070",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-114",
+    "char": "𨴑",
+    "ref": "K6-1071",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-115",
+    "char": "𨺗",
+    "ref": "K6-1072",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-116",
+    "char": "𨾚",
+    "ref": "K6-1073",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-117",
+    "char": "𩌬",
+    "ref": "K6-1074",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-118",
+    "char": "𩍘",
+    "ref": "K6-1075",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-119",
+    "char": "𩊓",
+    "ref": "K6-1076",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-120",
+    "char": "鞨",
+    "ref": "K6-1077",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-121",
+    "char": "䪿",
+    "ref": "K6-1078",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-122",
+    "char": "𩓐",
+    "ref": "K6-1079",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-123",
+    "char": "𩟐",
+    "ref": "K6-107A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-124",
+    "char": "飲",
+    "ref": "K6-107B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-125",
+    "char": "𩜵",
+    "ref": "K6-107C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-126",
+    "char": "𩜶",
+    "ref": "K6-107D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "8-127",
+    "char": "𩜼",
+    "ref": "K6-107E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-128",
+    "char": "𩥮",
+    "ref": "K6-107F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-129",
+    "char": "𩦷",
+    "ref": "K6-1080",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-130",
+    "char": "驝",
+    "ref": "K6-1081",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-131",
+    "char": "𩢷",
+    "ref": "K6-1082",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-132",
+    "char": "䯪",
+    "ref": "K6-1083",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-133",
+    "char": "䰐",
+    "ref": "K6-1084",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-134",
+    "char": "䱶",
+    "ref": "K6-1085",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-135",
+    "char": "𩻛",
+    "ref": "K6-1086",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-136",
+    "char": "𩻣",
+    "ref": "K6-1087",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-137",
+    "char": "鯮",
+    "ref": "K6-1088",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-138",
+    "char": "𪃿",
+    "ref": "K6-1089",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-139",
+    "char": "䳺",
+    "ref": "K6-108A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-140",
+    "char": "鷙",
+    "ref": "K6-108B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-141",
+    "char": "𪆁",
+    "ref": "K6-108C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-142",
+    "char": "𩾚",
+    "ref": "K6-108D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-143",
+    "char": "𩿨",
+    "ref": "K6-108E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-144",
+    "char": "𪀗",
+    "ref": "K6-108F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "9-145",
+    "char": "䳓",
+    "ref": "K6-1090",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-146",
+    "char": "𪁿",
+    "ref": "K6-1091",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-147",
+    "char": "黋",
+    "ref": "K6-1092",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-148",
+    "char": "𪑩",
+    "ref": "K6-1093",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-149",
+    "char": "𪓐",
+    "ref": "K6-1094",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-150",
+    "char": "𪓟",
+    "ref": "K6-1095",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-151",
+    "char": "𪚰",
+    "ref": "K6-1096",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-152",
+    "char": "郎",
+    "ref": "K6-0000",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-153",
+    "char": "驇",
+    "ref": "K6-0001",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-154",
+    "char": "慎",
+    "ref": "K6-0002",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1811",
+    "no": "10-155",
+    "char": "𠿒",
+    "ref": "K6-0003",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1812",
+    "no": "1-1",
+    "char": "𣗱",
+    "ref": "V0-354D",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1819",
+    "no": "1-1",
+    "char": "𠏝",
+    "ref": "K4-000D",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1819",
+    "no": "1-2",
+    "char": "𥕦",
+    "ref": "K4-008A",
+    "comment": "K glyph update"
+  },
+  {
+    "doc": "1837",
+    "no": "2-1",
+    "char": "𣗱",
+    "ref": "V0-354D",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1837",
+    "no": "3-1",
+    "char": "𨖙",
+    "ref": "V4-5565",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "3-2",
+    "char": "𠢅",
+    "ref": "T5-3669",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "4-1",
+    "char": "𡼒",
+    "ref": "T5-4C6E",
+    "comment": "T move 𡼒 to 𡼬"
+  },
+  {
+    "doc": "1837",
+    "no": "5-1",
+    "char": "𤪊",
+    "ref": "V2-7C66",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "5-2",
+    "char": "𤼕",
+    "ref": "V2-7D5A",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "6-1",
+    "char": "𥂉",
+    "ref": "V2-7D6B",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "6-2",
+    "char": "𪛀",
+    "ref": "GKX-1538.20",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "7-1",
+    "char": "𢤶",
+    "ref": "T5-6777",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "7-2",
+    "char": "𨌡",
+    "ref": "T6-632A",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "8-1",
+    "char": "𢮣",
+    "ref": "GKX-0440.17",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "8-2",
+    "char": "𣀣",
+    "ref": "T5-6C34",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "9-1",
+    "char": "𤈩",
+    "ref": "GKX-0672.02",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1837",
+    "no": "10-1",
+    "char": "𧷵",
+    "ref": "T7-4350",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "10-2",
+    "char": "𩻴",
+    "ref": "GHZ-74714.09",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "10-3",
+    "char": "𡒍",
+    "ref": "T7-373F",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "10-4",
+    "char": "𧃒",
+    "ref": "GKX-1069.21",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "11-1",
+    "char": "𩵜",
+    "ref": "V0-4822",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "11-2",
+    "char": "𦐯",
+    "ref": "T6-4D30",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "11-3",
+    "char": "𦒇",
+    "ref": "T7-4871",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "12-1",
+    "char": "𧃰",
+    "ref": "T7-5876",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "12-2",
+    "char": "𧓟",
+    "ref": "T7-5477",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "12-3",
+    "char": "𩲛",
+    "ref": "T6-646C",
+    "comment": "T glyph update"
+  },
+  {
+    "doc": "1837",
+    "no": "13-1",
+    "char": "𢴕",
+    "ref": "V2-7753",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "13-2",
+    "char": "𤡘",
+    "ref": "GHZ-21366.09",
+    "comment": "no change"
+  },
+  {
+    "doc": "1837",
+    "no": "13-3",
+    "char": "𦬽",
+    "ref": "GKX-1025.08",
+    "comment": "no change"
+  },
+  {
+    "doc": "1838",
+    "no": "1-1",
+    "char": "𣠬",
+    "ref": "TF-6951",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "1-2",
+    "char": "𣻤",
+    "ref": "GKX-0648.09",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "1-3",
+    "char": "𤍩",
+    "ref": "TF-5024",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "2-1",
+    "char": "𧕕",
+    "ref": "GKX-1103.29",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "2-2",
+    "char": "𧬟",
+    "ref": "GHZ-64018.09",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "2-3",
+    "char": "𧵁",
+    "ref": "TF-385F",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "2-4",
+    "char": "𨭵",
+    "ref": "TF-686D",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "2-5",
+    "char": "𩏻",
+    "ref": "T5-7C22",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "3-1",
+    "char": "𩑐",
+    "ref": "GKX-1399.08",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "3-2",
+    "char": "𩱒",
+    "ref": "T7-5666",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "3-3",
+    "char": "𪂸",
+    "ref": "GKX-1494.15",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "3-4",
+    "char": "𩧻",
+    "ref": "GCH",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "4-1",
+    "char": "𣗱",
+    "ref": "V0-354D",
+    "comment": "V glyph update"
+  },
+  {
+    "doc": "1838",
+    "no": "4-2",
+    "char": "𨖙",
+    "ref": "V4-5565",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "4-3",
+    "char": "𠢅",
+    "ref": "T5-3669",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "4-4",
+    "char": "𡼒",
+    "ref": "T5-4C6E",
+    "comment": "T move 𡼒 to 𡼬"
+  },
+  {
+    "doc": "1838",
+    "no": "5-1",
+    "char": "𤪊",
+    "ref": "V2-7C66",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "5-2",
+    "char": "𤼕",
+    "ref": "V2-7D5A",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "5-3",
+    "char": "𥂉",
+    "ref": "V2-7D6B",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "5-4",
+    "char": "𪛀",
+    "ref": "GKX-1538.20",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "6-1",
+    "char": "𢤶",
+    "ref": "T5-6777",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "6-2",
+    "char": "𨌡",
+    "ref": "T6-632A",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "6-3",
+    "char": "𢮣",
+    "ref": "GKX-0440.17",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "6-4",
+    "char": "𣀣",
+    "ref": "T5-6C34",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "6-5",
+    "char": "𤈩",
+    "ref": "GKX-0672.02",
+    "comment": "keep unify"
+  },
+  {
+    "doc": "1838",
+    "no": "7-1",
+    "char": "𥮈",
+    "ref": "V3-364B",
+    "comment": "keep unify"
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {}
+]
