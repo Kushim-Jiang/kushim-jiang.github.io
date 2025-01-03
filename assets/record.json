@@ -1,5 +1,344 @@
 [
   {
+    "doc": "1739",
+    "no": "2-1",
+    "char": "𬒀",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00003",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "3-1",
+    "char": "𪻳",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00006",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "4-1",
+    "char": "𪻵",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00008",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "5-1",
+    "char": "𬋋",
+    "evi": "this@學生注冊表, 母親姓名, *~*",
+    "ref": "MAC00009",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "6-1",
+    "char": "𬞆",
+    "evi": "this@學生注冊表, 母親姓名, *~*",
+    "ref": "MAC00013",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "7-1",
+    "char": "𫁢",
+    "evi": "this@學生注冊表, 中文姓名, *~*, chu",
+    "ref": "MAC00014",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "8-1",
+    "char": "𫏜",
+    "evi": "this@學生注冊表, 中文姓名, *~*, kuok",
+    "ref": "MAC00018",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "9-1",
+    "char": "𬎆",
+    "evi": "this@學生注冊表, 中文姓名, **~, ieng",
+    "ref": "MAC00028",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "10-1",
+    "char": "𬌲",
+    "evi": "this@學生注冊表, 父親姓名, **~",
+    "ref": "MAC00046",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "11-1",
+    "char": "𬄾",
+    "evi": "this@學生注冊表, 中文姓名, **~, san",
+    "ref": "MAC00047",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "12-1",
+    "char": "𬍳",
+    "evi": "this@學生注冊表, 母親姓名, *~*",
+    "ref": "MAC00048",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "13-1",
+    "char": "𬔻",
+    "evi": "this@學生注冊表, 中文姓名, *~*, sio",
+    "ref": "MAC00049",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "14-1",
+    "char": "𬁆",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00050",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "15-1",
+    "char": "𬐨",
+    "evi": "this@學生注冊表, 父親姓名, **~",
+    "ref": "MAC00051",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "16-1",
+    "char": "𫰋",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00052",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "17-1",
+    "char": "𬳧",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00053",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "18-1",
+    "char": "𫯜",
+    "evi": "this@學生注冊表, 父親姓名, **~",
+    "ref": "MAC00055",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "19-1",
+    "char": "𫦪",
+    "evi": "this@學生注冊表, 中文姓名, **~, hsun",
+    "ref": "MAC00056",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "20-1",
+    "char": "𬀲",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00057",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "21-1",
+    "char": "𬉷",
+    "evi": "this@學生注冊表, 母親姓名, *~*",
+    "ref": "MAC00059",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "22-1",
+    "char": "𬯋",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00060",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "23-1",
+    "char": "𬊕",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00061",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "24-1",
+    "char": "𬁝",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00062",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "25-1",
+    "char": "𬗋",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00063",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "26-1",
+    "char": "𬓥",
+    "evi": "this@學生注冊表, 父親姓名, *~",
+    "ref": "MAC00064",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "27-1",
+    "char": "𫨨",
+    "evi": "this@學生注冊表, 父親姓名, **~",
+    "ref": "MAC00065",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "28-1",
+    "char": "𬠸",
+    "evi": "this@學生注冊表, 父親姓名, **~",
+    "ref": "MAC00066",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "29-1",
+    "char": "𬈹",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00067",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "30-1",
+    "char": "𫤪",
+    "evi": "this@學生注冊表, 中文姓名, **~, fong",
+    "ref": "MAC00070",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "31-1",
+    "char": "𬇣",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00071",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "32-1",
+    "char": "~㛇",
+    "ids": "⿸㚧𡈽",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00081",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "33-1",
+    "char": "~𠲘",
+    "ids": "⿱𦍌口",
+    "evi": "this@學生注冊表, 父親姓名, *~*",
+    "ref": "MAC00082",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "34-1",
+    "char": "~𡩴",
+    "evi": "this@學生注冊表, 父親姓名, **~",
+    "ref": "MAC00083",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "35-1",
+    "char": "𪦪",
+    "evi": "this@學生注冊表, 母親姓名, **~",
+    "ref": "MAC00084",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "37-1",
+    "char": "𫣲",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 8094 loi",
+    "ref": "MAC00076",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "37-2",
+    "char": "𡊐",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 9742, ao",
+    "ref": "MAC00077",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "37-3",
+    "char": "~啗",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 0798, tam",
+    "ref": "MAC00115",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "38-1",
+    "char": "𬏺",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 4048, kuan",
+    "ref": "MAC00116",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "38-2",
+    "char": "𢊈",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 8353, sao",
+    "ref": "MAC00117",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "38-3",
+    "char": "𬍂",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 8742, hou",
+    "ref": "MAC00118",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "39-1",
+    "char": "𬱃",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 9473, ngak",
+    "ref": "MAC00119",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1739",
+    "no": "39-2",
+    "char": "~杞",
+    "ids": "⿰木已",
+    "evi": "this@標準中葡譯音手册 (附中文電碼表), 2630, kei",
+    "ref": "MAC00120",
+    "comment": "evidence"
+  },
+  {
     "doc": "1751",
     "no": "1-1",
     "char": "𪴒",
@@ -368,7 +707,7 @@
     "no": "1-1",
     "char": "㺬",
     "ids": "⿰𤣩凡(巩)",
-    "evi": "GKX@《集韻》古勇切，音拱，璧也。本作珙，通作拱。",
+    "evi": "GKX@《康熙字典》，第 727 页。",
     "ref": "GKX-0727.11",
     "comment": "G glyph update"
   },
@@ -377,7 +716,7 @@
     "no": "1-2",
     "char": "𤣲",
     "ids": "⿰𤣩卂",
-    "evi": "GHZ@《玉篇》息進切。玉名。",
+    "evi": "GHZ@《汉语大字典》（第一版），第 1102 页。",
     "ref": "GHZ-21102.14",
     "comment": "no change"
   },
@@ -4748,25 +5087,4936 @@
     "ref": "V3-364B",
     "comment": "keep unify"
   },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {},
-  {}
+  {
+    "doc": "1854",
+    "no": "1-1",
+    "char": "𨩌",
+    "ref": "MAC00024",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-2",
+    "char": "𠿮",
+    "ref": "MAC00030",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-3",
+    "char": "𡛩",
+    "ref": "MAC00075",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-4",
+    "char": "啚",
+    "ref": "MAC00079",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-5",
+    "char": "~𡩴",
+    "ref": "MAC00083",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-6",
+    "char": "~衆",
+    "ids": "⿱丿𬑔",
+    "ref": "MAC00087",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-7",
+    "char": "𢊈",
+    "ref": "MAC00117",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-8",
+    "char": "~養",
+    "ref": "MAC00121",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-9",
+    "char": "𭒨",
+    "ref": "MAC00123",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-10",
+    "char": "~沗",
+    "ids": "⿱天水",
+    "ref": "MAC00130",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-11",
+    "char": "𪸛",
+    "ref": "MAC00131",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "1-12",
+    "char": "~剆",
+    "ids": "⿰良刂",
+    "ref": "MAC00132",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "2-1",
+    "char": "廸",
+    "ref": "MAC00089",
+    "comment": "unified"
+  },
+  {
+    "doc": "1854",
+    "no": "2-2",
+    "char": "𬞆",
+    "ref": "MAC00013",
+    "comment": "missing in E"
+  },
+  {
+    "doc": "1854",
+    "no": "2-3",
+    "char": "𬁝",
+    "ref": "MAC00062",
+    "comment": "missing in E"
+  },
+  {
+    "doc": "1854",
+    "no": "2-4",
+    "char": "𡊐",
+    "ref": "MAC00077",
+    "comment": "missing in E"
+  },
+  {
+    "doc": "1854",
+    "no": "2-5",
+    "char": "~㛇",
+    "ids": "⿸㚧𡈽",
+    "ref": "MAC00081",
+    "comment": "missing in E"
+  },
+  {
+    "doc": "1854",
+    "no": "2-6",
+    "char": "~𠲘",
+    "ids": "⿱𦍌口",
+    "ref": "MAC00082",
+    "comment": "missing in E"
+  },
+  {
+    "doc": "1854",
+    "no": "2-7",
+    "ids": "⿰木已",
+    "ref": "MAC00120",
+    "comment": "missing in E"
+  },
+  {
+    "doc": "1854",
+    "no": "2-8",
+    "ids": "⿱艹已",
+    "ref": "MAC00125",
+    "comment": "missing in E"
+  },
+  {
+    "doc": "1857",
+    "no": "2-1",
+    "char": "㐌",
+    "ref": "K6-1000",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-2",
+    "char": "亻",
+    "ref": "K6-1001",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-3",
+    "char": "倸",
+    "ref": "K6-1002",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-4",
+    "char": "㓁",
+    "ref": "K6-1003",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-5",
+    "char": "㖠",
+    "ref": "K6-1004",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-6",
+    "char": "啫",
+    "ref": "K6-1005",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-7",
+    "char": "𡲰",
+    "ref": "K6-1006",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-8",
+    "char": "𡱁",
+    "ref": "K6-1007",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-9",
+    "char": "屰",
+    "ref": "K6-1008",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-10",
+    "char": "巠",
+    "ref": "K6-1009",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-11",
+    "char": "𢄼",
+    "ref": "K6-100A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-12",
+    "char": "廰",
+    "ref": "K6-100B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-13",
+    "char": "𢈴",
+    "ref": "K6-100C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-14",
+    "char": "𢐧",
+    "ref": "K6-100D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-15",
+    "char": "𢏆",
+    "ref": "K6-100E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-16",
+    "char": "𢏳",
+    "ref": "K6-100F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-17",
+    "char": "𢏮",
+    "ref": "K6-1010",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-18",
+    "char": "㣺",
+    "ref": "K6-1011",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "2-19",
+    "char": "𢠵",
+    "ref": "K6-1012",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-20",
+    "char": "𢢜",
+    "ref": "K6-1013",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-21",
+    "char": "𢜫",
+    "ref": "K6-1014",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-22",
+    "char": "㬉",
+    "ref": "K6-1015",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-23",
+    "char": "榠",
+    "ref": "K6-1016",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-24",
+    "char": "桒",
+    "ref": "K6-1017",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-25",
+    "char": "𣑿",
+    "ref": "K6-1018",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-26",
+    "char": "㮈",
+    "ref": "K6-1019",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-27",
+    "char": "㮋",
+    "ref": "K6-101A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-28",
+    "char": "欵",
+    "ref": "K6-101B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-29",
+    "char": "氊",
+    "ref": "K6-101C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-30",
+    "char": "氺",
+    "ref": "K6-101D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-31",
+    "char": "𣶏",
+    "ref": "K6-101E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-32",
+    "char": "𣷯",
+    "ref": "K6-101F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-33",
+    "char": "黙",
+    "ref": "K6-1020",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-34",
+    "char": "焴",
+    "ref": "K6-1021",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-35",
+    "char": "㺬",
+    "ref": "K6-1022",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-36",
+    "char": "𤥭",
+    "ref": "K6-1023",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "3-37",
+    "char": "㽋",
+    "ref": "K6-1024",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-38",
+    "char": "㼚",
+    "ref": "K6-1025",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-39",
+    "char": "𤭁",
+    "ref": "K6-1026",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-40",
+    "char": "𤭛",
+    "ref": "K6-1027",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-41",
+    "char": "畱",
+    "ref": "K6-1028",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-42",
+    "char": "𤸯",
+    "ref": "K6-1029",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-43",
+    "char": "㿗",
+    "ref": "K6-102A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-44",
+    "char": "㾏",
+    "ref": "K6-102B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-45",
+    "char": "痩",
+    "ref": "K6-102C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-46",
+    "char": "皡",
+    "ref": "K6-102D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-47",
+    "char": "皂",
+    "ref": "K6-102E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-48",
+    "char": "睱",
+    "ref": "K6-102F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-49",
+    "char": "𥔰",
+    "ref": "K6-1030",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-50",
+    "char": "磗",
+    "ref": "K6-1031",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-52",
+    "char": "硡",
+    "ref": "K6-1033",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-53",
+    "char": "硭",
+    "ref": "K6-1034",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-54",
+    "char": "䈇",
+    "ref": "K6-1035",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-55",
+    "char": "䂺",
+    "ref": "K6-1036",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "4-56",
+    "char": "𥛚",
+    "ref": "K6-1037",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-57",
+    "char": "䄠",
+    "ref": "K6-1038",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-58",
+    "char": "祦",
+    "ref": "K6-1039",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-59",
+    "char": "𥟅",
+    "ref": "K6-103A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-60",
+    "char": "𥧔",
+    "ref": "K6-103B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-61",
+    "char": "𥪁",
+    "ref": "K6-103C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-62",
+    "char": "篘",
+    "ref": "K6-103D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-63",
+    "char": "𥴩",
+    "ref": "K6-103E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-64",
+    "char": "簶",
+    "ref": "K6-103F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-65",
+    "char": "𥬯",
+    "ref": "K6-1040",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-66",
+    "char": "䇭",
+    "ref": "K6-1041",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-67",
+    "char": "䈜",
+    "ref": "K6-1042",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-68",
+    "char": "𥸴",
+    "ref": "K6-1043",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-69",
+    "char": "𥻓",
+    "ref": "K6-1044",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-70",
+    "char": "絕",
+    "ref": "K6-1045",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-71",
+    "char": "𫃵",
+    "ref": "K6-1046",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-72",
+    "char": "缹",
+    "ref": "K6-1047",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-73",
+    "char": "䍽",
+    "ref": "K6-1048",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "5-74",
+    "char": "羐",
+    "ref": "K6-1049",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-75",
+    "char": "𦍩",
+    "ref": "K6-104A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-76",
+    "char": "𦐄",
+    "ref": "K6-104B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-77",
+    "char": "翓",
+    "ref": "K6-104C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-78",
+    "char": "𦕠",
+    "ref": "K6-104D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-79",
+    "char": "𦖋",
+    "ref": "K6-104E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-80",
+    "char": "𦞦",
+    "ref": "K6-104F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-81",
+    "char": "肶",
+    "ref": "K6-1050",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-82",
+    "char": "𦚞",
+    "ref": "K6-1051",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-83",
+    "char": "䑔",
+    "ref": "K6-1052",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-84",
+    "char": "蓗",
+    "ref": "K6-1053",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-85",
+    "char": "蕂",
+    "ref": "K6-1054",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-86",
+    "char": "䔿",
+    "ref": "K6-1055",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-87",
+    "char": "𦼫",
+    "ref": "K6-1056",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-88",
+    "char": "𧀰",
+    "ref": "K6-1057",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-89",
+    "char": "𧃐",
+    "ref": "K6-1058",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-90",
+    "char": "苄",
+    "ref": "K6-1059",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-91",
+    "char": "𧐋",
+    "ref": "K6-105A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "6-92",
+    "char": "𧐖",
+    "ref": "K6-105B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-93",
+    "char": "𧑅",
+    "ref": "K6-105C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-94",
+    "char": "𧓕",
+    "ref": "K6-105D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-95",
+    "char": "𧉧",
+    "ref": "K6-105E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-96",
+    "char": "蚭",
+    "ref": "K6-105F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-97",
+    "char": "䖹",
+    "ref": "K6-1060",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-98",
+    "char": "䗐",
+    "ref": "K6-1061",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-99",
+    "char": "𧞤",
+    "ref": "K6-1062",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-100",
+    "char": "𧘐",
+    "ref": "K6-1063",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-101",
+    "char": "𧴖",
+    "ref": "K6-1064",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-102",
+    "char": "𧸘",
+    "ref": "K6-1065",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-103",
+    "char": "𧵅",
+    "ref": "K6-1066",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-104",
+    "char": "𧿫",
+    "ref": "K6-1067",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-105",
+    "char": "遅",
+    "ref": "K6-1068",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-106",
+    "char": "𨠒",
+    "ref": "K6-1069",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-107",
+    "char": "𨪏",
+    "ref": "K6-106A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-108",
+    "char": "𨫏",
+    "ref": "K6-106B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-109",
+    "char": "𨬋",
+    "ref": "K6-106C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "7-110",
+    "char": "䥷",
+    "ref": "K6-106D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-111",
+    "char": "鑹",
+    "ref": "K6-106E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-112",
+    "char": "鋄",
+    "ref": "K6-106F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-113",
+    "char": "𨧫",
+    "ref": "K6-1070",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-114",
+    "char": "𨴑",
+    "ref": "K6-1071",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-115",
+    "char": "𨺗",
+    "ref": "K6-1072",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-116",
+    "char": "𨾚",
+    "ref": "K6-1073",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-117",
+    "char": "𩌬",
+    "ref": "K6-1074",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-118",
+    "char": "𩍘",
+    "ref": "K6-1075",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-119",
+    "char": "𩊓",
+    "ref": "K6-1076",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-120",
+    "char": "鞨",
+    "ref": "K6-1077",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-121",
+    "char": "䪿",
+    "ref": "K6-1078",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-122",
+    "char": "𩓐",
+    "ref": "K6-1079",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-123",
+    "char": "𩟐",
+    "ref": "K6-107A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-124",
+    "char": "飲",
+    "ref": "K6-107B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-125",
+    "char": "𩜵",
+    "ref": "K6-107C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-126",
+    "char": "𩜶",
+    "ref": "K6-107D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-127",
+    "char": "𩜼",
+    "ref": "K6-107E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-128",
+    "char": "𩥮",
+    "ref": "K6-107F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "8-129",
+    "char": "𩦷",
+    "ref": "K6-1080",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-130",
+    "char": "驝",
+    "ref": "K6-1081",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-131",
+    "char": "𩢷",
+    "ref": "K6-1082",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-132",
+    "char": "䯪",
+    "ref": "K6-1083",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-133",
+    "char": "䰐",
+    "ref": "K6-1084",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-134",
+    "char": "䱶",
+    "ref": "K6-1085",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-135",
+    "char": "𩻛",
+    "ref": "K6-1086",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-136",
+    "char": "𩻣",
+    "ref": "K6-1087",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-137",
+    "char": "鯮",
+    "ref": "K6-1088",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-138",
+    "char": "𪃿",
+    "ref": "K6-1089",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-139",
+    "char": "䳺",
+    "ref": "K6-108A",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-140",
+    "char": "鷙",
+    "ref": "K6-108B",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-141",
+    "char": "𪆁",
+    "ref": "K6-108C",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-142",
+    "char": "𩾚",
+    "ref": "K6-108D",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-143",
+    "char": "𩿨",
+    "ref": "K6-108E",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-144",
+    "char": "𪀗",
+    "ref": "K6-108F",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-145",
+    "char": "䳓",
+    "ref": "K6-1090",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-146",
+    "char": "𪁿",
+    "ref": "K6-1091",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-147",
+    "char": "黋",
+    "ref": "K6-1092",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "9-148",
+    "char": "𪑩",
+    "ref": "K6-1093",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "10-149",
+    "char": "𪓐",
+    "ref": "K6-1094",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "10-150",
+    "char": "𪓟",
+    "ref": "K6-1095",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "10-151",
+    "char": "𪚰",
+    "ref": "K6-1096",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "10-152",
+    "char": "郎",
+    "ref": "K6-0000",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "10-153",
+    "char": "驇",
+    "ref": "K6-0001",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "10-154",
+    "char": "慎",
+    "ref": "K6-0002",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1857",
+    "no": "10-155",
+    "char": "𠿒",
+    "ref": "K6-0003",
+    "comment": "repertoire"
+  },
+  {
+    "doc": "1858",
+    "no": "7-1",
+    "char": "𮟥",
+    "evi": "SAT@T0158_.03.0273c29",
+    "ref": "SAT00002",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1858",
+    "no": "8-1",
+    "char": "𮞉",
+    "evi": "SAT@T0206_.04.0513c25",
+    "ref": "SAT00003",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1858",
+    "no": "9-1",
+    "char": "𮌼",
+    "evi": "SAT@T1548_.28.0578c06",
+    "ref": "SAT00007",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1858",
+    "no": "10-1",
+    "char": "𮌣",
+    "evi": "SAT@T1549_.28.0763c01",
+    "ref": "SAT00009",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1858",
+    "no": "11-1",
+    "char": "𱦗",
+    "evi": "SAT@T0100_.02.0424a24",
+    "ref": "SAT00600",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "4-1",
+    "char": "~𣍄",
+    "evi": "GKX@《康熙字典》，第 1393 页。",
+    "ref": "GKX-1393.07",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "4-2",
+    "char": "~𣝖",
+    "ids": "𫤳",
+    "evi": "GKX@《康熙字典》，第 1393 页。",
+    "ref": "GKX-1393.26",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "4-3",
+    "char": "~𦸕",
+    "ids": "𫦚",
+    "evi": "GKX@《康熙字典》，第 589 页。",
+    "ref": "GKX-0589.07",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "5-1",
+    "char": "~𠤙",
+    "ids": "⿱九𠧢",
+    "evi": "GKX@《康熙字典》，第 349 页。",
+    "ref": "GKX-0349.26",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "5-2",
+    "char": "~𠧤",
+    "ids": "⿺㇉𠧧",
+    "evi": "GKX@《康熙字典》，第 81 页。",
+    "ref": "GKX-0081.14",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "5-3",
+    "char": "~𣨦",
+    "evi": "GKX@《康熙字典》，第 584 页。",
+    "ref": "GKX-0584.12",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "6-1",
+    "char": "~𡅖",
+    "ids": "𮊶",
+    "evi": "GKX@《康熙字典》，第 1612 页。",
+    "ref": "GKX-1612.27",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1859",
+    "no": "6-2",
+    "char": "~𠣸",
+    "ids": "𰋏",
+    "evi": "GKX@《康熙字典》，第 369 页。",
+    "ref": "GKX-0369.24",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1866",
+    "no": "2-1",
+    "char": "𮱋",
+    "evi": "this@葛~, ge xiao",
+    "comment": "evidence"
+  },
+  {
+    "doc": "1881",
+    "no": "1-1",
+    "ids": "⿰急衆",
+    "ref": "V04-486A",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1894",
+    "no": "1-1",
+    "char": "𨩌",
+    "ref": "MAC00024",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1894",
+    "no": "1-2",
+    "char": "𠿮",
+    "ref": "MAC00030",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "1-3",
+    "char": "𡊐",
+    "ref": "MAC00077",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "2-4",
+    "char": "~㛇",
+    "ids": "⿸㚧𡈽",
+    "ref": "MAC00081",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "2-5",
+    "char": "~𠲘",
+    "ids": "⿱𦍌口",
+    "ref": "MAC00082",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "2-6",
+    "char": "~啗",
+    "ref": "MAC00115",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "2-7",
+    "char": "~杞",
+    "ids": "⿰木已",
+    "ref": "MAC00120",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "2-8",
+    "char": "~芑",
+    "ids": "⿱艹已",
+    "ref": "MAC00125",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "2-9",
+    "char": "~衆",
+    "ref": "MAC00126",
+    "comment": "unified"
+  },
+  {
+    "doc": "1894",
+    "no": "2-10",
+    "char": "~隶",
+    "ref": "MAC00127",
+    "comment": "unified"
+  },
+  {
+    "doc": "1905",
+    "no": "2-1",
+    "char": "𦱳",
+    "ids": "⿶凵兹",
+    "ref": "GKX-0642.17",
+    "comment": "unified"
+  },
+  {
+    "doc": "1905",
+    "no": "8-1",
+    "char": "~𡅖",
+    "ids": "𮊶",
+    "ref": "GKX-1612.27",
+    "comment": "unified"
+  },
+  {
+    "doc": "1907",
+    "no": "1-1",
+    "char": "𬼂",
+    "ref": "JMJ-056850",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1907",
+    "no": "1-2",
+    "char": "𬻿",
+    "ref": "JMJ-056853",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1907",
+    "no": "1-3",
+    "char": "𭚥",
+    "ref": "JMJ-057460",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1907",
+    "no": "1-4",
+    "char": "𭤪",
+    "ref": "JMJ-057632",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1907",
+    "no": "1-5",
+    "char": "𭥟",
+    "ref": "JMJ-057652",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1907",
+    "no": "1-6",
+    "char": "𭁇",
+    "ref": "JMJ-058412",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1907",
+    "no": "1-7",
+    "char": "𭍻",
+    "ref": "JMJ-059446",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1914",
+    "no": "1-1",
+    "char": "~禦",
+    "ref": "T15-2372",
+    "comment": "li, not kai"
+  },
+  {
+    "doc": "1914",
+    "no": "1-2",
+    "char": "𲀡",
+    "ref": "T15-237A",
+    "comment": "li, not kai"
+  },
+  {
+    "doc": "1914",
+    "no": "2-1",
+    "char": "~𥙯",
+    "ref": "T14-266F",
+    "comment": "questionable"
+  },
+  {
+    "doc": "1914",
+    "no": "2-2",
+    "char": "𰰥",
+    "ref": "T14-633D",
+    "comment": "zhuan, not kai"
+  },
+  {
+    "doc": "1924",
+    "no": "2-1",
+    "char": "~才",
+    "ref": "JMJ-059295",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-2",
+    "char": "~𫝁",
+    "ref": "JMJ-059299",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-3",
+    "char": "~典",
+    "ref": "JMJ-056983",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-4",
+    "char": "~匋",
+    "ref": "JMJ-057082",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-5",
+    "char": "~𠫤",
+    "ref": "JMJ-057125",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-6",
+    "char": "~𠯌",
+    "ref": "JMJ-057146",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-7",
+    "char": "~𫝢",
+    "ref": "JMJ-059474",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-8",
+    "char": "~𡧱",
+    "ref": "JMJ-057330",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "2-9",
+    "char": "~𫞬",
+    "ref": "JMJ-059920",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "3-1",
+    "char": "~䕲",
+    "ref": "JMJ-004221",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "3-2",
+    "char": "~譓",
+    "ref": "JMJ-060190",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "3-3",
+    "char": "~迳",
+    "ref": "JMJ-058848",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-1",
+    "char": "𫧤",
+    "ref": "JMJ-059400",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-2",
+    "char": "𫯹",
+    "ref": "JMJ-057814",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-3",
+    "char": "𬆕",
+    "ref": "JMJ-057906",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-4",
+    "char": "𫨻",
+    "ref": "JMJ-057915",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-5",
+    "char": "𬆲",
+    "ref": "JMJ-059768",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-6",
+    "char": "𬈬",
+    "ref": "JMJ-059808",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-7",
+    "char": "𬎨",
+    "ref": "JMJ-041198",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "4-8",
+    "char": "𬹵",
+    "ref": "JMJ-059283",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "5-1",
+    "char": "~𬽌",
+    "ref": "JMJ-056862",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "5-2",
+    "char": "~𭐣",
+    "ref": "JMJ-057257",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "5-3",
+    "char": "~𫯱",
+    "ref": "JMJ-059483",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "5-4",
+    "char": "~㝠",
+    "ids": "⿱宀𰥍",
+    "ref": "JMJ-057336",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "5-5",
+    "char": "~𭽁",
+    "ref": "JMJ-058132",
+    "comment": "unified"
+  },
+  {
+    "doc": "1924",
+    "no": "5-6",
+    "char": "~𮏀",
+    "ref": "JMJ-060108",
+    "comment": "unified"
+  },
+  {
+    "doc": "1925",
+    "no": "2-1",
+    "ids": "⿱亠儿",
+    "ref": "Z_SAT60006",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "2-2",
+    "ids": "⿱乍人",
+    "ref": "Z_SAT05108",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "2-3",
+    "char": "~儜",
+    "ref": "Z_SAT02826",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "2-4",
+    "char": "~卨",
+    "ref": "Z_SAT60041",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "2-5",
+    "ids": "⿱與电",
+    "ref": "Z_SAT04919",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "2-6",
+    "ids": "⿱㝉𥃦",
+    "ref": "Z_SAT02459",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "2-7",
+    "char": "~寡",
+    "ref": "Z_SAT01982",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "2-8",
+    "ids": "⿱工爪",
+    "ref": "Z_SAT02560",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-1",
+    "ids": "⿰号帝",
+    "ref": "Z_SAT02522",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-2",
+    "char": "~惱",
+    "ref": "Z_SAT60111",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-3",
+    "char": "~懜",
+    "ref": "Z_SAT02451",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-4",
+    "char": "~煞",
+    "ref": "Z_SAT60134",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-5",
+    "ids": "⿱來木",
+    "ref": "Z_SAT03409",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-6",
+    "ids": "⿸𰗓畢",
+    "ref": "Z_SAT01552",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-7",
+    "char": "~㰜",
+    "ids": "⿰槙貝",
+    "ref": "Z_SAT05723",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-8",
+    "ids": "⿰木𤓟",
+    "ref": "Z_SAT02681",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "3-9",
+    "char": "~㲉",
+    "ref": "Z_SAT03567",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-1",
+    "ids": "⿰巳民",
+    "ref": "Z_SAT01984",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-2",
+    "char": "~沗",
+    "ref": "Z_SAT60182",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-3",
+    "char": "~暴",
+    "ref": "Z_SAT00058",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-4",
+    "ids": "⿰𣵀合",
+    "ref": "Z_SAT08610",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-5",
+    "char": "~𭈹",
+    "ref": "Z_SAT02198",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-6",
+    "ids": "⿰犭𦍒",
+    "ref": "Z_SAT01729",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-7",
+    "char": "~碧",
+    "ids": "⿱珀升",
+    "ref": "Z_SAT04306",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-8",
+    "ids": "⿱凃瓦",
+    "ref": "Z_SAT03566",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "4-9",
+    "ids": "⿱軗疋",
+    "ref": "Z_SAT05220",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-1",
+    "char": "~癮",
+    "ref": "Z_SAT60221",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-2",
+    "ids": "⿰目左",
+    "ref": "Z_SAT01002",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-3",
+    "char": "𱲹",
+    "ref": "Z_SAT02653",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-4",
+    "char": "~睠",
+    "ref": "Z_SAT60230",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-5",
+    "char": "礡",
+    "ref": "Z_SAT01197",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-6",
+    "ids": "⿰礻執",
+    "ref": "Z_SAT60237",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-7",
+    "char": "𮂺",
+    "ref": "Z_SAT60238",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-8",
+    "ids": "⿰秀責",
+    "ref": "Z_SAT07102",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "5-9",
+    "ids": "⿱穴杸",
+    "ref": "Z_SAT05027",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-1",
+    "char": "~䋦",
+    "ref": "Z_SAT60266",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-2",
+    "char": "~綣",
+    "ref": "Z_SAT60273",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-3",
+    "char": "~耽",
+    "ids": "⿰耳穴",
+    "ref": "Z_SAT03654",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-4",
+    "char": "~䏈",
+    "ref": "Z_SAT60286",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-5",
+    "ids": "⿱與禺",
+    "ref": "Z_SAT05160",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-6",
+    "ids": "⿰舊具",
+    "ref": "Z_SAT01299",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-7",
+    "char": "~荒",
+    "ref": "Z_SAT60305",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-8",
+    "char": "~筋",
+    "ids": "⿱艸𰮂",
+    "ref": "Z_SAT00037",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "6-9",
+    "char": "~藝",
+    "ref": "Z_SAT60322",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-1",
+    "char": "𮒨",
+    "ref": "Z_SAT60321",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-2",
+    "char": "孽",
+    "ref": "Z_SAT04821",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-3",
+    "char": "蘧",
+    "ref": "Z_SAT60361",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-4",
+    "char": "~𲀈",
+    "ids": "𧑰",
+    "ref": "Z_SAT60333",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-5",
+    "char": "蠟",
+    "ref": "Z_SAT60334",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-6",
+    "char": "~𭮧",
+    "ref": "Z_SAT60358",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-7",
+    "ids": "⿺辶苟",
+    "ref": "Z_SAT01418",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-8",
+    "char": "~𧀹",
+    "ref": "Z_SAT02663",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "7-9",
+    "char": "𨚿",
+    "ref": "Z_SAT60362",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-1",
+    "char": "~闒",
+    "ids": "⿵門昻",
+    "ref": "Z_SAT04946",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-2",
+    "char": "~𨻶",
+    "ref": "Z_SAT60374",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-3",
+    "char": "~𩟘",
+    "ids": "⿰飠烝",
+    "ref": "Z_SAT01589",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-4",
+    "char": "~驝",
+    "ref": "Z_SAT06917",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-5",
+    "char": "~鰥",
+    "ref": "Z_SAT02112",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-6",
+    "char": "~䳇",
+    "ids": "⿰𮯱鳥",
+    "ref": "Z_SAT01900",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-7",
+    "char": "~𪁬",
+    "ref": "Z_SAT02191",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-8",
+    "char": "~𪇔",
+    "ref": "Z_SAT60390",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "8-9",
+    "char": "~麗",
+    "ref": "Z_SAT60395",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "9-1",
+    "char": "𱋋",
+    "ref": "Z_SAT60397",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1925",
+    "no": "9-2",
+    "char": "~𪙍",
+    "ids": "⿰齒専",
+    "ref": "Z_SAT01939",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1926",
+    "no": "2-1",
+    "char": "𭄖",
+    "ref": "Z_SAT03677",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "2-2",
+    "char": "~𮇬",
+    "ids": "⿰𠤕籴",
+    "ref": "Z_SAT00771",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "2-3",
+    "char": "𭣫",
+    "ref": "Z_SAT05179",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "2-4",
+    "char": "𠶾",
+    "ref": "Z_SAT60314",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "2-5",
+    "char": "𭊹",
+    "ref": "Z_SAT60057",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "2-6",
+    "char": "𭋜",
+    "ref": "Z_SAT02677",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "2-7",
+    "char": "~𡂠",
+    "ref": "Z_SAT05290",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "2-8",
+    "char": "𭋦",
+    "ref": "Z_SAT05482",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-1",
+    "char": "𭌂",
+    "ref": "Z_SAT01635",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-2",
+    "char": "𭋝",
+    "ref": "Z_SAT04933",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-3",
+    "char": "𭌟",
+    "ref": "Z_SAT01692",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-4",
+    "char": "𭌖",
+    "ref": "Z_SAT03396",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-5",
+    "char": "𭌥",
+    "ref": "Z_SAT03979",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-6",
+    "char": "𭍉",
+    "ref": "Z_SAT04907",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-7",
+    "char": "𭐨",
+    "ref": "Z_SAT03491",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-8",
+    "char": "𭐵",
+    "ref": "Z_SAT03637",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "3-9",
+    "char": "𭷿",
+    "ref": "Z_SAT04388",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-1",
+    "char": "𭔥",
+    "ref": "Z_SAT04144",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-2",
+    "char": "𭔧",
+    "ref": "Z_SAT01333",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-3",
+    "char": "𭕳",
+    "ref": "Z_SAT01719",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-4",
+    "char": "𭕺",
+    "ref": "Z_SAT01718",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-5",
+    "char": "𭗡",
+    "ref": "Z_SAT01820",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-6",
+    "ids": "⿺包川",
+    "ref": "Z_SAT03564",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-7",
+    "char": "𭙼",
+    "ref": "Z_SAT05417",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-8",
+    "char": "𭚳",
+    "ref": "Z_SAT05414",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "4-9",
+    "char": "𭛈",
+    "ref": "Z_SAT00327",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-1",
+    "char": "~帚",
+    "ids": "⿳⺕冖豕",
+    "ref": "Z_SAT01059",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-2",
+    "char": "𭞱",
+    "ref": "Z_SAT05734",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-3",
+    "char": "𭟒",
+    "ref": "Z_SAT04046",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-4",
+    "char": "𭠃",
+    "ref": "Z_SAT04354",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-5",
+    "char": "𭡝",
+    "ref": "Z_SAT01909",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-6",
+    "char": "𭡉",
+    "ref": "Z_SAT02792",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-7",
+    "char": "𭢰",
+    "ref": "Z_SAT00653",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-8",
+    "char": "𭢳",
+    "ref": "Z_SAT01830",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "5-9",
+    "char": "𭢹",
+    "ref": "Z_SAT05341",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-1",
+    "char": "𫂵",
+    "ref": "Z_SAT05477",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-2",
+    "char": "𭦲",
+    "ref": "Z_SAT05177",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-3",
+    "char": "𭻡",
+    "ref": "Z_SAT04340",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-4",
+    "char": "~暨",
+    "ids": "⿱既且",
+    "ref": "Z_SAT60139",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-5",
+    "char": "𭫠",
+    "ref": "Z_SAT00853",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-6",
+    "char": "𭬗",
+    "ref": "Z_SAT05476",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-7",
+    "char": "𭬩",
+    "ref": "Z_SAT04160",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-8",
+    "char": "𮫩",
+    "ref": "Z_SAT80641",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "6-9",
+    "char": "𭭅",
+    "ref": "Z_SAT01737",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-1",
+    "char": "𭯛",
+    "ref": "Z_SAT01747",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-2",
+    "char": "𭯝",
+    "ref": "Z_SAT05355",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-3",
+    "char": "𭰂",
+    "ref": "Z_SAT60181",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-4",
+    "char": "𭱻",
+    "ref": "Z_SAT01580",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-5",
+    "char": "𭲝",
+    "ref": "Z_SAT06395",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-6",
+    "char": "𭳭",
+    "ref": "Z_SAT00838",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-7",
+    "char": "濓",
+    "ref": "Z_SAT01739",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-8",
+    "char": "𭵔",
+    "ref": "Z_SAT02628",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "7-9",
+    "char": "𭶏",
+    "ref": "Z_SAT05372",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-1",
+    "char": "𰢎",
+    "ref": "Z_SAT03320",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-2",
+    "char": "𭺘",
+    "ref": "Z_SAT00072",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-3",
+    "char": "𮁿",
+    "ref": "Z_SAT60235",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-4",
+    "char": "𮂄",
+    "ref": "Z_SAT04387",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-5",
+    "char": "𮈻",
+    "ref": "Z_SAT02111",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-6",
+    "char": "𮉉",
+    "ref": "Z_SAT05328",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-7",
+    "char": "𮉐",
+    "ref": "Z_SAT60275",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-8",
+    "char": "𮉘",
+    "ref": "Z_SAT05003",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "8-9",
+    "char": "𭧀",
+    "ref": "Z_SAT03442",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-1",
+    "char": "𮋏",
+    "ref": "Z_SAT01855",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-2",
+    "char": "𮋥",
+    "ref": "Z_SAT05226",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-3",
+    "char": "𮌵",
+    "ref": "Z_SAT04041",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-4",
+    "char": "𮍃",
+    "ref": "Z_SAT05514",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-5",
+    "char": "𮍟",
+    "ref": "Z_SAT00271",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-6",
+    "char": "𮎬",
+    "ref": "Z_SAT03709",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-7",
+    "char": "𮏝",
+    "ref": "Z_SAT04971",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-8",
+    "char": "𮏷",
+    "ref": "Z_SAT03972",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "9-9",
+    "char": "𮏰",
+    "ref": "Z_SAT05460",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-1",
+    "char": "𮏨",
+    "ref": "Z_SAT60310",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-2",
+    "char": "𮐗",
+    "ref": "Z_SAT04122",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-3",
+    "char": "𮐺",
+    "ref": "Z_SAT03042",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-4",
+    "char": "𮑗",
+    "ref": "Z_SAT03974",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-5",
+    "char": "𮑯",
+    "ref": "Z_SAT05404",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-6",
+    "char": "𮑹",
+    "ref": "Z_SAT60318",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-7",
+    "char": "𮑾",
+    "ref": "Z_SAT02056",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-8",
+    "char": "𮗋",
+    "ref": "Z_SAT04924",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "10-9",
+    "char": "𮘬",
+    "ref": "Z_SAT04937",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-1",
+    "char": "𮚞",
+    "ref": "Z_SAT02554",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-2",
+    "char": "𮜨",
+    "ref": "Z_SAT05557",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-3",
+    "char": "𮟉",
+    "ref": "Z_SAT05735",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-4",
+    "char": "𮟛",
+    "ref": "Z_SAT04320",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-5",
+    "char": "𮠌",
+    "ref": "Z_SAT01926",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-6",
+    "char": "𮠇",
+    "ref": "Z_SAT02226",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-7",
+    "char": "𮣨",
+    "ref": "Z_SAT03991",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-8",
+    "char": "𮣼",
+    "ref": "Z_SAT03530",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "11-9",
+    "char": "𮤅",
+    "ref": "Z_SAT02147",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-1",
+    "char": "~𨴕",
+    "ref": "Z_SAT60372",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-2",
+    "char": "𮥭",
+    "ref": "Z_SAT02625",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-3",
+    "char": "𮧢",
+    "ref": "Z_SAT03085",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-4",
+    "char": "𮧡",
+    "ref": "Z_SAT04925",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-5",
+    "char": "𮪯",
+    "ref": "Z_SAT00324",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-6",
+    "char": "𮭂",
+    "ref": "Z_SAT05378",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-7",
+    "char": "𮬿",
+    "ref": "Z_SAT06651",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-8",
+    "char": "𮭚",
+    "ref": "Z_SAT02145",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1926",
+    "no": "12-9",
+    "char": "𮮅",
+    "ref": "Z_SAT60396",
+    "comment": "S glyph update"
+  },
+  {
+    "doc": "1936",
+    "no": "6-1",
+    "char": "𰻞",
+    "ref": "UTC-00791",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-2",
+    "char": "鿔",
+    "ref": "UTC-00953",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-3",
+    "char": "鿕",
+    "ref": "UTC-00954",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-4",
+    "char": "鿓",
+    "ref": "UTC-00957",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-5",
+    "char": "鿒",
+    "ref": "UTC-00958",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-6",
+    "char": "鿑",
+    "ref": "UTC-00959",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-7",
+    "char": "𭈵",
+    "ref": "UTC-00960",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-8",
+    "char": "𭊁",
+    "ref": "UTC-00961",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-9",
+    "char": "𰇒",
+    "ref": "UTC-00962",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-10",
+    "char": "𰇘",
+    "ref": "UTC-00963",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-11",
+    "char": "𰇡",
+    "ref": "UTC-00964",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-12",
+    "char": "𰈶",
+    "ref": "UTC-00965",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-13",
+    "char": "𰈏",
+    "ref": "UTC-00966",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-14",
+    "char": "𭉪",
+    "ref": "UTC-00967",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "6-15",
+    "char": "𰈹",
+    "ref": "UTC-00968",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "7-1",
+    "char": "鿏",
+    "ref": "UTC-01171",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "7-2",
+    "char": "𰈒",
+    "ref": "UTC-01172",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "7-3",
+    "char": "𭨒",
+    "ref": "UTC-01173",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-1",
+    "char": "𰀂",
+    "ref": "UTC-00969",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-2",
+    "char": "𰀈",
+    "ref": "UTC-00970",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-3",
+    "char": "𰀉",
+    "ref": "UTC-00971",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-4",
+    "char": "𰁓",
+    "ref": "UTC-00972",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-5",
+    "char": "𰁡",
+    "ref": "UTC-00973",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-6",
+    "char": "𰁬",
+    "ref": "UTC-00974",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-7",
+    "char": "𰁲",
+    "ref": "UTC-00975",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-8",
+    "char": "𭀦",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-9",
+    "char": "𰃝",
+    "ref": "UTC-00977",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-10",
+    "char": "𰄝",
+    "ref": "UTC-00978",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-11",
+    "char": "𰅉",
+    "ref": "UTC-00979",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-12",
+    "char": "𰅊",
+    "ref": "UTC-00980",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-13",
+    "char": "𰅰",
+    "ref": "UTC-00981",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-14",
+    "char": "𰅴",
+    "ref": "UTC-00982",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-15",
+    "char": "𰅹",
+    "ref": "UTC-00983",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-16",
+    "char": "𰆊",
+    "ref": "UTC-00984",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-17",
+    "char": "𰆖",
+    "ref": "UTC-00985",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-18",
+    "char": "𰆳",
+    "ref": "UTC-00986",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-19",
+    "char": "𰆻",
+    "ref": "UTC-00987",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-20",
+    "char": "𰇢",
+    "ref": "UTC-00988",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-21",
+    "char": "𰇰",
+    "ref": "UTC-00989",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-22",
+    "char": "𰉰",
+    "ref": "UTC-00990",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "10-23",
+    "char": "𰋙",
+    "ref": "UTC-00991",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-24",
+    "char": "𰋛",
+    "ref": "UTC-00992",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-25",
+    "char": "𰋜",
+    "ref": "UTC-00993",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-26",
+    "char": "𰋞",
+    "ref": "UTC-00791",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-27",
+    "char": "𰋷",
+    "ref": "UTC-00995",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-28",
+    "char": "𰋻",
+    "ref": "UTC-00996",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-29",
+    "char": "𰌵",
+    "ref": "UTC-00997",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-30",
+    "char": "𰌻",
+    "ref": "UTC-00998",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-31",
+    "char": "𰍎",
+    "ref": "UTC-00999",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-32",
+    "char": "𰍰",
+    "ref": "UTC-01000",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-33",
+    "char": "𰍱",
+    "ref": "UTC-01001",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-34",
+    "char": "𭙏",
+    "ref": "UTC-01002",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-35",
+    "char": "𰐉",
+    "ref": "UTC-00971",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-36",
+    "char": "𰐔",
+    "ref": "UTC-01004",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-37",
+    "char": "𫜹",
+    "ref": "UTC-01005",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-38",
+    "char": "𰐺",
+    "ref": "UTC-01006",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-39",
+    "char": "𭜌",
+    "ref": "UTC-01007",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-40",
+    "char": "𰐿",
+    "ref": "UTC-01008",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-41",
+    "char": "𰑊",
+    "ref": "UTC-01009",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-42",
+    "char": "𰑌",
+    "ref": "UTC-01010",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-43",
+    "char": "𰑐",
+    "ref": "UTC-01011",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-44",
+    "char": "𰑝",
+    "ref": "UTC-01012",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-45",
+    "char": "𰑞",
+    "ref": "UTC-01013",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-46",
+    "char": "𰓌",
+    "ref": "UTC-01014",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "11-47",
+    "char": "𰓢",
+    "ref": "UTC-01015",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-48",
+    "char": "𰓣",
+    "ref": "UTC-01016",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-49",
+    "char": "𰓨",
+    "ref": "UTC-01017",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-50",
+    "char": "𰓭",
+    "ref": "UTC-01018",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-51",
+    "char": "𰕺",
+    "ref": "UTC-01019",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-52",
+    "char": "𰗑",
+    "ref": "UTC-01020",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-53",
+    "char": "𰗝",
+    "ref": "UTC-01021",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-54",
+    "char": "𰗶",
+    "ref": "UTC-01022",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-55",
+    "char": "𰙽",
+    "ref": "UTC-01023",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-56",
+    "char": "~毀",
+    "ids": "⿰圼殳",
+    "ref": "UTC-01024",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-57",
+    "char": "𰛑",
+    "ref": "UTC-01025",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-58",
+    "char": "𰛓",
+    "ref": "UTC-01026",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-59",
+    "char": "𰛬",
+    "ref": "UTC-01027",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-60",
+    "char": "𰜈",
+    "ref": "UTC-01028",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-61",
+    "char": "𭳿",
+    "ref": "UTC-01029",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-62",
+    "char": "𰝶",
+    "ref": "UTC-01030",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-63",
+    "char": "𰠱",
+    "ref": "UTC-01031",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-64",
+    "char": "𰡂",
+    "ref": "UTC-01032",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-65",
+    "char": "𰣲",
+    "ref": "UTC-01033",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-66",
+    "char": "𰥌",
+    "ref": "UTC-01034",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-67",
+    "char": "𰥕",
+    "ref": "UTC-01035",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-68",
+    "char": "𰥩",
+    "ref": "UTC-01036",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-69",
+    "char": "𰦓",
+    "ref": "UTC-01037",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "12-70",
+    "char": "𰦪",
+    "ref": "UTC-01038",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-71",
+    "char": "𰦫",
+    "ref": "UTC-01039",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-72",
+    "char": "𰨛",
+    "ref": "UTC-01040",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-73",
+    "char": "𮂹",
+    "ref": "UTC-01041",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-74",
+    "char": "𰩢",
+    "ref": "UTC-01042",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-75",
+    "char": "𰪩",
+    "ref": "UTC-01043",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-76",
+    "char": "𰪱",
+    "ref": "UTC-01044",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-77",
+    "char": "𰫾",
+    "ref": "UTC-01045",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-78",
+    "char": "𰬄",
+    "ref": "UTC-01046",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-79",
+    "char": "𰬊",
+    "ref": "UTC-01047",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-80",
+    "char": "𰬕",
+    "ref": "UTC-01048",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-81",
+    "char": "𰭃",
+    "ref": "UTC-01049",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-82",
+    "char": "𰭋",
+    "ref": "UTC-01050",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-83",
+    "char": "𰭝",
+    "ref": "UTC-01051",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-84",
+    "char": "𰯶",
+    "ref": "UTC-01052",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-85",
+    "char": "𰰡",
+    "ref": "UTC-01053",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-86",
+    "char": "𰰫",
+    "ref": "UTC-01054",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-87",
+    "char": "𰲽",
+    "ref": "UTC-01055",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-88",
+    "char": "𰳇",
+    "ref": "UTC-00315",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-89",
+    "char": "𰵋",
+    "ref": "UTC-01057",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-90",
+    "char": "𰵕",
+    "ref": "UTC-01035",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-91",
+    "char": "𰵟",
+    "ref": "UTC-01059",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-92",
+    "char": "𰷟",
+    "ref": "UTC-01060",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-93",
+    "char": "𰷣",
+    "ref": "UTC-01061",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "13-94",
+    "char": "𰸁",
+    "ref": "UTC-01062",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-95",
+    "char": "𰸄",
+    "ref": "UTC-01063",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-96",
+    "char": "𰹰",
+    "ref": "UTC-00990",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-97",
+    "char": "𰹹",
+    "ref": "UTC-01065",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-98",
+    "char": "𰼃",
+    "ref": "UTC-01066",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-99",
+    "char": "𰽙",
+    "ref": "UTC-01067",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-100",
+    "char": "𰽟",
+    "ref": "UTC-01068",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-101",
+    "char": "𰽤",
+    "ref": "UTC-01069",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-102",
+    "char": "𰾂",
+    "ref": "UTC-01070",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-103",
+    "char": "𱂪",
+    "ref": "UTC-01071",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-104",
+    "char": "𱅌",
+    "ref": "UTC-01034",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-105",
+    "char": "𱅑",
+    "ref": "UTC-01073",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-106",
+    "char": "𰗣",
+    "ref": "UTC-01061",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-107",
+    "char": "𰃷",
+    "ref": "UTC-01075",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-108",
+    "char": "𭄛",
+    "ref": "UTC-01076",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-109",
+    "char": "𭘓",
+    "ref": "UTC-01077",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-110",
+    "char": "𭚦",
+    "ref": "UTC-01078",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-111",
+    "char": "𫼝",
+    "ref": "UTC-00042",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-112",
+    "char": "𭣇",
+    "ref": "UTC-01080",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-113",
+    "char": "𭪆",
+    "ref": "UTC-01081",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-114",
+    "char": "𭱊",
+    "ref": "UTC-01082",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-115",
+    "char": "𰟘",
+    "ref": "UTC-01083",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-116",
+    "char": "𭹜",
+    "ref": "UTC-01084",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-117",
+    "char": "𰧉",
+    "ref": "UTC-01085",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "14-118",
+    "char": "𮆏",
+    "ref": "UTC-01086",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-119",
+    "char": "𮉡",
+    "ref": "UTC-01087",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-120",
+    "char": "𮉢",
+    "ref": "UTC-01088",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-121",
+    "char": "𮉤",
+    "ref": "UTC-01089",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-122",
+    "char": "𮉧",
+    "ref": "UTC-01090",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-123",
+    "char": "𮉨",
+    "ref": "UTC-01091",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-124",
+    "char": "𮉪",
+    "ref": "UTC-01092",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-125",
+    "char": "𮉫",
+    "ref": "UTC-01093",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-126",
+    "char": "𮉬",
+    "ref": "UTC-01094",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-127",
+    "char": "𮉯",
+    "ref": "UTC-01095",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-128",
+    "char": "𰱱",
+    "ref": "UTC-01096",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-129",
+    "char": "𮐨",
+    "ref": "UTC-01097",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-130",
+    "char": "𮔂",
+    "ref": "UTC-01098",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-131",
+    "char": "𮔅",
+    "ref": "UTC-01099",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-132",
+    "char": "𮔊",
+    "ref": "UTC-01100",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-133",
+    "char": "𮖁",
+    "ref": "UTC-01101",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-134",
+    "char": "𮖱",
+    "ref": "UTC-01102",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-135",
+    "char": "𬣙",
+    "ref": "UTC-00071",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-136",
+    "char": "𰵝",
+    "ref": "UTC-01104",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-137",
+    "char": "𰵴",
+    "ref": "UTC-00982",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-138",
+    "char": "𮙊",
+    "ref": "UTC-01106",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-139",
+    "char": "𮙋",
+    "ref": "UTC-01107",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-140",
+    "char": "𭕆",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-141",
+    "char": "𰷠",
+    "ref": "UTC-01109",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-142",
+    "char": "𰷥",
+    "ref": "UTC-01110",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "15-143",
+    "char": "𮝴",
+    "ref": "UTC-01111",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-144",
+    "char": "𮝵",
+    "ref": "UTC-01112",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-145",
+    "char": "𮝸",
+    "ref": "UTC-01113",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-146",
+    "char": "𮝺",
+    "ref": "UTC-01114",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-147",
+    "char": "𮝹",
+    "ref": "UTC-01115",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-148",
+    "char": "𮠞",
+    "ref": "UTC-01116",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-149",
+    "char": "𮣲",
+    "ref": "UTC-01117",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-150",
+    "char": "𮣳",
+    "ref": "UTC-01118",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-151",
+    "char": "鿭",
+    "ref": "UTC-00120",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-152",
+    "char": "𮣴",
+    "ref": "UTC-01120",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-153",
+    "char": "𮣵",
+    "ref": "UTC-01121",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-154",
+    "char": "𮣶",
+    "ref": "UTC-01122",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-155",
+    "char": "𮣷",
+    "ref": "UTC-01123",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-156",
+    "char": "𮤲",
+    "ref": "UTC-01124",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-157",
+    "char": "𮧴",
+    "ref": "UTC-01125",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-158",
+    "char": "𮧵",
+    "ref": "UTC-01126",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-159",
+    "char": "𱂨",
+    "ref": "UTC-01127",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-160",
+    "char": "𱂯",
+    "ref": "UTC-01128",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-161",
+    "char": "𱂱",
+    "ref": "UTC-01129",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-162",
+    "char": "𱂻",
+    "ref": "UTC-01130",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-163",
+    "char": "𮩛",
+    "ref": "UTC-01131",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-164",
+    "char": "𱃺",
+    "ref": "UTC-01132",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-165",
+    "char": "𱅈",
+    "ref": "UTC-01133",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-166",
+    "char": "𮪣",
+    "ref": "UTC-01134",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-167",
+    "char": "𮪥",
+    "ref": "UTC-01135",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "16-168",
+    "char": "𮫂",
+    "ref": "UTC-01136",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-169",
+    "char": "𮬝",
+    "ref": "UTC-01137",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-170",
+    "char": "𮬜",
+    "ref": "UTC-01138",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-171",
+    "char": "𮬞",
+    "ref": "UTC-01139",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-172",
+    "char": "𮬟",
+    "ref": "UTC-01140",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-173",
+    "char": "𮬠",
+    "ref": "UTC-01141",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-174",
+    "char": "𮬡",
+    "ref": "UTC-01142",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-175",
+    "char": "𮬢",
+    "ref": "UTC-01143",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-176",
+    "char": "𮬣",
+    "ref": "UTC-01144",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-177",
+    "char": "𮬤",
+    "ref": "UTC-01145",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-178",
+    "char": "𱉔",
+    "ref": "UTC-01146",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-179",
+    "char": "𮭥",
+    "ref": "UTC-01147",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-180",
+    "char": "𬷕",
+    "ref": "UTC-00117",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-181",
+    "char": "𮭦",
+    "ref": "UTC-01149",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-182",
+    "char": "𱊈",
+    "ref": "UTC-01150",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-183",
+    "char": "𮭨",
+    "ref": "UTC-01151",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-184",
+    "char": "𮭪",
+    "ref": "UTC-01152",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-185",
+    "char": "𮯙",
+    "ref": "UTC-01153",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-186",
+    "char": "𬺈",
+    "ref": "UTC-00013",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-187",
+    "char": "𰉋",
+    "ref": "UTC-01155",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-188",
+    "char": "𰌖",
+    "ref": "UTC-01156",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-189",
+    "char": "𰕎",
+    "ref": "UTC-01157",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-190",
+    "char": "𰙝",
+    "ref": "UTC-01158",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-191",
+    "char": "𱰭",
+    "ref": "UTC-01159",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-192",
+    "char": "𰤍",
+    "ref": "UTC-00420",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "17-193",
+    "char": "~築",
+    "ref": "UTC-01161",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-194",
+    "char": "𱹼",
+    "ref": "UTC-01162",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-195",
+    "char": "𰭈",
+    "ref": "UTC-01163",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-196",
+    "char": "𰮼",
+    "ref": "UTC-01164",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-197",
+    "char": "𰲈",
+    "ref": "UTC-01165",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-198",
+    "char": "𧱏",
+    "ref": "UTC-01166",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-199",
+    "char": "~𰷚",
+    "ref": "UTC-01167",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-200",
+    "char": "𰸷",
+    "ref": "UTC-01168",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-201",
+    "char": "𱁐",
+    "ref": "UTC-01011",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-202",
+    "char": "𱁫",
+    "ref": "UTC-01170",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-203",
+    "char": "鿏",
+    "ref": "UTC-01171",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-204",
+    "char": "鿔",
+    "ref": "UTC-00120",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-205",
+    "char": "𰇒",
+    "evi": "this",
+    "ref": "UTC-00962",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-206",
+    "char": "𰇘",
+    "evi": "this",
+    "ref": "UTC-00963",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-207",
+    "char": "𰇡",
+    "evi": "this",
+    "ref": "UTC-00964",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-208",
+    "char": "𭈵",
+    "evi": "this",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-209",
+    "char": "𰈏",
+    "evi": "this",
+    "ref": "UTC-00966",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-210",
+    "char": "𭉪",
+    "evi": "this",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-211",
+    "char": "𭊁",
+    "evi": "this",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-212",
+    "char": "𰈶",
+    "evi": "this",
+    "ref": "UTC-00965",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-213",
+    "char": "𰈹",
+    "evi": "this",
+    "ref": "UTC-00968",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-214",
+    "char": "𰈒",
+    "evi": "this",
+    "ref": "UTC-01172",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-215",
+    "char": "𭨒",
+    "evi": "this",
+    "ref": "UTC-01173",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-216",
+    "char": "𱆥",
+    "ref": "UTC-00955",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-217",
+    "char": "鿕",
+    "evi": "this",
+    "ref": "UTC-00120",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "18-218",
+    "char": "𱇮",
+    "evi": "this",
+    "ref": "UTC-00956",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-219",
+    "char": "鿓",
+    "evi": "this",
+    "ref": "UTC-00120",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-220",
+    "char": "鿒",
+    "evi": "this",
+    "ref": "UTC-00120",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-221",
+    "char": "𰱀",
+    "evi": "this",
+    "ref": "UTC-01174",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-222",
+    "char": "𰱩",
+    "evi": "this",
+    "ref": "UTC-01175",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-223",
+    "char": "𰱓",
+    "evi": "this",
+    "ref": "UTC-00972",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-224",
+    "char": "𰱧",
+    "evi": "this",
+    "ref": "UTC-01177",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-225",
+    "char": "鿑",
+    "evi": "this",
+    "ref": "UTC-00120",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1936",
+    "no": "19-226",
+    "char": "𰉞",
+    "evi": "this",
+    "ref": "UTC-01178",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1938",
+    "no": "1-1",
+    "char": "鿀",
+    "evi": "this",
+    "ref": "UTC-00839",
+    "comment": "unify"
+  },
+  {
+    "doc": "1938",
+    "no": "1-2",
+    "char": "~𣍄",
+    "evi": "this",
+    "ref": "GKX-1393.07",
+    "comment": "unify"
+  },
+  {
+    "doc": "1938",
+    "no": "1-3",
+    "char": "~𠣸",
+    "ids": "𰋏",
+    "evi": "this",
+    "ref": "GKX-0369.24",
+    "comment": "unify"
+  },
+  {
+    "doc": "1938",
+    "no": "1-4",
+    "char": "~𣢟",
+    "evi": "this",
+    "ref": "GKX-0567.03",
+    "comment": "unify"
+  },
+  {
+    "doc": "1938",
+    "no": "2-1",
+    "char": "~𣠹",
+    "evi": "this",
+    "ref": "GKX-0563.27",
+    "comment": "unify"
+  },
+  {
+    "doc": "1938",
+    "no": "2-2",
+    "char": "~𣬎",
+    "ids": "⿱𭯍夬",
+    "evi": "this",
+    "ref": "GKX-0591.13",
+    "comment": "unify"
+  },
+  {
+    "doc": "1938",
+    "no": "7-1",
+    "char": "~𣬐",
+    "ids": "𣬔",
+    "evi": "this",
+    "ref": "GKX-0591.17",
+    "comment": "GHZ analysis"
+  },
+  {
+    "doc": "1938",
+    "no": "12-1",
+    "char": "𫢋",
+    "evi": "this@The proposal incorrectly assumes that |𫢋| shoule be unified to [仸], when in fact |仸| in the evidence should be unified to [𫢋]≠[仸].",
+    "ref": "V04-4071",
+    "comment": "disunify"
+  },
+  {
+    "doc": "1948",
+    "no": "1-1",
+    "char": "鿀",
+    "ref": "UTC-00839",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1948",
+    "no": "1-2",
+    "char": "~𣍄",
+    "ref": "GKX-1393.07",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1948",
+    "no": "1-3",
+    "char": "~𠣸",
+    "ref": "GKX-0369.24",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1948",
+    "no": "1-4",
+    "char": "~𣢟",
+    "ref": "GKX-0567.03",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1948",
+    "no": "2-1",
+    "char": "~𣠹",
+    "ref": "GKX-0563.27",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1948",
+    "no": "2-2",
+    "char": "~𣬎",
+    "ref": "GKX-0591.13",
+    "comment": "withdraw"
+  },
+  {
+    "doc": "1948",
+    "no": "2-3",
+    "char": "𫴬",
+    "ref": "V4-462F",
+    "comment": "RS update"
+  },
+  {
+    "doc": "1954",
+    "no": "5-1",
+    "char": "鿦",
+    "evi": "this@equivalent to vin (вин) as in Навин (Nun)",
+    "ref": "UTC-01179",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-2",
+    "char": "鿤",
+    "evi": "this@equivalent to ge (ге) as in Нигер (Niger)",
+    "ref": "UTC-01180",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-3",
+    "char": "鿚",
+    "evi": "this@equivalent to gi (ги) as in Сергия (Sergius)",
+    "ref": "UTC-01181",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-4",
+    "char": "鿣",
+    "evi": "this@equivalent to ke (ке) as in Кесария (Caesarea)",
+    "ref": "UTC-01182",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-5",
+    "char": "鿙",
+    "evi": "this@equivalent to ki (ки) as in Езекия (Hezekiah)",
+    "ref": "UTC-01183",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-6",
+    "char": "鿜",
+    "evi": "this@equivalent to ra (ра) as in Израиль (Israel)",
+    "ref": "UTC-01184",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-7",
+    "char": "鿥",
+    "evi": "this@equivalent to ran (ран) as in Аран (Haran)",
+    "ref": "UTC-01185",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-8",
+    "char": "鿞",
+    "evi": "this@equivalent to re (ре) as in Назарет (Nazareth)",
+    "ref": "UTC-01186",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-9",
+    "char": "鿝",
+    "evi": "this@equivalent to ren (рен) as in Терентий (Terence)",
+    "ref": "UTC-01187",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-10",
+    "char": "鿨",
+    "evi": "this@equivalent to reia (рея) as in назареянин (Nazarene)",
+    "ref": "UTC-01188",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-11",
+    "char": "鿠",
+    "evi": "this@equivalent to ri (ри) as in Христос (Christ); can also represent a final l in Japanese transcriptions",
+    "ref": "UTC-01189",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-12",
+    "char": "鿟",
+    "evi": "this@simplified variant of 鿠, same usage as the traditional ri",
+    "ref": "UTC-01190",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-13",
+    "char": "鿛",
+    "evi": "this@equivalent to rin (рин) as in Коринф (Corinth)",
+    "ref": "UTC-01191",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-14",
+    "char": "鿡",
+    "evi": "this@equivalent to ro (ро) as in романский (Roman)",
+    "ref": "UTC-01192",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-15",
+    "char": "鿧",
+    "evi": "this@equivalent to ron (рон) as in Аарон (Aaron)",
+    "ref": "UTC-01193",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-16",
+    "char": "鿩",
+    "evi": "this@equivalent to ru (ру) as in Иерусалим (Jerusalem)",
+    "ref": "UTC-01194",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-17",
+    "char": "鿢",
+    "evi": "this@equivalent to khe (хе) as in Сихем (Shechem)",
+    "ref": "UTC-01195",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-18",
+    "char": "鿘",
+    "evi": "this@equivalent to khi (хи) as in Мелхий (Melchi)",
+    "ref": "UTC-01196",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-19",
+    "char": "鿖",
+    "evi": "this@abbreviation for the word Christ (Христос, Khristos)",
+    "ref": "UTC-01197",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1954",
+    "no": "5-20",
+    "char": "鿗",
+    "evi": "this@abbreviation for the word Jesus (Иисус, Iisus)",
+    "ref": "UTC-01198",
+    "comment": "U UNC repertoire"
+  },
+  {
+    "doc": "1967",
+    "no": "1-1",
+    "char": "鿍",
+    "evi": "this@《通用规范汉字表》第 6774 号。$王宁，《通用规范汉字字典》，北京：商务印书馆，2013 年，第 108 页。",
+    "ref": "G_GFZ108",
+    "comment": "G UNC repertoire"
+  },
+  {
+    "doc": "1967",
+    "no": "2-1",
+    "char": "鿎",
+    "evi": "this@《通用规范汉字表》第 7146 号。$王宁，《通用规范汉字字典》，北京：商务印书馆，2013 年，第 61 页和第 355 页。$李行健（主编），《现代汉语规范词典》（第二版），北京：外语教学与研究出版社，2010 年，第 236 页。",
+    "ref": "G_GFC022",
+    "comment": "G UNC repertoire"
+  },
+  {
+    "doc": "1967",
+    "no": "3-1",
+    "char": "鿏",
+    "evi": "this@《通用规范汉字表》第 7373 号。$王宁，《通用规范汉字字典》，北京：商务印书馆，2013 年，第 243 页。$李行健（主编），《现代汉语规范词典》（第二版），北京：外语教学与研究出版社，2010 年，第 883 页。",
+    "ref": "G_GFC059",
+    "comment": "G UNC repertoire"
+  },
+  {
+    "doc": "1981",
+    "no": "1-1",
+    "char": "𭅃",
+    "evi": "this@《新大字典》第 1367 号。",
+    "ref": "JMJ057075",
+    "comment": "no withdraw"
+  },
+  {
+    "doc": "1983",
+    "no": "1-1",
+    "char": "𪤯",
+    "ref": "GZJW-00827",
+    "comment": "G glyph update"
+  },
+  {
+    "doc": "1992",
+    "no": "1-1",
+    "char": "𫮍",
+    "ref": "JMJ-059453",
+    "comment": "unify"
+  },
+  {
+    "doc": "1992",
+    "no": "1-2",
+    "char": "𬇠",
+    "ref": "KA-KC01992",
+    "comment": "unify"
+  },
+  {
+    "doc": "1992",
+    "no": "1-3",
+    "char": "𬋖",
+    "ref": "KA-KC05339",
+    "comment": "unify"
+  },
+  {
+    "doc": "1992",
+    "no": "1-4",
+    "char": "𬦌",
+    "ref": "JMJ-060209",
+    "comment": "unify"
+  },
+  {
+    "doc": "1992",
+    "no": "2-1",
+    "char": "𬟓",
+    "ref": "Z_SAT01687",
+    "comment": "unify"
+  },
+  {
+    "doc": "1992",
+    "no": "2-2",
+    "char": "𬀷",
+    "ref": "Z_SAT60405",
+    "comment": "unify"
+  },
+  {
+    "doc": "1992",
+    "no": "2-3",
+    "char": "𫦱",
+    "ref": "JMJ-059384",
+    "comment": "unify"
+  }
 ]

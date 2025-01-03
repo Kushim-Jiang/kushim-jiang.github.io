@@ -21,9 +21,38 @@ category: tools
     tbody > tr > td:nth-child(6), tbody > tr > td:nth-child(4) {
         text-wrap-mode: nowrap;
     }
+    .evi-cell {
+        position: relative;
+    }
+    #pagination {
+        margin-top: 10px;
+    }
+    .page-button {
+        display: inline-block;
+        margin: 0 5px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #f9f9f9;
+    }
+    .page-button.active {
+        background-color: #007BFF;
+        color: white;
+    }
+    .page-button:hover {
+        background-color: #007BFF;
+        color: white;
+    }
+    .ellipsis {
+        margin: 0 5px;
+        color: #666;
+        cursor: default;
+    }
 </style>
 
 <input type="text" id="search-box" placeholder="Search..." oninput="filterRecords()">
+<span id="pagination"></span>
 <table id="results-table">
     <thead>
         <tr>
@@ -43,6 +72,9 @@ category: tools
 <script>
     let records = [];
     const keys = ['doc', 'no', 'char', 'ids', 'evi', 'ref', 'comment'];
+    const recordsPerPage = 20;
+    let currentPage = 1;
+    let filteredRecords = [];
 
     function loadRecords() {
         fetch("{{ '/assets/record.json' | relative_url }}")
@@ -53,7 +85,11 @@ category: tools
             .catch(error => console.error('Error loading records:', error));
     }
 
-    function displayRecords(recordsToDisplay) {
+    function displayRecords(page) {
+        const startIndex = (page - 1) * recordsPerPage;
+        const endIndex = startIndex + recordsPerPage;
+        const recordsToDisplay = filteredRecords.slice(startIndex, endIndex);
+
         const tableBody = document.querySelector('#results-table tbody');
         tableBody.innerHTML = '';
 
@@ -71,7 +107,8 @@ category: tools
                 } else if (key === 'evi' && value.includes('@')) {
                     const parts = value.split('@');
                     cell.textContent = parts[0];
-                    cell.title = parts[1];
+                    cell.style.color = "#4183c4";
+                    cell.title = parts[1].replace(/\$/g, "\n");
                 } else {
                     cell.textContent = value;
                 }
@@ -81,19 +118,83 @@ category: tools
         });
     }
 
+    function createPagination() {
+        const totalPages = Math.ceil(filteredRecords.length / recordsPerPage);
+        const paginationDiv = document.getElementById('pagination');
+        paginationDiv.innerHTML = '';
+
+        if (totalPages <= 1) return;
+
+        function addButton(page, label, isActive = false) {
+            const button = document.createElement('span');
+            button.textContent = label;
+            button.className = 'page-button';
+            if (isActive) {
+                button.classList.add('active');
+            }
+
+            button.addEventListener('click', () => {
+                currentPage = page;
+                displayRecords(currentPage);
+                createPagination();
+            });
+
+            paginationDiv.appendChild(button);
+        }
+
+        function addEllipsis() {
+            const ellipsis = document.createElement('span');
+            ellipsis.textContent = '...';
+            ellipsis.className = 'ellipsis';
+            paginationDiv.appendChild(ellipsis);
+        }
+
+        addButton(1, '1', currentPage === 1);
+
+        if (currentPage > 3) {
+            addEllipsis();
+        }
+
+        if (currentPage > 2) {
+            addButton(currentPage - 1, '<');
+        }
+
+        if (currentPage > 1) {
+            addButton(currentPage, currentPage.toString(), true);
+        }
+
+        if (currentPage < totalPages - 1) {
+            addButton(currentPage + 1, '>');
+        }
+
+        if (currentPage < totalPages - 2) {
+            addEllipsis();
+        }
+
+        if (currentPage < totalPages) {
+            addButton(totalPages, totalPages.toString(), currentPage === totalPages);
+        }
+    }
+
     function filterRecords() {
         const searchQuery = document.getElementById('search-box').value.toLowerCase();
+
         if (!searchQuery) {
             document.querySelector('#results-table tbody').innerHTML = '';
+            document.getElementById('pagination').innerHTML = '';
             return;
         }
-        const filteredRecords = records.filter(record => {
+
+        filteredRecords = records.filter(record => {
             return keys.some(key => {
                 const value = record[key] || '';
                 return value.toLowerCase().includes(searchQuery);
             });
         });
-        displayRecords(filteredRecords);
+
+        currentPage = 1;
+        displayRecords(currentPage);
+        createPagination();
     }
 
     loadRecords();
