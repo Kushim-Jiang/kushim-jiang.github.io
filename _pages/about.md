@@ -43,6 +43,8 @@ category: pages
     - **Kushim Jiang**. Proposal to update the reference glyphs for 3 characters. [IRG N2642 = L2/23-245](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg61/IRGN2642-update-3-characters.pdf).
   - `WS2024-00687`, `WS2024-00631`, `WS2024-01605`, `WS2024-02861`, `WS2024-00692`, `WS2024-00623`, `WS2024-00734`, `WS2024-01147`, `WS2024-00545`, `WS2024-00147`
     - **Kushim Jiang**. Proposal to add 10 characters used in Putian–Xianyou Puxianxi Opera to UAX #45. [L2/24-041](https://www.unicode.org/L2/L2024/24041-add-10-chars.pdf).
+  - `U+2A7E6`, `U+2AC61`, `WS2021-03268`, `U+31673`
+    - **Kushim Jiang**. Request for consideration to normalize 4 V-source characters. [IRG N2795](https://www.unicode.org/irg/docs/n2795-VSourceGlyphIssues.pdf).
 - **other topics**
   - IDC
     - <span style="color:#bbb">Yang Tao, Eiso Chan, Yifan Wang. Submission of 3 IDCes. [IRG N2273](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg49/IRGN2273Proposed3NewIDCs.pdf).</span>
