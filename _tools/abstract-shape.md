@@ -96,7 +96,7 @@ category: tools
                 if (record.char === searchQuery) {
                     cell.style.color = '#0066cc';
                 }
-                if (record.src1 && record.char === record.src1) {
+                if (record.src1 && (record.src1 === record.char || record.src1.startsWith(record.char + '('))) {
                     cell.style.fontWeight = '700';
                 }
             }
@@ -170,7 +170,7 @@ category: tools
         return [...new Set(str.split(''))].filter(c => c.trim() !== '');
     }
 
-     function filterRecords() {
+    function filterRecords() {
         const searchQuery = document.getElementById('search-box').value.trim().toLowerCase();
         if (!searchQuery) {
             document.querySelector('#results-table tbody').innerHTML = '';
@@ -182,39 +182,54 @@ category: tools
             record.char.toLowerCase().includes(searchQuery)
         );
 
-        const resultMap = new Map();
-        primaryMatches.forEach(record => resultMap.set(record.char, record));
-        const charQueue = [];
+        const addedRecords = new Set();
         const processedChars = new Set();
 
         primaryMatches.forEach(record => {
+            addedRecords.add(record);
             extractChars(record.src1 + record.src2).forEach(c => {
-                if (!processedChars.has(c)) {
-                    charQueue.push(c);
-                    processedChars.add(c);
+                const normalized = c.toLowerCase();
+                if (!processedChars.has(normalized)) {
+                    processedChars.add(normalized);
                 }
             });
         });
 
+        const charQueue = Array.from(processedChars);
         while (charQueue.length > 0) {
-            const currentChar = charQueue.shift().toLowerCase();
+            const currentChar = charQueue.shift();
             records.forEach(record => {
-                if (!resultMap.has(record.char) && 
-                    record.char.toLowerCase().includes(currentChar)) {
-                
-                    resultMap.set(record.char, record);
+                if (
+                    !addedRecords.has(record) &&
+                    record.char.toLowerCase().includes(currentChar)
+                ) {
+                    addedRecords.add(record);
                     extractChars(record.src1 + record.src2).forEach(c => {
                         const normalized = c.toLowerCase();
                         if (!processedChars.has(normalized)) {
-                            charQueue.push(normalized);
                             processedChars.add(normalized);
+                            charQueue.push(normalized);
                         }
                     });
                 }
             });
         }
 
-        filteredRecords = Array.from(resultMap.values());
+        const existingChars = new Set([...addedRecords].map(r => r.char.toLowerCase()));
+        records.forEach(record => {
+            if (addedRecords.has(record)) return;
+
+            const str1 = (record.str1 || '').toLowerCase();
+            const str2 = (record.str2 || '').toLowerCase();
+            const isMatch = [...existingChars].some(char => 
+                str1 === char || str2 === char ||
+                str1 === `=${char}` || str2 === `=${char}` ||
+                str1 === `*${char}` || str2 === `*${char}`
+            );
+            if (isMatch) addedRecords.add(record);
+        });
+
+        filteredRecords = [...addedRecords];
 
         currentPage = 1;
         displayRecords(currentPage, searchQuery);
@@ -222,12 +237,12 @@ category: tools
     }
 
     function extractChars(str) {
-    const chars = Array.from(str.normalize());    
-    return [...new Set(chars)].filter(c => {
-        const code = c.codePointAt(0);
-        return code > 0x1F && !/\s/.test(c) && !(code >= 0xD800 && code <= 0xDFFF);
-    });
-}
+        const chars = Array.from(str.normalize());    
+        return [...new Set(chars)].filter(c => {
+            const code = c.codePointAt(0);
+            return code > 0x1F && !/\s/.test(c) && !(code >= 0xD800 && code <= 0xDFFF);
+        });
+    }
 
     loadRecords();
 </script>
