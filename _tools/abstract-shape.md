@@ -93,7 +93,9 @@ category: tools
             cell.textContent = record[key] || '';
             
             if (key === 'char') {
-                if (record.char === searchQuery) {
+                if (searchQuery.split('').some(queryChar =>
+                    record.char.toLowerCase().includes(queryChar.toLowerCase())
+                )) {
                     cell.style.color = '#0066cc';
                 }
                 if (record.src1 && (record.src1 === record.char || record.src1.startsWith(record.char + '('))) {
@@ -179,7 +181,9 @@ category: tools
         }
 
         const primaryMatches = records.filter(record => 
-            record.char.toLowerCase().includes(searchQuery)
+            searchQuery.split('').some(char_ => 
+                record.char.toLowerCase().includes(char_)
+            )
         );
 
         const addedRecords = new Set();
