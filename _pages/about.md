@@ -61,6 +61,7 @@ category: pages
     - **Kushim Jiang**, Eiso Chan, Yi Bai, Tianheng Shen. Proposal to maintain an evidence collection system in ORT. [IRG N2607R](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg60/IRGN2607_evidence_collection.pdf).
   - CJK components
     - **Kushim Jiang**, Huidan Liu, Yang Tao. Preliminary proposal to encode 131 CJK components for GF 3001—1997 and GF 0014—2009. [IRG N2733R](https://www.unicode.org/irg/docs/n2733r-CJKComponents4IDS.pdf).
+    - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan. Updated proposal to encode CJKV components to UCS. [IRG N2799](https://www.unicode.org/irg/docs/n2799-CJKComponents4IDS.pdf).
 
 ### Latin
 
