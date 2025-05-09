@@ -94,8 +94,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Li / 黎文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1957-orthography), [1984 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1984-orthography), [2005 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-2005-orthography)) [`lic-Latn`](https://scriptsource.org/ws/lic-Latn) <span style="color:#bbb">▷ The 1957 version is based on the Ha dialect of Li language (侾方言, unencoded), and the revised versions seem to be no change in standard phonology.</span>
   - Axi Yi / 阿细拉丁化彝文 ([1953 version, 1956 version, 1986 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#axi-yi-written-with-latin-in-1953-orthography)) `yix-Latn`
   - Liangshan Yi / 新彝文 ([1951 version, 1956 version, 1975 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-1975-orthography), [2010 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-2010-orthography)) [`ii-Latn`](https://scriptsource.org/ws/ii-Latn)
-  - Daur / 达斡尔文 [`dta-Latn`](https://scriptsource.org/ws/dta-Latn)
-  - Derung / 独龙文 [`duu-Latn`](https://scriptsource.org/ws/duu-Latn)
+  - Daur / 达斡尔文 ([1920 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1920-orthography), [1928 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1928-orthography), [1981 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1981-orthography)) [`dta-Latn`](https://scriptsource.org/ws/dta-Latn)
+  - Derung / 独龙文 ([Rawang version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#rawang-written-with-latin-in-1963-orthography), [1983 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#derung-written-with-latin-in-1983-orthography)) [`duu-Latn`](https://scriptsource.org/ws/duu-Latn)
   - She / 拉丁景宁畲文 `shx-Latn`
   - Qiang / 拉丁羌文 [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu district, Mao county (茂县).</span>
   - Kazak / 哈萨克新文字, 拉丁哈萨克文 [`kk-Latn`](https://scriptsource.org/ws/kk-Latn)
@@ -105,6 +105,9 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Ewenki / 拉丁鄂温克文 [`evn-Latn`](https://scriptsource.org/ws/evn-Latn)
   - [Maonan / 毛南文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#maonan-written-with-latin-in-2015-orthography) [`mmd-Latn`](https://scriptsource.org/ws/mmd-Latn)
   - Nu / 怒语拼音方案 [`nuf-Latn`](https://scriptsource.org/ws/nuf-Latn) <span style="color:#bbb">▷ The 怒语拼音方案 is based on Nusu language `nuf` in Fugong (福贡), with due regard to other languages.</span>
+- Cyrillic script / 西里尔文字 [`Cyrl`](https://scriptsource.org/scr/Cyrl)
+  - Daur / 达斡尔文 ([1916 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1916-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1956-orthography)) [`dta-Cyrl`](https://scriptsource.org/ws/dta-Cyrl)
+  - Russ / 俄文 [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
 - Korean script / 朝鲜文字 [`Hang`](https://scriptsource.org/scr/Hang)
 - Tai Tham script / 西双版纳老傣文字 [`Lana`](https://scriptsource.org/scr/Lana)
   - To Tham / 多塔经文 [`khb-Lana`](https://scriptsource.org/ws/khb-Lana) <span style="color:#bbb">▷ The Blang, Deang, Khmu and Bonmit use To Tham, but there is no evidence that it is used to record their languages instead of Tai language.</span>
@@ -156,8 +159,6 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - [Khitan Small Script / 契丹小字](https://kushim-jiang.github.io/posts/2024-07-12-kss/) [`Kits`](https://scriptsource.org/scr/Kits)
 - Jurchen script / 女真文字 [`Jurc`](https://scriptsource.org/scr/Jurc)
 - hPhags-pa script / 八思巴字 [`Phag`](https://scriptsource.org/scr/Phag)
-- Cyrillic script / 西里尔文字 [`Cyrl`](https://scriptsource.org/scr/Cyrl)
-  - Russ / 俄文 [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
 - Lisu Zhushu script / 傈僳竹书
 - [Nüshu script / 女书](https://kushim-jiang.github.io/posts/2024-06-12-nushu/) [`Nshu`](https://scriptsource.org/scr/Nshu)
 - Bopomofo script / 注音字母 [`Bopo`](https://scriptsource.org/scr/Bopo)

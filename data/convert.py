@@ -1,58 +1,93 @@
 import csv
 import json
-import os
+from pathlib import Path
+
+repo_dir = Path(__file__).parent.parent
 
 
-def csv_to_json(csv_file="data/record.csv", json_file="assets/record.json"):
-    with open(csv_file, mode="r", encoding="utf-8-sig") as csv_f:
+def csv_to_json(
+    csv_file: Path = repo_dir / "data" / "record.csv",
+    json_file: Path = repo_dir / "assets" / "record.json",
+) -> None:
+    """Convert a CSV file to a JSON file."""
+    with csv_file.open("r", encoding="utf-8-sig") as csv_f:
         csv_reader = csv.DictReader(csv_f)
-        result = []
-        for row in csv_reader:
-            filtered_row = {key: value for key, value in row.items() if value}
-            result.append(filtered_row)
-        with open(json_file, mode="w", encoding="utf-8") as json_f:
-            json.dump(result, json_f, ensure_ascii=False, indent=2)
+        result = [{key: value for key, value in row.items() if value} for row in csv_reader]
+    with json_file.open("w", encoding="utf-8") as json_f:
+        json.dump(result, json_f, ensure_ascii=False, indent=2)
 
 
-def txt_to_json(txt_dir="../abstract-shape/input/", json_file="assets/abstract.json"):
+def txt_to_json(
+    txt_dir: Path = repo_dir.parent / "abstract-shape" / "input",
+    json_file: Path = repo_dir / "assets" / "abstract.json",
+) -> None:
+    """Convert multiple TXT files to a single JSON file."""
     file_names = ["main", "a", "b", "ci", "gh"]
+    replacements = {
+        "“": "「",
+        "”": "」",
+        "‘": "『",
+        "’": "』",
+        "SW": "《说文解字》",
+        "GY": "《广韵》",
+        "CY": "《常用漢字表》（日本）",
+        "ZG": "《中国语言资源保护工程汉语方言用字规范》",
+        "JY": "《集韵》",
+        "WS": "《和製漢字の辞典（2014）》",
+        "FY": "《汉语方言大字典》",
+    }
     result = []
+
     for file_name in file_names:
-        file_path = os.path.join(txt_dir, f"abstract_{file_name}.txt")
-        with open(file_path, "r", encoding="utf-8") as f:
-            while line := f.readline():
-                line = line.removesuffix("\n")
+        file_path = txt_dir / f"abstract_{file_name}.txt"
+        with file_path.open("r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
                 parts = line.split("\t") + [""] * 4
-                character, src_one, src_two, comment = parts[0], parts[1], parts[2], parts[3]
+                character, src_one, src_two, comment = parts[:4]
+
                 if src_one.startswith("*"):
-                    src_one = character + "(" + src_one.removeprefix("*") + ")"
+                    src_one = f"{character}({src_one.removeprefix('*')})"
                 if src_two.startswith("*"):
-                    src_two = character + "(" + src_two.removeprefix("*") + ")"
-                # parse comment
-                comment = (
-                    comment.replace("“", "「")
-                    .replace("”", "」")
-                    .replace("‘", "『")
-                    .replace("’", "』")
-                    .replace("SW", "《说文解字》")
-                    .replace("GY", "《广韵》")
-                    .replace("CY", "《常用漢字表》（日本）")
-                    .replace("ZG", "《中国语言资源保护工程汉语方言用字规范》")
-                    .replace("JY", "《集韵》")
-                    .replace("WS", "《和製漢字の辞典（2014）》")
-                    .replace("FY", "《汉语方言大字典》")
-                )
-                # write
+                    src_two = f"{character}({src_two.removeprefix('*')})"
+
+                for old, new in replacements.items():
+                    comment = comment.replace(old, new)
+
                 entry = {"char": character, "src1": src_one}
                 if src_two:
                     entry["src2"] = src_two
                 if comment:
                     entry["comm"] = comment
                 result.append(entry)
-    with open(json_file, "w", encoding="utf-8") as f:
+
+    with json_file.open("w", encoding="utf-8") as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
+
+
+def md_to_yaml(
+    md_dir: Path = repo_dir / "_scripts",
+    data_dir: Path = repo_dir / "data_yaml",
+) -> None:
+    """Convert Markdown files to YAML files."""
+    md_files = md_dir.glob("*.md")
+
+    for md_file in md_files:
+        with md_file.open(encoding="utf-8") as file:
+            lines = file.readlines()
+
+        yaml_file = data_dir / md_file.with_suffix(".yaml").name
+        with yaml_file.open("w", encoding="utf-8") as file:
+            for line in lines:
+                if line.startswith("!["):
+                    image_name = line.split("](")[0].split("![")[1]
+                    file.write(f"\n{image_name}:\n")
+                elif "<div class=" in line:
+                    content = [item.split(">")[-1] for item in line.split("</p>")]
+                    file.write(f"  - [.{content[0]}, .{content[1]}]\n")
 
 
 if __name__ == "__main__":
     csv_to_json()
     txt_to_json()
+    md_to_yaml()
