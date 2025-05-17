@@ -96,7 +96,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Liangshan Yi / 新彝文 ([1951 version, 1956 version, 1975 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-1975-orthography), [2010 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-2010-orthography)) [`ii-Latn`](https://scriptsource.org/ws/ii-Latn)
   - Daur / 达斡尔文 ([1920 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1920-orthography), [1928 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1928-orthography), [1981 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1981-orthography)) [`dta-Latn`](https://scriptsource.org/ws/dta-Latn)
   - Derung / 独龙文 ([Rawang version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#rawang-written-with-latin-in-1963-orthography), [1983 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#derung-written-with-latin-in-1983-orthography)) [`duu-Latn`](https://scriptsource.org/ws/duu-Latn)
-  - She / 拉丁景宁畲文 `shx-Latn`
+  - [She / 畲文, 畲语拼音方案](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#she-written-with-latin-in-2015-orthography) `shx-Latn`
   - Qiang / 拉丁羌文 [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu district, Mao county (茂县).</span>
   - Kazak / 哈萨克新文字, 拉丁哈萨克文 [`kk-Latn`](https://scriptsource.org/ws/kk-Latn)
   - Uygur / 维吾尔新文字, 拉丁维吾尔文 [`ug-Latn`](https://scriptsource.org/ws/ug-Latn)
@@ -105,6 +105,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Ewenki / 拉丁鄂温克文 [`evn-Latn`](https://scriptsource.org/ws/evn-Latn)
   - [Maonan / 毛南文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#maonan-written-with-latin-in-2015-orthography) [`mmd-Latn`](https://scriptsource.org/ws/mmd-Latn)
   - Nu / 怒语拼音方案 [`nuf-Latn`](https://scriptsource.org/ws/nuf-Latn) <span style="color:#bbb">▷ The 怒语拼音方案 is based on Nusu language `nuf` in Fugong (福贡), with due regard to other languages.</span>
+  - Ersu / 尔苏文, 尔苏语拼音转写方案 `ers-Latn`
 - Cyrillic script / 西里尔文字 [`Cyrl`](https://scriptsource.org/scr/Cyrl)
   - Daur / 达斡尔文 ([1916 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1916-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1956-orthography)) [`dta-Cyrl`](https://scriptsource.org/ws/dta-Cyrl)
   - Russ / 俄文 [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
