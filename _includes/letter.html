@@ -1,0 +1,8 @@
+<div class="mod">
+    <p
+        class="let {{ include.script | downcase }} {% if include.letter == '-' or include.letter == '?' or include.letter-red %} red {% endif %}">
+        {{ include.letter }}
+    </p>
+    <p class="tra">{{ include.code }}</p>
+    <p class="pho ipa {% if include.read == '*' %} red {% endif %}">{{ include.read }}</p>
+</div>

@@ -1,0 +1,57 @@
+.mod {
+  margin: 10px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Gentium";
+  src: url("/assets/fonts/GentiumPlus-Regular.woff");
+}
+
+@font-face {
+  font-family: "Doulos";
+  src: url("/assets/fonts/DoulosSIL-Regular.woff");
+}
+
+@font-face {
+  font-family: "Urdu";
+  src: url("/assets/fonts/NotoNastaliqUrdu-Regular.ttf");
+}
+
+.latn,
+.cyrl {
+  font-family: "Doulos";
+}
+
+.aran {
+  font-family: "Urdu";
+}
+
+.ipa {
+  font-family: "Gentium";
+}
+
+.let,
+.tra,
+.pho {
+  line-height: 1;
+  white-space: nowrap;
+  place-self: center;
+}
+
+.let {
+  font-size: 160%;
+}
+
+.red {
+  color: indianred;
+}
+
+.tra {
+  font-style: italic;
+}

@@ -1,0 +1,38 @@
+{% assign script = include.script %}
+{% assign language = include.language %}
+{% assign year = include.year %}
+
+{% if language %}
+  {% assign languages = language | split: ' ' %}
+{% else %}
+  {% assign languages = nil %}
+{% endif %}
+
+<p>
+{% if script and languages and year %}
+  {% for lang in languages %}
+    {% if lang == "mis" %}
+      {% assign color = "lightgrey" %}
+    {% else %}
+      {% assign color = "blue" %}
+    {% endif %}
+    <img src="https://img.shields.io/badge/Writing_System-{{ lang }}--{{ script }}--{{ year }}-{{ color }}.svg"
+         alt="{{ lang }}-{{ script }}-{{ year }}" />
+  {% endfor %}
+{% elsif languages %}
+  {% for lang in languages %}
+    {% if lang == "mis" %}
+      {% assign color = "lightgrey" %}
+    {% else %}
+      {% assign color = "blue" %}
+    {% endif %}
+    <a href="https://scriptsource.org/lang/{{ lang }}">
+      <img src="https://img.shields.io/badge/ISO_639--3-{{ lang }}-{{ color }}.svg" alt="ISO 639-3" />
+    </a>
+  {% endfor %}
+{% elsif script %}
+  <a href="https://scriptsource.org/scr/{{ script }}">
+    <img src="https://img.shields.io/badge/ISO_15924-{{ script }}-blue.svg" alt="ISO 15924" />
+  </a>
+{% endif %}
+</p>
