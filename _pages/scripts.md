@@ -107,11 +107,11 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Nu / 怒语拼音方案 [`nuf-Latn`](https://scriptsource.org/ws/nuf-Latn) <span style="color:#bbb">▷ The 怒语拼音方案 is based on Nusu language `nuf` in Fugong (福贡), with due regard to other languages.</span>
   - Ersu / 尔苏文, 尔苏语拼音转写方案 `ers-Latn`
 - Cyrillic script / 西里尔文字 [`Cyrl`](https://scriptsource.org/scr/Cyrl)
-  - Daur / 达斡尔文 ([w1916 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1916-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1956-orthography)) [`dta-Cyrl`](https://scriptsource.org/ws/dta-Cyrl)
-  - Uygur / 维吾尔文 [`ug-Cyrl`](https://scriptsource.org/ws/ug-Cyrl)
-  - Kazak / 哈萨克文 [`kk-Cyrl`](https://scriptsource.org/ws/kk-Cyrl)
-  - Mongolian / 蒙古文 [`mn-Cyrl`](https://scriptsource.org/ws/mn-Cyrl)
+  - Daur / 达斡尔文 ([1916 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1916-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1956-orthography)) [`dta-Cyrl`](https://scriptsource.org/ws/dta-Cyrl)
+  - [Uygur / 维吾尔文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#uygur-written-with-cyrillic-in-1957-orthography) [`ug-Cyrl`](https://scriptsource.org/ws/ug-Cyrl)
+  - [Kazak / 哈萨克文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#kazak-written-with-cyrillic-in-1957-orthography) [`kk-Cyrl`](https://scriptsource.org/ws/kk-Cyrl)
   - Kirgiz / 柯尔克孜文 [`ky-Cyrl`](https://scriptsource.org/ws/ky-Cyrl)
+  - Mongolian / 蒙古文 [`mn-Cyrl`](https://scriptsource.org/ws/mn-Cyrl)
   - Sibe / 锡伯文 [`sjo-Cyrl`](https://scriptsource.org/ws/sjo-Cyrl)
   - Russ / 俄文 [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
 - Korean script / 朝鲜文字 [`Hang`](https://scriptsource.org/scr/Hang)
