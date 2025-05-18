@@ -97,7 +97,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Daur / 达斡尔文 ([1920 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1920-orthography), [1928 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1928-orthography), [1981 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1981-orthography)) [`dta-Latn`](https://scriptsource.org/ws/dta-Latn)
   - Derung / 独龙文 ([Rawang version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#rawang-written-with-latin-in-1963-orthography), [1983 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#derung-written-with-latin-in-1983-orthography)) [`duu-Latn`](https://scriptsource.org/ws/duu-Latn)
   - [She / 畲文, 畲语拼音方案](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#she-written-with-latin-in-2015-orthography) `shx-Latn`
-  - Qiang / 拉丁羌文 [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu district, Mao county (茂县).</span>
+  - Qiang / 拉丁羌文 (1958 version, [1993 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#qiang-written-with-latin-in-1993-orthography)) [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu town (赤不苏镇), Mao county (茂县).</span>
   - Kazak / 哈萨克新文字, 拉丁哈萨克文 [`kk-Latn`](https://scriptsource.org/ws/kk-Latn)
   - Uygur / 维吾尔新文字, 拉丁维吾尔文 [`ug-Latn`](https://scriptsource.org/ws/ug-Latn)
   - Han / 汉语拼音 [`zh-Latn`](https://scriptsource.org/ws/zh-Latn)

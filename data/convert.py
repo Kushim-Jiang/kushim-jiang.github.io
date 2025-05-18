@@ -2,6 +2,8 @@ import csv
 import json
 from pathlib import Path
 
+import yaml
+
 repo_dir = Path(__file__).parent.parent
 
 
@@ -69,22 +71,34 @@ def md_to_yaml(
     md_dir: Path = repo_dir / "_scripts",
     data_dir: Path = repo_dir / "data_yaml",
 ) -> None:
-    """Convert Markdown files to YAML files."""
-    md_files = md_dir.glob("*.md")
+    """Convert Markdown files to YAML files, grouping by last part of stem."""
+
+    md_files: list[Path] = list(md_dir.glob("*.md"))
+    grouped_content: dict[str, list[dict[str, list[list[str]]]]] = {}
 
     for md_file in md_files:
+        key: str = md_file.stem.split("-")[-1]
+        entries: list[dict[str, list[list[str]]]] = []
         with md_file.open(encoding="utf-8") as file:
-            lines = file.readlines()
+            lines: list[str] = file.readlines()
+        current_image: str | None = None
 
-        yaml_file = data_dir / md_file.with_suffix(".yaml").name
+        for line in lines:
+            if line.startswith("!["):
+                image_name: str = line.split("](")[0].split("![")[1]
+                current_image = image_name
+                entries.append({image_name: []})
+            elif "<div class=" in line and current_image:
+                content: list[str] = [item.split(">")[-1] for item in line.split("</p>")]
+                entries[-1][current_image].append([f".{content[0]}", f".{content[1]}"])
+        if key not in grouped_content:
+            grouped_content[key] = []
+        grouped_content[key].extend(entries)
+
+    for key, content in grouped_content.items():
+        yaml_file: Path = data_dir / f"{key}.yaml"
         with yaml_file.open("w", encoding="utf-8") as file:
-            for line in lines:
-                if line.startswith("!["):
-                    image_name = line.split("](")[0].split("![")[1]
-                    file.write(f"\n{image_name}:\n")
-                elif "<div class=" in line:
-                    content = [item.split(">")[-1] for item in line.split("</p>")]
-                    file.write(f"  - [.{content[0]}, .{content[1]}]\n")
+            yaml.dump(content, file, allow_unicode=True, sort_keys=False, indent=2)
 
 
 if __name__ == "__main__":
