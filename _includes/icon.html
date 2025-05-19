@@ -17,7 +17,7 @@
       {% assign color = "blue" %}
     {% endif %}
     <img src="https://img.shields.io/badge/Writing_System-{{ lang }}--{{ script }}--{{ year }}-{{ color }}.svg"
-         alt="{{ lang }}-{{ script }}-{{ year }}" />
+         alt="writing system: {{ lang }}-{{ script }}-{{ year }}" />
   {% endfor %}
 {% elsif languages %}
   {% for lang in languages %}
@@ -27,12 +27,12 @@
       {% assign color = "blue" %}
     {% endif %}
     <a href="https://scriptsource.org/lang/{{ lang }}">
-      <img src="https://img.shields.io/badge/ISO_639--3-{{ lang }}-{{ color }}.svg" alt="ISO 639-3" />
+      <img src="https://img.shields.io/badge/ISO_639--3-{{ lang }}-{{ color }}.svg" alt="language: {{ lang }}" />
     </a>
   {% endfor %}
 {% elsif script %}
   <a href="https://scriptsource.org/scr/{{ script }}">
-    <img src="https://img.shields.io/badge/ISO_15924-{{ script }}-blue.svg" alt="ISO 15924" />
+    <img src="https://img.shields.io/badge/ISO_15924-{{ script }}-blue.svg" alt="script: {{ script }}" />
   </a>
 {% endif %}
 </p>
