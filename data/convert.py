@@ -1,8 +1,8 @@
 import csv
 import json
+import re
+from collections import OrderedDict
 from pathlib import Path
-
-import yaml
 
 repo_dir = Path(__file__).parent.parent
 
@@ -67,41 +67,48 @@ def txt_to_json(
         json.dump(result, f, ensure_ascii=False, indent=2)
 
 
-def md_to_yaml(
+def md_to_json(
     md_dir: Path = repo_dir / "_scripts",
-    data_dir: Path = repo_dir / "data_yaml",
+    json_file: Path = repo_dir / "assets" / "scripts.json",
 ) -> None:
-    """Convert Markdown files to YAML files, grouping by last part of stem."""
+    """Convert all Markdown files to a single JSON file, extracting letter.html includes and grouping by icon key."""
 
     md_files: list[Path] = list(md_dir.glob("*.md"))
-    grouped_content: dict[str, list[dict[str, list[list[str]]]]] = {}
+    result: dict[str, list[dict[str, str]]] = {}
+
+    icon_re = re.compile(r"""{%\s*include\s+icon\.html\s+([^%]+)%}""")
+    letter_re = re.compile(r"""{%\s*include\s+letter\.html\s+([^%]+)%}""")
+    param_re = re.compile(r'(\w+)="([^"]*)"')
 
     for md_file in md_files:
-        key: str = md_file.stem.split("-")[-1]
-        entries: list[dict[str, list[list[str]]]] = []
+        current_key = None
         with md_file.open(encoding="utf-8") as file:
-            lines: list[str] = file.readlines()
-        current_image: str | None = None
+            for line in file:
+                icon_m = icon_re.search(line)
+                if icon_m:
+                    params = dict(param_re.findall(icon_m.group(1)))
+                    language = params.get("language", "")
+                    script = params.get("script", "")
+                    year = params.get("year", "")
+                    key_parts = [language, script, year]
+                    key = "-".join([part for part in key_parts if part])
+                    current_key = key if key else None
+                    continue
 
-        for line in lines:
-            if line.startswith("!["):
-                image_name: str = line.split("](")[0].split("![")[1]
-                current_image = image_name
-                entries.append({image_name: []})
-            elif "<div class=" in line and current_image:
-                content: list[str] = [item.split(">")[-1] for item in line.split("</p>")]
-                entries[-1][current_image].append([f".{content[0]}", f".{content[1]}"])
-        if key not in grouped_content:
-            grouped_content[key] = []
-        grouped_content[key].extend(entries)
+                letter_m = letter_re.search(line)
+                if letter_m and current_key:
+                    params = dict(param_re.findall(letter_m.group(1)))
+                    if current_key not in result:
+                        result[current_key] = []
+                    result[current_key].append(params)
 
-    for key, content in grouped_content.items():
-        yaml_file: Path = data_dir / f"{key}.yaml"
-        with yaml_file.open("w", encoding="utf-8") as file:
-            yaml.dump(content, file, allow_unicode=True, sort_keys=False, indent=2)
+    ordered = OrderedDict(sorted(result.items()))
+    json_file.parent.mkdir(parents=True, exist_ok=True)
+    with json_file.open("w", encoding="utf-8") as file:
+        json.dump(ordered, file, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
     csv_to_json()
     txt_to_json()
-    md_to_yaml()
+    md_to_json()

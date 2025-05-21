@@ -113,6 +113,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - [Kirgiz / 柯尔克孜文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#kirgiz-written-with-cyrillic-in-1957-orthography) [`ky-Cyrl`](https://scriptsource.org/ws/ky-Cyrl)
   - [Mongolian / 蒙古文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#mongolian-written-with-cyrillic-in-1957-orthography) [`xal-Cyrl`](https://scriptsource.org/ws/xal-Cyrl)
   - [Sibe / 锡伯文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#sibe-written-with-cyrillic-in-1957-orthography) [`sjo-Cyrl`](https://scriptsource.org/ws/sjo-Cyrl)
+  - [Uzbek / 乌孜别克文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#uzbek-written-with-cyrillic-in-1957-orthography) [`uz-Cyrl`](https://scriptsource.org/ws/uz-Cyrl)
+  - [Tatar / 塔塔尔文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#tatar-written-with-cyrillic-in-1957-orthography) [`tt-Cyrl`](https://scriptsource.org/ws/tt-Cyrl)
   - [Russ / 俄文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#russian-written-with-cyrillic-in-1700-orthography) [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
 - Korean script / 朝鲜文字 [`Hang`](https://scriptsource.org/scr/Hang)
 - Tai Tham script / 西双版纳老傣文字 [`Lana`](https://scriptsource.org/scr/Lana)
@@ -181,7 +183,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - Braille pattern / 盲文 [`Brai`](https://scriptsource.org/scr/Brai)
   - Han / 汉语拼音盲文 [`zh-Brai`](https://scriptsource.org/ws/zh-Brai)
 
-## A List of Symbols
+## A List of Chinese Symbols
 
 - pre-script symbols / 前文字现象
   - Liangzhu symbols / 良渚图符
