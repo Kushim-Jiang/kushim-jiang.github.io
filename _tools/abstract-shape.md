@@ -5,248 +5,345 @@ category: tools
 ---
 
 <style>
-    table, th, td {
-        border-collapse: collapse;
-        padding: 5px;
-    }
-    th {
-        text-align: left;
-    }
     input[type="text"] {
         padding: 8px;
         margin-bottom: 10px;
         width: 300px;
     }
-    .evi-cell {
-        position: relative;
-    }
-    #pagination {
-        margin-top: 10px;
-    }
-    .page-button {
-        display: inline-block;
-        margin: 0 5px;
-        padding: 5px 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        cursor: pointer;
-        background-color: #f9f9f9;
-    }
-    .page-button.active {
-        background-color: #007BFF;
-        color: white;
-    }
-    .page-button:hover {
-        background-color: #007BFF;
-        color: white;
-    }
-    .ellipsis {
-        margin: 0 5px;
-        color: #666;
-        cursor: default;
+
+    code {
+        font-size: 1em !important;
     }
 </style>
 
-<input type="text" id="search-box" placeholder="Search..." oninput="filterRecords()">
-<span id="pagination"></span>
-<table id="results-table">
-    <thead>
-        <tr>
-            <th>Character</th>
-            <th colspan="2">Abstract Shape</th>
-            <th>Comment</th>
-        </tr>
-    </thead>
-    <tbody>
-    </tbody>
-</table>
+<input type="text" id="search-box" placeholder="Search..." oninput="handleInput()">
 
 <script>
-    let records = [];
-    const keys = ['char', 'src1', 'src2', 'comm'];
-    const recordsPerPage = 20;
-    let currentPage = 1;
-    let filteredRecords = [];
+    let ENTRIES = [];
+    let VARIANTS = {};
 
     function loadRecords() {
         fetch("{{ '/assets/abstract.json' | relative_url }}")
             .then(response => response.json())
             .then(data => {
-                records = data;
+                ENTRIES = Array.isArray(data.entries) ? data.entries : [];
+                VARIANTS = typeof data.variants === 'object' ? data.variants : {};
             })
-            .catch(error => console.error('Error loading records:', error));
+            .catch(error => console.error('Error loading ENTRIES:', error));
     }
 
-    function displayRecords(page, searchQuery) {
-        const startIndex = (page - 1) * recordsPerPage;
-        const endIndex = startIndex + recordsPerPage;
-        const recordsToDisplay = filteredRecords.slice(startIndex, endIndex);
-
-        const tableBody = document.querySelector('#results-table tbody');
-        tableBody.innerHTML = '';
-
-        recordsToDisplay.forEach(record => {
-        const row = document.createElement('tr');
-        
-        keys.forEach(key => {
-            const cell = document.createElement('td');
-            cell.textContent = record[key] || '';
-            
-            if (key === 'char') {
-                if (searchQuery.split('').some(queryChar =>
-                    record.char.toLowerCase().includes(queryChar.toLowerCase())
-                )) {
-                    cell.style.color = '#0066cc';
-                }
-                if (record.src1 && (record.src1 === record.char || record.src1.startsWith(record.char + '('))) {
-                    cell.style.fontWeight = '700';
-                }
-            }
-            
-            row.appendChild(cell);
-        });
-
-        tableBody.appendChild(row);
-    });
-    }
-
-    function createPagination(searchQuery) {
-        const totalPages = Math.ceil(filteredRecords.length / recordsPerPage);
-        const paginationDiv = document.getElementById('pagination');
-        paginationDiv.innerHTML = '';
-
-        if (totalPages <= 1) return;
-
-        function addButton(page, label, isActive = false) {
-            const button = document.createElement('span');
-            button.textContent = label;
-            button.className = 'page-button';
-            if (isActive) {
-                button.classList.add('active');
-            }
-
-            button.addEventListener('click', () => {
-                currentPage = page;
-                displayRecords(currentPage, searchQuery);
-                createPagination();
-            });
-
-            paginationDiv.appendChild(button);
-        }
-
-        function addEllipsis() {
-            const ellipsis = document.createElement('span');
-            ellipsis.textContent = '...';
-            ellipsis.className = 'ellipsis';
-            paginationDiv.appendChild(ellipsis);
-        }
-
-        addButton(1, '1', currentPage === 1);
-
-        if (currentPage > 3) {
-            addEllipsis();
-        }
-
-        if (currentPage > 2) {
-            addButton(currentPage - 1, '<');
-        }
-
-        if (currentPage > 1) {
-            addButton(currentPage, currentPage.toString(), true);
-        }
-
-        if (currentPage < totalPages - 1) {
-            addButton(currentPage + 1, '>');
-        }
-
-        if (currentPage < totalPages - 2) {
-            addEllipsis();
-        }
-
-        if (currentPage < totalPages) {
-            addButton(totalPages, totalPages.toString(), currentPage === totalPages);
-        }
-    }
-
-    function extractUniqueChars(str) {
-        return [...new Set(str.split(''))].filter(c => c.trim() !== '');
-    }
-
-    function filterRecords() {
-        const searchQuery = document.getElementById('search-box').value.trim().toLowerCase();
-        if (!searchQuery) {
-            document.querySelector('#results-table tbody').innerHTML = '';
-            document.getElementById('pagination').innerHTML = '';
+    async function handleInput() {
+        const val = document.getElementById('search-box').value;
+        if (!val.trim()) {
+            document.getElementById('results-blocks').innerHTML = '';
             return;
         }
 
-        const primaryMatches = records.filter(record => 
-            searchQuery.split('').some(char_ => 
-                record.char.toLowerCase().includes(char_)
-            )
-        );
+        await loadRecords();
+        const charsSet = new Set(Array.from(val).filter(c => c.trim() !== ''));
+        let visitedCharsSet = new Set();
+        const chars = Array.from(charsSet).sort((a, b) => a.codePointAt(0) - b.codePointAt(0));
+        createBlocksForInput(chars, charsSet, visitedCharsSet);
+    }
 
-        const addedRecords = new Set();
-        const processedChars = new Set();
+    function emphasize(str, charsSet) {
+        if (!str) return '';
+        return Array.from(String(str)).map(c => 
+            charsSet.has(c) ? `<span style="color:#1976d2;">${c}</span>` : c
+        ).join('');
+    }
 
-        primaryMatches.forEach(record => {
-            addedRecords.add(record);
-            extractChars(record.src1 + record.src2).forEach(c => {
-                const normalized = c.toLowerCase();
-                if (!processedChars.has(normalized)) {
-                    processedChars.add(normalized);
-                }
-            });
-        });
+    function extractBrackets(str) {
+        if (typeof str !== 'string') return [];
+        return str.match(/\[[^\]]+\]/g) || [];
+    }
 
-        const charQueue = Array.from(processedChars);
-        while (charQueue.length > 0) {
-            const currentChar = charQueue.shift();
-            records.forEach(record => {
-                if (
-                    !addedRecords.has(record) &&
-                    record.char.toLowerCase().includes(currentChar)
-                ) {
-                    addedRecords.add(record);
-                    extractChars(record.src1 + record.src2).forEach(c => {
-                        const normalized = c.toLowerCase();
-                        if (!processedChars.has(normalized)) {
-                            processedChars.add(normalized);
-                            charQueue.push(normalized);
-                        }
+    /*****************************
+     * @args `entry`, an entry from `abstract.json > entries`
+     * @args `div`, a `div` element to show the abstract shape expression
+     ****************************/
+    function writeExpression(entry, div) {
+        if (entry.ids) {
+            div.innerHTML += `<code>|${entry.char}| &lt; ${entry.ids}</code>`;
+        } else if (entry.is) {
+            div.innerHTML += `<code>|${entry.char}| → |${entry.is}|</code>`;
+        } else {
+            div.innerHTML += `<code>|${entry.char}|</code>`;
+        }
+        if (entry.refer) {
+            div.innerHTML += `<code> ~ ${entry.refer}</code>`;
+        }
+        if (entry.to) {
+            div.innerHTML += `<code> * |${entry.to}|</code>`;
+        }
+        
+        if (entry.note) {
+            const noteDiv = document.createElement('div');
+            noteDiv.textContent = entry.note;
+            noteDiv.style.marginLeft = '2em';
+            noteDiv.style.color = '#666';
+            noteDiv.style.fontSize = '0.95em';
+            div.appendChild(document.createElement('br'));
+            div.appendChild(noteDiv);
+        }
+    }
+
+    /*****************************
+     * @args `abs_ids`: str, an decomposed abstract IDS included in the `abstract.json > variants`
+     * @args `block`: <div>, a `div` element to show the abstract shape expression
+     * @args `charsSet`: set[str], a set built from user input
+     * @args `size`: float, specifies the `font-size`
+     * @args `isIdsShown`: bool, whether to show the IDS
+     ****************************/
+    function writeTitle(block, abs_ids, charsSet, size, isIdsShown) {
+        let variantStr = VARIANTS[abs_ids] || '';
+        let [str1, str2 = ''] = variantStr.split('@');
+
+        const title = document.createElement('span');
+        let str1Style = `font-weight:bold;font-size:${size}em;`;
+
+        const emphasizedStr1 = emphasize(str1, charsSet);
+        let str2Arr = str2 ? str2.split(',') : [];
+        const emphasizedStr2 = str2Arr.length > 0
+            ? str2Arr.map(s => emphasize(s.trim(), charsSet)).join(', ')
+            : '';
+
+        title.innerHTML =
+            `<span style="${str1Style}">${emphasizedStr1}</span>` +
+            (str2 ? ` <span style="font-size:${size}em;color:#666;">(${emphasizedStr2})</span>` : '');
+        if (isIdsShown) {
+            title.innerHTML += ` <span style="font-size:1em;vertical-align:middle;"><code>${abs_ids}</code></span>`;
+        }
+        block.appendChild(title);
+    }
+
+    /*****************************
+     * @args `abs_ids`: str, an decomposed abstract IDS included in the `abstract.json > variants`
+     * @args `entry`, an entry from `abstract.json > entries`
+     * @args `charsSet`: set[str], a set built from user input
+     * @args `size`: float, specifies the `font-size`
+     * @args `isIdsShown`: bool, whether to show the IDS
+     ****************************/
+    function writeX(block, entry, charsSet, size, isIdsShown) {
+        const str1 = entry.char;
+        const str2 = '';
+        const abs_ids = 'X';
+
+        const title = document.createElement('span');
+        let str1Style = `font-weight:bold;font-size:${size}em;`;
+
+        const emphasizedStr1 = emphasize(str1, charsSet);
+        let str2Arr = str2 ? str2.split(',') : [];
+        const emphasizedStr2 = str2Arr.length > 0
+            ? str2Arr.map(s => emphasize(s.trim(), charsSet)).join(', ')
+            : '';
+        
+        title.innerHTML =
+            `<span style="${str1Style}">${emphasizedStr1}</span>` +
+            (str2 ? ` <span style="font-size:${size}em;color:#666;">(${emphasizedStr2})</span>` : '');
+        if (isIdsShown) {
+            title.innerHTML += ` <span style="font-size:1em;vertical-align:middle;"><code>${abs_ids}</code></span>`;
+        }
+        block.appendChild(title);
+
+        if (entry.note) {
+            const noteDiv = document.createElement('div');
+            noteDiv.textContent = entry.note;
+            noteDiv.style.marginLeft = '2em';
+            noteDiv.style.color = '#666';
+            noteDiv.style.fontSize = '0.95em';
+            block.appendChild(document.createElement('br'));
+            block.appendChild(noteDiv);
+        }
+    }
+
+    /*****************************
+     * create a `div` according to an entry from `abstract.json > entries`
+     * the `div` include the expression and the note
+     ****************************/
+    function createEntryDiv(entry) {
+        const div = document.createElement('div');
+        div.style.marginTop = '8px';
+        div.style.padding = '6px';
+        div.style.border = '1px solid #f0f0f0';
+        div.style.borderRadius = '6px';
+        div.style.background = '#fafcff';
+
+        writeExpression(entry, div);
+        return div;
+    }
+
+    /*****************************
+     * create a `div` according to an entry from `abstract.json > entries`
+     * the `div` include the title (with expression) and many `div` for all the variants
+     ****************************/
+    function createSubBlock(subEntry, charsSet, visitedCharsSet) {
+        let abs_ids = subEntry.new_ids || subEntry.ids;
+        const variantStr = VARIANTS[abs_ids] || '';
+        let [str1, str2 = ''] = variantStr.split('@');
+
+        const block = document.createElement('div');
+        block.style.marginLeft = `2em`;
+        block.style.marginTop = '4px';
+        block.style.padding = '4px 4px 4px 8px';
+        block.style.borderLeft = '2px solid rgb(224,224,224)';
+        block.style.background = '#f6f8fa';
+
+        if (abs_ids) {
+            writeTitle(block, abs_ids, charsSet, 1.2, true);
+            block.appendChild(document.createElement('br'));
+        } else {
+            writeX(block, subEntry, charsSet, 1.2, true);
+        }
+
+        if (abs_ids) {
+            const relatedEntries = ENTRIES.filter(item =>
+                item.ids === abs_ids || item.new_ids === abs_ids || (item.is && variantStr.includes(item.is))
+            );
+
+            let idsList = [abs_ids];
+            relatedEntries.forEach(item => {
+                block.appendChild(createEntryDiv(item));
+                if (item.refer) idsList.push(item.refer);
+                if (item.to) {
+                    Object.entries(VARIANTS).forEach(([k, value]) => {
+                        if (value.includes(item.to)) idsList.push(k);
                     });
                 }
             });
+            createSubBlocks(idsList, charsSet, visitedCharsSet, block);
         }
+        return block;
+    }
 
-        const existingChars = new Set([...addedRecords].map(r => r.char.toLowerCase()));
-        records.forEach(record => {
-            if (addedRecords.has(record)) return;
+    /*****************************
+     * recursively create all the sub-blocks for a list of decomposed IDS
+     ****************************/
+    function createSubBlocks(ids, charsSet, visitedCharsSet, parentDiv) {
+        if (!ids) return;
+        const brackets = Array.isArray(ids) ? ids.filter(Boolean) : [ids];
 
-            const str1 = (record.str1 || '').toLowerCase();
-            const str2 = (record.str2 || '').toLowerCase();
-            const isMatch = [...existingChars].some(char => 
-                str1 === char || str2 === char ||
-                str1 === `=${char}` || str2 === `=${char}` ||
-                str1 === `*${char}` || str2 === `*${char}`
+        // search for refer
+        brackets.forEach(bracketStr => {
+            const variantStr = VARIANTS[bracketStr] || '';
+            const subEntries = ENTRIES.filter(r =>
+                variantStr.includes(r.char) && !visitedCharsSet.has(r.new_ids || r.ids)
             );
-            if (isMatch) addedRecords.add(record);
+
+            subEntries.forEach(subEntry => {
+                visitedCharsSet.add(subEntry.new_ids || subEntry.ids);
+                if (subEntry.new_ids || subEntry.ids) {
+                    parentDiv.appendChild(createSubBlock(subEntry, charsSet, visitedCharsSet));
+                }
+
+                const sub_ids = subEntry.new_ids || subEntry.ids;
+                if (sub_ids) {
+                    createSubBlocks(sub_ids, charsSet, visitedCharsSet, parentDiv.lastChild);
+                }
+            });
         });
 
-        filteredRecords = [...addedRecords];
+        // search for complex ids
+        brackets.forEach(bracketStr => {
+            // bracketStr is an abs_ids
+            const subEntries = ENTRIES.filter(r =>
+                (bracketStr.includes(r.ids) && r.ids !== `[${r.char}]` && !visitedCharsSet.has(r.new_ids || r.ids))
+            );
+            if (subEntries) {
+                subEntries.forEach(subEntry => {
+                    visitedCharsSet.add(subEntry.new_ids || subEntry.ids);
+                    parentDiv.appendChild(createSubBlock(subEntry, charsSet, visitedCharsSet));
+                    
+                    sub_ids = subEntry.new_ids || subEntry.ids;
+                    if (sub_ids) {
+                        createSubBlocks(subEntry.new_ids || subEntry.ids, charsSet, visitedCharsSet, parentDiv.lastChild);
+                    }
+                })
+            }
+        })
+        
+        // search for simple ids
+        brackets.forEach(bracketStr => {
+            // bracketStr is an abs_ids
+            const subEntries = ENTRIES.filter(r =>
+                (((bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) === `[${r.char}]`) || 
+                (bracketStr.includes(`[${r.char}]`) && r.x)) && !visitedCharsSet.has(r.new_ids || r.ids))
+            );
+            if (subEntries) {
+                subEntries.forEach(subEntry => {
+                    visitedCharsSet.add(subEntry.new_ids || subEntry.ids);
+                    parentDiv.appendChild(createSubBlock(subEntry, charsSet, visitedCharsSet));
 
-        currentPage = 1;
-        displayRecords(currentPage, searchQuery);
-        createPagination(searchQuery);
+                    sub_ids = subEntry.new_ids || subEntry.ids;
+                    if (sub_ids) {
+                        createSubBlocks(subEntry.new_ids || subEntry.ids, charsSet, visitedCharsSet, parentDiv.lastChild);
+                    }
+                })
+            }
+        })
     }
 
-    function extractChars(str) {
-        const chars = Array.from(str.normalize());    
-        return [...new Set(chars)].filter(c => {
-            const code = c.codePointAt(0);
-            return code > 0x1F && !/\s/.test(c) && !(code >= 0xD800 && code <= 0xDFFF);
+    /*****************************
+     * create a `div` block according to a key-value pair from `abstract.json > variants`
+     * the key is the decomposed abstract shape expression, the values is main form @ variant forms
+     ****************************/
+    function createBlock(abs_ids, char, charsSet, visitedCharsSet, container) {
+        if (visitedCharsSet.has(abs_ids)) return;
+        visitedCharsSet.add(abs_ids);
+        const variantStr = VARIANTS[abs_ids] || '';
+
+        const block = document.createElement('div');
+        block.style.marginBottom = '1em';
+        block.style.border = '1px solid #eee';
+        block.style.padding = '10px';
+        block.style.borderRadius = '8px';
+
+        writeTitle(block, abs_ids, charsSet, 1.8, true);
+        block.appendChild(document.createElement('br'));
+
+        if (abs_ids) {
+            const relatedEntries = ENTRIES.filter(item =>
+                item.ids === abs_ids || item.new_ids === abs_ids || (item.is && variantStr.includes(item.is))
+            );
+
+            let idsList = [abs_ids];
+            relatedEntries.forEach(item => {
+                block.appendChild(createEntryDiv(item));
+                if (item.refer) idsList.push(item.refer);
+                if (item.to) {
+                    Object.entries(VARIANTS).forEach(([k, value]) => {
+                        if (value.includes(item.to)) idsList.push(k);
+                    });
+                }
+            });
+
+            createSubBlocks(idsList, charsSet, visitedCharsSet, block);
+        }
+        container.appendChild(block);
+    }
+
+    /*****************************
+     * according to user input, generate many `div` block for abstract shape
+     * in the `abstract.json > variants`, find all the key-value pair that include the user input
+     * and for each key-value pair, generate a `div` block
+     ****************************/
+    function createBlocksForInput(chars, charsSet, visitedCharsSet) {
+        const container = document.getElementById('results-blocks');
+        container.innerHTML = '';
+    
+        Object.entries(VARIANTS).forEach(([key, value]) => {
+            chars.forEach(char => {
+                if (value && value.includes && value.includes(char)) {
+                    createBlock(key, char, charsSet, visitedCharsSet, container);
+                }
+            });
         });
     }
 
-    loadRecords();
+    window.onload = function () {
+        loadRecords();
+        document.getElementById('search-box').addEventListener('input', handleInput);
+    }
 </script>
+
+<div id="results-blocks"></div>
