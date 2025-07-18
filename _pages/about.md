@@ -21,6 +21,13 @@ category: pages
       - Attachment: Evidence ([Google Drive](https://drive.google.com/file/d/1B2bfJArRossIi7XJHHvgqGz1JCJVnkbP/view?usp=sharing), [Weiyun](https://share.weiyun.com/W9gXEfpI)).
   - GIDC-source characters
     - **Kushim Jiang**. Report on the encoding situation of Founder Population Information Font. [IRG N2333](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg51/IRGN2333FounderFont.pdf).
+  - `U+3A17`
+    - **Kushim Jiang**. Request to update the G-source glyph and source reference for U+3A17. [IRG N2851](https://www.unicode.org/irg/docs/n2851-GSourceGlyphIssue.pdf).
+    - <span style="color:#bbb">Judith Chen. Feedback on IRG N2851 and IRG N2853. [IRG N2855](https://www.unicode.org/irg/docs/n2855-IRGN2851-N2853Feedback.pdf).</span>
+- **UK-source characters**
+  - `U+95D6`, `U+3125D`
+    - <span style="color:#bbb">Andrew West, Eiso Chan. Possible Disunification of U+95D6 and U+3125D. [IRG N2800](https://www.unicode.org/irg/docs/n2800-Disunify.pdf).</span>
+    - **Kushim Jiang**, Tianheng Shen. Feedback on IRG N2800. [IRG N2812](https://www.unicode.org/irg/docs/n2812-IRGN2800Feedback.pdf).
 - **proposed characters**
   - `WS2021-00120`, `WS2021-00126`, `WS2021-00003`, `WS2021-00129`
     - Eiso Chan, **Kushim Jiang**. Proposal to add 4 music-used ideographs to UAX #45. [L2/19-089](http://www.unicode.org/L2/L2019/19089-uax45music.pdf).
@@ -45,6 +52,7 @@ category: pages
     - **Kushim Jiang**. Proposal to add 10 characters used in Putian–Xianyou Puxianxi Opera to UAX #45. [L2/24-041](https://www.unicode.org/L2/L2024/24041-add-10-chars.pdf).
   - `U+2A7E6`, `U+2AC61`, `WS2021-03268`, `U+31673`
     - **Kushim Jiang**. Request for consideration to normalize 4 V-source characters. [IRG N2795](https://www.unicode.org/irg/docs/n2795-VSourceGlyphIssues.pdf).
+    - <span style="color:#bbb">Vietnam. Vietnam Response to IRG N2795. [IRG N2801](https://www.unicode.org/irg/docs/n2801-IRGN2795Response.pdf).</span>
 - **other topics**
   - IDC
     - <span style="color:#bbb">Yang Tao, Eiso Chan, Yifan Wang. Submission of 3 IDCes. [IRG N2273](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg49/IRGN2273Proposed3NewIDCs.pdf).</span>
@@ -67,6 +75,7 @@ category: pages
 
 - **encoded characters**
   - `U+0184`, `U+0185`
+    - <span style="color:#bbb">Juechen Zhong. Proposal to correct latin small letter tone six (U+0185). [L2/19-201](http://www.unicode.org/L2/L2019/19201-correct-tone-six.pdf).</span>
     - **Kushim Jiang**. Proposal to provide the glyphs of Latin letter tone six. [L2/21-083](http://www.unicode.org/L2/L2021/21083-tone-six-glyphs.pdf).
 
 ### Nüshu
@@ -93,25 +102,38 @@ category: pages
   - Wagindara script
     - Jiaxu Yehenara, **Kushim Jiang**, Uju Tunggiya, Tupo Liu. Preliminary proposal to encode Wagindara letters for the Mongolian script. [L2/24-242](https://www.unicode.org/L2/L2024/24242-wagindara.pdf).
 
+### Tibetan
+
+- **encoded characters**
+  - `U+0F0D`, `U+0F0E`
+    - **Kushim Jiang**. Proposal to clarify the usage of shay in the Core Specification. [L2/25-207](https://www.unicode.org/L2/L2025/25207-shay.pdf).
+    - <span style="color:#bbb">Peter Lofting. Comments on Tibetan Double Shad. [L2/25-208](https://www.unicode.org/L2/L2025/25208-double-shay.pdf).</span>
+    - <span style="color:#bbb">Peter Lofting. Response from Peter Lofting to Kushim. [L2/25-209](https://www.unicode.org/L2/L2025/25209-response-kushim.pdf).</span>
+
 ### Yi Ideographs
 
 - **unencoded characters**
   - characters for Yi Ideographs
     - **Kushim Jiang**. Introduction to encode Yi Ideographs. [L2/22-183](http://www.unicode.org/L2/L2022/22183-yi-preliminary.pdf).
 
-### Tai Don
+### Tai Xaau
 
 - **unencoded characters**
-  - characters for Jinping Tai
+  - Tai Khao
     - <span style="color:#bbb">Jim Brase. Writing Tai Don: Additional characters needed for the Tai Viet script. [L2/08-217](https://www.unicode.org/L2/L2008/08217-tai-don.pdf).</span>
     - **Kushim Jiang**. Preliminary proposal to encode the Tai Khao script in UCS. [L2/20-207](https://www.unicode.org/L2/L2020/20207-tai-khao.pdf).
     - <span style="color:#bbb">Jim Brase. A response to Kushim Jiang, “Preliminary proposal to encode the Tai Khao script in UCS”. [L2/20-208](https://www.unicode.org/L2/L2020/20208-tai-khao-response.pdf).</span>
+  - Tai Don
     - **Kushim Jiang**. Updated proposal to encode the Tai Don script. [L2/22-098](http://www.unicode.org/L2/L2022/22098-tai-don.pdf).
     - <span style="color:#bbb">Jim Brase. Comments on “Updated proposal to encode the Tai Don script in UCS”. [L2/22-099](https://www.unicode.org/L2/L2022/22099-tai-don-comment.pdf).</span>
     - **Kushim Jiang**. Final proposal to add 22 characters for Tai Don writing system. [L2/22-210](http://www.unicode.org/L2/L2022/22210-tai-don-script.pdf).
     - <span style="color:#bbb">Eiso Chan. Comments on the Tai Don or Tai Khao encoding. [L2/22-272](https://www.unicode.org/L2/L2022/22272-tai-don-comments.pdf).</span>
     - <span style="color:#bbb">Jim Brase. Response to Eiso Chan’s “Comments on the Tai Don or Tai Khao encoding”. [L2/22-273](https://www.unicode.org/L2/L2022/22273-tai-don-cmt-response.pdf).</span>
+  - Tai Viet
     - **Kushim Jiang**. Proposal to encode additional Tai Viet characters for the Jinping Dai. [L2/23-023](http://www.unicode.org/L2/L2023/23023-add-tai-viet.pdf).
+  - Tai Xaau
+    - **China**. Proposal to encode the Tai Xaau script. [WG2 N5310](https://www.unicode.org/wg2/docs/n5310R-ProposaltoEncodeTaiXaauScript.pdf).
+    - <span style="color:#bbb">Jie Dao, Ziyuan Qi. Proposal on Tai Xaau Script National Standard Code. [WG2 N5340](https://www.unicode.org/wg2/docs/n5340-Presentation-ProposalTaiXaauScript.pdf).</span>
 
 ### Arabic
 
