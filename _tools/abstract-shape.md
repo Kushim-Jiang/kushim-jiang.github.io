@@ -28,6 +28,7 @@ category: tools
             .then(data => {
                 ENTRIES = Array.isArray(data.entries) ? data.entries : [];
                 VARIANTS = typeof data.variants === 'object' ? data.variants : {};
+                GETA = typeof data.geta === 'object' ? data.geta : {};
             })
             .catch(error => console.error('Error loading ENTRIES:', error));
     }
@@ -63,7 +64,9 @@ category: tools
      * @args `div`, a `div` element to show the abstract shape expression
      ****************************/
     function writeExpression(entry, div) {
-        if (entry.ids) {
+        if (!entry.char) {
+            div.innerHTML += `<code>${entry.ids}</code>`;
+        } else if (entry.ids) {
             div.innerHTML += `<code>|${entry.char}| &lt; ${entry.ids}</code>`;
         } else if (entry.is) {
             div.innerHTML += `<code>|${entry.char}| → |${entry.is}|</code>`;
@@ -86,6 +89,18 @@ category: tools
             div.appendChild(document.createElement('br'));
             div.appendChild(noteDiv);
         }
+        
+        Object.entries(GETA).forEach(([getaKey, getaValue]) => {
+        if (((entry.new_ids || entry.ids) && (entry.new_ids || entry.ids).includes(getaKey)) || 
+            (entry.note && entry.note.includes(getaKey))) {
+                const noteDiv = document.createElement('div');
+                noteDiv.innerHTML += `❗ <code>|${getaKey}|</code> ${getaValue}</span>`;
+                noteDiv.style.marginLeft = '2em';
+                noteDiv.style.color = '#666';
+                noteDiv.style.fontSize = '0.95em';
+                div.appendChild(noteDiv);
+            }
+        });
     }
 
     /*****************************
@@ -98,6 +113,9 @@ category: tools
     function writeTitle(block, abs_ids, charsSet, size, isIdsShown) {
         let variantStr = VARIANTS[abs_ids] || '';
         let [str1, str2 = ''] = variantStr.split('@');
+        if (!str1) {
+            str1 = "X";
+        }
 
         const title = document.createElement('span');
         let str1Style = `font-weight:bold;font-size:${size}em;`;
@@ -155,6 +173,18 @@ category: tools
             block.appendChild(document.createElement('br'));
             block.appendChild(noteDiv);
         }
+
+        Object.entries(GETA).forEach(([getaKey, getaValue]) => {
+        if ((abs_ids && abs_ids.includes(getaKey)) || 
+            (entry.note && entry.note.includes(getaKey))) {
+                const noteDiv = document.createElement('div');
+                noteDiv.innerHTML += `❗ <code>|${getaKey}|</code> ${getaValue}</span>`;
+                noteDiv.style.marginLeft = '2em';
+                noteDiv.style.color = '#666';
+                noteDiv.style.fontSize = '0.95em';
+                block.appendChild(noteDiv);
+            }
+        });
     }
 
     /*****************************
@@ -223,63 +253,49 @@ category: tools
         if (!ids) return;
         const brackets = Array.isArray(ids) ? ids.filter(Boolean) : [ids];
 
+        function processEntries(entries) {
+            if (entries) {
+                entries.forEach(entry => {
+                    if (entry.new_ids || entry.ids) {
+                        if (!visitedCharsSet.has(entry.new_ids || entry.ids)) {
+                            visitedCharsSet.add(entry.new_ids || entry.ids);
+                            parentDiv.appendChild(createSubBlock(entry, charsSet, visitedCharsSet));
+                        }
+                    }
+                });
+            }
+        }
+
         // search for refer
         brackets.forEach(bracketStr => {
             const variantStr = VARIANTS[bracketStr] || '';
-            const subEntries = ENTRIES.filter(r =>
-                variantStr.includes(r.char) && !visitedCharsSet.has(r.new_ids || r.ids)
-            );
-
-            subEntries.forEach(subEntry => {
-                visitedCharsSet.add(subEntry.new_ids || subEntry.ids);
-                if (subEntry.new_ids || subEntry.ids) {
-                    parentDiv.appendChild(createSubBlock(subEntry, charsSet, visitedCharsSet));
-                }
-
-                const sub_ids = subEntry.new_ids || subEntry.ids;
-                if (sub_ids) {
-                    createSubBlocks(sub_ids, charsSet, visitedCharsSet, parentDiv.lastChild);
-                }
-            });
+            const subEntries = ENTRIES.filter(r => variantStr.includes(r.char));
+            processEntries(subEntries);
         });
 
         // search for complex ids
         brackets.forEach(bracketStr => {
-            // bracketStr is an abs_ids
-            const subEntries = ENTRIES.filter(r =>
-                (bracketStr.includes(r.ids) && r.ids !== `[${r.char}]` && !visitedCharsSet.has(r.new_ids || r.ids))
+            const allMatchingEntries = ENTRIES.filter(r =>
+                bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) !== `[${r.char}]` && (r.new_ids || r.ids) !== bracketStr
             );
-            if (subEntries) {
-                subEntries.forEach(subEntry => {
-                    visitedCharsSet.add(subEntry.new_ids || subEntry.ids);
-                    parentDiv.appendChild(createSubBlock(subEntry, charsSet, visitedCharsSet));
-                    
-                    sub_ids = subEntry.new_ids || subEntry.ids;
-                    if (sub_ids) {
-                        createSubBlocks(subEntry.new_ids || subEntry.ids, charsSet, visitedCharsSet, parentDiv.lastChild);
-                    }
-                })
-            }
-        })
+            const subEntries = allMatchingEntries.filter(entry => {
+                const entryIds = entry.new_ids || entry.ids;
+                return !allMatchingEntries.some(otherEntry => {
+                    const otherIds = otherEntry.new_ids || otherEntry.ids;
+                    return otherIds !== entryIds && otherIds.includes(entryIds);
+                });
+            });
+
+            processEntries(subEntries);
+        });
         
         // search for simple ids
         brackets.forEach(bracketStr => {
-            // bracketStr is an abs_ids
             const subEntries = ENTRIES.filter(r =>
                 (((bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) === `[${r.char}]`) || 
                 (bracketStr.includes(`[${r.char}]`) && r.x)) && !visitedCharsSet.has(r.new_ids || r.ids))
             );
-            if (subEntries) {
-                subEntries.forEach(subEntry => {
-                    visitedCharsSet.add(subEntry.new_ids || subEntry.ids);
-                    parentDiv.appendChild(createSubBlock(subEntry, charsSet, visitedCharsSet));
-
-                    sub_ids = subEntry.new_ids || subEntry.ids;
-                    if (sub_ids) {
-                        createSubBlocks(subEntry.new_ids || subEntry.ids, charsSet, visitedCharsSet, parentDiv.lastChild);
-                    }
-                })
-            }
+            processEntries(subEntries);
         })
     }
 
