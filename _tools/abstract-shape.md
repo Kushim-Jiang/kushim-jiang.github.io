@@ -49,7 +49,7 @@ category: tools
 
     function emphasize(str, charsSet) {
         if (!str) return '';
-        return Array.from(String(str)).map(c => 
+        return Array.from(String(str)).map(c =>
             charsSet.has(c) ? `<span style="color:#1976d2;">${c}</span>` : c
         ).join('');
     }
@@ -79,7 +79,7 @@ category: tools
         if (entry.to) {
             div.innerHTML += `<code> * |${entry.to}|</code>`;
         }
-        
+
         if (entry.note) {
             const noteDiv = document.createElement('div');
             noteDiv.textContent = entry.note;
@@ -89,10 +89,10 @@ category: tools
             div.appendChild(document.createElement('br'));
             div.appendChild(noteDiv);
         }
-        
+
         Object.entries(GETA).forEach(([getaKey, getaValue]) => {
-        if (((entry.new_ids || entry.ids) && (entry.new_ids || entry.ids).includes(getaKey)) || 
-            (entry.note && entry.note.includes(getaKey))) {
+            if ((entry.ids && entry.ids.includes(getaKey)) ||
+                (entry.note && entry.note.includes(getaKey))) {
                 const noteDiv = document.createElement('div');
                 noteDiv.innerHTML += `❗ <code>|${getaKey}|</code> ${getaValue}</span>`;
                 noteDiv.style.marginLeft = '2em';
@@ -155,7 +155,7 @@ category: tools
         const emphasizedStr2 = str2Arr.length > 0
             ? str2Arr.map(s => emphasize(s.trim(), charsSet)).join(', ')
             : '';
-        
+
         title.innerHTML =
             `<span style="${str1Style}">${emphasizedStr1}</span>` +
             (str2 ? ` <span style="font-size:${size}em;color:#666;">(${emphasizedStr2})</span>` : '');
@@ -175,8 +175,8 @@ category: tools
         }
 
         Object.entries(GETA).forEach(([getaKey, getaValue]) => {
-        if ((abs_ids && abs_ids.includes(getaKey)) || 
-            (entry.note && entry.note.includes(getaKey))) {
+            if ((abs_ids && abs_ids.includes(getaKey)) ||
+                (entry.note && entry.note.includes(getaKey))) {
                 const noteDiv = document.createElement('div');
                 noteDiv.innerHTML += `❗ <code>|${getaKey}|</code> ${getaValue}</span>`;
                 noteDiv.style.marginLeft = '2em';
@@ -269,7 +269,7 @@ category: tools
         // search for refer
         brackets.forEach(bracketStr => {
             const variantStr = VARIANTS[bracketStr] || '';
-            const subEntries = ENTRIES.filter(r => variantStr.includes(r.char));
+            const subEntries = ENTRIES.filter(r => variantStr.includes(r.is));
             processEntries(subEntries);
         });
 
@@ -288,11 +288,11 @@ category: tools
 
             processEntries(subEntries);
         });
-        
+
         // search for simple ids
         brackets.forEach(bracketStr => {
             const subEntries = ENTRIES.filter(r =>
-                (((bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) === `[${r.char}]`) || 
+            (((bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) === `[${r.char}]`) ||
                 (bracketStr.includes(`[${r.char}]`) && r.x)) && !visitedCharsSet.has(r.new_ids || r.ids))
             );
             processEntries(subEntries);
@@ -346,7 +346,7 @@ category: tools
     function createBlocksForInput(chars, charsSet, visitedCharsSet) {
         const container = document.getElementById('results-blocks');
         container.innerHTML = '';
-    
+
         Object.entries(VARIANTS).forEach(([key, value]) => {
             chars.forEach(char => {
                 if (value && value.includes && value.includes(char)) {
