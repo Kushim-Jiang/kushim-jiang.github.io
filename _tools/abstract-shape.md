@@ -18,6 +18,8 @@ category: tools
 
 <input type="text" id="search-box" placeholder="Search..." oninput="handleInput()">
 
+<div id="results-blocks"></div>
+
 <script>
     let ENTRIES = [];
     let VARIANTS = {};
@@ -236,12 +238,20 @@ category: tools
                 block.appendChild(createEntryDiv(item));
                 if (item.refer) idsList.push(item.refer);
                 if (item.to) {
-                    Object.entries(VARIANTS).forEach(([k, value]) => {
-                        if (value.includes(item.to)) idsList.push(k);
+                    Object.entries(VARIANTS).forEach(([key, value]) => {
+                        if (value.includes(item.to)) idsList.push(key);
                     });
                 }
             });
-            createSubBlocks(idsList, charsSet, visitedCharsSet, block);
+
+            let newIdsList = []
+            idsList.forEach(ids => {
+                if (!newIdsList.includes(ids)) {
+                    newIdsList.push(ids);
+                }
+            })
+
+            createSubBlocks(newIdsList, charsSet, visitedCharsSet, block);
         }
         return block;
     }
@@ -273,6 +283,11 @@ category: tools
             processEntries(subEntries);
         });
 
+        brackets.forEach(bracketStr => {
+            const subEntries = ENTRIES.filter(r => (r.new_ids || r.ids) === bracketStr);
+            processEntries(subEntries);
+        });
+
         // search for complex ids
         brackets.forEach(bracketStr => {
             const allMatchingEntries = ENTRIES.filter(r =>
@@ -285,7 +300,6 @@ category: tools
                     return otherIds !== entryIds && otherIds.includes(entryIds);
                 });
             });
-
             processEntries(subEntries);
         });
 
@@ -362,4 +376,3 @@ category: tools
     }
 </script>
 
-<div id="results-blocks"></div>
