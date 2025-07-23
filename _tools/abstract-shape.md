@@ -14,6 +14,16 @@ category: tools
     code {
         font-size: 1em !important;
     }
+
+    @font-face {
+        font-family: "ob";
+        src: url("/assets/fonts/ZihuiSongJGW.ttf");
+    }
+    
+    s-ob {
+        font-family: "ob";
+        font-size: 160% !important;
+    }
 </style>
 
 <input type="text" id="search-box" placeholder="Search..." oninput="handleInput()">
@@ -31,6 +41,7 @@ category: tools
                 ENTRIES = Array.isArray(data.entries) ? data.entries : [];
                 VARIANTS = typeof data.variants === 'object' ? data.variants : {};
                 GETA = typeof data.geta === 'object' ? data.geta : {};
+                OB = typeof data.ob === 'object' ? data.ob : {};
             })
             .catch(error => console.error('Error loading ENTRIES:', error));
     }
@@ -134,6 +145,53 @@ category: tools
         if (isIdsShown) {
             title.innerHTML += ` <span style="font-size:1em;vertical-align:middle;"><code>${abs_ids}</code></span>`;
         }
+
+        let obStr = OB[abs_ids] || '';
+
+
+        function writeOB(obStr) {
+            let [obStr1, obStr2 = ''] = obStr.split('@');
+
+            function parseObStr(str) {
+                if (!str) return null;
+                const chars = Array.from(str);
+                if (chars.length < 5) return null;
+
+                const nonBmpChar = chars[0];
+                const bmpChars = chars.slice(1, 5).join('');
+                return { nonBmpChar, bmpChars };
+            }
+            
+            function generateSpan({ nonBmpChar, bmpChars }) {
+                return `<span title="《甲骨文字詁林》第${bmpChars}号。">${nonBmpChar}</span>`;
+            }
+            
+            let result = '';
+            const obStr1Data = parseObStr(obStr1);
+            if (obStr1Data) {
+                result += ` <span style="font-family:Alegreya,ob;${str1Style}">${generateSpan(obStr1Data)}</span>`
+            }
+            
+            if (obStr2) {
+                const obStr2Groups = [];
+                const chars = Array.from(obStr2);
+                
+                for (let i = 0; i < chars.length; i += 5) {
+                    const group = chars.slice(i, i + 5).join('');
+                    const groupData = parseObStr(group);
+                    if (groupData) {
+                        obStr2Groups.push(groupData);
+                    }
+                }
+                
+                const obStr2Html = obStr2Groups.map(generateSpan).join('');
+                result += ` <span style="font-family:Alegreya,ob;font-size:${size}em;color:#666;">(${obStr2Html})</span>`;
+            }
+
+            return result;
+        }
+
+        title.innerHTML += writeOB(obStr);
         block.appendChild(title);
     }
 
@@ -375,4 +433,3 @@ category: tools
         document.getElementById('search-box').addEventListener('input', handleInput);
     }
 </script>
-
