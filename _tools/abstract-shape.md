@@ -134,9 +134,9 @@ category: tools
         let str1Style = `font-weight:bold;font-size:${size}em;`;
 
         const emphasizedStr1 = emphasize(str1, charsSet);
-        let str2Arr = str2 ? str2.split(',') : [];
+        let str2Arr = str2 ? Array.from(str2) : [];
         const emphasizedStr2 = str2Arr.length > 0
-            ? str2Arr.map(s => emphasize(s.trim(), charsSet)).join(', ')
+            ? str2Arr.map(s => emphasize(s.trim(), charsSet)).join('')
             : '';
 
         title.innerHTML =
@@ -157,13 +157,13 @@ category: tools
                 const chars = Array.from(str);
                 if (chars.length < 5) return null;
 
-                const nonBmpChar = chars[0];
-                const bmpChars = chars.slice(1, 5).join('');
-                return { nonBmpChar, bmpChars };
+                const obHead = chars[0];
+                const obNum = chars.slice(1, 5).join('');
+                return { obHead, obNum };
             }
             
-            function generateSpan({ nonBmpChar, bmpChars }) {
-                return `<span title="《甲骨文字詁林》第${bmpChars}号。">${nonBmpChar}</span>`;
+            function generateSpan({ obHead, obNum }) {
+                return `<ruby>${obHead}<rp> (</rp><rt style="font-size:45%;">${obNum}</rt><rp>)</rp></ruby>`;
             }
             
             let result = '';
@@ -211,9 +211,9 @@ category: tools
         let str1Style = `font-weight:bold;font-size:${size}em;`;
 
         const emphasizedStr1 = emphasize(str1, charsSet);
-        let str2Arr = str2 ? str2.split(',') : [];
+        let str2Arr = str2 ? Array.from(str2) : [];
         const emphasizedStr2 = str2Arr.length > 0
-            ? str2Arr.map(s => emphasize(s.trim(), charsSet)).join(', ')
+            ? str2Arr.map(s => emphasize(s.trim(), charsSet)).join('')
             : '';
 
         title.innerHTML =
