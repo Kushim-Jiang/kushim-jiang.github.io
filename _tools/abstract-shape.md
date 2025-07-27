@@ -95,7 +95,7 @@ category: tools
 
         if (entry.note) {
             const noteDiv = document.createElement('div');
-            noteDiv.textContent = entry.note;
+            noteDiv.innerHTML += entry.note;
             noteDiv.style.marginLeft = '2em';
             noteDiv.style.color = '#666';
             noteDiv.style.fontSize = '0.95em';
@@ -148,7 +148,6 @@ category: tools
 
         let obStr = OB[abs_ids] || '';
 
-
         function writeOB(obStr) {
             let [obStr1, obStr2 = ''] = obStr.split('@');
 
@@ -192,6 +191,29 @@ category: tools
         }
 
         title.innerHTML += writeOB(obStr);
+
+        function writeParent() {
+            let result = '';
+            
+            let parents = [];
+            Object.entries(VARIANTS).forEach(([key, value]) => {
+                if (key.includes(abs_ids) && key !== abs_ids) {
+                    parents.push(Array.from(value)[0]);
+                }
+            });
+            let parentStr = '';
+            if (parents.length > 10) {
+                parentStr = parents.slice(0, 10).join(' ') + ' ...';
+            } else {
+                parentStr = parents.join(' ');
+            }
+            result += ` <span style="color:#999">🔗 ${parentStr}</span>`;
+
+            return result;
+        }
+
+        title.innerHTML += writeParent();
+
         block.appendChild(title);
     }
 
@@ -226,7 +248,7 @@ category: tools
 
         if (entry.note) {
             const noteDiv = document.createElement('div');
-            noteDiv.textContent = entry.note;
+            noteDiv.innerHTML += entry.note;
             noteDiv.style.marginLeft = '2em';
             noteDiv.style.color = '#666';
             noteDiv.style.fontSize = '0.95em';
