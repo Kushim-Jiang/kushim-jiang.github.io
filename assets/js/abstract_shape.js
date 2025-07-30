@@ -3,13 +3,18 @@ let VARIANTS = {};
 let GETA = {};
 let OB = {};
 
+let loadDataPromise = null;
+
 function loadRecords() {
+  if (loadDataPromise) {
+    return loadDataPromise;
+  }
+
   const progressContainer = document.getElementById("progress-container");
   const progressBar = document.getElementById("progress-bar");
-
   progressContainer.style.display = "block";
 
-  return new Promise((resolve, reject) => {
+  loadDataPromise = new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     const url = "/assets/abstract.json";
 
@@ -28,55 +33,56 @@ function loadRecords() {
 
     xhr.onload = function () {
       if (xhr.status === 200) {
+        ENTRIES = xhr.response.entries;
+        VARIANTS = xhr.response.variants;
+        GETA = xhr.response.geta;
+        OB = xhr.response.ob;
+
         progressBar.style.width = "100%";
         setTimeout(() => {
           progressContainer.style.display = "none";
-          progressBar.style.width = "0%";
+          resolve();
         }, 500);
-
-        const data = xhr.response;
-        ENTRIES = Array.isArray(data.entries) ? data.entries : [];
-        VARIANTS = typeof data.variants === "object" ? data.variants : {};
-        GETA = typeof data.geta === "object" ? data.geta : {};
-        OB = typeof data.ob === "object" ? data.ob : {};
-
-        resolve();
       } else {
-        reject(new Error(`Request failed with status ${xhr.status}`));
+        progressContainer.style.display = "none";
+        reject(new Error("load data error"));
       }
     };
 
     xhr.onerror = function () {
       progressContainer.style.display = "none";
-      reject(new Error("Network error"));
+      reject(new Error("request error"));
     };
 
     xhr.send();
   });
+
+  return loadDataPromise;
 }
 
-async function handleInput() {
-  const val = document.getElementById("search-box").value;
-  if (!val.trim()) {
-    document.getElementById("results-blocks").innerHTML = "";
-    return;
-  }
+function handleInput() {
+  loadRecords()
+    .then(() => {
+      const val = document.getElementById("search-box").value;
+      if (!val.trim()) {
+        document.getElementById("results-blocks").innerHTML = "";
+        return;
+      }
 
-  await loadRecords();
-  const charsSet = new Set(Array.from(val).filter((c) => c.trim() !== ""));
-  let visitedCharsSet = new Set();
-  const chars = Array.from(charsSet).sort(
-    (a, b) => a.codePointAt(0) - b.codePointAt(0)
-  );
-  createBlocksForInput(chars, charsSet, visitedCharsSet);
+      const charsSet = new Set(Array.from(val).filter((c) => c.trim() !== ""));
+      let visitedCharsSet = new Set();
+      const chars = Array.from(charsSet).sort((a, b) => a.codePointAt(0) - b.codePointAt(0));
+      createBlocksForInput(chars, charsSet, visitedCharsSet);
+    })
+    .catch((error) => {
+      console.error("load data error:", error);
+    });
 }
 
 function emphasize(str, charsSet) {
   if (!str) return "";
   return Array.from(String(str))
-    .map((c) =>
-      charsSet.has(c) ? `<span style="color:#1976d2;">${c}</span>` : c
-    )
+    .map((c) => (charsSet.has(c) ? `<span style="color:#1976d2;">${c}</span>` : c))
     .join("");
 }
 
@@ -117,10 +123,7 @@ function writeExpression(entry, div) {
   }
 
   Object.entries(GETA).forEach(([getaKey, getaValue]) => {
-    if (
-      (entry.ids && entry.ids.includes(getaKey)) ||
-      (entry.note && entry.note.includes(getaKey))
-    ) {
+    if ((entry.ids && entry.ids.includes(getaKey)) || (entry.note && entry.note.includes(getaKey))) {
       const noteDiv = document.createElement("div");
       noteDiv.innerHTML += `❗ <code>|${getaKey}|</code> ${getaValue}</span>`;
       noteDiv.style.marginLeft = "2em";
@@ -150,16 +153,9 @@ function writeTitle(block, abs_ids, charsSet, size, isIdsShown) {
 
   const emphasizedStr1 = emphasize(str1, charsSet);
   let str2Arr = str2 ? Array.from(str2) : [];
-  const emphasizedStr2 =
-    str2Arr.length > 0
-      ? str2Arr.map((s) => emphasize(s.trim(), charsSet)).join("")
-      : "";
+  const emphasizedStr2 = str2Arr.length > 0 ? str2Arr.map((s) => emphasize(s.trim(), charsSet)).join("") : "";
 
-  title.innerHTML =
-    `<span style="${str1Style}">${emphasizedStr1}</span>` +
-    (str2
-      ? ` <span style="font-size:${size}em;color:#666;">(${emphasizedStr2})</span>`
-      : "");
+  title.innerHTML = `<span style="${str1Style}">${emphasizedStr1}</span>` + (str2 ? ` <span style="font-size:${size}em;color:#666;">(${emphasizedStr2})</span>` : "");
   if (isIdsShown) {
     title.innerHTML += ` <span style="font-size:1em;"><code>${abs_ids}</code></span>`;
   }
@@ -186,9 +182,7 @@ function writeTitle(block, abs_ids, charsSet, size, isIdsShown) {
     let result = "";
     const obStr1Data = parseObStr(obStr1);
     if (obStr1Data) {
-      result += ` <span style="font-family:Alegreya,ob;${str1Style}">${generateSpan(
-        obStr1Data
-      )}</span>`;
+      result += ` <span style="font-family:Alegreya,ob;${str1Style}">${generateSpan(obStr1Data)}</span>`;
     }
 
     if (obStr2) {
@@ -256,16 +250,9 @@ function writeX(block, entry, charsSet, size, isIdsShown) {
 
   const emphasizedStr1 = emphasize(str1, charsSet);
   let str2Arr = str2 ? Array.from(str2) : [];
-  const emphasizedStr2 =
-    str2Arr.length > 0
-      ? str2Arr.map((s) => emphasize(s.trim(), charsSet)).join("")
-      : "";
+  const emphasizedStr2 = str2Arr.length > 0 ? str2Arr.map((s) => emphasize(s.trim(), charsSet)).join("") : "";
 
-  title.innerHTML =
-    `<span style="${str1Style}">${emphasizedStr1}</span>` +
-    (str2
-      ? ` <span style="font-size:${size}em;color:#666;">(${emphasizedStr2})</span>`
-      : "");
+  title.innerHTML = `<span style="${str1Style}">${emphasizedStr1}</span>` + (str2 ? ` <span style="font-size:${size}em;color:#666;">(${emphasizedStr2})</span>` : "");
   if (isIdsShown) {
     title.innerHTML += ` <span style="font-size:1em;"><code>${abs_ids}</code></span>`;
   }
@@ -282,10 +269,7 @@ function writeX(block, entry, charsSet, size, isIdsShown) {
   }
 
   Object.entries(GETA).forEach(([getaKey, getaValue]) => {
-    if (
-      (abs_ids && abs_ids.includes(getaKey)) ||
-      (entry.note && entry.note.includes(getaKey))
-    ) {
+    if ((abs_ids && abs_ids.includes(getaKey)) || (entry.note && entry.note.includes(getaKey))) {
       const noteDiv = document.createElement("div");
       noteDiv.innerHTML += `❗ <code>|${getaKey}|</code> ${getaValue}</span>`;
       noteDiv.style.marginLeft = "2em";
@@ -336,12 +320,7 @@ function createSubBlock(subEntry, charsSet, visitedCharsSet) {
   }
 
   if (abs_ids) {
-    const relatedEntries = ENTRIES.filter(
-      (item) =>
-        item.ids === abs_ids ||
-        item.new_ids === abs_ids ||
-        (item.is && variantStr.includes(item.is))
-    );
+    const relatedEntries = ENTRIES.filter((item) => item.ids === abs_ids || item.new_ids === abs_ids || (item.is && variantStr.includes(item.is)));
 
     let idsList = [abs_ids];
     relatedEntries.forEach((item) => {
@@ -379,9 +358,7 @@ function createSubBlocks(ids, charsSet, visitedCharsSet, parentDiv) {
         if (entry.new_ids || entry.ids) {
           if (!visitedCharsSet.has(entry.new_ids || entry.ids)) {
             visitedCharsSet.add(entry.new_ids || entry.ids);
-            parentDiv.appendChild(
-              createSubBlock(entry, charsSet, visitedCharsSet)
-            );
+            parentDiv.appendChild(createSubBlock(entry, charsSet, visitedCharsSet));
           }
         }
       });
@@ -396,20 +373,13 @@ function createSubBlocks(ids, charsSet, visitedCharsSet, parentDiv) {
   });
 
   brackets.forEach((bracketStr) => {
-    const subEntries = ENTRIES.filter(
-      (r) => (r.new_ids || r.ids) === bracketStr
-    );
+    const subEntries = ENTRIES.filter((r) => (r.new_ids || r.ids) === bracketStr);
     processEntries(subEntries);
   });
 
   // search for complex ids
   brackets.forEach((bracketStr) => {
-    const allMatchingEntries = ENTRIES.filter(
-      (r) =>
-        bracketStr.includes(r.new_ids || r.ids) &&
-        (r.new_ids || r.ids) !== `[${r.char}]` &&
-        (r.new_ids || r.ids) !== bracketStr
-    );
+    const allMatchingEntries = ENTRIES.filter((r) => bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) !== `[${r.char}]` && (r.new_ids || r.ids) !== bracketStr);
     const subEntries = allMatchingEntries.filter((entry) => {
       const entryIds = entry.new_ids || entry.ids;
       return !allMatchingEntries.some((otherEntry) => {
@@ -423,11 +393,7 @@ function createSubBlocks(ids, charsSet, visitedCharsSet, parentDiv) {
   // search for simple ids
   brackets.forEach((bracketStr) => {
     const subEntries = ENTRIES.filter(
-      (r) =>
-        ((bracketStr.includes(r.new_ids || r.ids) &&
-          (r.new_ids || r.ids) === `[${r.char}]`) ||
-          (bracketStr.includes(`[${r.char}]`) && r.x)) &&
-        !visitedCharsSet.has(r.new_ids || r.ids)
+      (r) => ((bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) === `[${r.char}]`) || (bracketStr.includes(`[${r.char}]`) && r.x)) && !visitedCharsSet.has(r.new_ids || r.ids)
     );
     processEntries(subEntries);
   });
@@ -452,12 +418,7 @@ function createBlock(abs_ids, char, charsSet, visitedCharsSet, container) {
   block.appendChild(document.createElement("br"));
 
   if (abs_ids) {
-    const relatedEntries = ENTRIES.filter(
-      (item) =>
-        item.ids === abs_ids ||
-        item.new_ids === abs_ids ||
-        (item.is && variantStr.includes(item.is))
-    );
+    const relatedEntries = ENTRIES.filter((item) => item.ids === abs_ids || item.new_ids === abs_ids || (item.is && variantStr.includes(item.is)));
 
     let idsList = [abs_ids];
     relatedEntries.forEach((item) => {
@@ -496,14 +457,10 @@ function createBlocksForInput(chars, charsSet, visitedCharsSet) {
 window.onload = function () {
   loadRecords()
     .then(() => {
-      document
-        .getElementById("search-box")
-        .addEventListener("input", handleInput);
+      document.getElementById("search-box").addEventListener("input", handleInput);
     })
     .catch((error) => {
       console.error("Error loading data:", error);
-      document
-        .getElementById("search-box")
-        .addEventListener("input", handleInput);
+      document.getElementById("search-box").addEventListener("input", handleInput);
     });
 };
