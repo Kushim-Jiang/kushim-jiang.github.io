@@ -197,7 +197,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Minyag symbols / 木雅经书
   - Taliu Duoxi symbols / 他留铎系文
   - Malimasa symbols / 玛丽玛萨文
-  - Jingpo leather symbols / 景颇牛皮文字
+  - Jingpo Biedang symbols / 景颇别当文 (景颇牛皮文字)
   - Xuanhan Tujia symbols / 宣汉土家祭司文字
   - Yunzhuan symbols / 云篆文 <span style="color:#bbb">▷ Found in 云篆度人经.</span>
   - Fulu symbols / 符箓
