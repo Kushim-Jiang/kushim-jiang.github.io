@@ -53,6 +53,8 @@ category: pages
   - `U+2A7E6`, `U+2AC61`, `WS2021-03268`, `U+31673`
     - **Kushim Jiang**. Request for consideration to normalize 4 V-source characters. [IRG N2795](https://www.unicode.org/irg/docs/n2795-VSourceGlyphIssues.pdf).
     - <span style="color:#bbb">Vietnam. Vietnam Response to IRG N2795. [IRG N2801](https://www.unicode.org/irg/docs/n2801-IRGN2795Response.pdf).</span>
+  - `U+3A17`
+    - **Kushim Jiang**. Request to update the G-source glyph and source reference for U+3A17. [IRG N2851](https://www.unicode.org/irg/docs/n2851-GSourceGlyphIssue.pdf).
 - **other topics**
   - IDC
     - <span style="color:#bbb">Yang Tao, Eiso Chan, Yifan Wang. Submission of 3 IDCes. [IRG N2273](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg49/IRGN2273Proposed3NewIDCs.pdf).</span>
@@ -70,6 +72,15 @@ category: pages
   - CJK components
     - **Kushim Jiang**, Huidan Liu, Yang Tao. Preliminary proposal to encode 131 CJK components for GF 3001—1997 and GF 0014—2009. [IRG N2733R](https://www.unicode.org/irg/docs/n2733r-CJKComponents4IDS.pdf).
     - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan. Updated proposal to encode CJKV components to UCS. [IRG N2799](https://www.unicode.org/irg/docs/n2799-CJKComponents4IDS.pdf).
+    - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan, Ken Chen, Zhao Liu, Richard Zou, Chenming Zhang, Selena Wei, Yenling Tseng, Chanhuan Liu. Update proposal to encode CJK Unified Ideographs Components and CJK Unified Ideographs Jianzi Musical Notation Components. [IRG N2878R](https://www.unicode.org/irg/docs/n2878r-CJKComponents4IDS.pdf).
+
+### Shuowen Ideographs
+
+> It should be noted that although this section is commonly referred to as the Small Seal script, it encompasses both the Qin script and the scripts of the other six states. Moreover, it is examined as a transmitted text rather than an excavated one. Therefore, the more appropriate designation here is Shuowen Ideographs.
+
+- **encoded characters**
+  - Small Seal
+    - Small Seal Working Group. Proposal to encode the Small Seal Script in UCS. [WG2 N5344R](https://www.unicode.org/wg2/docs/n5344R-SmallSealProposal.pdf). <span style="color:#bbb">▷ Kushim Jiang is an individual expert of the Small Seal Working Group.</span>
 
 ### Latin
 
