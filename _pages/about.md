@@ -72,6 +72,7 @@ category: pages
   - CJK components
     - **Kushim Jiang**, Huidan Liu, Yang Tao. Preliminary proposal to encode 131 CJK components for GF 3001—1997 and GF 0014—2009. [IRG N2733R](https://www.unicode.org/irg/docs/n2733r-CJKComponents4IDS.pdf).
     - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan. Updated proposal to encode CJKV components to UCS. [IRG N2799](https://www.unicode.org/irg/docs/n2799-CJKComponents4IDS.pdf).
+    - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan, Ken Chen, Zhao Liu, Richard Zou, Selena Wei, Yenling Tseng, Chanhuan Liu. Update proposal to encode CJK Unified Ideographs Components. [IRG N2878](https://www.unicode.org/irg/docs/n2878-CJKComponents4IDS.pdf).
     - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan, Ken Chen, Zhao Liu, Richard Zou, Chenming Zhang, Selena Wei, Yenling Tseng, Chanhuan Liu. Update proposal to encode CJK Unified Ideographs Components and CJK Unified Ideographs Jianzi Musical Notation Components. [IRG N2878R](https://www.unicode.org/irg/docs/n2878r-CJKComponents4IDS.pdf).
 
 ### Shuowen Ideographs
@@ -151,3 +152,16 @@ category: pages
 - **encoded characters**
   - `U+0641`
     - Eiso Chan, **Kushim Jiang**, Kwat Ulan. U+0641 information for Uyghur, Kazakh and Kyrgyz. [L2/20-293](https://www.unicode.org/L2/L2020/20293-0641-issue.pdf).
+
+## Recommendations
+
+- **SAH (Script Ad Hoc Group)**
+  - Deborah Anderson, et al. Recommendations to UTC \#174 January 2023 on Script Proposals. [L2/23-012](https://www.unicode.org/L2/L2023/23012-script-adhoc-rept.pdf).
+  - Deborah Anderson, et al. Recommendations to UTC \#175 April 2023 on Script Proposals. [L2/23-083](https://www.unicode.org/L2/L2023/23083-script-adhoc-rept.pdf).
+  - Deborah Anderson, et al. Recommendations to UTC \#176 July 2023 on Script Proposals. [L2/23-164](https://www.unicode.org/L2/L2023/23164-script-adhoc-rept.pdf).
+  - Deborah Anderson, et al. Recommendations to UTC \#178 January 2024 on Script Proposals. [L2/24-013R](https://www.unicode.org/L2/L2024/24013r-script-adhoc-rept.pdf).
+- **SEW (Script Encoding Working Group)**
+  - Jan Kučera, et al. Recommendations to UTC \#181 (November 2024) on Script Proposals. [L2/24-228](https://www.unicode.org/L2/L2024/24228-script-wg-report.pdf).
+  - Jan Kučera, et al. Recommendations to UTC \#182 (January 2025) on Script Proposals. [L2/25-010](https://www.unicode.org/L2/L2025/25010-script-wg-report.pdf).
+  - Jan Kučera, et al. Recommendations to UTC \#183 (April 2025) on Script Proposals. [L2/25-091R](https://www.unicode.org/L2/L2025/25091r-sew-recommendations-utc183.pdf).
+  - Jan Kučera, et al. Recommendations to UTC \#185 (October 2025) on Script Proposals. [L2/25-232](https://www.unicode.org/L2/L2025/25232-sew-recommendations-utc185.pdf).
