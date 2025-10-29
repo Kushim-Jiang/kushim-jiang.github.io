@@ -153,6 +153,13 @@ category: pages
   - `U+0641`
     - Eiso Chan, **Kushim Jiang**, Kwat Ulan. U+0641 information for Uyghur, Kazakh and Kyrgyz. [L2/20-293](https://www.unicode.org/L2/L2020/20293-0641-issue.pdf).
 
+### Rma
+
+- **encoded characters**
+  - Rma
+    - <span style="color:#bbb">Eiso Chan, Jiuqiao Wei, Nathaniel Sims. Preliminary proposal to encode Rma script to UCS. [L2/22-130](https://www.unicode.org/L2/L2022/22130-rma-script.pdf).</span>
+    - Eiso Chan, **Kushim Jiang**, Jiuqiao Wei, Nathaniel Sims. Proposal to encode Rma script to UCS. [L2/25-129](https://www.unicode.org/L2/L2025/25129-rma-update.pdf).
+
 ## Recommendations
 
 - **SAH (Script Ad Hoc Group)**
