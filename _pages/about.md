@@ -99,20 +99,24 @@ category: pages
     - Eiso Chan, **Kushim Jiang**. Updates for 3 values for 3 Nushu characters in UCD. [L2/21-024](https://www.unicode.org/L2/L2021/21024-nushu-prop-chg.pdf).
   - font update
     - **Kushim Jiang**. Proposal to update the reference glyphs in the Nüshu block and the Ideographic Symbols and Punctuation block. [L2/22-138](http://www.unicode.org/L2/L2022/22138-nushu-font-update.pdf).
+    - 🔭️ [Nüshu: Proposal to update the reference glyphs in the Nüshu block](https://github.com/unicode-org/sah/issues/175)
 
 ### Mongolian
 
 - **unencoded characters**
   - characters for Hudum Alikali and Todo Alikali
     - **Kushim Jiang**. Proposal to encode 4 Mongolian characters. [L2/21-244](https://www.unicode.org/L2/L2021/21244-mongolian-add-four.pdf).
+    - 🔭️ [Mongolian: Add 4 characters](https://github.com/unicode-org/sah/issues/67)
 - **encoding model**
   - shaping rules
     - **Kushim Jiang**. Text representation and shaping manual of the Mongolian script. [L2/23-101](http://www.unicode.org/L2/L2023/23101-mongolian-draft-utn.pdf).
     - **Kushim Jiang**. Unicode Technical Note #57: Encoding and Shaping of the Mongolian Script. [UTN #57](https://www.unicode.org/notes/tn57/).
+    - 🔭️ [Mongolian: Changes to Chapter 13 Mongolian with references to new Mongolian UTN](https://github.com/unicode-org/sah/issues/507)
     - **Kushim Jiang**. Progress report on UTN #57: Encoding and Shaping of the Mongolian Script. [L2/25-140](https://www.unicode.org/L2/L2025/25140-report-utn57.pdf).
 - **other scripts**
   - Wagindara script
     - Jiaxu Yehenara, **Kushim Jiang**, Uju Tunggiya, Tupo Liu. Preliminary proposal to encode Wagindara letters for the Mongolian script. [L2/24-242](https://www.unicode.org/L2/L2024/24242-wagindara.pdf).
+    - 🔭️ [Mongolian: Wagindara letters for the Mongolian script](https://github.com/unicode-org/sah/issues/483)
 
 ### Tibetan
 
@@ -121,12 +125,14 @@ category: pages
     - **Kushim Jiang**. Proposal to clarify the usage of shay in the Core Specification. [L2/25-207](https://www.unicode.org/L2/L2025/25207-shay.pdf).
     - <span style="color:#bbb">Peter Lofting. Comments on Tibetan Double Shad. [L2/25-208](https://www.unicode.org/L2/L2025/25208-double-shay.pdf).</span>
     - <span style="color:#bbb">Peter Lofting. Response from Peter Lofting to Kushim. [L2/25-209](https://www.unicode.org/L2/L2025/25209-response-kushim.pdf).</span>
+    - 🔭️ [Tibetan: Proposal to clarify the usage of shay in the Core Specification](https://github.com/unicode-org/sah/issues/558)
 
 ### Yi Ideographs
 
 - **unencoded characters**
   - characters for Yi Ideographs
     - **Kushim Jiang**. Introduction to encode Yi Ideographs. [L2/22-183](http://www.unicode.org/L2/L2022/22183-yi-preliminary.pdf).
+    - 🔭️ [Yi Ideographs: Introduction to encode Yi Ideographs](https://github.com/unicode-org/sah/issues/193)
 
 ### Tai Xaau
 
@@ -146,6 +152,7 @@ category: pages
   - Tai Xaau
     - **China**. Proposal to encode the Tai Xaau script. [WG2 N5310](https://www.unicode.org/wg2/docs/n5310R-ProposaltoEncodeTaiXaauScript.pdf).
     - <span style="color:#bbb">Jie Dao, Ziyuan Qi. Proposal on Tai Xaau Script National Standard Code. [WG2 N5340](https://www.unicode.org/wg2/docs/n5340-Presentation-ProposalTaiXaauScript.pdf).</span>
+    - 🔭️ [Tai Xaau (was: Tai Don / Tai Viet characters for Jinping Dai)](https://github.com/unicode-org/sah/issues/66)
 
 ### Arabic
 
@@ -155,20 +162,50 @@ category: pages
 
 ### Rma
 
-- **encoded characters**
+- **unencoded characters**
   - Rma
     - <span style="color:#bbb">Eiso Chan, Jiuqiao Wei, Nathaniel Sims. Preliminary proposal to encode Rma script to UCS. [L2/22-130](https://www.unicode.org/L2/L2022/22130-rma-script.pdf).</span>
     - Eiso Chan, **Kushim Jiang**, Jiuqiao Wei, Nathaniel Sims. Proposal to encode Rma script to UCS. [L2/25-129](https://www.unicode.org/L2/L2025/25129-rma-update.pdf).
+    - 🔭️ [Rma script](https://github.com/unicode-org/sah/issues/168)
 
 ## Recommendations
 
-- **SAH (Script Ad Hoc Group)**
-  - Deborah Anderson, et al. Recommendations to UTC \#174 January 2023 on Script Proposals. [L2/23-012](https://www.unicode.org/L2/L2023/23012-script-adhoc-rept.pdf).
-  - Deborah Anderson, et al. Recommendations to UTC \#175 April 2023 on Script Proposals. [L2/23-083](https://www.unicode.org/L2/L2023/23083-script-adhoc-rept.pdf).
-  - Deborah Anderson, et al. Recommendations to UTC \#176 July 2023 on Script Proposals. [L2/23-164](https://www.unicode.org/L2/L2023/23164-script-adhoc-rept.pdf).
-  - Deborah Anderson, et al. Recommendations to UTC \#178 January 2024 on Script Proposals. [L2/24-013R](https://www.unicode.org/L2/L2024/24013r-script-adhoc-rept.pdf).
-- **SEW (Script Encoding Working Group)**
-  - Jan Kučera, et al. Recommendations to UTC \#181 (November 2024) on Script Proposals. [L2/24-228](https://www.unicode.org/L2/L2024/24228-script-wg-report.pdf).
-  - Jan Kučera, et al. Recommendations to UTC \#182 (January 2025) on Script Proposals. [L2/25-010](https://www.unicode.org/L2/L2025/25010-script-wg-report.pdf).
-  - Jan Kučera, et al. Recommendations to UTC \#183 (April 2025) on Script Proposals. [L2/25-091R](https://www.unicode.org/L2/L2025/25091r-sew-recommendations-utc183.pdf).
-  - Jan Kučera, et al. Recommendations to UTC \#185 (October 2025) on Script Proposals. [L2/25-232](https://www.unicode.org/L2/L2025/25232-sew-recommendations-utc185.pdf).
+### SAH (Script Ad Hoc Group)
+
+- Deborah Anderson, et al. Recommendations to UTC \#174 January 2023 on Script Proposals. [L2/23-012](https://www.unicode.org/L2/L2023/23012-script-adhoc-rept.pdf).
+  - 🔭️ [Tai Xaau (was: Tai Don / Tai Viet characters for Jinping Dai)](https://github.com/unicode-org/sah/issues/66)
+- Deborah Anderson, et al. Recommendations to UTC \#175 April 2023 on Script Proposals. [L2/23-083](https://www.unicode.org/L2/L2023/23083-script-adhoc-rept.pdf).
+- Deborah Anderson, et al. Recommendations to UTC \#176 July 2023 on Script Proposals. [L2/23-164](https://www.unicode.org/L2/L2023/23164-script-adhoc-rept.pdf).
+- Deborah Anderson, et al. Recommendations to UTC \#178 January 2024 on Script Proposals. [L2/24-013R](https://www.unicode.org/L2/L2024/24013r-script-adhoc-rept.pdf).
+  - 🔭️ [Mongolian: Proposal to Encode One Manchu Letter](https://github.com/unicode-org/sah/issues/371)
+
+### SEW (Script Encoding Working Group)
+
+- Jan Kučera, et al. Recommendations to UTC \#181 (November 2024) on Script Proposals. [L2/24-228](https://www.unicode.org/L2/L2024/24228-script-wg-report.pdf).
+- Jan Kučera, et al. Recommendations to UTC \#182 (January 2025) on Script Proposals. [L2/25-010](https://www.unicode.org/L2/L2025/25010-script-wg-report.pdf).
+  - 🔭️ [Mongolian: Proposal to Encode One Manchu Letter](https://github.com/unicode-org/sah/issues/371)
+- Jan Kučera, et al. Recommendations to UTC \#183 (April 2025) on Script Proposals. [L2/25-091R](https://www.unicode.org/L2/L2025/25091r-sew-recommendations-utc183.pdf).
+- Jan Kučera, et al. Recommendations to UTC \#185 (October 2025) on Script Proposals. [L2/25-232](https://www.unicode.org/L2/L2025/25232-sew-recommendations-utc185.pdf).
+
+### UTC (Unicode Technical Committee)
+
+- Approved Minutes of UTC Meeting 175. [L2/23-076](https://www.unicode.org/L2/L2023/23076.htm).
+- Approved Minutes of UTC Meeting 176. [L2/23-157](https://www.unicode.org/L2/L2023/23157.htm).
+- Approved Minutes of UTC Meeting 181. [L2/24-221](https://www.unicode.org/L2/L2024/24221.htm).
+- Approved Minutes of UTC Meeting 183. [L2/25-085](https://www.unicode.org/L2/L2025/25085.htm).
+
+### WG2
+
+- Recommendations from WG2 Meeting 72. [SC2 N4993 = WG2 N5304](https://www.unicode.org/wg2/docs/n5304-Mtg72-Niigata-Recs-rev5-final.pdf).
+
+### IRG
+
+- List of Participants of IRG #50 Meeting. [IRG N2287](https://www.unicode.org/irg/docs/n2287-Participants.pdf).
+- List of Participants of IRG #58 Meeting. [IRG N2524](https://www.unicode.org/irg/docs/n2524-Participants.pdf).
+- List of Participants of IRG #59 Meeting. [IRG N2558](https://www.unicode.org/irg/docs/n2558-Participants.pdf).
+- List of Participants of IRG #60 Meeting. [IRG N2602](https://www.unicode.org/irg/docs/n2602-Participants.pdf).
+- List of Participants of IRG #61 Meeting. [IRG N2618](https://www.unicode.org/irg/docs/n2618-Participants.pdf).
+- List of Participants of IRG #62 Meeting. [IRG N2658](https://www.unicode.org/irg/docs/n2658-Participants.pdf).
+- List of Participants of IRG #63 Meeting. [IRG N2705](https://www.unicode.org/irg/docs/n2705-Participants.pdf).
+- List of Participants of IRG #64 Meeting. [IRG N2768](https://www.unicode.org/irg/docs/n2768-Participants.pdf).
+- List of Participants of IRG #65 Meeting. [IRG N2829](https://www.unicode.org/irg/docs/n2829-Participants.pdf).
