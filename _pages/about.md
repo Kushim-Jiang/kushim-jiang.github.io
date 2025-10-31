@@ -172,3 +172,20 @@ category: pages
   - Jan Kučera, et al. Recommendations to UTC \#182 (January 2025) on Script Proposals. [L2/25-010](https://www.unicode.org/L2/L2025/25010-script-wg-report.pdf).
   - Jan Kučera, et al. Recommendations to UTC \#183 (April 2025) on Script Proposals. [L2/25-091R](https://www.unicode.org/L2/L2025/25091r-sew-recommendations-utc183.pdf).
   - Jan Kučera, et al. Recommendations to UTC \#185 (October 2025) on Script Proposals. [L2/25-232](https://www.unicode.org/L2/L2025/25232-sew-recommendations-utc185.pdf).
+- **UTC (Unicode Technical Committee)**
+  - Approved Minutes of UTC Meeting 175. [L2/23-076](https://www.unicode.org/L2/L2023/23076.htm).
+  - Approved Minutes of UTC Meeting 176. [L2/23-157](https://www.unicode.org/L2/L2023/23157.htm).
+  - Approved Minutes of UTC Meeting 181. [L2/24-221](https://www.unicode.org/L2/L2024/24221.htm).
+  - Approved Minutes of UTC Meeting 183. [L2/25-085](https://www.unicode.org/L2/L2025/25085.htm).
+- **WG2**
+  - Recommendations from WG2 Meeting 72. [SC2 N4993 = WG2 N5304](https://www.unicode.org/wg2/docs/n5304-Mtg72-Niigata-Recs-rev5-final.pdf).
+- **IRG**
+  - List of Participants of IRG #50 Meeting. [IRG N2287](https://www.unicode.org/irg/docs/n2287-Participants.pdf).
+  - List of Participants of IRG #58 Meeting. [IRG N2524](https://www.unicode.org/irg/docs/n2524-Participants.pdf).
+  - List of Participants of IRG #59 Meeting. [IRG N2558](https://www.unicode.org/irg/docs/n2558-Participants.pdf).
+  - List of Participants of IRG #60 Meeting. [IRG N2602](https://www.unicode.org/irg/docs/n2602-Participants.pdf).
+  - List of Participants of IRG #61 Meeting. [IRG N2618](https://www.unicode.org/irg/docs/n2618-Participants.pdf).
+  - List of Participants of IRG #62 Meeting. [IRG N2658](https://www.unicode.org/irg/docs/n2658-Participants.pdf).
+  - List of Participants of IRG #63 Meeting. [IRG N2705](https://www.unicode.org/irg/docs/n2705-Participants.pdf).
+  - List of Participants of IRG #64 Meeting. [IRG N2768](https://www.unicode.org/irg/docs/n2768-Participants.pdf).
+  - List of Participants of IRG #65 Meeting. [IRG N2829](https://www.unicode.org/irg/docs/n2829-Participants.pdf).
