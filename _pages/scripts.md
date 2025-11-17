@@ -16,10 +16,12 @@ Further investigation reveals that even writing systems that use the same script
 
 Thus, in the context of Chinese writing systems, it takes three parts to accurately refer to a writing system: the language, the scripts (a writing system may use more than one script, e.g. the _Han writing system_ actually uses Modern Han script, Latin script, Greek script, and so on), and the version of the orthography. The concept of **script** is the result of a reorganization and generalization of the textual elements used by these writing systems.
 
+{% include note.html content='Currently, the only introduction to the status of China’s languages and scripts available on Chinese government websites is the article “<a href="http://www.moe.gov.cn/jyb_sjzl/wenzi/202108/t20210827_554992.html">Overview of China’s Languages and Scripts (2021 Edition)</a>.” Based on the information in this article and supplemented by other historical materials, we have marked the writing systems used by the 22 ethnic groups mentioned in this article prior to the founding of the nation with 🖍️, and marked the writing systems created after the founding of the nation with 🖊️.' %}
+
 ## A List of Chinese Writing Systems
 
 - Modern Han script / 现代汉文字 [`Hani`](https://scriptsource.org/scr/Hani)
-  - Han / 现代汉字 [`zh-Hans`](https://scriptsource.org/ws/zh-Hans) [`zh-Hant`](https://scriptsource.org/ws/zh-Hant)
+  - Han / 现代汉字 🖍️ [`zh-Hans`](https://scriptsource.org/ws/zh-Hans) [`zh-Hant`](https://scriptsource.org/ws/zh-Hant)
   - Zhuang / 方块壮字 [`za-Hani`](https://scriptsource.org/ws/za-Hani)
   - Buyi / 方块布依字 (摩经古文字) [`pcc-Hani`](https://scriptsource.org/ws/pcc-Hani)
   - Bai / 方块白字 [`bca-Hani`](https://scriptsource.org/ws/bca-Hani) [`bfs-Hani`](https://scriptsource.org/ws/bfs-Hani) <span style="color:#bbb">▷ According to 白语简志 [^1], 段信苴宝摩崖碑 found in Eryuan (洱源) is regarded as a record of the Jianchuan dialect `bca`, and 词记山花·咏苍洱境碑 found in Dali (大理) is considered to be a record of the Dali dialect `bfs`.</span>
@@ -38,19 +40,19 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - Bamboo-Silk script / 简帛文字
 - Small Seal script / 小篆文字
 - Mongolian script / 蒙古文字 [`Mong`](https://scriptsource.org/scr/Mong)
-  - Hudum / 传统蒙古文 [`mn-Mong.hudum`](https://scriptsource.org/ws/mn-Mong)
+  - Hudum / 传统蒙古文 🖍️ [`mn-Mong.hudum`](https://scriptsource.org/ws/mn-Mong)
   - ※ Hudum Alikali / 传统蒙古文阿礼嘎礼 `sa-Mong.hudum` `xct-Mong.hudum`
   - Manchu / 满文 [`mnc-Mong.manchu`](https://scriptsource.org/ws/mnc-Mong)
   - ※ Manchu Alikali / 满文阿礼嘎礼 `sa-Mong.manchu` `xct-Mong.manchu`
-  - Sibe / 锡伯文 [`sjo-Mong.sibe`](https://scriptsource.org/ws/sjo-Mong)
-  - Todo / 托忒文 [`xal-Mong.todo`](https://scriptsource.org/ws/xal-Mong)
+  - Sibe / 锡伯文 🖍️ [`sjo-Mong.sibe`](https://scriptsource.org/ws/sjo-Mong)
+  - Todo / 托忒文 🖍️ [`xal-Mong.todo`](https://scriptsource.org/ws/xal-Mong)
   - ※ Todo Alikali / 托忒文阿礼嘎礼 `sa-Mong.todo` `xct-Mong.todo`
   - Daur / 达呼尔文 (达斡尔文) [`dta-Mong.manchu`](https://scriptsource.org/ws/dta-Mong)
   - rGyalrong / 嘉绒文 `jya-Mong.manchu` <span style="color:#bbb">▷ Found in 满蒙藏嘉戎维五体字书.</span>
 - Soyombo script / 索永布文字 [`Soyo`](https://scriptsource.org/scr/Soyo)
 - Zanabazar Square script / 札那巴札尔文字 [`Zanb`](https://scriptsource.org/scr/Zanb)
 - Tibetan script / 藏文字 [`Tibt`](https://scriptsource.org/scr/Tibt)
-  - Tibetan / 藏文 [`xct-Tibt.dbucan` `xct-Tibt.dbumed`](https://scriptsource.org/ws/xct-Tibt)
+  - Tibetan / 藏文 🖍️ [`xct-Tibt.dbucan` `xct-Tibt.dbumed`](https://scriptsource.org/ws/xct-Tibt)
   - ※ Sanskrit / 梵文 `sa-Tibt`
   - rGyalrong / 嘉绒文 [`jya-Tibt`](https://scriptsource.org/ws/jya-Tibt) <span style="color:#bbb">▷ Found in 华夷译语, 嘉绒口语学习读本 and so on.</span>
   - Pumi / 韩规文 (普米文) `pmi-Tibt.dbumed` <span style="color:#bbb">▷ According to 怒江文史资料选辑 (vol. 12) [^8], classic books found in Muli (木里) and Yanyuan (盐源) are considered to be records of the northern dialect of Pumi language `pmi`.</span>
@@ -60,11 +62,11 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - sMar-chen script / 象雄文字玛尔钦体 [`Marc`](https://scriptsource.org/scr/Marc)
 - sMar-chung script / 象雄文字玛尔琼体
 - Arabic script / 阿拉伯文字 [`Arab`](https://scriptsource.org/scr/Arab)
-  - Uygur / 维吾尔文 (original, 1937 version, 1951 version, 1954 version, 1983 version) [`ug-Arab`](https://scriptsource.org/ws/ug-Arab)
-  - Kazak / 哈萨克文 (1924 version, 1954 version, 1983 version) [`kk-Arab`](https://scriptsource.org/ws/kk-Arab)
-  - Kirgiz / 柯尔克孜文 (original, 1954 version, 1983 version) [`ky-Arab`](https://scriptsource.org/ws/ky-Arab)
-  - Uzbek / 乌孜别克文 [`uz-Arab`](https://scriptsource.org/ws/uz-Arab)
-  - Tatar / 塔塔尔文 (original, 1910 version, 1918 version, 1941 version) [`tt-Arab`](https://scriptsource.org/ws/tt-Arab)
+  - Uygur / 维吾尔文 (original, 1937 version 🖍️, 1951 version, 1954 version, 1983 version) [`ug-Arab`](https://scriptsource.org/ws/ug-Arab)
+  - Kazak / 哈萨克文 (1924 version 🖍️, 1954 version, 1983 version) [`kk-Arab`](https://scriptsource.org/ws/kk-Arab)
+  - Kirgiz / 柯尔克孜文 (original 🖍️, 1954 version, 1983 version) [`ky-Arab`](https://scriptsource.org/ws/ky-Arab)
+  - Uzbek / 乌孜别克文 🖍️ [`uz-Arab`](https://scriptsource.org/ws/uz-Arab)
+  - Tatar / 塔塔尔文 (original, 1910 version, 1918 version, 1941 version 🖍️) [`tt-Arab`](https://scriptsource.org/ws/tt-Arab)
   - Tajik / 塔吉克文 [`tg-Arab`](https://scriptsource.org/ws/tg-Arab)
   - [Karakhanid / 喀喇汗王朝突厥文](https://kushim-jiang.github.io/scripts/2024-10-30-arab/#karakhanid-written-with-arabic-nastaliq-in-1000-orthography) `xqa-Arab`
   - [Chagatai / 察合台文](https://kushim-jiang.github.io/scripts/2024-10-30-arab/#chagatai-written-with-arabic-nastaliq-in-1400-orthography) `chg-Aran` [`chg-Arab`](https://scriptsource.org/ws/chg-Arab)
@@ -73,32 +75,32 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Dongxiang Xiaojing [`sce-Arab`](https://scriptsource.org/ws/sce-Arab)
   - Bonan Xiaojing `peh-Arab`
 - Latin script / 拉丁文字 [`Latn`](https://scriptsource.org/scr/Latn)
-  - Lisu / 新傈僳文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-and-cyrillic-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-in-1957-orthography)) [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
-  - Jingpo / 景颇文 ([original](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1895-orthography), [1940 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1940-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1957-orthography), [Password](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-password-written-with-latin-in-1930-orthography)) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
+  - Lisu / 新傈僳文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-and-cyrillic-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-in-1957-orthography) 🖊️) [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
+  - Jingpo / 景颇文 ([original](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1895-orthography), [1940 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1940-orthography) 🖍️, [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1957-orthography), [Password](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-password-written-with-latin-in-1930-orthography)) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
   - Zaiwa / 载瓦文 ([1927 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1927-orthography), [1956 version, 1957 version, 1983 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1983-orthography)) [`atb-Latn`](https://scriptsource.org/ws/atb-Latn)
-  - Lahu / 拉祜文 ([1910 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1910-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1957-orthography), [1989 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1989-orthography)) [`lhu-Latn`](https://scriptsource.org/ws/lhu-Latn)
-  - Zhuang / 壮文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-and-cyrillic-in-1957-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-in-1982-orthography), [Wenshan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wenshan-zhuang-written-with-latin-in-1984-orthography), [Qiubei version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#qiubei-zhuang-written-with-latin-in-1985-orthography), [Yunnan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#yunnan-zhuang-written-with-latin-in-2014-orthography)) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
-  - Buyi / 布依文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1982-orthography), [1985 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1985-orthography)) [`pcc-Latn`](https://scriptsource.org/ws/pcc-Latn)
-  - Qiandong Miao / 黔东苗文 ([1950 version, 1952 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1952-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1982-orthography)) [`hms-Latn`](https://scriptsource.org/ws/hms-Latn)
-  - Xiangxi Miao / 湘西苗文 ([1952 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#xiangxi-miao-written-with-latin-in-1952-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#xiangxi-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#xiangxi-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#xiangxi-miao-written-with-latin-in-1952-orthography)) [`mmr-Latn`](https://scriptsource.org/ws/mmr-Latn) <span style="color:#bbb">▷ The standard phonology of the Xiangxi dialect is set in Yiping village, Huayuan county (花垣), belongs to the western subdialect `mmr`.</span>
-  - Chuanqiandian Miao / 川黔滇苗文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1982-orthography)) [`cqd-Latn`](https://scriptsource.org/ws/cqd-Latn)
-  - Diandongbei Miao / 滇东北新苗文 ([1952 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1952-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1982-orthography)) [`hmd-Latn`](https://scriptsource.org/ws/hmd-Latn)
-  - [Dong / 侗文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#dong-written-with-latin-in-1958-orthography) [`kmc-Latn`](https://scriptsource.org/ws/kmc-Latn) <span style="color:#bbb">▷ The standard phonology of Dong language is set in Rongjiang county (榕江), belongs to the southern dialect `kmc`.</span>
-  - [Tu / 土文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#tu-written-with-latin-in-1981-orthography) [`mjg-Latn`](https://scriptsource.org/ws/mjg-Latn)
+  - Lahu / 拉祜文 ([1910 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1910-orthography) 🖍️, [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1957-orthography), [1989 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lahu-written-with-latin-in-1989-orthography)) [`lhu-Latn`](https://scriptsource.org/ws/lhu-Latn)
+  - Zhuang / 壮文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-and-cyrillic-in-1957-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zhuang-written-with-latin-in-1982-orthography) 🖊️, [Wenshan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wenshan-zhuang-written-with-latin-in-1984-orthography), [Qiubei version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#qiubei-zhuang-written-with-latin-in-1985-orthography), [Yunnan version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#yunnan-zhuang-written-with-latin-in-2014-orthography)) [`za-Latn`](https://scriptsource.org/ws/za-Latn)
+  - Buyi / 布依文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-and-cyrillic-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1982-orthography), [1985 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#buyi-written-with-latin-in-1985-orthography) 🖊️) [`pcc-Latn`](https://scriptsource.org/ws/pcc-Latn)
+  - Qiandong Miao / 黔东苗文 ([1950 version, 1952 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1952-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#qiandong-miao-written-with-latin-in-1982-orthography) 🖊️) [`hms-Latn`](https://scriptsource.org/ws/hms-Latn)
+  - Xiangxi Miao / 湘西苗文 ([1952 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#xiangxi-miao-written-with-latin-in-1952-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#xiangxi-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#xiangxi-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#xiangxi-miao-written-with-latin-in-1952-orthography) 🖊️) [`mmr-Latn`](https://scriptsource.org/ws/mmr-Latn) <span style="color:#bbb">▷ The standard phonology of the Xiangxi dialect is set in Yiping village, Huayuan county (花垣), belongs to the western subdialect `mmr`.</span>
+  - Chuanqiandian Miao / 川黔滇苗文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#chuanqiandian-miao-written-with-latin-in-1982-orthography) 🖊️) [`cqd-Latn`](https://scriptsource.org/ws/cqd-Latn)
+  - Diandongbei Miao / 滇东北新苗文 ([1952 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1952-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1958-orthography), [1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#diandongbei-miao-written-with-latin-in-1982-orthography) 🖊️) [`hmd-Latn`](https://scriptsource.org/ws/hmd-Latn)
+  - [Dong / 侗文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#dong-written-with-latin-in-1958-orthography) 🖊️ [`kmc-Latn`](https://scriptsource.org/ws/kmc-Latn) <span style="color:#bbb">▷ The standard phonology of Dong language is set in Rongjiang county (榕江), belongs to the southern dialect `kmc`.</span>
+  - [Tu / 土文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#tu-written-with-latin-in-1981-orthography) 🖊️ [`mjg-Latn`](https://scriptsource.org/ws/mjg-Latn)
   - [Sala / 撒拉文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#sala-written-with-latin-in-2008-orthography) [`slr-Latn`](https://scriptsource.org/ws/slr-Latn)
-  - Wa / 佤文 ([1912 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1912-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1958-orthography)) [`prk-Latn`](https://scriptsource.org/ws/prk-Latn)
-  - Hani / 哈尼文 ([Ha-Ya version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#ha-ya-hani-written-with-latin-in-1957-orthography), [Bi-Ka version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#bi-ka-hani-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#hani-written-with-latin-in-1958-orthography), [1983 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#hani-written-with-latin-in-1983-orthography)) [`hni-Latn`](https://scriptsource.org/ws/hni-Latn) `byo-Latn` <span style="color:#bbb">▷ The 哈尼方言文字 is based on the Hani subdialect of Ha-Ya dialect `hni`, and the 碧卡方言文字 is based on the Biyue subdialect of Bi-Ka dialect `byo`.</span>
-  - [Naxi / 纳西文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#naxi-written-with-latin-in-1957-orthography) [`nxq-Latn`](https://scriptsource.org/ws/nxq-Latn)
+  - Wa / 佤文 ([1912 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1912-orthography) 🖍️, [1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-and-cyrillic-in-1956-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#wa-written-with-latin-in-1958-orthography) 🖊️) [`prk-Latn`](https://scriptsource.org/ws/prk-Latn)
+  - Hani / 哈尼文 ([Ha-Ya version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#ha-ya-hani-written-with-latin-in-1957-orthography), [Bi-Ka version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#bi-ka-hani-written-with-latin-in-1957-orthography), [1958 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#hani-written-with-latin-in-1958-orthography), [1983 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#hani-written-with-latin-in-1983-orthography) 🖊️) [`hni-Latn`](https://scriptsource.org/ws/hni-Latn) `byo-Latn` <span style="color:#bbb">▷ The 哈尼方言文字 is based on the Hani subdialect of Ha-Ya dialect `hni`, and the 碧卡方言文字 is based on the Biyue subdialect of Bi-Ka dialect `byo`.</span>
+  - [Naxi / 纳西文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#naxi-written-with-latin-in-1957-orthography) 🖊️ [`nxq-Latn`](https://scriptsource.org/ws/nxq-Latn)
   - [Iu Mien Yao / 勉话瑶文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#iu-mien-written-with-latin-in-1982-orthography) [`ium-Latn`](https://scriptsource.org/ws/ium-Latn)
   - [Kim Mun Yao / 门话瑶文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#kim-mun-written-with-latin-in-1982-orthography) [`mji-Latn`](https://scriptsource.org/ws/mji-Latn)
   - Bai / 白文 ([1958 version, 1982 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#bai-written-with-latin-in-1982-orthography), [1993 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#bai-written-with-latin-in-1933-orthography)) [`bca-Latn`](https://scriptsource.org/ws/bca-Latn) <span style="color:#bbb">▷ The 白族新文字方案 is based on the central dialect of Bai language `bca`, with due regard to other dialects.</span>
-  - Li / 黎文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1957-orthography), [1984 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1984-orthography), [2005 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-2005-orthography)) [`lic-Latn`](https://scriptsource.org/ws/lic-Latn) <span style="color:#bbb">▷ The 1957 version is based on the Ha dialect of Li language (侾方言, unencoded), and the revised versions seem to be no change in standard phonology.</span>
+  - Li / 黎文 ([1957 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1957-orthography), [1984 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-1984-orthography) 🖊️, [2005 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#li-written-with-latin-in-2005-orthography)) [`lic-Latn`](https://scriptsource.org/ws/lic-Latn) <span style="color:#bbb">▷ The 1957 version is based on the Ha dialect of Li language (侾方言, unencoded), and the revised versions seem to be no change in standard phonology.</span>
   - Axi Yi / 阿细拉丁化彝文 ([1953 version, 1956 version, 1986 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#axi-yi-written-with-latin-in-1953-orthography)) `yix-Latn`
   - Liangshan Yi / 新彝文 ([1951 version, 1956 version, 1975 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-1975-orthography), [2010 version](https://kushim-jiang.github.io/scripts/2024-09-27-latn/#yi-written-with-latin-in-2010-orthography)) [`ii-Latn`](https://scriptsource.org/ws/ii-Latn)
   - Daur / 达斡尔文 ([1920 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1920-orthography), [1928 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1928-orthography), [1981 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#daur-written-with-latin-in-1981-orthography)) [`dta-Latn`](https://scriptsource.org/ws/dta-Latn)
   - Derung / 独龙文 ([Rawang version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#rawang-written-with-latin-in-1963-orthography), [1983 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#derung-written-with-latin-in-1983-orthography)) [`duu-Latn`](https://scriptsource.org/ws/duu-Latn)
   - [She / 畲文, 畲语拼音方案](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#she-written-with-latin-in-2015-orthography) `shx-Latn`
-  - Qiang / 拉丁羌文 (1958 version, [1993 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#qiang-written-with-latin-in-1993-orthography)) [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu town (赤不苏镇), Mao county (茂县).</span>
+  - Qiang / 拉丁羌文 (1958 version, [1993 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#qiang-written-with-latin-in-1993-orthography) 🖊️) [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu town (赤不苏镇), Mao county (茂县).</span>
   - [Uygur / 维吾尔新文字, 拉丁维吾尔文](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#uygur-written-with-latin-in-1959-orthography) [`ug-Latn`](https://scriptsource.org/ws/ug-Latn)
   - [Kazak / 哈萨克新文字, 拉丁哈萨克文](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#kazak-written-with-latin-in-1959-orthography) [`kk-Latn`](https://scriptsource.org/ws/kk-Latn)
   - [Han / 汉语拼音](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#han-written-with-latin-in-1958-orthography) [`zh-Latn`](https://scriptsource.org/ws/zh-Latn)
@@ -116,40 +118,40 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - [Sibe / 锡伯文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#sibe-written-with-cyrillic-in-1957-orthography) [`sjo-Cyrl`](https://scriptsource.org/ws/sjo-Cyrl)
   - [Uzbek / 乌孜别克文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#uzbek-written-with-cyrillic-in-1957-orthography) [`uz-Cyrl`](https://scriptsource.org/ws/uz-Cyrl)
   - [Tatar / 塔塔尔文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#tatar-written-with-cyrillic-in-1957-orthography) [`tt-Cyrl`](https://scriptsource.org/ws/tt-Cyrl)
-  - [Russ / 俄文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#russian-written-with-cyrillic-in-1700-orthography) [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
-- Korean script / 朝鲜文字 [`Hang`](https://scriptsource.org/scr/Hang)
-- Tai Tham script / 西双版纳老傣文字 [`Lana`](https://scriptsource.org/scr/Lana)
+  - [Russ / 俄罗斯文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#russian-written-with-cyrillic-in-1700-orthography) 🖍️ [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
+- Korean script / 朝鲜文字 🖍️ [`Hang`](https://scriptsource.org/scr/Hang)
+- Tai Tham script / 西双版纳老傣文字 🖍️ [`Lana`](https://scriptsource.org/scr/Lana)
   - To Tham / 多塔经文 [`khb-Lana`](https://scriptsource.org/ws/khb-Lana) <span style="color:#bbb">▷ The Blang, Deang, Khmu and Bonmit use To Tham, but there is no evidence that it is used to record their languages instead of Tai language.</span>
 - New Tai Lue script / 西双版纳新傣文字 [`Talu`](https://scriptsource.org/scr/Talu)
 - Tai Le script / 德宏傣文字 [`Tale`](https://scriptsource.org/scr/Talu)
-  - Tai Le / 德宏傣文 (original, 1953 version, 1955 version, 1963 version, 1988 version) [`tdd-Tale`](https://scriptsource.org/ws/tdd-Tale)
+  - Tai Le / 德宏傣文 (original 🖍️, 1953 version, 1955 version, 1963 version, 1988 version) [`tdd-Tale`](https://scriptsource.org/ws/tdd-Tale)
   - To Lek / 多列经文 [`tdd-Tale`](https://scriptsource.org/ws/tdd-Tale) <span style="color:#bbb">▷ The Va, Blang and Deang use To Lek, but there is no evidence that it is used to record their languages instead of Tai language.</span>
-- Tai Don script / 金平傣文字
+- Tai Don script / 金平傣文字 🖍️
 - Myanmar script / 缅文字 [`Mymr`](https://scriptsource.org/scr/Mymr)
-  - Tai Pong / 傣绷文, 多绷经文 [`tdd-Mymr`](https://scriptsource.org/ws/tdd-Mymr)
-- Liangshan Yi script / 凉山规范彝文字 [`Yiii`](https://scriptsource.org/scr/Mymr)
-- Classical Yi script / 滇川黔桂彝文字
+  - Tai Pong / 傣绷文, 多绷经文 🖍️ [`tdd-Mymr`](https://scriptsource.org/ws/tdd-Mymr)
+- Liangshan Yi script / 凉山规范彝文字 🖊️ [`Yiii`](https://scriptsource.org/scr/Mymr)
+- Classical Yi script / 滇川黔桂彝文字 🖍️
   - Sani Yi / 撒尼音节老彝字
   - Yunnan Yi / 云南规范彝文
   - Guizhou Yi / 贵州彝文
   - Universal Yi / 通用规范彝文, 通用彝文
 - Fraser script / 富能仁文字 [`Lisu`](https://scriptsource.org/scr/Lisu)
-  - Lisu / 老傈僳文 [`lis-Lisu`](https://scriptsource.org/ws/lis-Lisu) <span style="color:#bbb">▷ The Nujiang dialect and the Yongsheng dialect are encoded as `lis`, and the Luquan dialect is encoded as `lpo`.</span>
+  - Lisu / 老傈僳文 🖍️ [`lis-Lisu`](https://scriptsource.org/ws/lis-Lisu) <span style="color:#bbb">▷ The Nujiang dialect and the Yongsheng dialect are encoded as `lis`, and the Luquan dialect is encoded as `lpo`.</span>
   - Zaiwa / 载瓦文 (1989 version) [`atb-Lisu`](https://scriptsource.org/ws/atb-Lisu)
   - Naxi / 纳西教会文字 [`nxq-Lisu`](https://scriptsource.org/ws/nxq-Lisu) <span style="color:#bbb">▷ The proposal [L2/18-338R2](https://www.unicode.org/L2/L2018/18338r2-lisu-letter-yha.pdf) believes that the _Naxi Gospel of Mark_ is used to record `nxq`.</span>
 - Pollard script / 柏格理文字 [`Plrd`](https://scriptsource.org/scr/Plrd)
-  - Dahua Miao / 大花苗老苗文 (滇东北老苗文), 大花苗规范苗文 [`hmd-Plrd`](https://scriptsource.org/ws/hmd-Plrd)
+  - Dahua Miao / 大花苗老苗文 (滇东北老苗文), 大花苗规范苗文 🖍️ [`hmd-Plrd`](https://scriptsource.org/ws/hmd-Plrd)
   - Xiaohua Miao / 柏格理小花苗文 [`sfm-Plrd`](https://scriptsource.org/ws/sfm-Plrd)
   - Waishu Miao / 柏格理歪梳苗文 [`hmz-Plrd`](https://scriptsource.org/ws/hmz-Plrd)
   - Hei Yi / 柏格理黑彝文 [`ywq-Plrd`](https://scriptsource.org/ws/ywq-Plrd)
   - Bai Yi / 柏格理白彝文 [`ygp-Plrd`](https://scriptsource.org/ws/ygp-Plrd)
   - Gan Yi / 柏格理甘彝文 [`yna-Plrd`](https://scriptsource.org/ws/yna-Plrd)
   - Lisu / 柏格理东傈僳文 (框格式傈僳文, 傈坡文) [`lpo-Plrd`](https://scriptsource.org/ws/lpo-Plrd)
-- Naxi Dongba script / 纳西东巴文字 [`Nkdb`](https://scriptsource.org/scr/Nkdb)
+- Naxi Dongba script / 纳西东巴文字 🖍️ [`Nkdb`](https://scriptsource.org/scr/Nkdb)
   - Eya / 俄亚东巴文 [`nxq-Nkdb.eya`](https://scriptsource.org/ws/nxq-Nkdb)
   - Ruka / 汝卡东巴文 (阮可文) [`nxq-Nkdb.ruka`](https://scriptsource.org/ws/nxq-Nkdb)
   - Baoshan / 宝山东巴文 [`nxq-Nkdb.baoshan`](https://scriptsource.org/ws/nxq-Nkdb)
-- Naxi Geba script / 纳西哥巴文字 [`Nkgb`](https://scriptsource.org/scr/Nkgb)
+- Naxi Geba script / 纳西哥巴文字 🖍️ [`Nkgb`](https://scriptsource.org/scr/Nkgb)
 - Kharoshthi script / 佉卢文字 [`Khar`](https://scriptsource.org/scr/Khar)
 - Tocharian script / 焉耆-龟兹文字
 - Khotanese script / 于阗文字 [`Qa40`](https://scriptsource.org/scr/Qa40)
