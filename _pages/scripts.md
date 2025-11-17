@@ -32,6 +32,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Chosen / 吏读字 [`oko-Hani`](https://scriptsource.org/ws/oko-Hani) <span style="color:#bbb">▷ According to 中韩人文社会科学研究 (vol. 2) [^5], the 吏读字 is a collective term for characters used in multiple time periods, that is 吏头, 吏札, 乡札 and 口诀.</span>
   - Tujia / 方块土家字 `tji-Hani` <span style="color:#bbb">▷ According to 土家语研究 [^6], 永顺县志 (1730) uses the Modern Han script to record the northern dialect of Tujia language `tji`.</span>
   - Dong / 方块侗字 [`kmc-Hani`](https://scriptsource.org/ws/kmc-Hani) <span style="color:#bbb">▷ According to 中国民族古文字研究 (vol. 3) [^7], songbooks found in Longsheng county (龙胜) are considered to be records of the southern dialect of Dong language `kmc`.</span>
+  - Sui / 方块水字 (俗写水文) [`swi-Hani`](https://scriptsource.org/ws/swi-Hani)
 - Oracle-Bone script / 甲骨文字
 - Bronze Inscription script / 金文字 <span style="color:#bbb">▷ Specifically to the characters of the general Bronze inscription (一般金文) from the Western Zhou to the Spring and Autumn period.</span>
 - Bamboo-Silk script / 简帛文字
