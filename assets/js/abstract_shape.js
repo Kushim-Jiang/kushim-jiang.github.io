@@ -1,7 +1,8 @@
 let ENTRIES = [];
-let VARIANTS = {};
+let SHAPES = {};
 let GETA = {};
 let OB = {};
+let SHAPE_COUNT = 0;
 
 let loadDataPromise = null;
 
@@ -34,9 +35,15 @@ function loadRecords() {
     xhr.onload = function () {
       if (xhr.status === 200) {
         ENTRIES = xhr.response.entries;
-        VARIANTS = xhr.response.variants;
+        SHAPES = xhr.response.shapes;
+        SHAPE_COUNT = xhr.response.shape_count;
         GETA = xhr.response.geta;
         OB = xhr.response.ob;
+
+        const countValueElement = document.getElementById("count-value");
+        if (countValueElement) {
+          countValueElement.textContent = SHAPE_COUNT;
+        }
 
         progressBar.style.width = "100%";
         setTimeout(() => {
@@ -142,7 +149,7 @@ function writeExpression(entry, div) {
  * @args `isIdsShown`: bool, whether to show the IDS
  ****************************/
 function writeTitle(block, abs_ids, charsSet, size, isIdsShown) {
-  let variantStr = VARIANTS[abs_ids] || "";
+  let variantStr = SHAPES[abs_ids] || "";
   let [str1, str2 = ""] = variantStr.split("@");
   if (!str1) {
     str1 = "X";
@@ -210,7 +217,7 @@ function writeTitle(block, abs_ids, charsSet, size, isIdsShown) {
     let result = "";
 
     let parents = [];
-    Object.entries(VARIANTS).forEach(([key, value]) => {
+    Object.entries(SHAPES).forEach(([key, value]) => {
       if (key.includes(abs_ids) && key !== abs_ids) {
         parents.push(Array.from(value)[0]);
       }
@@ -302,7 +309,7 @@ function createEntryDiv(entry) {
  ****************************/
 function createSubBlock(subEntry, charsSet, visitedCharsSet) {
   let abs_ids = subEntry.new_ids || subEntry.ids;
-  const variantStr = VARIANTS[abs_ids] || "";
+  const variantStr = SHAPES[abs_ids] || "";
   let [str1, str2 = ""] = variantStr.split("@");
 
   const block = document.createElement("div");
@@ -327,7 +334,7 @@ function createSubBlock(subEntry, charsSet, visitedCharsSet) {
       block.appendChild(createEntryDiv(item));
       if (item.refer) idsList.push(item.refer);
       if (item.to) {
-        Object.entries(VARIANTS).forEach(([key, value]) => {
+        Object.entries(SHAPES).forEach(([key, value]) => {
           if (value.includes(item.to)) idsList.push(key);
         });
       }
@@ -367,7 +374,7 @@ function createSubBlocks(ids, charsSet, visitedCharsSet, parentDiv) {
 
   // search for refer
   brackets.forEach((bracketStr) => {
-    const variantStr = VARIANTS[bracketStr] || "";
+    const variantStr = SHAPES[bracketStr] || "";
     const subEntries = ENTRIES.filter((r) => variantStr.includes(r.is));
     processEntries(subEntries);
   });
@@ -406,7 +413,7 @@ function createSubBlocks(ids, charsSet, visitedCharsSet, parentDiv) {
 function createBlock(abs_ids, char, charsSet, visitedCharsSet, container) {
   if (visitedCharsSet.has(abs_ids)) return;
   visitedCharsSet.add(abs_ids);
-  const variantStr = VARIANTS[abs_ids] || "";
+  const variantStr = SHAPES[abs_ids] || "";
 
   const block = document.createElement("div");
   block.style.marginBottom = "1em";
@@ -425,7 +432,7 @@ function createBlock(abs_ids, char, charsSet, visitedCharsSet, container) {
       block.appendChild(createEntryDiv(item));
       if (item.refer) idsList.push(item.refer);
       if (item.to) {
-        Object.entries(VARIANTS).forEach(([k, value]) => {
+        Object.entries(SHAPES).forEach(([k, value]) => {
           if (value.includes(item.to)) idsList.push(k);
         });
       }
@@ -445,7 +452,7 @@ function createBlocksForInput(chars, charsSet, visitedCharsSet) {
   const container = document.getElementById("results-blocks");
   container.innerHTML = "";
 
-  Object.entries(VARIANTS).forEach(([key, value]) => {
+  Object.entries(SHAPES).forEach(([key, value]) => {
     chars.forEach((char) => {
       if (value && value.includes && value.includes(char)) {
         createBlock(key, char, charsSet, visitedCharsSet, container);

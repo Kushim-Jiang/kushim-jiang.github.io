@@ -26,6 +26,8 @@ category: tools
     }
 </style>
 
+<p id="shape-count">Now we have <span id="count-value">loading...</span> abstract shapes!</p>
+
 <input type="text" id="search-box" placeholder="Search..." oninput="handleInput()">
 
 <div id="progress-container" style="width: 100%; background-color: #f0f0f0; height: 5px; display: none;">
