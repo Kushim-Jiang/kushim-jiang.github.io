@@ -166,6 +166,7 @@ category: pages
   - Rma
     - <span style="color:#bbb">Eiso Chan, Jiuqiao Wei, Nathaniel Sims. Preliminary proposal to encode Rma script to UCS. [L2/22-130](https://www.unicode.org/L2/L2022/22130-rma-script.pdf).</span>
     - Eiso Chan, **Kushim Jiang**, Jiuqiao Wei, Nathaniel Sims. Proposal to encode Rma script to UCS. [L2/25-129](https://www.unicode.org/L2/L2025/25129-rma-update.pdf).
+    - Eiso Chan, **Kushim Jiang**, Jiuqiao Wei, Nathaniel Sims. Updated proposal to encode Rma script to UCS. [L2/26-058](https://www.unicode.org/L2/L2026/26058-rma-update.pdf).
     - 🔭️ [Rma script](https://github.com/unicode-org/sah/issues/168)
 
 ## Recommendations
