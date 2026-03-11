@@ -1,0 +1,3029 @@
+{
+  "date": "2026-03-11 15:41:55",
+  "data": [
+    {
+      "name": "C0 Controls",
+      "range": "U+0000..U+001F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (control characters)"
+    },
+    {
+      "name": "Basic Latin",
+      "range": "U+0020..U+007F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "C1 Controls",
+      "range": "U+0080..U+009F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (control characters)"
+    },
+    {
+      "name": "Latin 1 Supplement",
+      "range": "U+00A0..U+00FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Latin Extended-A",
+      "range": "U+0100..U+017F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Latin Extended-B",
+      "range": "U+0180..U+024F",
+      "cps": 208,
+      "cols": 13,
+      "status": "Published"
+    },
+    {
+      "name": "IPA Extensions",
+      "range": "U+0250..U+02AF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Spacing Modifier Letters",
+      "range": "U+02B0..U+02FF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Combining Diacritical Marks",
+      "range": "U+0300..U+036F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published"
+    },
+    {
+      "name": "Greek",
+      "range": "U+0370..U+03FF",
+      "cps": 144,
+      "cols": 9,
+      "status": "Published"
+    },
+    {
+      "name": "Cyrillic",
+      "range": "U+0400..U+04FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Cyrillic Supplement",
+      "range": "U+0500..U+052F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Armenian",
+      "range": "U+0530..U+058F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Hebrew",
+      "range": "U+0590..U+05FF",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Arabic",
+      "range": "U+0600..U+06FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Syriac",
+      "range": "U+0700..U+074F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Arabic Supplement",
+      "range": "U+0750..U+077F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Thaana",
+      "range": "U+0780..U+07BF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "N'Ko",
+      "range": "U+07C0..U+07FF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Samaritan",
+      "range": "U+0800..U+083F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Mandaic",
+      "range": "U+0840..U+085F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Syriac Supplement",
+      "range": "U+0860..U+086F",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Arabic Extended-B",
+      "range": "U+0870..U+089F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Arabic Extended-A",
+      "range": "U+08A0..U+08FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Devanagari",
+      "range": "U+0900..U+097F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Bengali",
+      "range": "U+0980..U+09FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Gurmukhi",
+      "range": "U+0A00..U+0A7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Gujarati",
+      "range": "U+0A80..U+0AFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Oriya",
+      "range": "U+0B00..U+0B7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Tamil",
+      "range": "U+0B80..U+0BFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Telugu",
+      "range": "U+0C00..U+0C7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Kannada",
+      "range": "U+0C80..U+0CFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Malayalam",
+      "range": "U+0D00..U+0D7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Sinhala",
+      "range": "U+0D80..U+0DFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Thai",
+      "range": "U+0E00..U+0E7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Lao",
+      "range": "U+0E80..U+0EFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Tibetan",
+      "range": "U+0F00..U+0FFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Myanmar",
+      "range": "U+1000..U+109F",
+      "cps": 160,
+      "cols": 10,
+      "status": "Published"
+    },
+    {
+      "name": "Georgian",
+      "range": "U+10A0..U+10FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Hangul Jamo",
+      "range": "U+1100..U+11FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Ethiopic",
+      "range": "U+1200..U+137F",
+      "cps": 384,
+      "cols": 24,
+      "status": "Published"
+    },
+    {
+      "name": "Ethiopic Supplement",
+      "range": "U+1380..U+139F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Cherokee",
+      "range": "U+13A0..U+13FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Unified Canadian Aboriginal Syllabics",
+      "range": "U+1400..U+167F",
+      "cps": 640,
+      "cols": 40,
+      "status": "Published"
+    },
+    {
+      "name": "Ogham",
+      "range": "U+1680..U+169F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Runic",
+      "range": "U+16A0..U+16FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Tagalog",
+      "range": "U+1700..U+171F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Hanunóo",
+      "range": "U+1720..U+173F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Buhid",
+      "range": "U+1740..U+175F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Tagbanwa",
+      "range": "U+1760..U+177F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Khmer",
+      "range": "U+1780..U+17FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Mongolian",
+      "range": "U+1800..U+18AF",
+      "cps": 176,
+      "cols": 11,
+      "status": "Published"
+    },
+    {
+      "name": "Unified Canadian Aboriginal Syllabics Extended",
+      "range": "U+18B0..U+18FF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Limbu",
+      "range": "U+1900..U+194F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Tai Le",
+      "range": "U+1950..U+197F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "New Tai Lue",
+      "range": "U+1980..U+19DF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Khmer Symbols",
+      "range": "U+19E0..U+19FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Buginese",
+      "range": "U+1A00..U+1A1F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Tai Tham",
+      "range": "U+1A20..U+1AAF",
+      "cps": 144,
+      "cols": 9,
+      "status": "Published"
+    },
+    {
+      "name": "Combining Diacritical Marks Extended",
+      "range": "U+1AB0..U+1AFF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Balinese",
+      "range": "U+1B00..U+1B7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Sundanese",
+      "range": "U+1B80..U+1BBF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Batak",
+      "range": "U+1BC0..U+1BFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Lepcha",
+      "range": "U+1C00..U+1C4F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Ol Chiki",
+      "range": "U+1C50..U+1C7F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Cyrillic Extended-C",
+      "range": "U+1C80..U+1C8F",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Georgian Extended",
+      "range": "U+1C90..U+1CBF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Sundanese Supplement",
+      "range": "U+1CC0..U+1CCF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Vedic Extensions",
+      "range": "U+1CD0..U+1CFF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Phonetic Extensions",
+      "range": "U+1D00..U+1D7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Phonetic Extensions Supplement",
+      "range": "U+1D80..U+1DBF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Combining Diacritical Marks Supplement",
+      "range": "U+1DC0..U+1DFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Latin Extended Additional",
+      "range": "U+1E00..U+1EFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Greek Extended",
+      "range": "U+1F00..U+1FFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "General Punctuation",
+      "range": "U+2000..U+206F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published"
+    },
+    {
+      "name": "Superscripts and Subscripts",
+      "range": "U+2070..U+209F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Currency Symbols",
+      "range": "U+20A0..U+20CF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Combining Diacritical Marks for Symbols",
+      "range": "U+20D0..U+20FF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Letterlike Symbols",
+      "range": "U+2100..U+214F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Number Forms",
+      "range": "U+2150..U+218F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Arrows",
+      "range": "U+2190..U+21FF",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published"
+    },
+    {
+      "name": "Mathematical Symbols",
+      "range": "U+2200..U+22FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Miscellaneous Technical",
+      "range": "U+2300..U+23FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Control Pictures",
+      "range": "U+2400..U+243F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Optical Character Recognition",
+      "range": "U+2440..U+245F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Enclosed Alphanumerics",
+      "range": "U+2460..U+24FF",
+      "cps": 160,
+      "cols": 10,
+      "status": "Published"
+    },
+    {
+      "name": "Box Drawing",
+      "range": "U+2500..U+257F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Block Elements",
+      "range": "U+2580..U+259F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Geometric Shapes",
+      "range": "U+25A0..U+25FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Miscellaneous Symbols",
+      "range": "U+2600..U+26FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Dingbats",
+      "range": "U+2700..U+27BF",
+      "cps": 192,
+      "cols": 12,
+      "status": "Published"
+    },
+    {
+      "name": "Miscellaneous Mathematical Symbols-A",
+      "range": "U+27C0..U+27EF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Supplemental Arrows-A",
+      "range": "U+27F0..U+27FF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Braille Patterns",
+      "range": "U+2800..U+28FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Supplemental Arrows-B",
+      "range": "U+2900..U+297F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Miscellaneous Mathematical Symbols-B",
+      "range": "U+2980..U+29FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Supplemental Mathematical Operators",
+      "range": "U+2A00..U+2AFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Miscellaneous Symbols and Arrows",
+      "range": "U+2B00..U+2BFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Glagolitic",
+      "range": "U+2C00..U+2C5F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Latin Extended-C",
+      "range": "U+2C60..U+2C7F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Coptic",
+      "range": "U+2C80..U+2CFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Georgian Supplement",
+      "range": "U+2D00..U+2D2F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Tifinagh",
+      "range": "U+2D30..U+2D7F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Ethiopic Extended",
+      "range": "U+2D80..U+2DDF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Cyrillic Extended-A",
+      "range": "U+2DE0..U+2DFF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Supplemental Punctuation",
+      "range": "U+2E00..U+2E7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Radicals Supplement",
+      "range": "U+2E80..U+2EFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Kangxi Radicals",
+      "range": "U+2F00..U+2FDF",
+      "cps": 224,
+      "cols": 14,
+      "status": "Published"
+    },
+    {
+      "name": "Ideographic Description Characters",
+      "range": "U+2FF0..U+2FFF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Symbols and Punctuation",
+      "range": "U+3000..U+303F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Hiragana",
+      "range": "U+3040..U+309F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Katakana",
+      "range": "U+30A0..U+30FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Bopomofo",
+      "range": "U+3100..U+312F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Hangul Compatibility Jamo",
+      "range": "U+3130..U+318F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Kanbun",
+      "range": "U+3190..U+319F",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Bopomofo Extended",
+      "range": "U+31A0..U+31BF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Strokes",
+      "range": "U+31C0..U+31EF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Katakana Phonetic Extensions",
+      "range": "U+31F0..U+31FF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Enclosed CJK Letters & Months",
+      "range": "U+3200..U+32FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Compatibility",
+      "range": "U+3300..U+33FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension A",
+      "range": "U+3400..U+4DBF",
+      "cps": 6592,
+      "cols": 412,
+      "status": "Published"
+    },
+    {
+      "name": "Yijing Hexagram Symbols",
+      "range": "U+4DC0..U+4DFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs",
+      "range": "U+4E00..U+9FFF",
+      "cps": 20992,
+      "cols": 1312,
+      "status": "Published"
+    },
+    {
+      "name": "Yi Syllables",
+      "range": "U+A000..U+A48F",
+      "cps": 1168,
+      "cols": 73,
+      "status": "Published"
+    },
+    {
+      "name": "Yi Radicals",
+      "range": "U+A490..U+A4CF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Lisu",
+      "range": "U+A4D0..U+A4FF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Vai",
+      "range": "U+A500..U+A63F",
+      "cps": 320,
+      "cols": 20,
+      "status": "Published"
+    },
+    {
+      "name": "Cyrillic Extended-B",
+      "range": "U+A640..U+A69F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Bamum",
+      "range": "U+A6A0..U+A6FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Modifier Tone Letters",
+      "range": "U+A700..U+A71F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Latin Extended-D",
+      "range": "U+A720..U+A7FF",
+      "cps": 224,
+      "cols": 14,
+      "status": "Published"
+    },
+    {
+      "name": "Syloti Nagri",
+      "range": "U+A800..U+A82F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Common Indic Number Forms",
+      "range": "U+A830..U+A83F",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Phags-pa",
+      "range": "U+A840..U+A87F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Saurashtra",
+      "range": "U+A880..U+A8DF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Devanagari Extended",
+      "range": "U+A8E0..U+A8FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Kayah Li",
+      "range": "U+A900..U+A92F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Rejang",
+      "range": "U+A930..U+A95F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Hangul Jamo Extended-A",
+      "range": "U+A960..U+A97F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Javanese",
+      "range": "U+A980..U+A9DF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Myanmar Extended-B",
+      "range": "U+A9E0..U+A9FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Cham",
+      "range": "U+AA00..U+AA5F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Myanmar Extended-A",
+      "range": "U+AA60..U+AA7F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Tai Viet",
+      "range": "U+AA80..U+AADF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Meetei Mayek Extensions",
+      "range": "U+AAE0..U+AAFF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Ethiopic Extended-A",
+      "range": "U+AB00..U+AB2F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Latin Extended-E",
+      "range": "U+AB30..U+AB6F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Cherokee Supplement",
+      "range": "U+AB70..U+ABBF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Meetei Mayek",
+      "range": "U+ABC0..U+ABFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Hangul Syllables",
+      "range": "U+AC00..U+D7AF",
+      "cps": 11184,
+      "cols": 699,
+      "status": "Published"
+    },
+    {
+      "name": "Hangul Jamo Extended-B",
+      "range": "U+D7B0..U+D7FF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "High-half Surrogates Area for UTF-16",
+      "range": "U+D800..U+DBFF",
+      "cps": 1024,
+      "cols": 64,
+      "status": "Published (noncharacters)"
+    },
+    {
+      "name": "Low-half Surrogates Area for UTF-16",
+      "range": "U+DC00..U+DFFF",
+      "cps": 1024,
+      "cols": 64,
+      "status": "Published (noncharacters)"
+    },
+    {
+      "name": "Private Use Area",
+      "range": "U+E000..U+F8FF",
+      "cps": 6400,
+      "cols": 400,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Compatibility Ideographs",
+      "range": "U+F900..U+FAFF",
+      "cps": 512,
+      "cols": 32,
+      "status": "Published"
+    },
+    {
+      "name": "Alphabetic Presentation Forms",
+      "range": "U+FB00..U+FB4F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Arabic Presentation Forms A",
+      "range": "U+FB50..U+FDCF",
+      "cps": 640,
+      "cols": 40,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Noncharacters",
+      "range": "U+FDD0..U+FDEF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (noncharacters)"
+    },
+    {
+      "name": "Arabic Presentation Forms A",
+      "range": "U+FDF0..U+FDFF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Variation Selectors",
+      "range": "U+FE00..U+FE0F",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Vertical Forms",
+      "range": "U+FE10..U+FE1F",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Combining Half Marks",
+      "range": "U+FE20..U+FE2F",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Compatibility Forms",
+      "range": "U+FE30..U+FE4F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Small Form Variants",
+      "range": "U+FE50..U+FE6F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Arabic Presentation Forms B",
+      "range": "U+FE70..U+FEFF",
+      "cps": 144,
+      "cols": 9,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Halfwidth & Fullwidth Forms",
+      "range": "U+FF00..U+FFEF",
+      "cps": 240,
+      "cols": 15,
+      "status": "Published"
+    },
+    {
+      "name": "Specials",
+      "range": "U+FFF0..U+FFFF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published (noncharacters)"
+    },
+    {
+      "name": "Linear B Syllabary",
+      "range": "U+10000..U+1007F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Linear B Ideograms",
+      "range": "U+10080..U+100FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Aegean Numbers",
+      "range": "U+10100..U+1013F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Ancient Greek Numbers",
+      "range": "U+10140..U+1018F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Ancient Symbols",
+      "range": "U+10190..U+101CF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Phaistos Disc",
+      "range": "U+101D0..U+101FF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Northern Palaeohispanic",
+      "range": "U+10200..U+1023F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Southern Palaeohispanic",
+      "range": "U+10240..U+1027F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Lycian",
+      "range": "U+10280..U+1029F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Carian",
+      "range": "U+102A0..U+102DF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Coptic Epact Numbers",
+      "range": "U+102E0..U+102FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Old Italic",
+      "range": "U+10300..U+1032F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Gothic",
+      "range": "U+10330..U+1034F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Old Permic",
+      "range": "U+10350..U+1037F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Ugaritic",
+      "range": "U+10380..U+1039F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Old Persian",
+      "range": "U+103A0..U+103DF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Shavian Quick Script",
+      "range": "U+103E0..U+103FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Tentative"
+    },
+    {
+      "name": "Deseret",
+      "range": "U+10400..U+1044F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Shavian",
+      "range": "U+10450..U+1047F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Osmanya",
+      "range": "U+10480..U+104AF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Osage",
+      "range": "U+104B0..U+104FF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Elbasan",
+      "range": "U+10500..U+1052F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Caucasian Albanian",
+      "range": "U+10530..U+1056F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Vithkuqi",
+      "range": "U+10570..U+105BF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Todhri",
+      "range": "U+105C0..U+105FF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Linear A",
+      "range": "U+10600..U+1077F",
+      "cps": 384,
+      "cols": 24,
+      "status": "Published"
+    },
+    {
+      "name": "Latin Extended-F",
+      "range": "U+10780..U+107BF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Combining Diacritical Marks Extended-A",
+      "range": "U+107C0..U+107FF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Unknown",
+      "range": "U+10800..U+10FFF",
+      "cps": 2048,
+      "cols": 128,
+      "status": "Unallocated (right-to-left)"
+    },
+    {
+      "name": "Cypriot Syllabary",
+      "range": "U+10800..U+1083F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Imperial Aramaic",
+      "range": "U+10840..U+1085F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Palmyrene",
+      "range": "U+10860..U+1087F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Nabataean",
+      "range": "U+10880..U+108AF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Proto-Sinaitic",
+      "range": "U+108B0..U+108DF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Hatran",
+      "range": "U+108E0..U+108FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Phoenician",
+      "range": "U+10900..U+1091F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Lydian",
+      "range": "U+10920..U+1093F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Sidetic",
+      "range": "U+10940..U+1095F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Numidian",
+      "range": "U+10960..U+1097F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Tentative (right-to-left)"
+    },
+    {
+      "name": "Meroitic Hieroglyphs",
+      "range": "U+10980..U+1099F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Meroitic Cursive",
+      "range": "U+109A0..U+109FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Kharoshthi",
+      "range": "U+10A00..U+10A5F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Old South Arabian",
+      "range": "U+10A60..U+10A7F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Old North Arabian",
+      "range": "U+10A80..U+10A9F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Balti",
+      "range": "U+10AA0..U+10ABF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Manichaean",
+      "range": "U+10AC0..U+10AFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Avestan",
+      "range": "U+10B00..U+10B3F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Inscriptional Parthian",
+      "range": "U+10B40..U+10B5F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Inscriptional Pahlavi",
+      "range": "U+10B60..U+10B7F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Psalter Pahlavi",
+      "range": "U+10B80..U+10BAF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Book Pahlavi",
+      "range": "U+10BB0..U+10BDF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Baburi",
+      "range": "U+10BE0..U+10BFF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Old Turkic",
+      "range": "U+10C00..U+10C4F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Old Hungarian",
+      "range": "U+10C80..U+10CFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Hanifi Rohingya",
+      "range": "U+10D00..U+10D3F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Garay",
+      "range": "U+10D40..U+10D8F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Arabic Extended-D",
+      "range": "U+10D90..U+10E5F",
+      "cps": 208,
+      "cols": 13,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Rumi Numeral Symbols",
+      "range": "U+10E60..U+10E7F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Yezidi",
+      "range": "U+10E80..U+10EBF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Arabic Extended-C",
+      "range": "U+10EC0..U+10EFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Old Sogdian",
+      "range": "U+10F00..U+10F2F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Sogdian",
+      "range": "U+10F30..U+10F6F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Old Uyghur",
+      "range": "U+10F70..U+10FAF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Chorasmian",
+      "range": "U+10FB0..U+10FDF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Elymaic",
+      "range": "U+10FE0..U+10FFF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Brahmi",
+      "range": "U+11000..U+1107F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Kaithi",
+      "range": "U+11080..U+110CF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Sora Sompeng",
+      "range": "U+110D0..U+110FF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Chakma",
+      "range": "U+11100..U+1114F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Mahajani",
+      "range": "U+11150..U+1117F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Sharada",
+      "range": "U+11180..U+111DF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Sinhala Archaic Numbers",
+      "range": "U+111E0..U+111FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Khojki",
+      "range": "U+11200..U+1124F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Landa",
+      "range": "U+11250..U+1127F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Multani",
+      "range": "U+11280..U+112AF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Khudawadi",
+      "range": "U+112B0..U+112FF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Grantha",
+      "range": "U+11300..U+1137F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Tulu-Tigalari",
+      "range": "U+11380..U+113FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Newa",
+      "range": "U+11400..U+1147F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Tirhuta",
+      "range": "U+11480..U+114DF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Tani",
+      "range": "U+114E0..U+114FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Ranjana",
+      "range": "U+11500..U+1157F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Siddham",
+      "range": "U+11580..U+115FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Modi",
+      "range": "U+11600..U+1165F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Mongolian Supplement",
+      "range": "U+11660..U+1167F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Takri",
+      "range": "U+11680..U+116CF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Myanmar Extended-C",
+      "range": "U+116D0..U+116FF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Ahom",
+      "range": "U+11700..U+1174F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Zou",
+      "range": "U+11750..U+117AF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Pyu",
+      "range": "U+117B0..U+117FF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Dogra",
+      "range": "U+11800..U+1184F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Sirmauri",
+      "range": "U+11850..U+1188F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Provisionally assigned"
+    },
+    {
+      "name": "Warang Citi",
+      "range": "U+118A0..U+118FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Dives Akuru",
+      "range": "U+11900..U+1195F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Vatteluttu",
+      "range": "U+11960..U+1199F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Nandinagari",
+      "range": "U+119A0..U+119FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Zanabazar Square",
+      "range": "U+11A00..U+11A4F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Soyombo",
+      "range": "U+11A50..U+11AAF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Unified Canadian Aboriginal Syllabics Extended-A",
+      "range": "U+11AB0..U+11ABF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Pau Cin Hau",
+      "range": "U+11AC0..U+11AFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Devanagari Extended-A",
+      "range": "U+11B00..U+11B5F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Sharada Supplement",
+      "range": "U+11B60..U+11B7F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Leke",
+      "range": "U+11B80..U+11BBF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Provisionally assigned"
+    },
+    {
+      "name": "Sunuwar",
+      "range": "U+11BC0..U+11BFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Bhaiksuki",
+      "range": "U+11C00..U+11C6F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published"
+    },
+    {
+      "name": "Marchen",
+      "range": "U+11C70..U+11CBF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Balti-B",
+      "range": "U+11CC0..U+11CFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Masaram Gondi",
+      "range": "U+11D00..U+11D5F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Gunjala Gondi",
+      "range": "U+11D60..U+11DAF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Tolong Siki",
+      "range": "U+11DB0..U+11DEF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Tocharian",
+      "range": "U+11E00..U+11E6F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Khotanese",
+      "range": "U+11E70..U+11ECF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Makasar",
+      "range": "U+11EE0..U+11EFF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Kawi",
+      "range": "U+11F00..U+11F5F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Pallava",
+      "range": "U+11F60..U+11FAF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Lisu Supplement",
+      "range": "U+11FB0..U+11FBF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Tamil Supplement",
+      "range": "U+11FC0..U+11FFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Cuneiform",
+      "range": "U+12000..U+123FF",
+      "cps": 1024,
+      "cols": 64,
+      "status": "Published"
+    },
+    {
+      "name": "Cuneiform Numbers and Punctuation",
+      "range": "U+12400..U+1247F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Early Dynastic Cuneiform",
+      "range": "U+12480..U+1254F",
+      "cps": 208,
+      "cols": 13,
+      "status": "Published"
+    },
+    {
+      "name": "Archaic Cuneiform Numerals",
+      "range": "U+12550..U+1268F",
+      "cps": 320,
+      "cols": 20,
+      "status": "Accepted for publication"
+    },
+    {
+      "name": "Proto-Cuneiform",
+      "range": "U+12690..U+12BFF",
+      "cps": 1392,
+      "cols": 87,
+      "status": "Provisionally assigned"
+    },
+    {
+      "name": "Cypro-Minoan",
+      "range": "U+12F90..U+12FFF",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published"
+    },
+    {
+      "name": "Egyptian Hieroglyphs",
+      "range": "U+13000..U+1342F",
+      "cps": 1072,
+      "cols": 67,
+      "status": "Published"
+    },
+    {
+      "name": "Egyptian Hieroglyph Format Controls",
+      "range": "U+13430..U+1345F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Egyptian Hieroglyphs Extended-A",
+      "range": "U+13460..U+143FF",
+      "cps": 4000,
+      "cols": 250,
+      "status": "Published"
+    },
+    {
+      "name": "Anatolian Hieroglyphs",
+      "range": "U+14400..U+1467F",
+      "cps": 640,
+      "cols": 40,
+      "status": "Published"
+    },
+    {
+      "name": "Egyptian Hieroglyphs Extended-B",
+      "range": "U+14680..U+151FF",
+      "cps": 2944,
+      "cols": 184,
+      "status": "Tentative"
+    },
+    {
+      "name": "Mayan Hieroglyphs",
+      "range": "U+15500..U+15AFF",
+      "cps": 1536,
+      "cols": 96,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Kore Sebeli",
+      "range": "U+15B00..U+15B6F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Mandombe",
+      "range": "U+15B80..U+15FFF",
+      "cps": 1152,
+      "cols": 72,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Gurung Khema",
+      "range": "U+16100..U+1613F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Kurukh Banna",
+      "range": "U+16140..U+1618F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Moon",
+      "range": "U+161A0..U+161FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Blissymbols",
+      "range": "U+16200..U+167FF",
+      "cps": 1536,
+      "cols": 96,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Bamum Supplement",
+      "range": "U+16800..U+16A3F",
+      "cps": 576,
+      "cols": 36,
+      "status": "Published"
+    },
+    {
+      "name": "Mro",
+      "range": "U+16A40..U+16A6F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Tangsa",
+      "range": "U+16A70..U+16ACF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Bassa Vah",
+      "range": "U+16AD0..U+16AFF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Pahawh Hmong",
+      "range": "U+16B00..U+16B8F",
+      "cps": 144,
+      "cols": 9,
+      "status": "Published"
+    },
+    {
+      "name": "Woleai",
+      "range": "U+16B90..U+16BFF",
+      "cps": 112,
+      "cols": 7,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Kpelle",
+      "range": "U+16C00..U+16C7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Tikamuli",
+      "range": "U+16C80..U+16CBF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Tangsa(Khimhun)",
+      "range": "U+16CD0..U+16CFF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Afaka",
+      "range": "U+16D00..U+16D3F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Kirat Rai",
+      "range": "U+16D40..U+16D7F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Chisoi",
+      "range": "U+16D80..U+16DAF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Accepted for publication"
+    },
+    {
+      "name": "Kulitan",
+      "range": "U+16DD0..U+16DFF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Mwangwego",
+      "range": "U+16E00..U+16E3F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Provisionally assigned"
+    },
+    {
+      "name": "Medefaidrin",
+      "range": "U+16E40..U+16E9F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Beria Erfe",
+      "range": "U+16EA0..U+16EDF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Miao",
+      "range": "U+16F00..U+16F9F",
+      "cps": 160,
+      "cols": 10,
+      "status": "Published"
+    },
+    {
+      "name": "Bopomofo Extended-A",
+      "range": "U+16FA0..U+16FAF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Tentative"
+    },
+    {
+      "name": "Kanbun Extended-A",
+      "range": "U+16FB0..U+16FDF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Ideographic Symbols and Punctuation",
+      "range": "U+16FE0..U+16FFF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Tangut",
+      "range": "U+17000..U+187FF",
+      "cps": 6144,
+      "cols": 384,
+      "status": "Published"
+    },
+    {
+      "name": "Tangut Components",
+      "range": "U+18800..U+18AFF",
+      "cps": 768,
+      "cols": 48,
+      "status": "Published"
+    },
+    {
+      "name": "Khitan Small Script",
+      "range": "U+18B00..U+18CFF",
+      "cps": 512,
+      "cols": 32,
+      "status": "Published"
+    },
+    {
+      "name": "Tangut Supplement",
+      "range": "U+18D00..U+18D7F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Tangut Components Supplement",
+      "range": "U+18D80..U+18DFF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Jurchen Script",
+      "range": "U+18E00..U+1919F",
+      "cps": 928,
+      "cols": 58,
+      "status": "Accepted for publication"
+    },
+    {
+      "name": "Jurchen Radicals",
+      "range": "U+191A0..U+191DF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Accepted for publication"
+    },
+    {
+      "name": "Khitan Large Script",
+      "range": "U+19200..U+19AFF",
+      "cps": 2304,
+      "cols": 144,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Pau Cin Hau Syllabary",
+      "range": "U+19E00..U+1A2FF",
+      "cps": 1280,
+      "cols": 80,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Eskaya",
+      "range": "U+1A300..U+1A75F",
+      "cps": 1120,
+      "cols": 70,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Rejang Extended",
+      "range": "U+1A760..U+1A77F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Kaida",
+      "range": "U+1A780..U+1A7FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Tentative"
+    },
+    {
+      "name": "Naxi Dongba",
+      "range": "U+1A800..U+1ACFF",
+      "cps": 1280,
+      "cols": 80,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Naxi Geba",
+      "range": "U+1AD00..U+1AFCF",
+      "cps": 720,
+      "cols": 45,
+      "status": "Tentative"
+    },
+    {
+      "name": "Kana Extended-C",
+      "range": "U+1AFD0..U+1AFEF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Tentative"
+    },
+    {
+      "name": "Kana Extended-B",
+      "range": "U+1AFF0..U+1AFFF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Kana Supplement",
+      "range": "U+1B000..U+1B0FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Kana Extended-A",
+      "range": "U+1B100..U+1B12F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Small Kana Extension",
+      "range": "U+1B130..U+1B16F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Nüshu",
+      "range": "U+1B170..U+1B2FF",
+      "cps": 400,
+      "cols": 25,
+      "status": "Published"
+    },
+    {
+      "name": "Shuishu Logograms",
+      "range": "U+1B300..U+1B5FF",
+      "cps": 768,
+      "cols": 48,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Lisu Syllabic Script",
+      "range": "U+1B600..U+1B9FF",
+      "cps": 1024,
+      "cols": 64,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Indus",
+      "range": "U+1BA00..U+1BB8F",
+      "cps": 400,
+      "cols": 25,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Duployan",
+      "range": "U+1BC00..U+1BC9F",
+      "cps": 160,
+      "cols": 10,
+      "status": "Published"
+    },
+    {
+      "name": "Shorthand Format Controls",
+      "range": "U+1BCA0..U+1BCAF",
+      "cps": 16,
+      "cols": 1,
+      "status": "Published"
+    },
+    {
+      "name": "Pitman Shorthand",
+      "range": "U+1BCB0..U+1BCFF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Proto-Elamite",
+      "range": "U+1BD00..U+1C37F",
+      "cps": 1664,
+      "cols": 104,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Linear Elamite",
+      "range": "U+1C380..U+1C4FF",
+      "cps": 384,
+      "cols": 24,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Shaaldaa",
+      "range": "U+1C800..U+1CB2F",
+      "cps": 816,
+      "cols": 51,
+      "status": "Provisionally assigned"
+    },
+    {
+      "name": "Symbols for Legacy Computing Supplement",
+      "range": "U+1CC00..U+1CEBF",
+      "cps": 704,
+      "cols": 44,
+      "status": "Published"
+    },
+    {
+      "name": "Miscellaneous Symbols Supplement",
+      "range": "U+1CEC0..U+1CEFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Znamenny Musical Notation",
+      "range": "U+1CF00..U+1CFCF",
+      "cps": 208,
+      "cols": 13,
+      "status": "Published"
+    },
+    {
+      "name": "Byzantine Musical Symbols",
+      "range": "U+1D000..U+1D0FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Musical Symbols",
+      "range": "U+1D100..U+1D1FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Ancient Greek Musical Notation",
+      "range": "U+1D200..U+1D24F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Musical Symbols Supplement",
+      "range": "U+1D250..U+1D28F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "(Flute) and (Pipa)",
+      "range": "U+1D290..U+1D2BF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Kaktovik Numerals",
+      "range": "U+1D2C0..U+1D2DF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Mayan Numerals",
+      "range": "U+1D2E0..U+1D2FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Tai Xuan Jing Symbols",
+      "range": "U+1D300..U+1D35F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Counting Rod Numerals",
+      "range": "U+1D360..U+1D37F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Mathematical Alphanumeric Symbols Supplement",
+      "range": "U+1D380..U+1D3FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Tentative"
+    },
+    {
+      "name": "Mathematical Alphanumeric Symbols",
+      "range": "U+1D400..U+1D7FF",
+      "cps": 1024,
+      "cols": 64,
+      "status": "Published"
+    },
+    {
+      "name": "Sutton SignWriting",
+      "range": "U+1D800..U+1DAAF",
+      "cps": 688,
+      "cols": 43,
+      "status": "Published"
+    },
+    {
+      "name": "Jianzi F.C.",
+      "range": "U+1DAE0..U+1DAFF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Miscellaneous Symbols and Arrows Extended",
+      "range": "U+1DB00..U+1DBFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Accepted for publication"
+    },
+    {
+      "name": "Latin Extended-G",
+      "range": "U+1DF00..U+1DFFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Glagolitic Supplement",
+      "range": "U+1E000..U+1E02F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Cyrillic Extended-D",
+      "range": "U+1E030..U+1E08F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Nyiakeng Puachue Hmong",
+      "range": "U+1E100..U+1E14F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Eebee Hmong",
+      "range": "U+1E150..U+1E1FF",
+      "cps": 176,
+      "cols": 11,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Western Cham",
+      "range": "U+1E200..U+1E26F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Toto",
+      "range": "U+1E290..U+1E2BF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Wancho",
+      "range": "U+1E2C0..U+1E2FF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Loma",
+      "range": "U+1E300..U+1E41F",
+      "cps": 288,
+      "cols": 18,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Bagam",
+      "range": "U+1E420..U+1E4CF",
+      "cps": 176,
+      "cols": 11,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Nag Mundari",
+      "range": "U+1E4D0..U+1E4FF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Pungchen",
+      "range": "U+1E500..U+1E52F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Pungchung",
+      "range": "U+1E530..U+1E55F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Tentative"
+    },
+    {
+      "name": "Marchung",
+      "range": "U+1E560..U+1E59F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Tentative"
+    },
+    {
+      "name": "Brusha",
+      "range": "U+1E5A0..U+1E5CF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Ol Onal",
+      "range": "U+1E5D0..U+1E5FF",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Chola",
+      "range": "U+1E600..U+1E65F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Tentative"
+    },
+    {
+      "name": "Box-Headed",
+      "range": "U+1E660..U+1E6BF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Tai Yo",
+      "range": "U+1E6C0..U+1E6FF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Published"
+    },
+    {
+      "name": "Lampung",
+      "range": "U+1E700..U+1E73F",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Kerinci",
+      "range": "U+1E740..U+1E76F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Buginese Supplement",
+      "range": "U+1E770..U+1E7BF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Lontara bilang-bilang",
+      "range": "U+1E7C0..U+1E7DF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Tentative"
+    },
+    {
+      "name": "Ethiopic Extended-B",
+      "range": "U+1E7E0..U+1E7FF",
+      "cps": 32,
+      "cols": 2,
+      "status": "Published"
+    },
+    {
+      "name": "Unknown",
+      "range": "U+1E800..U+1EFFF",
+      "cps": 2048,
+      "cols": 128,
+      "status": "Unallocated (right-to-left)"
+    },
+    {
+      "name": "Mende Kikakui",
+      "range": "U+1E800..U+1E8DF",
+      "cps": 224,
+      "cols": 14,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Adlam",
+      "range": "U+1E900..U+1E95F",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "N'Ko Supplement",
+      "range": "U+1E960..U+1E97F",
+      "cps": 32,
+      "cols": 2,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Byblos",
+      "range": "U+1EB90..U+1EBFF",
+      "cps": 112,
+      "cols": 7,
+      "status": "Tentative (right-to-left)"
+    },
+    {
+      "name": "Persian Siyaq Numbers",
+      "range": "U+1EC00..U+1EC6F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Indic Siyaq Numbers",
+      "range": "U+1EC70..U+1ECBF",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Diwani Siyaq Numbers",
+      "range": "U+1ECC0..U+1ECFF",
+      "cps": 64,
+      "cols": 4,
+      "status": "Roadmapped (right-to-left)"
+    },
+    {
+      "name": "Ottoman Siyaq Numbers",
+      "range": "U+1ED00..U+1ED4F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Arabic Mathematical Alphabetic Symbols",
+      "range": "U+1EE00..U+1EEFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published (right-to-left)"
+    },
+    {
+      "name": "Mahjong Tiles",
+      "range": "U+1F000..U+1F02F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Domino Tiles",
+      "range": "U+1F030..U+1F09F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published"
+    },
+    {
+      "name": "Playing Cards",
+      "range": "U+1F0A0..U+1F0FF",
+      "cps": 96,
+      "cols": 6,
+      "status": "Published"
+    },
+    {
+      "name": "Enclosed Alphanumeric Supplement",
+      "range": "U+1F100..U+1F1FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Enclosed Ideographic Supplement",
+      "range": "U+1F200..U+1F2FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Miscellaneous Symbols and Pictographs",
+      "range": "U+1F300..U+1F5FF",
+      "cps": 768,
+      "cols": 48,
+      "status": "Published"
+    },
+    {
+      "name": "Emoticons",
+      "range": "U+1F600..U+1F64F",
+      "cps": 80,
+      "cols": 5,
+      "status": "Published"
+    },
+    {
+      "name": "Ornamental Dingbats",
+      "range": "U+1F650..U+1F67F",
+      "cps": 48,
+      "cols": 3,
+      "status": "Published"
+    },
+    {
+      "name": "Transport and Map Symbols",
+      "range": "U+1F680..U+1F6FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Alchemical Symbols",
+      "range": "U+1F700..U+1F77F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Geometric Shapes Extended",
+      "range": "U+1F780..U+1F7FF",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Supplemental Arrows-C",
+      "range": "U+1F800..U+1F8FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Supplemental Symbols and Pictographs",
+      "range": "U+1F900..U+1F9FF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Chess Symbols",
+      "range": "U+1FA00..U+1FA6F",
+      "cps": 112,
+      "cols": 7,
+      "status": "Published"
+    },
+    {
+      "name": "Symbols and Pictographs Extended-A",
+      "range": "U+1FA70..U+1FAFF",
+      "cps": 144,
+      "cols": 9,
+      "status": "Published"
+    },
+    {
+      "name": "Symbols for Legacy Computing",
+      "range": "U+1FB00..U+1FBFF",
+      "cps": 256,
+      "cols": 16,
+      "status": "Published"
+    },
+    {
+      "name": "Extended Pictographic Characters (Emoji)",
+      "range": "U+1FC00..U+1FFFF",
+      "cps": 1024,
+      "cols": 64,
+      "status": "Tentative"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension B",
+      "range": "U+20000..U+2A6DF",
+      "cps": 42720,
+      "cols": 2670,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension C",
+      "range": "U+2A700..U+2B73F",
+      "cps": 4160,
+      "cols": 260,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension D",
+      "range": "U+2B740..U+2B81F",
+      "cps": 224,
+      "cols": 14,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension E",
+      "range": "U+2B820..U+2CEAF",
+      "cps": 5776,
+      "cols": 361,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension F",
+      "range": "U+2CEB0..U+2EBEF",
+      "cps": 7488,
+      "cols": 468,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension I",
+      "range": "U+2EBF0..U+2EE5F",
+      "cps": 624,
+      "cols": 39,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Compatibility Ideographs Supplement",
+      "range": "U+2F800..U+2FA1F",
+      "cps": 544,
+      "cols": 34,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension G",
+      "range": "U+30000..U+3134F",
+      "cps": 4944,
+      "cols": 309,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension H",
+      "range": "U+31350..U+323AF",
+      "cps": 4192,
+      "cols": 262,
+      "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Extension J",
+      "range": "U+323B0..U+3347F",
+      "cps": 4304,
+      "cols": 269,
+      "status": "Published"
+    },
+    {
+      "name": "Seal Script",
+      "range": "U+3D000..U+3FC3F",
+      "cps": 11328,
+      "cols": 708,
+      "status": "Accepted for publication"
+    },
+    {
+      "name": "Tag characters",
+      "range": "U+E0000..U+E007F",
+      "cps": 128,
+      "cols": 8,
+      "status": "Published"
+    },
+    {
+      "name": "Variation Selectors Supplement",
+      "range": "U+E0100..U+E01EF",
+      "cps": 240,
+      "cols": 15,
+      "status": "Published"
+    }
+  ]
+}
