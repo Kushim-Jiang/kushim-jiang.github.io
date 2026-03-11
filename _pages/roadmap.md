@@ -30,6 +30,12 @@ category: pages
         padding-top: 0.1em
     }
 
+    div.plane {
+        height: calc(100vh - 200px);
+        overflow-y: auto;
+        position: relative;
+    }
+
     div.sticktop {
         position: sticky;
         top: 0;
@@ -37,17 +43,23 @@ category: pages
 
     div.stickbottom {
         position: sticky;
-        bottom: 0
+        bottom: 0;
     }
 
     path {
         stroke-width: 1px;
         stroke: black;
-        fill: white
+        fill: white;
     }
 
     .shadow path {
         filter: drop-shadow(2px 2px 2px gray);
+    }
+
+    rect.cp {
+        fill: white;
+        stroke: black;
+        stroke-width: 1px;
     }
 
     /* statuses */
@@ -313,9 +325,6 @@ category: pages
 <div class="plane shadow">
     <div class="sticktop">
         <svg width="100%" viewBox="0 0 1020 20" xmlns="http://www.w3.org/2000/svg">
-            <style type="text/css">
-                rect.cp { fill: white; stroke-width: 1px; stroke: black; }
-            </style>
             <rect class="cp" width="60" height="20" x="60" rx="5" ry="5" /><text class="cp" x="90" y="10" text-anchor="middle" dominant-baseline="middle">0</text>
             <rect class="cp" width="60" height="20" x="120" rx="5" ry="5" /><text class="cp" x="150" y="10" text-anchor="middle" dominant-baseline="middle">1</text>
             <rect class="cp" width="60" height="20" x="180" rx="5" ry="5" /><text class="cp" x="210" y="10" text-anchor="middle" dominant-baseline="middle">2</text>
@@ -339,6 +348,26 @@ category: pages
         <p style="text-align:center; padding: 20px;">Please refresh this page</p>
     </div>
 
+    <div class="stickbottom">
+        <svg width="100%" viewBox="0 0 1020 20" xmlns="http://www.w3.org/2000/svg">
+            <rect class="cp" width="60" height="20" x="60" rx="5" ry="5" /><text class="cp" x="90" y="10" text-anchor="middle" dominant-baseline="middle">0</text>
+            <rect class="cp" width="60" height="20" x="120" rx="5" ry="5" /><text class="cp" x="150" y="10" text-anchor="middle" dominant-baseline="middle">1</text>
+            <rect class="cp" width="60" height="20" x="180" rx="5" ry="5" /><text class="cp" x="210" y="10" text-anchor="middle" dominant-baseline="middle">2</text>
+            <rect class="cp" width="60" height="20" x="240" rx="5" ry="5" /><text class="cp" x="270" y="10" text-anchor="middle" dominant-baseline="middle">3</text>
+            <rect class="cp" width="60" height="20" x="300" rx="5" ry="5" /><text class="cp" x="330" y="10" text-anchor="middle" dominant-baseline="middle">4</text>
+            <rect class="cp" width="60" height="20" x="360" rx="5" ry="5" /><text class="cp" x="390" y="10" text-anchor="middle" dominant-baseline="middle">5</text>
+            <rect class="cp" width="60" height="20" x="420" rx="5" ry="5" /><text class="cp" x="450" y="10" text-anchor="middle" dominant-baseline="middle">6</text>
+            <rect class="cp" width="60" height="20" x="480" rx="5" ry="5" /><text class="cp" x="510" y="10" text-anchor="middle" dominant-baseline="middle">7</text>
+            <rect class="cp" width="60" height="20" x="540" rx="5" ry="5" /><text class="cp" x="570" y="10" text-anchor="middle" dominant-baseline="middle">8</text>
+            <rect class="cp" width="60" height="20" x="600" rx="5" ry="5" /><text class="cp" x="630" y="10" text-anchor="middle" dominant-baseline="middle">9</text>
+            <rect class="cp" width="60" height="20" x="660" rx="5" ry="5" /><text class="cp" x="690" y="10" text-anchor="middle" dominant-baseline="middle">A</text>
+            <rect class="cp" width="60" height="20" x="720" rx="5" ry="5" /><text class="cp" x="750" y="10" text-anchor="middle" dominant-baseline="middle">B</text>
+            <rect class="cp" width="60" height="20" x="780" rx="5" ry="5" /><text class="cp" x="810" y="10" text-anchor="middle" dominant-baseline="middle">C</text>
+            <rect class="cp" width="60" height="20" x="840" rx="5" ry="5" /><text class="cp" x="870" y="10" text-anchor="middle" dominant-baseline="middle">D</text>
+            <rect class="cp" width="60" height="20" x="900" rx="5" ry="5" /><text class="cp" x="930" y="10" text-anchor="middle" dominant-baseline="middle">E</text>
+            <rect class="cp" width="60" height="20" x="960" rx="5" ry="5" /><text class="cp" x="990" y="10" text-anchor="middle" dominant-baseline="middle">F</text>
+        </svg>
+    </div>
 </div>
 
 <script src="/assets/js/roadmap.js"></script>
