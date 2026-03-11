@@ -26,22 +26,26 @@ function analyzeBlockCells(startCode, endCode) {
     const col = cellIdx % CONFIG.contentCols;
     cells.push({ row, col });
   }
-
   return cells;
 }
 
 function groupConnectedCells(cells) {
-  const groups = [];
-  if (cells.length === 0) return groups;
+  if (cells.length === 0) return [];
 
   cells.sort((a, b) => a.row - b.row || a.col - b.col);
 
+  const groups = [];
   let currentGroup = [cells[0]];
+
   for (let i = 1; i < cells.length; i++) {
     const prev = cells[i - 1];
     const curr = cells[i];
 
-    const isConnected = (curr.row === prev.row && curr.col === prev.col + 1) || (curr.row === prev.row + 1 && curr.col === 0 && prev.col === CONFIG.contentCols - 1);
+    const isConnected =
+      (curr.row === prev.row && curr.col === prev.col + 1) ||
+      (curr.row === prev.row + 1 &&
+        prev.col === CONFIG.contentCols - 1 &&
+        curr.col === 0);
 
     if (isConnected) {
       currentGroup.push(curr);
@@ -51,103 +55,392 @@ function groupConnectedCells(cells) {
     }
   }
   groups.push(currentGroup);
-
   return groups;
 }
 
-function generateGroupPath(group) {
-  const { colWidth, rowHeight, cornerRadius: r } = CONFIG;
-  const first = group[0];
-  const last = group[group.length - 1];
+function classifyBlockShape(group) {
+  const rows = new Set(group.map((c) => c.row));
+  const minRow = Math.min(...rows);
+  const maxRow = Math.max(...rows);
+  const totalRows = maxRow - minRow + 1;
 
-  const baseRow = first.row;
-  const relRows = last.row - baseRow;
+  const fullColCount = CONFIG.contentCols;
 
-  const firstRowCols = group.filter((c) => c.row === baseRow);
-  const firstCol = firstRowCols[0].col;
-  const lastColFirstRow = firstRowCols[firstRowCols.length - 1].col;
-
-  const lastRowCols = group.filter((c) => c.row === last.row);
-  const firstColLastRow = lastRowCols[0].col;
-  const lastColLastRow = lastRowCols[lastRowCols.length - 1].col;
-
-  let d = "";
-
-  if (relRows === 0) {
-    const x1 = firstCol * colWidth;
-    const x2 = (lastColFirstRow + 1) * colWidth;
-    d = `M${x1 + r},0 H${x2 - r} Q${x2},0 ${x2},${r} V${rowHeight - r} Q${x2},${rowHeight} ${x2 - r},${rowHeight} H${x1 + r} Q${x1},${rowHeight} ${x1},${rowHeight - r} V${r} Q${x1},0 ${x1 + r},0`;
-  } else {
-    const fullWidth = CONFIG.contentCols * colWidth;
-    const x1FirstRow = firstCol * colWidth;
-    const x2LastRow = (lastColLastRow + 1) * colWidth;
-
-    d += `M${x1FirstRow + r},0 `;
-    d += `H${fullWidth - r} Q${fullWidth},0 ${fullWidth},${r} `;
-    d += `V${relRows * rowHeight + r} `;
-    d += `H${x2LastRow - r} Q${x2LastRow},${relRows * rowHeight + r} ${x2LastRow},${relRows * rowHeight + r + 2} `;
-    d += `V${(relRows + 1) * rowHeight - r} `;
-    d += `Q${x2LastRow},${(relRows + 1) * rowHeight} ${x2LastRow - r},${(relRows + 1) * rowHeight} `;
-    d += `H${r} Q0,${(relRows + 1) * rowHeight} 0,${(relRows + 1) * rowHeight - r} `;
-    d += `V${rowHeight - r} Q0,${rowHeight} ${r},${rowHeight} `;
-    d += `H${x1FirstRow - r} Q${x1FirstRow},${rowHeight} ${x1FirstRow},${rowHeight - r} `;
-    d += `V${r} Q${x1FirstRow},0 ${x1FirstRow + r},0 Z`;
+  const rowDetails = {};
+  for (let r = minRow; r <= maxRow; r++) {
+    const colsInRow = group
+      .filter((c) => c.row === r)
+      .map((c) => c.col)
+      .sort((a, b) => a - b);
+    if (colsInRow.length > 0) {
+      rowDetails[r] = {
+        start: colsInRow[0],
+        end: colsInRow[colsInRow.length - 1],
+        count: colsInRow.length,
+        isFull: colsInRow.length === fullColCount,
+      };
+    }
   }
 
-  return d.trim();
+  const firstRowData = rowDetails[minRow];
+  const lastRowData = rowDetails[maxRow];
+
+  if (totalRows === 1) {
+    return {
+      type: 1,
+      data: {
+        row: minRow,
+        startCol: firstRowData.start,
+        endCol: firstRowData.end,
+      },
+    };
+  }
+
+  let allFull = true;
+  for (let r = minRow; r <= maxRow; r++) {
+    if (!rowDetails[r].isFull) {
+      allFull = false;
+      break;
+    }
+  }
+  if (allFull) {
+    return {
+      type: 1,
+      data: {
+        row: minRow,
+        startCol: 0,
+        endCol: fullColCount - 1,
+        spanRows: totalRows,
+      },
+    };
+  }
+
+  if (totalRows === 2 && !firstRowData.isFull && !lastRowData.isFull) {
+    if (firstRowData.end === fullColCount - 1 && lastRowData.start === 0) {
+      return {
+        type: 2,
+        data: {
+          row1: minRow,
+          startCol1: firstRowData.start,
+          row2: maxRow,
+          endCol2: lastRowData.end,
+        },
+      };
+    }
+  }
+
+  if (firstRowData.isFull && lastRowData.start === 0 && !lastRowData.isFull) {
+    let middleAllFull = true;
+    for (let r = minRow + 1; r < maxRow; r++) {
+      if (!rowDetails[r].isFull) {
+        middleAllFull = false;
+        break;
+      }
+    }
+    if (middleAllFull) {
+      return {
+        type: 3,
+        data: {
+          startRow: minRow,
+          endRow: maxRow,
+          lastRowEndCol: lastRowData.end,
+          fullRowsCount: totalRows - 1,
+        },
+      };
+    }
+  }
+
+  if (
+    !firstRowData.isFull &&
+    firstRowData.end === fullColCount - 1 &&
+    lastRowData.isFull
+  ) {
+    let middleAllFull = true;
+    for (let r = minRow + 1; r < maxRow; r++) {
+      if (!rowDetails[r].isFull) {
+        middleAllFull = false;
+        break;
+      }
+    }
+    if (middleAllFull) {
+      return {
+        type: 4,
+        data: {
+          startRow: minRow,
+          endRow: maxRow,
+          firstRowStartCol: firstRowData.start,
+          fullRowsCount: totalRows - 1,
+        },
+      };
+    }
+  }
+
+  if (
+    !firstRowData.isFull &&
+    firstRowData.end === fullColCount - 1 &&
+    !lastRowData.isFull &&
+    lastRowData.start === 0
+  ) {
+    let middleAllFull = true;
+    for (let r = minRow + 1; r < maxRow; r++) {
+      if (!rowDetails[r].isFull) {
+        middleAllFull = false;
+        break;
+      }
+    }
+
+    if (middleAllFull && maxRow - minRow > 1) {
+      return {
+        type: 5,
+        data: {
+          startRow: minRow,
+          endRow: maxRow,
+          firstRowStartCol: firstRowData.start,
+          lastRowEndCol: lastRowData.end,
+        },
+      };
+    }
+  }
+
+  console.warn("Unclassified shape, defaulting to bounding box logic", group);
+  return {
+    type: 1,
+    data: {
+      row: minRow,
+      startCol: firstRowData.start,
+      endCol: lastRowData.end,
+      spanRows: totalRows,
+    },
+  };
+}
+
+function generateGroupPath(group) {
+  const shape = classifyBlockShape(group);
+  const { colWidth, rowHeight, cornerRadius: r, contentCols } = CONFIG;
+  const fullWidth = contentCols * colWidth;
+
+  let d = "";
+  let textPos = { x: 0, y: 0 };
+
+  switch (shape.type) {
+    case 1: {
+      const { row, startCol, endCol, spanRows } = shape.data;
+      const actualRows = spanRows || 1;
+
+      const x1 = startCol * colWidth;
+      const x2 = (endCol + 1) * colWidth;
+      const height = actualRows * rowHeight;
+
+      d = `M${x1 + r},0 H${x2 - r} Q${x2},0 ${x2},${r} V${height - r} Q${x2},${height} ${x2 - r},${height} H${x1 + r} Q${x1},${height} ${x1},${height - r} V${r} Q${x1},0 ${x1 + r},0 Z`;
+
+      textPos.x = (x1 + x2) / 2;
+      textPos.y = height / 2;
+      break;
+    }
+
+    case 2: {
+      const { row1, startCol1, row2, endCol2 } = shape.data;
+
+      const x1_part1 = startCol1 * colWidth;
+      const x2_part1 = fullWidth;
+      const x1_part2 = 0;
+      const x2_part2 = (endCol2 + 1) * colWidth;
+
+      const y1 = 0;
+      const y2 = rowHeight;
+
+      d += `M${x1_part1 + r},${y1} `;
+      d += `H${x2_part1 - r} Q${x2_part1},${y1} ${x2_part1},${y1 + r} `;
+      d += `V${y2} `;
+      d += `H${x1_part1} `;
+      d += `Q${x1_part1},${y2} ${x1_part1},${y2 - r} `;
+      d += `V${y1 + r} Q${x1_part1},${y1} ${x1_part1 + r},${y1} `;
+
+      d += ` M${x1_part2},${y2} `;
+      d += `H${x2_part2 - r} `;
+      d += `Q${x2_part2},${y2} ${x2_part2},${y2 + r} `;
+      d += `V${y2 + rowHeight - r} `;
+      d += `Q${x2_part2},${y2 + rowHeight} ${x2_part2 - r},${y2 + rowHeight} `;
+      d += `H${x1_part2 + r} `;
+      d += `Q${x1_part2},${y2 + rowHeight} ${x1_part2},${y2 + rowHeight - r} `;
+      d += `V${y2 + r} `;
+      d += `Q${x1_part2},${y2} ${x1_part2 + r},${y2} Z`;
+
+      textPos = { x: -1, y: -1, type: "multi" };
+      break;
+    }
+
+    case 3: {
+      const { startRow, endRow, lastRowEndCol } = shape.data;
+      const totalH = (endRow - startRow + 1) * rowHeight;
+      const partWidth = (lastRowEndCol + 1) * colWidth;
+      const fullRowsHeight = (endRow - startRow) * rowHeight;
+
+      const x_turn = partWidth;
+      const y_trans = fullRowsHeight;
+
+      d = `M${r},0 `;
+      d += `H${fullWidth - r} Q${fullWidth},0 ${fullWidth},${r} `;
+      d += `V${y_trans} `;
+      d += `H${x_turn + r} `;
+      d += `Q${x_turn},${y_trans} ${x_turn},${y_trans + r} `;
+      d += `V${totalH - r} `;
+      d += `Q${x_turn},${totalH} ${x_turn - r},${totalH} `;
+      d += `H${r} `;
+      d += `Q0,${totalH} 0,${totalH - r} `;
+      d += `V${r} Q0,0 ${r},0 Z`;
+
+      textPos.x = fullWidth / 2;
+      textPos.y = totalH / 2;
+      break;
+    }
+
+    case 4: {
+      const { startRow, endRow, firstRowStartCol } = shape.data;
+      const totalH = (endRow - startRow + 1) * rowHeight;
+      const x_start = firstRowStartCol * colWidth;
+      const fullRowsHeight = (endRow - startRow) * rowHeight;
+      const y_transition = totalH - fullRowsHeight;
+
+      d += `M${x_start + r},0 `;
+      d += `H${fullWidth - r} Q${fullWidth},0 ${fullWidth},${r} `;
+      d += `V${totalH - r} `;
+      d += `Q${fullWidth},${totalH} ${fullWidth - r},${totalH} `;
+      d += `H${r} `;
+      d += `Q0,${totalH} 0,${totalH - r} `;
+      d += `V${y_transition + r} `;
+      d += `Q0,${y_transition} ${r},${y_transition} `;
+      d += `H${x_start - r} `;
+      d += `Q${x_start},${y_transition} ${x_start},${y_transition - r} `;
+      d += `V${r} Q${x_start},0 ${x_start + r},0 Z`;
+
+      textPos.x = fullWidth / 2;
+      textPos.y = totalH / 2;
+      break;
+    }
+
+    case 5: {
+      const { startRow, endRow, firstRowStartCol, lastRowEndCol } = shape.data;
+      const totalRows = endRow - startRow + 1;
+      const totalH = totalRows * rowHeight;
+
+      const x_start = firstRowStartCol * colWidth;
+      const x_end = (lastRowEndCol + 1) * colWidth;
+
+      const y_top = 1 * rowHeight;
+      const y_bot = totalH - 1 * rowHeight;
+
+      d = `M${x_start + r},0 `;
+      d += `H${fullWidth - r} Q${fullWidth},0 ${fullWidth},${r} `;
+      d += `V${y_bot - r} `;
+      d += `V${y_bot} `;
+      d += `H${x_end + r} `;
+      d += `Q${x_end},${y_bot} ${x_end},${y_bot + r} `;
+      d += `V${totalH - r} `;
+      d += `Q${x_end},${totalH} ${x_end - r},${totalH} `;
+      d += `H${r} `;
+      d += `Q0,${totalH} 0,${totalH - r} `;
+      d += `V${y_top + r} `;
+      d += `Q0,${y_top} ${r},${y_top} `;
+      d += `H${x_start - r} `;
+      d += `Q${x_start},${y_top} ${x_start},${y_top - r} `;
+      d += `V${r} Q${x_start},0 ${x_start + r},0 Z`;
+
+      textPos.x = fullWidth / 2;
+      textPos.y = totalH / 2;
+      break;
+    }
+  }
+
+  return { d, textPos };
 }
 
 function generateBlockSVG(block) {
-  const { name, range, status } = block;
+  const { name, range, url, short } = block;
   const [startHex, endHex] = range.split("..");
   const startCode = hexToDec(startHex);
   const endCode = hexToDec(endHex);
 
   const cells = analyzeBlockCells(startCode, endCode);
-  const cellGroups = groupConnectedCells(cells);
+  if (cells.length === 0) return "";
 
+  const cellGroups = groupConnectedCells(cells);
   const baseRow = cells[0].row;
   const baseY = baseRow * CONFIG.rowHeight;
-  const pdfId = decToHex4(startCode);
-  const pdfLink = `https://www.unicode.org/charts/PDF/U${pdfId}.pdf`;
 
   let classes = "re publ";
-  if (name.includes("C0 Controls")) classes += " ctrl";
 
   let svgContent = `<g class="${classes}" transform="translate(0, ${baseY})" data-from="${startCode}" data-to="${endCode}" onmouseenter="rmtooltip(this)">
         <desc>${name}</desc>`;
 
-  cellGroups.forEach((group, idx) => {
-    const pathData = generateGroupPath(group);
-    svgContent += `<path d="${pathData}" />`;
+  cellGroups.forEach((group) => {
+    const result = generateGroupPath(group);
 
-    const groupRows = [...new Set(group.map((c) => c.row))];
-    const groupCols = [...new Set(group.map((c) => c.col))];
-    const relRow = Math.floor(groupRows.length / 2);
-    const centerCol = (Math.min(...groupCols) + Math.max(...groupCols) + 1) / 2;
-    const centerX = centerCol * CONFIG.colWidth;
-    const centerY = relRow * CONFIG.rowHeight + CONFIG.rowHeight / 2;
+    svgContent += `<path d="${result.d}" />`;
 
-    svgContent += `<a href="${pdfLink}">
-            <text x="${centerX}" y="${centerY}" text-anchor="middle" dominant-baseline="middle">${name}</text>
-        </a>`;
+    if (result.textPos.type === "multi") {
+      const { row1, startCol1, row2, endCol2 } = classifyBlockShape(group).data;
+      const { colWidth, rowHeight } = CONFIG;
+
+      const x1 = (startCol1 * colWidth + CONFIG.contentCols * colWidth) / 2;
+      const y1 = rowHeight / 2;
+      svgContent += `<a href="${url}"><text x="${x1}" y="${y1}" text-anchor="middle" dominant-baseline="middle">${short}</text></a>`;
+
+      const x2 = (0 + (endCol2 + 1) * colWidth) / 2;
+      const y2 = rowHeight + rowHeight / 2;
+      svgContent += `<a href="${url}"><text x="${x2}" y="${y2}" text-anchor="middle" dominant-baseline="middle">${short}</text></a>`;
+    } else {
+      svgContent += `<a href="${url}"><text x="${result.textPos.x}" y="${result.textPos.y}" text-anchor="middle" dominant-baseline="middle">${short}</text></a>`;
+    }
   });
 
   svgContent += `</g>`;
   return svgContent;
 }
 
+function getUniqueRowsFromBlocks(blocks) {
+  const rows = new Set();
+  blocks.forEach((block) => {
+    const [startHex, endHex] = block.range.split("..");
+    const startCode = hexToDec(startHex);
+    const endCode = hexToDec(endHex);
+    const startRow = Math.floor(
+      startCode / (CONFIG.contentCols * CONFIG.codePerCell),
+    );
+    const endRow = Math.floor(
+      endCode / (CONFIG.contentCols * CONFIG.codePerCell),
+    );
+
+    for (let row = startRow; row <= endRow; row++) {
+      rows.add(row);
+    }
+  });
+
+  const sortedRows = Array.from(rows).sort((a, b) => a - b);
+  return sortedRows;
+}
+
 function generateRoadmapSVG(blocks) {
   const container = document.getElementById("unicode-roadmap-container");
   if (!container) return;
 
-  let maxCode = 0;
-  blocks.forEach((b) => {
-    const end = hexToDec(b.range.split("..")[1]);
-    if (end > maxCode) maxCode = end;
+  const rows = getUniqueRowsFromBlocks(blocks);
+  if (rows.length === 0) {
+    container.innerHTML = "<p>No blocks to display</p>";
+    return;
+  }
+
+  const rowMap = new Map();
+  let displayRowIndex = 0;
+  rows.forEach((rowNum, index) => {
+    rowMap.set(rowNum, displayRowIndex);
+    if (index < rows.length - 1 && rows[index + 1] - rowNum > 1) {
+      displayRowIndex++;
+    }
+    displayRowIndex++;
   });
-  const totalRows = Math.floor(maxCode / (CONFIG.contentCols * CONFIG.codePerCell)) + 1;
-  const svgHeight = totalRows * CONFIG.rowHeight;
+
+  const svgHeight = displayRowIndex * CONFIG.rowHeight;
 
   let svgContent = `
         <svg width="100%" viewBox="0 0 ${CONFIG.svgBaseWidth} ${svgHeight}" xmlns="http://www.w3.org/2000/svg">
@@ -162,22 +455,38 @@ function generateRoadmapSVG(blocks) {
     `;
 
   blocks.forEach((block) => {
-    svgContent += generateBlockSVG(block);
+    const [startHex, endHex] = block.range.split("..");
+    const startCode = hexToDec(startHex);
+    const endCode = hexToDec(endHex);
+    const startRow = Math.floor(
+      startCode / (CONFIG.contentCols * CONFIG.codePerCell),
+    );
+    const displayStartRow = rowMap.get(startRow) * CONFIG.rowHeight;
+
+    const originalSVG = generateBlockSVG(block);
+    const transformedSVG = originalSVG.replace(
+      /transform="translate\(0, (\d+\.?\d*)\)"/,
+      `transform="translate(0, ${displayStartRow})"`,
+    );
+    svgContent += transformedSVG;
   });
 
   svgContent += `</g>`;
-  svgContent += generateRowLabelsInCol0(totalRows);
+  svgContent += generateRowLabels(rows, rowMap);
   svgContent += `</svg>`;
   container.innerHTML = svgContent;
 }
 
-function generateRowLabelsInCol0(count) {
+function generateRowLabels(rows, rowMap) {
   let labels = "";
-  for (let i = 0; i < count; i++) {
-    const hexLabel = decToHex4(i * CONFIG.contentCols * CONFIG.codePerCell);
-    const yPos = i * CONFIG.rowHeight + CONFIG.rowHeight / 2;
+  rows.forEach((rowNum) => {
+    const displayRow = rowMap.get(rowNum);
+    const hexLabel = decToHex4(
+      rowNum * CONFIG.contentCols * CONFIG.codePerCell,
+    );
+    const yPos = displayRow * CONFIG.rowHeight + CONFIG.rowHeight / 2;
     labels += `<text class="cp" x="30" y="${yPos}" text-anchor="middle" dominant-baseline="middle">${hexLabel}</text>`;
-  }
+  });
   return labels;
 }
 

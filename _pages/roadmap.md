@@ -27,10 +27,6 @@ category: pages
         padding-top: 0.1em
     }
 
-    .planerm li {
-        font-family: monospace;
-    }
-
     div.sticktop {
         position: sticky;
         top: 0;
@@ -275,7 +271,7 @@ category: pages
 
 <div class="plane shadow">
     <div class="sticktop">
-        <svg width="100%" viewBox="0 0 1025 20" xmlns="http://www.w3.org/2000/svg">
+        <svg width="100%" viewBox="0 0 1020 20" xmlns="http://www.w3.org/2000/svg">
             <style type="text/css">
                 rect.cp { fill: white; stroke-width: 1px; stroke: black; }
             </style>

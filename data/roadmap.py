@@ -35,6 +35,15 @@ def _parse_roadmap_page(url: str) -> list:
         cols = (cps + 15) // 16
         name_elem = entry.find(".//*[1]")
         name = name_elem.text.strip() if (name_elem.text is not None) else "Unknown"
+        if name == "Unknown":
+            continue
+
+        # short name
+        short = ""
+        text_elem = entry.find(".//text")
+        if text_elem is not None:
+            short = text_elem.text.strip()
+
         status = "Unallocated"
         flags = []
         for cls in entry.get("class", "").split():
@@ -58,7 +67,24 @@ def _parse_roadmap_page(url: str) -> list:
                 flags.append("noncharacters")
         if flags:
             status += f" ({', '.join(flags)})"
-        result.append({"name": name, "range": range_str, "cps": cps, "cols": cols, "status": status})
+
+        # url
+        url = ""
+        a_elem = entry.find(".//a")
+        if a_elem is not None:
+            url = a_elem.get("href")
+
+        # HACK
+        if url == "170-A44":
+            print(f"⚠️ HACK: wrong url for Egyptian Hieroglyphs Format Controls: {url}")
+            url = "https://www.unicode.org/charts/PDF/U13430.pdf"
+        elif url == "167-A37":
+            print(f"⚠️ HACK: wrong url for Kanbun: {url}")
+            url = "https://www.unicode.org/charts/PDF/U3190.pdf"
+
+        item = {"name": name, "short": short, "range": range_str, "cps": cps, "cols": cols, "url": url, "status": status}
+
+        result.append(item)
     return result
 
 
@@ -79,9 +105,7 @@ def parse_roadmap() -> None:
         all_data.extend(_parse_roadmap_page(link))
     print(f"\n✅ parsed {len(all_data)} blocks of encoding data")
     with open("assets/roadmap.json", "w", encoding="utf-8") as f:
-        json.dump(
-            {"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data}, f, ensure_ascii=False, indent=2
-        )
+        json.dump({"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data}, f, ensure_ascii=False, indent=2)
 
 
 class RoadmapBlock(TypedDict):
@@ -111,8 +135,11 @@ def get_names(roadmap: Roadmap) -> list[str]:
     result.sort()
     with open("assets/roadmap.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(result))
+    return result
 
 
 if __name__ == "__main__":
-    roadmap = _load_roadmap("assets/roadmap.json")
-    names = get_names(roadmap)
+    # roadmap = _load_roadmap("assets/roadmap.json")
+    # names = get_names(roadmap)
+
+    parse_roadmap()
