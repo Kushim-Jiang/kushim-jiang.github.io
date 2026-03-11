@@ -1,8 +1,11 @@
-from datetime import datetime
 import json
+from datetime import datetime
+from typing import TypedDict
+from urllib.parse import urljoin
+
 import requests
 from lxml import etree
-from urllib.parse import urljoin
+
 
 BASE_URL = "https://sew.unicode.org/roadmaps"
 SESSION = requests.Session()
@@ -79,3 +82,37 @@ def parse_roadmap() -> None:
         json.dump(
             {"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data}, f, ensure_ascii=False, indent=2
         )
+
+
+class RoadmapBlock(TypedDict):
+    name: str
+    range: str
+    cps: int
+    cols: int
+    status: str
+
+
+class Roadmap(TypedDict):
+    date: str
+    data: list[RoadmapBlock]
+
+
+def _load_roadmap(dir: str) -> Roadmap:
+    with open(dir, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def get_names(roadmap: Roadmap) -> list[str]:
+    result = []
+    for block in roadmap["data"]:
+        name = block["name"]
+        if name not in result:
+            result.append(name)
+    result.sort()
+    with open("assets/roadmap.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(result))
+
+
+if __name__ == "__main__":
+    roadmap = _load_roadmap("assets/roadmap.json")
+    names = get_names(roadmap)
