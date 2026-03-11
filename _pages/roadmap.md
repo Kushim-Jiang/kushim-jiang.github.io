@@ -15,6 +15,9 @@ category: pages
         border: solid 1px black;
         background: white;
         padding: 0.5em;
+        white-space: nowrap;
+        z-index: 1000;
+        pointer-events: none;
     }
 
     div#tooltip span.hdr {
@@ -224,22 +227,25 @@ category: pages
 </style>
 
 <script>
-    function rmtooltip(entry)
-    {
-        if (tooltip.matches(":hover"))
-        {
-            return;
+    function padLeft(str, length, char = '0') {
+        while (str.length < length) {
+            str = char + str;
         }
+        return str;
+    }
 
-        if (!entry || !entry.firstElementChild.innerHTML)
-        {
+    function rmtooltip(entry) {
+        var tooltip = document.getElementById('tooltip');
+        var ttname = document.getElementById('ttname');
+        var ttrange = document.getElementById('ttrange');
+        var ttcps = document.getElementById('ttcps');
+        var ttcols = document.getElementById('ttcols');
+        var ttstatus = document.getElementById('ttstatus');
+
+        if (!entry || !entry.firstElementChild || !entry.firstElementChild.innerHTML) {
             tooltip.style.display = "none";
             return;
         }
-
-        tooltip.style.left = (event.clientX + window.scrollX + 5) + "px";
-        tooltip.style.top = (event.clientY + window.scrollY + 5) + "px";
-        tooltip.style.display = "block";
 
         var from = parseInt(entry.dataset.from);
         var to = parseInt(entry.dataset.to);
@@ -250,9 +256,10 @@ category: pages
         ttcols.innerText = Math.ceil((to - from + 1) / 16);
 
         var flags = [];
-        for (var cls of entry.classList)
-            switch (cls)
-            {
+        ttstatus.innerHTML = "";
+
+        for (var cls of entry.classList) {
+            switch (cls) {
                 case "publ": ttstatus.innerHTML = "Published"; break;
                 case "acpt": ttstatus.innerHTML = "Accepted for publication"; break;
                 case "prov": ttstatus.innerHTML = "Provisionally assigned"; break;
@@ -263,9 +270,43 @@ category: pages
                 case "ctrl": flags.push("control characters"); break;
                 case "nc": flags.push("noncharacters"); break;
             }
+        }
 
-        if (flags.length > 0)
-            ttstatus.innerHTML += " (" + flags.join(", ") + ")";
+        if (flags.length > 0) {
+            var flagStr = "(" + flags.join(", ") + ")";
+            if (ttstatus.innerHTML) {
+                ttstatus.innerHTML += " " + flagStr;
+            } else {
+                ttstatus.innerHTML = flagStr;
+            }
+        }
+
+        var e = window.event || event; 
+        if (!e) return;
+
+        const blocks = document.querySelectorAll('g.re');
+        let isHoveringBlock = false;
+        tooltip.style.position = "fixed";
+
+        blocks.forEach(block => {
+            block.addEventListener('mouseenter', () => {
+                isHoveringBlock = true;
+                tooltip.style.display = "block";
+            });
+            block.addEventListener('mouseleave', () => {
+                isHoveringBlock = false;
+                tooltip.style.display = "none";
+            });
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isHoveringBlock) return;
+
+            const offsetX = 10;
+            const offsetY = 10;
+            tooltip.style.left = (e.clientX + offsetX) + "px";
+            tooltip.style.top = (e.clientY + offsetY) + "px";
+        });
     }
 </script>
 
@@ -295,15 +336,13 @@ category: pages
     </div>
 
     <div id="unicode-roadmap-container" style="overflow-x: auto;">
-        <p style="text-align:center; padding: 20px;">Loading Roadmap...</p>
+        <p style="text-align:center; padding: 20px;">Please refresh this page</p>
     </div>
 
 </div>
 
-<!-- 引入生成脚本 -->
 <script src="/assets/js/roadmap.js"></script>
 <script>
-    // 初始化
     document.addEventListener('DOMContentLoaded', () => {
         fetch('/assets/roadmap.json')
             .then(response => response.json())

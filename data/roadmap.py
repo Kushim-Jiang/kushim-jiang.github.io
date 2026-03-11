@@ -138,8 +138,10 @@ def get_names(roadmap: Roadmap) -> list[str]:
     return result
 
 
-if __name__ == "__main__":
-    # roadmap = _load_roadmap("assets/roadmap.json")
-    # names = get_names(roadmap)
+def get_names_from_file(dir: str) -> list[str]:
+    roadmap = _load_roadmap(dir)
+    return get_names(roadmap)
 
+
+if __name__ == "__main__":
     parse_roadmap()

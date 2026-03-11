@@ -272,9 +272,12 @@ function generateGroupPath(group) {
 
     case 3: {
       const { startRow, endRow, lastRowEndCol } = shape.data;
-      const totalH = (endRow - startRow + 1) * rowHeight;
+      const totalRows = endRow - startRow + 1;
+      const totalH = totalRows * rowHeight;
+
       const partWidth = (lastRowEndCol + 1) * colWidth;
-      const fullRowsHeight = (endRow - startRow) * rowHeight;
+      const fullRowsCount = totalRows - 1;
+      const fullRowsHeight = fullRowsCount * rowHeight;
 
       const x_turn = partWidth;
       const y_trans = fullRowsHeight;
@@ -291,15 +294,19 @@ function generateGroupPath(group) {
       d += `V${r} Q0,0 ${r},0 Z`;
 
       textPos.x = fullWidth / 2;
-      textPos.y = totalH / 2;
+      textPos.y = fullRowsHeight / 2;
       break;
     }
 
     case 4: {
       const { startRow, endRow, firstRowStartCol } = shape.data;
-      const totalH = (endRow - startRow + 1) * rowHeight;
+      const totalRows = endRow - startRow + 1;
+      const totalH = totalRows * rowHeight;
+
       const x_start = firstRowStartCol * colWidth;
-      const fullRowsHeight = (endRow - startRow) * rowHeight;
+      const fullRowsCount = totalRows - 1;
+      const fullRowsHeight = fullRowsCount * rowHeight;
+
       const y_transition = totalH - fullRowsHeight;
 
       d += `M${x_start + r},0 `;
@@ -315,7 +322,7 @@ function generateGroupPath(group) {
       d += `V${r} Q${x_start},0 ${x_start + r},0 Z`;
 
       textPos.x = fullWidth / 2;
-      textPos.y = totalH / 2;
+      textPos.y = y_transition + fullRowsHeight / 2;
       break;
     }
 
@@ -347,7 +354,14 @@ function generateGroupPath(group) {
       d += `V${r} Q${x_start},0 ${x_start + r},0 Z`;
 
       textPos.x = fullWidth / 2;
-      textPos.y = totalH / 2;
+
+      if (totalRows >= 3) {
+        const middleRowsCount = totalRows - 2;
+        const middleHeight = middleRowsCount * rowHeight;
+        textPos.y = y_top + middleHeight / 2;
+      } else {
+        textPos.y = y_top / 2;
+      }
       break;
     }
   }
@@ -356,7 +370,7 @@ function generateGroupPath(group) {
 }
 
 function generateBlockSVG(block) {
-  const { name, range, url, short } = block;
+  const { name, range, url, short, status } = block;
   const [startHex, endHex] = range.split("..");
   const startCode = hexToDec(startHex);
   const endCode = hexToDec(endHex);
@@ -368,7 +382,34 @@ function generateBlockSVG(block) {
   const baseRow = cells[0].row;
   const baseY = baseRow * CONFIG.rowHeight;
 
-  let classes = "re publ";
+  let classes = "re";
+  if (status.includes("Published")) {
+    classes += " publ";
+  }
+  if (status.includes("Accepted for publication")) {
+    classes += " acpt";
+  }
+  if (status.includes("Provisionally assigned")) {
+    classes += " prov";
+  }
+  if (status.includes("Roadmapped")) {
+    classes += " rdmp";
+  }
+  if (status.includes("Tentative")) {
+    classes += " tent";
+  }
+  if (status.includes("Unallocated")) {
+    classes += " free";
+  }
+  if (status.includes("right-to-left")) {
+    classes += " rtl";
+  }
+  if (status.includes("control characters")) {
+    classes += " ctrl";
+  }
+  if (status.includes("noncharacters")) {
+    classes += " nc";
+  }
 
   let svgContent = `<g class="${classes}" transform="translate(0, ${baseY})" data-from="${startCode}" data-to="${endCode}" onmouseenter="rmtooltip(this)">
         <desc>${name}</desc>`;
@@ -481,13 +522,9 @@ function generateRowLabels(rows, rowMap) {
   let labels = "";
   rows.forEach((rowNum) => {
     const displayRow = rowMap.get(rowNum);
-    const hexLabel = decToHex4(
-      rowNum * CONFIG.contentCols * CONFIG.codePerCell,
-    );
+    const hexLabel = decToHex4(rowNum * CONFIG.codePerCell);
     const yPos = displayRow * CONFIG.rowHeight + CONFIG.rowHeight / 2;
     labels += `<text class="cp" x="30" y="${yPos}" text-anchor="middle" dominant-baseline="middle">${hexLabel}</text>`;
   });
   return labels;
 }
-
-window.rmtooltip = function (el) {};
