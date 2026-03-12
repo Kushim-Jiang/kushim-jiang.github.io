@@ -15,9 +15,10 @@ category: pages
         border: solid 1px black;
         background: white;
         padding: 0.5em;
-        white-space: nowrap;
+        max-width: 800px;
         z-index: 1000;
         pointer-events: none;
+        font-size: 1.5rem;
     }
 
     div#tooltip span.hdr {
@@ -32,6 +33,7 @@ category: pages
 
     div.plane {
         height: calc(100vh - 200px);
+        font-size: 2rem;
         overflow-y: auto;
         position: relative;
     }
@@ -246,6 +248,27 @@ category: pages
         return str;
     }
 
+    let roadmapZhData = [];
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('/assets/json/roadmap_zh.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Roadmap zh JSON file loading failed');
+                return response.json();
+            })
+            .then(data => {
+                roadmapZhData = data;
+                console.log('Chinese roadmap data loading completed:', roadmapZhData);
+            })
+            .catch(err => console.error('Error loading roadmap zh:', err));
+
+        fetch('/assets/json/roadmap.json')
+            .then(response => response.json())
+            .then(data => {
+                generateRoadmapSVG(data.data);
+            })
+            .catch(err => console.error('Error loading roadmap:', err));
+    });
+
     function rmtooltip(entry) {
         var tooltip = document.getElementById('tooltip');
         var ttname = document.getElementById('ttname');
@@ -253,6 +276,19 @@ category: pages
         var ttcps = document.getElementById('ttcps');
         var ttcols = document.getElementById('ttcols');
         var ttstatus = document.getElementById('ttstatus');
+        
+        let ttChineseName = document.getElementById('ttchinesename');
+        let ttNote = document.getElementById('ttnote');
+        if (!ttChineseName) {
+            ttChineseName = document.createElement('div');
+            ttChineseName.id = 'ttchinesename';
+            ttstatus.parentNode.parentNode.insertBefore(ttChineseName, ttstatus.parentNode);
+        }
+        if (!ttNote) {
+            ttNote = document.createElement('div');
+            ttNote.id = 'ttnote';
+            ttstatus.parentNode.parentNode.insertBefore(ttNote, ttstatus.parentNode);
+        }
 
         if (!entry || !entry.firstElementChild || !entry.firstElementChild.innerHTML) {
             tooltip.style.display = "none";
@@ -261,11 +297,19 @@ category: pages
 
         var from = parseInt(entry.dataset.from);
         var to = parseInt(entry.dataset.to);
+        var originalName = entry.firstElementChild.innerHTML;
 
-        ttname.innerHTML = entry.firstElementChild.innerHTML;
+        ttname.innerHTML = originalName;
         ttrange.innerText = "U+" + padLeft(from.toString(16).toUpperCase(), 4, '0') + ".." + "U+" + padLeft(to.toString(16).toUpperCase(), 4, '0');
         ttcps.innerText = (to - from + 1);
         ttcols.innerText = Math.ceil((to - from + 1) / 16);
+
+        let chineseInfo = roadmapZhData.find(item => item.name === originalName) || {};
+        let chineseName = chineseInfo['zh-cn'] || '';
+        let note = chineseInfo.note || '';
+        
+        ttChineseName.innerHTML = chineseName;
+        ttNote.innerHTML = note;
 
         var flags = [];
         ttstatus.innerHTML = "";
@@ -368,6 +412,7 @@ category: pages
             <rect class="cp" width="60" height="20" x="960" rx="5" ry="5" /><text class="cp" x="990" y="10" text-anchor="middle" dominant-baseline="middle">F</text>
         </svg>
     </div>
+
 </div>
 
 <script src="/assets/js/roadmap.js"></script>
@@ -383,9 +428,12 @@ category: pages
 </script>
 
 <div id="tooltip">
-    <div><span class="hdr">Full Name</span>: <span id="ttname"></span></div>
+    <div><span class="hdr">Full Name:</span> <span id="ttname"></span></div>
     <div><span class="hdr">Range:</span> <span id="ttrange"></span></div>
     <div><span class="hdr">Codepoints:</span> <span id="ttcps"></span></div>
     <div><span class="hdr">Columns:</span> <span id="ttcols"></span></div>
-    <div class="sep"><span class="hdr">Status:</span> <span id="ttstatus"></span></div>
+    <div><span class="hdr">Status:</span> <span id="ttstatus"></span></div>
+    <div class="sep"></div>
+    <div><span class="hdr">Chinese Name:</span> <span id="ttchinesename"></span></div>
+    <div><span class="hdr" style="color: #ccc;">Note:</span> <span id="ttnote" style="color: #ccc;"></span></div>
 </div>

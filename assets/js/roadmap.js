@@ -41,11 +41,7 @@ function groupConnectedCells(cells) {
     const prev = cells[i - 1];
     const curr = cells[i];
 
-    const isConnected =
-      (curr.row === prev.row && curr.col === prev.col + 1) ||
-      (curr.row === prev.row + 1 &&
-        prev.col === CONFIG.contentCols - 1 &&
-        curr.col === 0);
+    const isConnected = (curr.row === prev.row && curr.col === prev.col + 1) || (curr.row === prev.row + 1 && prev.col === CONFIG.contentCols - 1 && curr.col === 0);
 
     if (isConnected) {
       currentGroup.push(curr);
@@ -78,6 +74,7 @@ function classifyBlockShape(group) {
         end: colsInRow[colsInRow.length - 1],
         count: colsInRow.length,
         isFull: colsInRow.length === fullColCount,
+        cols: colsInRow,
       };
     }
   }
@@ -115,8 +112,12 @@ function classifyBlockShape(group) {
     };
   }
 
-  if (totalRows === 2 && !firstRowData.isFull && !lastRowData.isFull) {
-    if (firstRowData.end === fullColCount - 1 && lastRowData.start === 0) {
+  if (totalRows === 2) {
+    const firstRowCols = firstRowData.cols;
+    const lastRowCols = lastRowData.cols;
+    const isFirstRowRightToLast = Math.min(...firstRowCols) > Math.max(...lastRowCols);
+
+    if (isFirstRowRightToLast) {
       return {
         type: 2,
         data: {
@@ -124,6 +125,20 @@ function classifyBlockShape(group) {
           startCol1: firstRowData.start,
           row2: maxRow,
           endCol2: lastRowData.end,
+        },
+      };
+    }
+
+    const firstRowNoFirstCol = firstRowData.start > 0;
+    const lastRowNoLastCol = lastRowData.end < fullColCount - 1;
+    if (firstRowNoFirstCol && lastRowNoLastCol) {
+      return {
+        type: 5,
+        data: {
+          startRow: minRow,
+          endRow: maxRow,
+          firstRowStartCol: firstRowData.start,
+          lastRowEndCol: lastRowData.end,
         },
       };
     }
@@ -150,11 +165,7 @@ function classifyBlockShape(group) {
     }
   }
 
-  if (
-    !firstRowData.isFull &&
-    firstRowData.end === fullColCount - 1 &&
-    lastRowData.isFull
-  ) {
+  if (!firstRowData.isFull && firstRowData.end === fullColCount - 1 && lastRowData.isFull) {
     let middleAllFull = true;
     for (let r = minRow + 1; r < maxRow; r++) {
       if (!rowDetails[r].isFull) {
@@ -175,12 +186,7 @@ function classifyBlockShape(group) {
     }
   }
 
-  if (
-    !firstRowData.isFull &&
-    firstRowData.end === fullColCount - 1 &&
-    !lastRowData.isFull &&
-    lastRowData.start === 0
-  ) {
+  if (!firstRowData.isFull && firstRowData.end === fullColCount - 1 && !lastRowData.isFull && lastRowData.start === 0) {
     let middleAllFull = true;
     for (let r = minRow + 1; r < maxRow; r++) {
       if (!rowDetails[r].isFull) {
@@ -445,12 +451,8 @@ function getUniqueRowsFromBlocks(blocks) {
     const [startHex, endHex] = block.range.split("..");
     const startCode = hexToDec(startHex);
     const endCode = hexToDec(endHex);
-    const startRow = Math.floor(
-      startCode / (CONFIG.contentCols * CONFIG.codePerCell),
-    );
-    const endRow = Math.floor(
-      endCode / (CONFIG.contentCols * CONFIG.codePerCell),
-    );
+    const startRow = Math.floor(startCode / (CONFIG.contentCols * CONFIG.codePerCell));
+    const endRow = Math.floor(endCode / (CONFIG.contentCols * CONFIG.codePerCell));
 
     for (let row = startRow; row <= endRow; row++) {
       rows.add(row);
@@ -499,16 +501,11 @@ function generateRoadmapSVG(blocks) {
     const [startHex, endHex] = block.range.split("..");
     const startCode = hexToDec(startHex);
     const endCode = hexToDec(endHex);
-    const startRow = Math.floor(
-      startCode / (CONFIG.contentCols * CONFIG.codePerCell),
-    );
+    const startRow = Math.floor(startCode / (CONFIG.contentCols * CONFIG.codePerCell));
     const displayStartRow = rowMap.get(startRow) * CONFIG.rowHeight;
 
     const originalSVG = generateBlockSVG(block);
-    const transformedSVG = originalSVG.replace(
-      /transform="translate\(0, (\d+\.?\d*)\)"/,
-      `transform="translate(0, ${displayStartRow})"`,
-    );
+    const transformedSVG = originalSVG.replace(/transform="translate\(0, (\d+\.?\d*)\)"/, `transform="translate(0, ${displayStartRow})"`);
     svgContent += transformedSVG;
   });
 
