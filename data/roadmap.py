@@ -36,6 +36,7 @@ def _parse_roadmap_page(url: str) -> list:
         name_elem = entry.find(".//*[1]")
         name = name_elem.text.strip() if (name_elem.text is not None) else "Unknown"
         if name == "Unknown":
+            print(f"⚠️ cannot find name for entry: {from_cp}..{to_cp}")
             continue
 
         # short name
@@ -82,7 +83,15 @@ def _parse_roadmap_page(url: str) -> list:
             print(f"⚠️ HACK: wrong url for Kanbun: {url}")
             url = "https://www.unicode.org/charts/PDF/U3190.pdf"
 
-        item = {"name": name, "short": short, "range": range_str, "cps": cps, "cols": cols, "url": url, "status": status}
+        item = {
+            "name": name,
+            "short": short,
+            "range": range_str,
+            "cps": cps,
+            "cols": cols,
+            "url": url,
+            "status": status,
+        }
 
         result.append(item)
     return result
@@ -104,8 +113,10 @@ def parse_roadmap() -> None:
         print(f"📄 parsing {idx}/{len(sub_links)}：{link}")
         all_data.extend(_parse_roadmap_page(link))
     print(f"\n✅ parsed {len(all_data)} blocks of encoding data")
-    with open("assets/roadmap.json", "w", encoding="utf-8") as f:
-        json.dump({"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data}, f, ensure_ascii=False, indent=2)
+    with open("assets/json/roadmap.json", "w", encoding="utf-8") as f:
+        json.dump(
+            {"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data}, f, ensure_ascii=False, indent=2
+        )
 
 
 class RoadmapBlock(TypedDict):
@@ -126,22 +137,27 @@ def _load_roadmap(dir: str) -> Roadmap:
         return json.load(f)
 
 
-def get_names(roadmap: Roadmap) -> list[str]:
+def get_names(roadmap: Roadmap, dump: bool = False) -> list[str]:
     result = []
     for block in roadmap["data"]:
         name = block["name"]
         if name not in result:
             result.append(name)
     result.sort()
-    with open("assets/roadmap.txt", "w", encoding="utf-8") as f:
-        f.write("\n".join(result))
+    if dump:
+        with open("assets/roadmap.txt", "w", encoding="utf-8") as f:
+            f.write("\n".join(result))
     return result
 
 
-def get_names_from_file(dir: str) -> list[str]:
+def get_names_from_file(dir: str, dump: bool = False) -> list[str]:
     roadmap = _load_roadmap(dir)
-    return get_names(roadmap)
+    names = get_names(roadmap, dump)
+    dicts = [{"name": name, "zh-cn": "", "note": ""} for name in names]
+    with open("assets/json/roadmap_zh.json", "w", encoding="utf-8") as f:
+        json.dump(dicts, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
-    parse_roadmap()
+    # parse_roadmap()
+    get_names_from_file("assets/json/roadmap.json")

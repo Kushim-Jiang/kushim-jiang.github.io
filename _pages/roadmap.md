@@ -373,7 +373,7 @@ category: pages
 <script src="/assets/js/roadmap.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-        fetch('/assets/roadmap.json')
+        fetch('/assets/json/roadmap.json')
             .then(response => response.json())
             .then(data => {
                 generateRoadmapSVG(data.data);

@@ -17,7 +17,7 @@ function loadRecords() {
 
   loadDataPromise = new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
-    const url = "/assets/abstract.json";
+    const url = "/assets/json/abstract.json";
 
     xhr.open("GET", url, true);
     xhr.responseType = "json";

@@ -77,7 +77,7 @@ category: tools
     let filteredRecords = [];
 
     function loadRecords() {
-        fetch("{{ '/assets/record.json' | relative_url }}")
+        fetch("{{ '/assets/json/record.json' | relative_url }}")
             .then(response => response.json())
             .then(data => {
                 records = data;
