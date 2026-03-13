@@ -4,7 +4,7 @@ from typing import TypedDict
 from urllib.parse import urljoin
 
 import requests
-from lxml import etree
+from lxml import etree  # type: ignore
 
 
 BASE_URL = "https://sew.unicode.org/roadmaps"
@@ -114,9 +114,7 @@ def parse_roadmap() -> None:
         all_data.extend(_parse_roadmap_page(link))
     print(f"\n✅ parsed {len(all_data)} blocks of encoding data")
     with open("assets/json/roadmap.json", "w", encoding="utf-8") as f:
-        json.dump(
-            {"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data}, f, ensure_ascii=False, indent=2
-        )
+        json.dump({"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data}, f, ensure_ascii=False, indent=2)
 
 
 class RoadmapBlock(TypedDict):
@@ -150,7 +148,7 @@ def get_names(roadmap: Roadmap, dump: bool = False) -> list[str]:
     return result
 
 
-def get_names_from_file(dir: str, dump: bool = False) -> list[str]:
+def get_names_from_file(dir: str, dump: bool = False) -> None:
     roadmap = _load_roadmap(dir)
     names = get_names(roadmap, dump)
     dicts = [{"name": name, "zh-cn": "", "note": ""} for name in names]
@@ -158,6 +156,26 @@ def get_names_from_file(dir: str, dump: bool = False) -> list[str]:
         json.dump(dicts, f, ensure_ascii=False, indent=2)
 
 
+def check_missing_names() -> None:
+    """检查 roadmap.json 中是否有 name 字段在 roadmap_zh.json 中不存在"""
+    roadmap = _load_roadmap("assets/json/roadmap.json")
+    roadmap_names = get_names(roadmap)
+
+    with open("assets/json/roadmap_zh.json", "r", encoding="utf-8") as f:
+        roadmap_zh = json.load(f)
+    roadmap_zh_names = [item["name"] for item in roadmap_zh]
+
+    missing_names = [name for name in roadmap_names if name not in roadmap_zh_names]
+
+    if missing_names:
+        print("⚠️ name not in roadmap_zh.json:")
+        for name in missing_names:
+            print(f"- {name}")
+    else:
+        print("✅ all names in roadmap.json are in roadmap_zh.json")
+
+
 if __name__ == "__main__":
     # parse_roadmap()
-    get_names_from_file("assets/json/roadmap.json")
+    # get_names_from_file("assets/json/roadmap.json")
+    check_missing_names()
