@@ -15,7 +15,7 @@ category: pages
         border: solid 1px black;
         background: white;
         padding: 0.5em;
-        max-width: 800px;
+        max-width: 400px;
         z-index: 1000;
         pointer-events: none;
         font-size: 1.5rem;
@@ -368,7 +368,7 @@ category: pages
 
 <div class="plane shadow">
     <div class="sticktop">
-        <svg width="100%" viewBox="0 0 1020 20" xmlns="http://www.w3.org/2000/svg">
+        <svg width="100%" viewBox="0 0 1025 20" xmlns="http://www.w3.org/2000/svg">
             <rect class="cp" width="60" height="20" x="60" rx="5" ry="5" /><text class="cp" x="90" y="10" text-anchor="middle" dominant-baseline="middle">0</text>
             <rect class="cp" width="60" height="20" x="120" rx="5" ry="5" /><text class="cp" x="150" y="10" text-anchor="middle" dominant-baseline="middle">1</text>
             <rect class="cp" width="60" height="20" x="180" rx="5" ry="5" /><text class="cp" x="210" y="10" text-anchor="middle" dominant-baseline="middle">2</text>
@@ -393,7 +393,7 @@ category: pages
     </div>
 
     <div class="stickbottom">
-        <svg width="100%" viewBox="0 0 1020 20" xmlns="http://www.w3.org/2000/svg">
+        <svg width="100%" viewBox="0 0 1025 20" xmlns="http://www.w3.org/2000/svg">
             <rect class="cp" width="60" height="20" x="60" rx="5" ry="5" /><text class="cp" x="90" y="10" text-anchor="middle" dominant-baseline="middle">0</text>
             <rect class="cp" width="60" height="20" x="120" rx="5" ry="5" /><text class="cp" x="150" y="10" text-anchor="middle" dominant-baseline="middle">1</text>
             <rect class="cp" width="60" height="20" x="180" rx="5" ry="5" /><text class="cp" x="210" y="10" text-anchor="middle" dominant-baseline="middle">2</text>

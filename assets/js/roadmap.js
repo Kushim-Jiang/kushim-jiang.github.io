@@ -3,7 +3,7 @@ const CONFIG = {
   rowHeight: 40,
   cornerRadius: 5,
   xOffset: 60,
-  svgBaseWidth: 1020,
+  svgBaseWidth: 1025,
   contentCols: 16,
   codePerCell: 16,
 };
