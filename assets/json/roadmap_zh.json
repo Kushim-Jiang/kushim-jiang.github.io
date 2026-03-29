@@ -1085,6 +1085,11 @@
     "note": "Latin 习译为拉丁。Extended 译为扩充。"
   },
   {
+    "name": "Leibnizian Ambiguous Signs",
+    "zh-cn": "莱布尼兹多义符号",
+    "note": "Leibnizian 习译为莱布尼兹。Ambiguous 译为多义，表示其突破传统双值符号仅能表示两种互斥情况的表达限制。Sign 译为符号。"
+  },
+  {
     "name": "Leke",
     "zh-cn": "莱凯",
     "note": "Leke 对应 lɛkɛ，参考《缅甸汉译音表》译为莱凯。"
@@ -1420,6 +1425,11 @@
     "note": "Naxi Geba 从纳西哥巴译出。"
   },
   {
+    "name": "Ndiko Jonam",
+    "zh-cn": "恩迪科乔纳姆",
+    "note": "Ndiko Jonam 来自 ndiko ɟonam，参考《斯瓦希里汉译音表》译为恩迪科乔纳姆。"
+  },
+  {
     "name": "New Tai Lue",
     "zh-cn": "新傣仂",
     "note": "New Tai Lue 从新傣仂译出。"
@@ -1458,6 +1468,11 @@
     "name": "Nüshu",
     "zh-cn": "女书",
     "note": "Nüshu 从女书译出。"
+  },
+  {
+    "name": "N’ti",
+    "zh-cn": "姆蒂",
+    "note": "N’ti 来自 ɱ ti꜈，参考《班图汉译音表》译为姆蒂。"
   },
   {
     "name": "Ogham",

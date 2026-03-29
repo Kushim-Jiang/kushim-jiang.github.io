@@ -151,13 +151,28 @@ def get_names(roadmap: Roadmap, dump: bool = False) -> list[str]:
 def get_names_from_file(dir: str, dump: bool = False) -> None:
     roadmap = _load_roadmap(dir)
     names = get_names(roadmap, dump)
-    dicts = [{"name": name, "zh-cn": "", "note": ""} for name in names]
+    
+    existing_data = {}
+    try:
+        with open("assets/json/roadmap_zh.json", "r", encoding="utf-8") as f:
+            for item in json.load(f):
+                existing_data[item["name"]] = item
+    except FileNotFoundError:
+        pass
+    
+    dicts = []
+    for name in names:
+        if name in existing_data:
+            dicts.append(existing_data[name])
+        else:
+            dicts.append({"name": name, "zh-cn": "", "note": ""})
+    
+    dicts.sort(key=lambda x: x["name"])
     with open("assets/json/roadmap_zh.json", "w", encoding="utf-8") as f:
         json.dump(dicts, f, ensure_ascii=False, indent=2)
 
 
 def check_missing_names() -> None:
-    """检查 roadmap.json 中是否有 name 字段在 roadmap_zh.json 中不存在"""
     roadmap = _load_roadmap("assets/json/roadmap.json")
     roadmap_names = get_names(roadmap)
 

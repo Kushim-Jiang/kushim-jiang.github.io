@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11 20:50:27",
+  "date": "2026-03-29 22:50:42",
   "data": [
     {
       "name": "C0 Controls",
@@ -2406,7 +2406,7 @@
     },
     {
       "name": "Sharada Supplement",
-      "short": "Sharada Supplement",
+      "short": "Sharada Supp.",
       "range": "U+11B60..U+11B7F",
       "cps": 32,
       "cols": 2,
@@ -3152,6 +3152,24 @@
       "status": "Provisionally assigned"
     },
     {
+      "name": "Ndiko Jonam",
+      "short": "(Ndiko Jonam)",
+      "range": "U+1CB30..U+1CB7F",
+      "cps": 80,
+      "cols": 5,
+      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/26-055",
+      "status": "Roadmapped"
+    },
+    {
+      "name": "N’ti",
+      "short": "(N’ti)",
+      "range": "U+1CB80..U+1CBAF",
+      "cps": 48,
+      "cols": 3,
+      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/26-028R",
+      "status": "Roadmapped"
+    },
+    {
       "name": "Symbols for Legacy Computing Supplement",
       "short": "Symbols for Legacy Computing Supplement",
       "range": "U+1CC00..U+1CEBF",
@@ -3303,6 +3321,15 @@
       "cols": 16,
       "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/26-054R2",
       "status": "Accepted for publication"
+    },
+    {
+      "name": "Leibnizian Ambiguous Signs",
+      "short": "(Leibnizian Ambiguous Signs)",
+      "range": "U+1DC00..U+1DC3F",
+      "cps": 64,
+      "cols": 4,
+      "url": "https://www.unicode.org/cgi-bin/GetMatchingWG2Docs.pl?N5329R2",
+      "status": "Roadmapped"
     },
     {
       "name": "Latin Extended-G",
