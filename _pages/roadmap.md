@@ -389,7 +389,7 @@ category: pages
     </div>
 
     <div id="unicode-roadmap-container" style="overflow-x: auto;">
-        <p style="text-align:center; padding: 20px;">Please refresh this page</p>
+        <p style="text-align:center; padding: 20px;">Please wait...</p>
     </div>
 
     <div class="stickbottom">
