@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01 16:29:39",
+  "date": "2026-05-08 10:08:10",
   "data": [
     {
       "name": "C0 Controls",
@@ -2486,6 +2486,15 @@
       "status": "Published"
     },
     {
+      "name": "Bengali Supplement",
+      "short": "(Ba-S)",
+      "range": "U+11DF0..U+11DFF",
+      "cps": 16,
+      "cols": 1,
+      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/22-268R",
+      "status": "Accepted for publication"
+    },
+    {
       "name": "Tocharian",
       "short": "(Tocharian)",
       "range": "U+11E00..U+11E6F",
@@ -3843,6 +3852,24 @@
       "cols": 34,
       "url": "https://www.unicode.org/charts/PDF/U2F800.pdf",
       "status": "Published"
+    },
+    {
+      "name": "CJK Unified Ideographs Components-A",
+      "short": "(CJK Unified Ideographs Components-A)",
+      "range": "U+2FA20..U+2FA9F",
+      "cps": 128,
+      "cols": 8,
+      "url": "https://www.unicode.org/cgi-bin/GetMatchingIRGDocs.pl?N2878",
+      "status": "Roadmapped"
+    },
+    {
+      "name": "CJK Unified Ideographs Components-B",
+      "short": "(CJK Unified Ideographs Components-B)",
+      "range": "U+2FAA0..U+2FC1F",
+      "cps": 384,
+      "cols": 24,
+      "url": "https://www.unicode.org/cgi-bin/GetMatchingIRGDocs.pl?N2878",
+      "status": "Roadmapped"
     },
     {
       "name": "CJK Unified Ideographs Extension G",

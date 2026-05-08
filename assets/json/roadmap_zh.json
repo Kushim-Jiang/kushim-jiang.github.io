@@ -175,6 +175,11 @@
     "note": "Bengali 习译为孟加拉。"
   },
   {
+    "name": "Bengali Supplement",
+    "zh-cn": "孟加拉增补",
+    "note": "Bengali 习译为孟加拉，Supplement 译为增补。"
+  },
+  {
     "name": "Beria Erfe",
     "zh-cn": "贝里烙印文字",
     "note": "Beria Erfe 来自 Beria Giraj Erfee，写 Zaghawa 语，属于撒哈拉语族。Beria 本义是 Beri 人的嘴，引申为 Beri 人的语言；Giraj 表示书面的；Erfee 表示烙印。尼罗-撒哈拉语系均暂无汉译音表，暂将 Beri 译为贝里。整词表示贝里烙印文字。"
@@ -313,6 +318,16 @@
     "name": "CJK Unified Ideographs",
     "zh-cn": "CJK 统一表意文字",
     "note": "Unified 译为统一，表示将多个提交源的表意文字置于统一的块中。Ideographs 译为表意文字。"
+  },
+  {
+    "name": "CJK Unified Ideographs Components-A",
+    "zh-cn": "CJK 统一表意文字构件-A",
+    "note": "Unified 译为统一，表示将多个提交源的表意文字置于统一的块中。Ideographs 译为表意文字，Components 译为构件。"
+  },
+  {
+    "name": "CJK Unified Ideographs Components-B",
+    "zh-cn": "CJK 统一表意文字构件-B",
+    "note": "Unified 译为统一，表示将多个提交源的表意文字置于统一的块中。Ideographs 译为表意文字，Components 译为构件。"
   },
   {
     "name": "CJK Unified Ideographs Extension A",
