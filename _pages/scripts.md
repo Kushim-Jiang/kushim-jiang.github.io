@@ -28,7 +28,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Yao / 方块瑶字 `mji-Hani` <span style="color:#bbb">▷ According to 瑶族语言简志 [^2], songbooks written by Kim Mun people in Hekou (河口) are considered to be records of the Mien-Kim dialect Kim Mun subdialect of Mienic language `mji`.</span>
   - Yi / 阿细彝字 `yix-Hani` <span style="color:#bbb">▷ According to 汉字和文化问题 [^3], the 彝语阿细方块字 (阿细字) was designed by the Christian to record the southeastern dialect of Yi language `yix`.</span>
   - Gin / 喃字 [`vi-Hani`](https://scriptsource.org/ws/vi-Hani)
-  - Miao / 方块苗字 `mmr-Hani` <span style="color:#bbb">▷ According to 汉字和文化问题 [^3], the 板塘苗字 was designed in Bantang village, Huayuan county (花垣), the 老寨苗字 was designed in Laozhai village, Huayuan county (花垣), and the 古丈苗字 was printed in 古丈坪厅志 for Guzhang county (古丈). They are considered to be a record of the Xiangxi dialect of Miao language `mmr`.</span>
+  - Miao / 方块苗字 `mmr-Hani` `cqd-Hani` <span style="color:#bbb">▷ According to 汉字和文化问题 [^3], the 板塘苗字 was designed in Bantang village, Huayuan county (花垣), the 老寨苗字 was designed in Laozhai village, Huayuan county (花垣), and the 古丈苗字 was printed in 古丈坪厅志 for Guzhang county (古丈). They are considered to be a record of the Xiangxi dialect of Miao language `mmr`. According to 黔西苗族百年 [^11], the 化物苗文 was designed using Han ideographs and Han components for Chuanqiandian dialect.</span>
   - Hani / 方块哈尼字 [`how-Hani`](https://scriptsource.org/ws/how-Hani) <span style="color:#bbb">▷ According to 戴庆厦文集 (vol. 5) [^4], the 老哈尼文 (哈尼字) was used in Mojiang county (墨江) for the Hao-Bai dialect Haoni subdialect of Hani language `how`.</span>
   - Gelao / 方块仡佬字 `gqu-Hani`
   - Chosen / 吏读字 [`oko-Hani`](https://scriptsource.org/ws/oko-Hani) <span style="color:#bbb">▷ According to 中韩人文社会科学研究 (vol. 2) [^5], the 吏读字 is a collective term for characters used in multiple time periods, that is 吏头, 吏札, 乡札 and 口诀.</span>
@@ -212,6 +212,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Babao pictographs / 八宝歌书
   - Miao Gebang pictographs / 苗族歌棒文字
   - Li Bamboo pictographs / 黎族刻竹木文字
+  - Shamanic pictographs / 萨满森林符号
 - cloth symbols
   - Miao cloth symbols / 苗族衣饰文字
   - She cloth symbols / 畲族织锦文字
@@ -253,3 +254,4 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 [^8]: 人民政治协商会议怒江傈僳族自治州委员会文史资料研究委员会. [怒江文史资料选辑 第 12 辑: 兰坪普米族社会历史调查专辑](https://book.duxiu.com/views/specific/4010/bookDetail.jsp?dxNumber=000005793328&d=D98C0F27BEAD07683DCAB13FF33D9816&fenlei=110308&sw=%E6%80%92%E6%B1%9F%E6%96%87%E5%8F%B2%E8%B5%84%E6%96%99%E9%80%89%E8%BE%91%E7%AC%AC12%E8%BE%91). 政协怒江僳僳族自治州委员会兰坪白族普米族自治县委员会文史研究委员会, 1989, p. 148.
 [^9]: 中央民族大学中国少数民族语言文学学院 (编). [胡振华文集 (下)](https://search.worldcat.org/zh-cn/title/1160213194). 北京: 中央民族大学出版社, 2011, p. 205.
 [^10]: 吉呷, 林强. [木雅藏语方言词汇](https://mp.weixin.qq.com/s/Erght2atLTIYN1nPMubPSA). 成都: 四川民族出版社, 2023.
+[^11]: 政协黔西县委员会文史委员会 (编). [黔西苗族百年](https://search.worldcat.org/zh-cn/title/304506480). 贵阳: 贵州人民出版社, 2006.
