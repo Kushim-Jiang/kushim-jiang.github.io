@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08 10:08:10",
+  "date": "2026-05-15 16:26:58",
   "data": [
     {
       "name": "C0 Controls",
@@ -2668,9 +2668,9 @@
     {
       "name": "Kore Sebeli",
       "short": "(Kore Sebeli)",
-      "range": "U+15B00..U+15B6F",
-      "cps": 112,
-      "cols": 7,
+      "range": "U+15B00..U+15B5F",
+      "cps": 96,
+      "cols": 6,
       "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/24-246",
       "status": "Roadmapped"
     },
