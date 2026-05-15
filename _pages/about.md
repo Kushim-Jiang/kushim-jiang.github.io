@@ -53,8 +53,9 @@ category: pages
   - `U+2A7E6`, `U+2AC61`, `WS2021-03268`, `U+31673`
     - **Kushim Jiang**. Request for consideration to normalize 4 V-source characters. [IRG N2795](https://www.unicode.org/irg/docs/n2795-VSourceGlyphIssues.pdf).
     - <span style="color:#bbb">Vietnam. Vietnam Response to IRG N2795. [IRG N2801](https://www.unicode.org/irg/docs/n2801-IRGN2795Response.pdf).</span>
-  - `U+3A17`
-    - **Kushim Jiang**. Request to update the G-source glyph and source reference for U+3A17. [IRG N2851](https://www.unicode.org/irg/docs/n2851-GSourceGlyphIssue.pdf).
+  - `U+2AE99`, `U+2B0AF`, `U+2B26F`, `U+2B622`, `U+2B720`
+    - <span style="color:#bbb">Roy Wang. G-source representative glyph and source reference issues in Extension C. [IRG N2956](https://www.unicode.org/irg/docs/n2956-GSourceIssues.pdf).</span>
+    - **Kushim Jiang**. Feedback on IRG N2956. [IRG N2957](https://www.unicode.org/irg/docs/n2957-IRGN2956Feedback.pdf).
 - **other topics**
   - IDC
     - <span style="color:#bbb">Yang Tao, Eiso Chan, Yifan Wang. Submission of 3 IDCes. [IRG N2273](https://appsrv.cse.cuhk.edu.hk/~irg/irg/irg49/IRGN2273Proposed3NewIDCs.pdf).</span>
@@ -113,6 +114,9 @@ category: pages
     - **Kushim Jiang**. Unicode Technical Note #57: Encoding and Shaping of the Mongolian Script. [UTN #57](https://www.unicode.org/notes/tn57/).
     - 🔭️ [Mongolian: Changes to Chapter 13 Mongolian with references to new Mongolian UTN](https://github.com/unicode-org/sah/issues/507)
     - **Kushim Jiang**. Progress report on UTN #57: Encoding and Shaping of the Mongolian Script. [L2/25-140](https://www.unicode.org/L2/L2025/25140-report-utn57.pdf).
+  - standardized variants
+    - **Kushim Jiang**. Proposal to deprecate the Mongolian standardized variants in UCD. [L2/26-091](https://www.unicode.org/L2/L2026/26091-mongolian-std-variants.pdf).
+    - 🔭️ [Proposal to deprecate the Mongolian standardized variants in UCD](https://github.com/unicode-org/sew/issues/841)
 - **other scripts**
   - Wagindara script
     - Jiaxu Yehenara, **Kushim Jiang**, Uju Tunggiya, Tupo Liu. Preliminary proposal to encode Wagindara letters for the Mongolian script. [L2/24-242](https://www.unicode.org/L2/L2024/24242-wagindara.pdf).
@@ -187,6 +191,8 @@ category: pages
   - 🔭️ [Mongolian: Proposal to Encode One Manchu Letter](https://github.com/unicode-org/sah/issues/371)
 - Jan Kučera, et al. Recommendations to UTC \#183 (April 2025) on Script Proposals. [L2/25-091R](https://www.unicode.org/L2/L2025/25091r-sew-recommendations-utc183.pdf).
 - Jan Kučera, et al. Recommendations to UTC \#185 (October 2025) on Script Proposals. [L2/25-232](https://www.unicode.org/L2/L2025/25232-sew-recommendations-utc185.pdf).
+- Jan Kučera, et al. Recommendations to UTC \#186 (January 2026) on Script Proposals. [L2/26-010](https://www.unicode.org/L2/L2026/26010-sew-recommendations-utc186.pdf).
+- Jan Kučera, et al. Recommendations to UTC \#187 (April 2026) on Script Proposals. [L2/26-100](https://www.unicode.org/L2/L2026/26100-sew-report-utc187.pdf).
 
 ### UTC (Unicode Technical Committee)
 
@@ -194,6 +200,7 @@ category: pages
 - Approved Minutes of UTC Meeting 176. [L2/23-157](https://www.unicode.org/L2/L2023/23157.htm).
 - Approved Minutes of UTC Meeting 181. [L2/24-221](https://www.unicode.org/L2/L2024/24221.htm).
 - Approved Minutes of UTC Meeting 183. [L2/25-085](https://www.unicode.org/L2/L2025/25085.htm).
+- Approved Minutes of UTC Meeting 185. [L2/25-226](https://www.unicode.org/L2/L2025/25226.htm).
 
 ### WG2
 
@@ -210,3 +217,4 @@ category: pages
 - List of Participants of IRG #63 Meeting. [IRG N2705](https://www.unicode.org/irg/docs/n2705-Participants.pdf).
 - List of Participants of IRG #64 Meeting. [IRG N2768](https://www.unicode.org/irg/docs/n2768-Participants.pdf).
 - List of Participants of IRG #65 Meeting. [IRG N2829](https://www.unicode.org/irg/docs/n2829-Participants.pdf).
+- List of Participants of IRG #66 Meeting. [IRG N2912](https://www.unicode.org/irg/docs/n2912-Participants.pdf).
