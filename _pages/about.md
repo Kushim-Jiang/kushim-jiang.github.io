@@ -75,6 +75,7 @@ category: pages
     - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan. Updated proposal to encode CJKV components to UCS. [IRG N2799](https://www.unicode.org/irg/docs/n2799-CJKComponents4IDS.pdf).
     - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan, Ken Chen, Zhao Liu, Richard Zou, Selena Wei, Yenling Tseng, Chanhuan Liu. Update proposal to encode CJK Unified Ideographs Components. [IRG N2878](https://www.unicode.org/irg/docs/n2878-CJKComponents4IDS.pdf).
     - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan, Ken Chen, Zhao Liu, Richard Zou, Chenming Zhang, Selena Wei, Yenling Tseng, Chanhuan Liu. Update proposal to encode CJK Unified Ideographs Components and CJK Unified Ideographs Jianzi Musical Notation Components. [IRG N2878R](https://www.unicode.org/irg/docs/n2878r-CJKComponents4IDS.pdf).
+    - **Kushim Jiang**, Huidan Liu, Yang Tao, Eiso Chan, Ken Chen, Zhao Liu, Richard Zou, Chenming Zhang, Selena Wei, Yenling Tseng, Chanhuan Liu. Final proposal to encode CJK Unified Ideographs Components. [IRG N2878R3 = WG2 N5358](https://www.unicode.org/wg2/docs/n5358-irgn2878r3-CJKComponents.pdf).
 
 ### Shuowen Ideographs
 
