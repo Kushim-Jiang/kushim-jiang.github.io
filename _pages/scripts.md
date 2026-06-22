@@ -191,8 +191,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 ## A List of Chinese Symbols
 
 - pre-script symbols / 前文字现象
+  - Jiahu symbols / 贾湖刻符 (贾湖契刻符号)
   - Liangzhu symbols / 良渚图符
-  - Jiahu symbols / 贾湖契刻符号
   - Banpo pottery symbols / 半坡陶符
   - Ba-Shu symbols / 巴蜀符号
 - religious symbols
@@ -245,13 +245,23 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 ## Reference
 
 [^1]: 徐琳, 赵衍荪. [白语简志](https://search.worldcat.org/zh-cn/title/20343118). 北京: 民族出版社, 1984.
+
 [^2]: 毛宗武, 蒙朝吉, 郑宗泽. [瑶族语言简志](https://search.worldcat.org/zh-cn/title/21037670). 北京: 民族出版社, 1982.
+
 [^3]: 周有光. [汉字和文化问题](https://search.worldcat.org/zh-cn/title/1462850694). 沈阳: 辽宁人民出版社, 2001.
+
 [^4]: 中央民族大学中国少数民族语言文学学院 (编). [戴庆厦文集 第 5 卷: 汉语和非汉语比较研究](https://search.worldcat.org/zh-cn/title/886141114). 北京: 中央民族大学出版社, 2012, p. 233.
+
 [^5]: 牛林杰 (主编), 刘宝全 (主编). [中韩人文社会科学研究 第 2 辑](https://search.worldcat.org/zh-cn/title/288995600). 济南: 山东大学出版社, 2007, pp. 230-232.
+
 [^6]: 陈康. [土家语研究](https://search.worldcat.org/zh-cn/title/1462729026). 北京: 中央民族大学出版社, 2006.
+
 [^7]: 中国民族古文字研究会 (编). [中国民族古文字研究 第 3 辑](https://book.duxiu.com/views/specific/4010/bookDetail.jsp?dxNumber=000003115295&d=51F9DFA71F22511D883A4C0E72E98E53&fenlei=0803&sw=%E4%B8%AD%E5%9B%BD%E6%B0%91%E6%97%8F%E5%8F%A4%E6%96%87%E5%AD%97%E7%A0%94%E7%A9%B6+%E7%AC%AC+3+%E8%BE%91). 天津: 天津古籍出版社, 1991, pp. 215-220.
+
 [^8]: 人民政治协商会议怒江傈僳族自治州委员会文史资料研究委员会. [怒江文史资料选辑 第 12 辑: 兰坪普米族社会历史调查专辑](https://book.duxiu.com/views/specific/4010/bookDetail.jsp?dxNumber=000005793328&d=D98C0F27BEAD07683DCAB13FF33D9816&fenlei=110308&sw=%E6%80%92%E6%B1%9F%E6%96%87%E5%8F%B2%E8%B5%84%E6%96%99%E9%80%89%E8%BE%91%E7%AC%AC12%E8%BE%91). 政协怒江僳僳族自治州委员会兰坪白族普米族自治县委员会文史研究委员会, 1989, p. 148.
+
 [^9]: 中央民族大学中国少数民族语言文学学院 (编). [胡振华文集 (下)](https://search.worldcat.org/zh-cn/title/1160213194). 北京: 中央民族大学出版社, 2011, p. 205.
+
 [^10]: 吉呷, 林强. [木雅藏语方言词汇](https://mp.weixin.qq.com/s/Erght2atLTIYN1nPMubPSA). 成都: 四川民族出版社, 2023.
+
 [^11]: 政协黔西县委员会文史委员会 (编). [黔西苗族百年](https://search.worldcat.org/zh-cn/title/304506480). 贵阳: 贵州人民出版社, 2006.

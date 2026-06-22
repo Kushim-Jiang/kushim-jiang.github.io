@@ -6,7 +6,6 @@ from urllib.parse import urljoin
 import requests
 from lxml import etree  # type: ignore
 
-
 BASE_URL = "https://sew.unicode.org/roadmaps"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Mozilla/5.0"})
@@ -107,10 +106,7 @@ def parse_roadmap() -> None:
     print(f"\n✅ parsed {len(all_data)} blocks of encoding data")
     with open("assets/json/roadmap.json", "w", encoding="utf-8") as f:
         json.dump(
-            {
-                "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                "data": all_data
-            },
+            {"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data},
             f,
             ensure_ascii=False,
             indent=2,
@@ -180,9 +176,7 @@ def check_missing_names() -> None:
         roadmap_zh = json.load(f)
     roadmap_zh_names = [item["name"] for item in roadmap_zh]
 
-    missing_names = [
-        name for name in roadmap_names if name not in roadmap_zh_names
-    ]
+    missing_names = [name for name in roadmap_names if name not in roadmap_zh_names]
 
     if missing_names:
         print("⚠️ name not in roadmap_zh.json:")

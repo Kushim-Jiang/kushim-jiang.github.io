@@ -400,7 +400,7 @@ function createSubBlocks(ids, charsSet, visitedCharsSet, parentDiv) {
   // search for simple ids
   brackets.forEach((bracketStr) => {
     const subEntries = ENTRIES.filter(
-      (r) => ((bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) === `[${r.char}]`) || (bracketStr.includes(`[${r.char}]`) && r.x)) && !visitedCharsSet.has(r.new_ids || r.ids)
+      (r) => ((bracketStr.includes(r.new_ids || r.ids) && (r.new_ids || r.ids) === `[${r.char}]`) || (bracketStr.includes(`[${r.char}]`) && r.x)) && !visitedCharsSet.has(r.new_ids || r.ids),
     );
     processEntries(subEntries);
   });
