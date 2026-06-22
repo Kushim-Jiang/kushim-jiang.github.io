@@ -16,6 +16,10 @@ function decToHex4(dec) {
   return dec.toString(16).toUpperCase().padStart(4, "0");
 }
 
+function escapeHtml(str) {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
 function analyzeBlockCells(startCode, endCode) {
   const cells = [];
   const startCellIdx = Math.floor(startCode / CONFIG.codePerCell);
@@ -418,7 +422,7 @@ function generateBlockSVG(block) {
   }
 
   let svgContent = `<g class="${classes}" transform="translate(0, ${baseY})" data-from="${startCode}" data-to="${endCode}" onmouseenter="rmtooltip(this)">
-        <desc>${name}</desc>`;
+        <desc>${escapeHtml(name)}</desc>`;
 
   cellGroups.forEach((group) => {
     const result = generateGroupPath(group);
@@ -431,13 +435,13 @@ function generateBlockSVG(block) {
 
       const x1 = (startCol1 * colWidth + CONFIG.contentCols * colWidth) / 2;
       const y1 = rowHeight / 2;
-      svgContent += `<a href="${url}" target="_blank" rel="noopener noreferrer"><text x="${x1}" y="${y1}" text-anchor="middle" dominant-baseline="middle">${short}</text></a>`;
+      svgContent += `<a href="${url}" target="_blank" rel="noopener noreferrer"><text x="${x1}" y="${y1}" text-anchor="middle" dominant-baseline="middle">${escapeHtml(short)}</text></a>`;
 
       const x2 = (0 + (endCol2 + 1) * colWidth) / 2;
       const y2 = rowHeight + rowHeight / 2;
-      svgContent += `<a href="${url}" target="_blank" rel="noopener noreferrer"><text x="${x2}" y="${y2}" text-anchor="middle" dominant-baseline="middle">${short}</text></a>`;
+      svgContent += `<a href="${url}" target="_blank" rel="noopener noreferrer"><text x="${x2}" y="${y2}" text-anchor="middle" dominant-baseline="middle">${escapeHtml(short)}</text></a>`;
     } else {
-      svgContent += `<a href="${url}" target="_blank" rel="noopener noreferrer"><text x="${result.textPos.x}" y="${result.textPos.y}" text-anchor="middle" dominant-baseline="middle">${short}</text></a>`;
+      svgContent += `<a href="${url}" target="_blank" rel="noopener noreferrer"><text x="${result.textPos.x}" y="${result.textPos.y}" text-anchor="middle" dominant-baseline="middle">${escapeHtml(short)}</text></a>`;
     }
   });
 

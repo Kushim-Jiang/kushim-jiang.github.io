@@ -290,14 +290,14 @@ category: pages
             ttstatus.parentNode.parentNode.insertBefore(ttNote, ttstatus.parentNode);
         }
 
-        if (!entry || !entry.firstElementChild || !entry.firstElementChild.innerHTML) {
+        if (!entry || !entry.firstElementChild || !entry.firstElementChild.textContent) {
             tooltip.style.display = "none";
             return;
         }
 
         var from = parseInt(entry.dataset.from);
         var to = parseInt(entry.dataset.to);
-        var originalName = entry.firstElementChild.innerHTML;
+        var originalName = entry.firstElementChild.textContent;
 
         ttname.innerHTML = originalName;
         ttrange.innerText = "U+" + padLeft(from.toString(16).toUpperCase(), 4, '0') + ".." + "U+" + padLeft(to.toString(16).toUpperCase(), 4, '0');
