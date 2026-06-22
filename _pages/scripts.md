@@ -191,10 +191,17 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 ## A List of Chinese Symbols
 
 - pre-script symbols / 前文字现象
-  - Jiahu symbols / 贾湖刻符 (贾湖契刻符号)
-  - Liangzhu symbols / 良渚图符
+  - Jiahu oracle symbols / 贾湖刻符 (贾湖契刻符号)
+  - Shuangdun pottery symbols / 双墩陶符
+  - Yangshao pottery symbols / 仰韶陶符
   - Banpo pottery symbols / 半坡陶符
-  - Ba-Shu symbols / 巴蜀符号
+  - Songze pottery symbols / 崧泽陶符 <span style="color:#bbb">▷ Found in 常州寺墩遗址.</span>
+  - Dawenkou pottery symbols / 大汶口陶符
+  - Liangzhu pottery symbols / 良渚陶符
+  - Longqiuzhuang pottery symbols / 龙虬庄陶符
+  - Ba-Shu bronze symbols / 巴蜀符号 (巴蜀图语)
+  - Taosi pottery symbols / 陶寺朱文
+  - Erlitou pottery symbols / 二里头陶文 (夏代陶文)
 - religious symbols
   - Mosuo Daba symbols / 摩梭达巴文
   - Namuzi Pazi symbols / 纳木依帕孜经书
@@ -205,30 +212,32 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Jingpo Biedang symbols / 景颇别当文 (景颇牛皮文字)
   - Xuanhan Tujia symbols / 宣汉土家祭司文字
   - Yunzhuan symbols / 云篆文 <span style="color:#bbb">▷ Found in 云篆度人经.</span>
-  - Fulu symbols / 符箓
+  - Taoism Fulu symbols / 符箓
 - pictographs
   - Jingpo pictographs / 景颇图画文字 (景颇实物表意文字)
   - Poya pictographs / 坡芽歌书
   - Babao pictographs / 八宝歌书
   - Miao Gebang pictographs / 苗族歌棒文字
-  - Li Bamboo pictographs / 黎族刻竹木文字
-  - Shamanic pictographs / 萨满森林符号
-- cloth symbols
-  - Miao cloth symbols / 苗族衣饰文字
-  - She cloth symbols / 畲族织锦文字
-  - Yao cloth symbols / 瑶族织锦文字
+  - Li Bamboo pictographs / 黎族刻竹木文字 (黎族竹木刻符)
+  - Shamanic pictographs / 萨满森林符号 (萨满森林图画符号)
+- textile symbols
+  - Miao textile symbols / 苗族衣饰文字 (苗族衣饰织锦符号)
+  - She textile symbols / 畲族织锦文字 (畲族织锦文字符号)
+  - Yao textile symbols / 瑶族织锦文字 (瑶族织锦符号)
+  - Fengxian textile symbols / 奉贤锦带书 (奉贤锦带书符号)
 - architectural symbols
   - Dong architectural symbols / 侗族墨师文
 - bone symbols
   - Changle bone symbols / 昌乐骨刻文
   - Shouguang bone symbols / 寿光骨刻文
   - southern Guangxi bone symbols / 桂南骨刻文
+  - Gansang bone symbols / [甘桑骨刻文](http://news.bsyjrb.cn/content/2021-02/02/content_179384.htm) (雒越刻符)
 - stone symbols
   - Dankou stone symbols / 丹口石刻苗文 (城步古苗文)
-  - Leigongshan stone symbols / 雷公山苗文碑 (雷公山古苗文)
+  - Leigongshan stone symbols / 雷公山苗文碑 (雷公山古苗文, 雷公山苗文碑刻符号)
   - Gansang stone symbols / 甘桑骆越石刻文
-  - Xianju stone symbols / 仙居高凉石刻文 (中央坑摩崖石刻)
-  - Hua’an stone symbols / 华安仙字潭摩崖石刻
+  - Xianju cliff symbols / 仙居高凉石刻文 (中央坑摩崖石刻)
+  - Hua’an cliff symbols / 华安仙字潭摩崖石刻
 - ancient symbols
   - Hongya symbols / 红崖天书 <span style="color:#bbb">▷ Found in 红岩碑.</span>
   - Yelang symbols / 夜郎天书
@@ -237,9 +246,9 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Cangjie symbols / 仓圣鸟迹书碑 <span style="color:#bbb">▷ Found in 仓圣鸟迹书碑.</span>
   - Xiayushu symbols / 夏禹书 <span style="color:#bbb">▷ Found in 淳化秘阁法帖.</span>
   - Cangjieshu symbols / 仓颉书 <span style="color:#bbb">▷ Found in 淳化秘阁法帖.</span>
-  - Jianghua Yao symbols / 江华瑶篆, 江华瑶族古文字
+  - Jianghua Yao symbols / 江华瑶篆 (江华瑶族古文字)
   - Chenshu Tujia symbols / 陈书土家古文字
-  - Jiutian Gelao symbols / 九天书仡佬文 <span style="color:#bbb">▷ Found in 九天大濮史录.</span>
+  - Daozhen Gelao symbols / 道真仡佬文 (九天书仡佬文) <span style="color:#bbb">▷ Found in 九天大濮史录.</span>
   - Sawgoek (Sawva) Zhuang symbols / 壮族本源书 (花纹书)
 
 ## Reference
