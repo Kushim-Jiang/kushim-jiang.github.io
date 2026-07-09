@@ -249,25 +249,50 @@ category: pages
     }
 
     let roadmapZhData = [];
-    document.addEventListener('DOMContentLoaded', () => {
-        fetch('/assets/json/roadmap_zh.json')
-            .then(response => {
-                if (!response.ok) throw new Error('Roadmap zh JSON file loading failed');
-                return response.json();
-            })
-            .then(data => {
-                roadmapZhData = data;
-                console.log('Chinese roadmap data loading completed:', roadmapZhData);
-            })
-            .catch(err => console.error('Error loading roadmap zh:', err));
 
-        fetch('/assets/json/roadmap.json')
-            .then(response => response.json())
-            .then(data => {
-                generateRoadmapSVG(data.data);
-            })
-            .catch(err => console.error('Error loading roadmap:', err));
-    });
+    function fetchWithRetry(url, retries = 3, delay = 2000) {
+        return new Promise((resolve, reject) => {
+            function attempt(n) {
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                        return response.json();
+                    })
+                    .then(data => resolve(data))
+                    .catch(err => {
+                        if (n <= 1) {
+                            reject(err);
+                        } else {
+                            console.warn(`Retrying ${url} (${n - 1} attempts left)...`);
+                            setTimeout(() => attempt(n - 1), delay);
+                        }
+                    });
+            }
+            attempt(retries);
+        });
+    }
+
+    function showLoadError(container, msg) {
+        let countdown = 5;
+        container.innerHTML = `
+            <div style="text-align:center; padding: 40px; color: #DD0000;">
+                <p>⚠️ ${msg}</p>
+                <p style="color: #666;">Auto-refreshing in <span id="retry-countdown">${countdown}</span>s...</p>
+                <button id="retry-btn" onclick="location.reload()" style="
+                    padding: 8px 24px; font-size: 1.2rem; cursor: pointer;
+                    background: #007F0A; color: white; border: none; border-radius: 4px;
+                ">🔄 Retry Now</button>
+            </div>`;
+        const timer = setInterval(() => {
+            countdown--;
+            const el = document.getElementById('retry-countdown');
+            if (el) el.textContent = countdown;
+            if (countdown <= 0) {
+                clearInterval(timer);
+                location.reload();
+            }
+        }, 1000);
+    }
 
     function rmtooltip(entry) {
         var tooltip = document.getElementById('tooltip');
@@ -366,6 +391,8 @@ category: pages
     }
 </script>
 
+<script src="/assets/js/roadmap.js"></script>
+
 <div class="plane shadow">
     <div class="sticktop">
         <svg width="100%" viewBox="0 0 1025 20" xmlns="http://www.w3.org/2000/svg">
@@ -416,16 +443,6 @@ category: pages
 </div>
 
 <script src="/assets/js/roadmap.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        fetch('/assets/json/roadmap.json')
-            .then(response => response.json())
-            .then(data => {
-                generateRoadmapSVG(data.data);
-            })
-            .catch(err => console.error('Error loading roadmap:', err));
-    });
-</script>
 
 <div id="tooltip">
     <div><span class="hdr">Full Name:</span> <span id="ttname"></span></div>
@@ -437,3 +454,19 @@ category: pages
     <div><span class="hdr">Chinese Name:</span> <span id="ttchinesename"></span></div>
     <div><span class="hdr" style="color: #ccc;">Note:</span> <span id="ttnote" style="color: #ccc;"></span></div>
 </div>
+
+<script>
+    // Immediately load roadmap (IIFE - page loaded via AJAX, DOMContentLoaded already fired)
+    (function() {
+        const container = document.getElementById('unicode-roadmap-container');
+        fetchWithRetry('/assets/json/roadmap_zh.json')
+            .then(data => { roadmapZhData = data; })
+            .catch(err => console.error('Error loading roadmap zh:', err));
+        fetchWithRetry('/assets/json/roadmap.json')
+            .then(data => { generateRoadmapSVG(data.data); })
+            .catch(err => {
+                console.error('Error loading roadmap:', err);
+                if (container) showLoadError(container, 'Failed to load roadmap data after multiple attempts.');
+            });
+    })();
+</script>
