@@ -117,6 +117,8 @@ category: pages
     - **Kushim Jiang**. Progress report on UTN #57: Encoding and Shaping of the Mongolian Script. [L2/25-140](https://www.unicode.org/L2/L2025/25140-report-utn57.pdf).
   - standardized variants
     - **Kushim Jiang**. Proposal to deprecate the Mongolian standardized variants in UCD. [L2/26-091](https://www.unicode.org/L2/L2026/26091-mongolian-std-variants.pdf).
+    - **Kushim Jiang**. Proposal to update the Mongolian variant data in UCD. [L2/26-163](https://www.unicode.org/L2/L2026/26163-mongolian-variant-data.pdf).
+    - Ken Whistler, **Kushim Jiang**. Updates for Mongolian Variation Sequences for Unicode 18.0. [L2/26-203](https://www.unicode.org/L2/L2026/26203-mongolian-vs.txt).
     - 🔭️ [Proposal to deprecate the Mongolian standardized variants in UCD](https://github.com/unicode-org/sew/issues/841)
 - **other scripts**
   - Wagindara script
@@ -157,6 +159,7 @@ category: pages
   - Tai Xaau
     - **China**. Proposal to encode the Tai Xaau script. [WG2 N5310](https://www.unicode.org/wg2/docs/n5310R-ProposaltoEncodeTaiXaauScript.pdf).
     - <span style="color:#bbb">Jie Dao, Ziyuan Qi. Proposal on Tai Xaau Script National Standard Code. [WG2 N5340](https://www.unicode.org/wg2/docs/n5340-Presentation-ProposalTaiXaauScript.pdf).</span>
+    - <span style="color:#bbb">China. Improvement of the Encoding Scheme for Dai Xaau Script. [WG2 N5368](https://www.unicode.org/wg2/docs/n5368-SupplementaryMaterialsDaiXaauScript.pdf).</span>
     - 🔭️ [Tai Xaau (was: Tai Don / Tai Viet characters for Jinping Dai)](https://github.com/unicode-org/sah/issues/66)
 
 ### Arabic
@@ -194,6 +197,7 @@ category: pages
 - Jan Kučera, et al. Recommendations to UTC \#185 (October 2025) on Script Proposals. [L2/25-232](https://www.unicode.org/L2/L2025/25232-sew-recommendations-utc185.pdf).
 - Jan Kučera, et al. Recommendations to UTC \#186 (January 2026) on Script Proposals. [L2/26-010](https://www.unicode.org/L2/L2026/26010-sew-recommendations-utc186.pdf).
 - Jan Kučera, et al. Recommendations to UTC \#187 (April 2026) on Script Proposals. [L2/26-100](https://www.unicode.org/L2/L2026/26100-sew-report-utc187.pdf).
+- Jan Kučera, et al. Recommendations to UTC \#188 (July 2026) on Script Proposals. [L2/26-158](https://www.unicode.org/L2/L2026/26158-sew-report-utc188.pdf).
 
 ### UTC (Unicode Technical Committee)
 
@@ -206,6 +210,7 @@ category: pages
 ### WG2
 
 - Recommendations from WG2 Meeting 72. [SC2 N4993 = WG2 N5304](https://www.unicode.org/wg2/docs/n5304-Mtg72-Niigata-Recs-rev5-final.pdf).
+- Recommendations from WG2 Meeting 73. [SC2 N5053 = WG2 N5354](https://www.unicode.org/wg2/docs/n5354-Mtg73-Paris-Recs-rev5.pdf).
 
 ### IRG
 
