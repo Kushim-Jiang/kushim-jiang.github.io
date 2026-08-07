@@ -261,7 +261,8 @@ function generateGroupPath(group) {
 
       d += `M${x1_part1 + r},${y1} `;
       d += `H${x2_part1 - r} Q${x2_part1},${y1} ${x2_part1},${y1 + r} `;
-      d += `V${y2} `;
+      d += `V${y2 - r} `;
+      d += `Q${x2_part1},${y2} ${x2_part1 - r},${y2} `;
       d += `H${x1_part1} `;
       d += `Q${x1_part1},${y2} ${x1_part1},${y2 - r} `;
       d += `V${y1 + r} Q${x1_part1},${y1} ${x1_part1 + r},${y1} `;
@@ -294,7 +295,8 @@ function generateGroupPath(group) {
 
       d = `M${r},0 `;
       d += `H${fullWidth - r} Q${fullWidth},0 ${fullWidth},${r} `;
-      d += `V${y_trans} `;
+      d += `V${y_trans - r} `;
+      d += `Q${fullWidth},${y_trans} ${fullWidth - r},${y_trans} `;
       d += `H${x_turn + r} `;
       d += `Q${x_turn},${y_trans} ${x_turn},${y_trans + r} `;
       d += `V${totalH - r} `;
@@ -350,7 +352,7 @@ function generateGroupPath(group) {
       d = `M${x_start + r},0 `;
       d += `H${fullWidth - r} Q${fullWidth},0 ${fullWidth},${r} `;
       d += `V${y_bot - r} `;
-      d += `V${y_bot} `;
+      d += `Q${fullWidth},${y_bot} ${fullWidth - r},${y_bot} `;
       d += `H${x_end + r} `;
       d += `Q${x_end},${y_bot} ${x_end},${y_bot + r} `;
       d += `V${totalH - r} `;
