@@ -20,15 +20,15 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 
 ## A List of Chinese Writing Systems
 
-- Modern Han script / 现代汉文字 [`Hani`](https://scriptsource.org/scr/Hani)
+- Modern Han script / 现代汉文字 [`Hani`](https://writingsystems.info/scrlang/scripts/hani/)
   - Han / 现代汉字 🖍️ [`zh-Hans`](https://scriptsource.org/ws/zh-Hans) [`zh-Hant`](https://scriptsource.org/ws/zh-Hant)
-  - Zhuang / 方块壮字 [`za-Hani`](https://scriptsource.org/ws/za-Hani)
+  - Zhuang / 方块壮字 [`x-zhuang-square`](https://writingsystems.info/scrlang/scripts/x-zhuang-square/)
   - Buyi / 方块布依字 (摩经古文字) [`pcc-Hani`](https://scriptsource.org/ws/pcc-Hani)
   - Bai / 方块白字 [`bca-Hani`](https://scriptsource.org/ws/bca-Hani) [`bfs-Hani`](https://scriptsource.org/ws/bfs-Hani) <span style="color:#bbb">▷ According to 白语简志 [^1], 段信苴宝摩崖碑 found in Eryuan (洱源) is regarded as a record of the Jianchuan dialect `bca`, and 词记山花·咏苍洱境碑 found in Dali (大理) is considered to be a record of the Dali dialect `bfs`.</span>
   - Yao / 方块瑶字 `mji-Hani` <span style="color:#bbb">▷ According to 瑶族语言简志 [^2], songbooks written by Kim Mun people in Hekou (河口) are considered to be records of the Mien-Kim dialect Kim Mun subdialect of Mienic language `mji`.</span>
   - Yi / 阿细彝字 `yix-Hani` <span style="color:#bbb">▷ According to 汉字和文化问题 [^3], the 彝语阿细方块字 (阿细字) was designed by the Christian to record the southeastern dialect of Yi language `yix`.</span>
-  - Gin / 喃字 [`vi-Hani`](https://scriptsource.org/ws/vi-Hani)
-  - Miao / 方块苗字 `mmr-Hani` `cqd-Hani` <span style="color:#bbb">▷ According to 汉字和文化问题 [^3], the 板塘苗字 was designed in Bantang village, Huayuan county (花垣), the 老寨苗字 was designed in Laozhai village, Huayuan county (花垣), and the 古丈苗字 was printed in 古丈坪厅志 for Guzhang county (古丈). They are considered to be a record of the Xiangxi dialect of Miao language `mmr`. According to 黔西苗族百年 [^11], the 化物苗文 was designed using Han ideographs and Han components for Chuanqiandian dialect.</span>
+  - Gin / 喃字 [`x-jing`](https://writingsystems.info/scrlang/scripts/x-jing/)
+  - Miao / 方块苗字 `mmr-Hani` `cqd-Hani` <span style="color:#bbb">▷ According to 汉字和文化问题 [^3], the 板塘苗字 was designed in Bantang village, Huayuan county (花垣), the 老寨苗字 was designed in Laozhai village, Huayuan county (花垣), and the 古丈苗字 was printed in 古丈坪厅志 for Guzhang county (古丈). They are considered to be a record of the Xiangxi dialect of Miao language `mmr`. According to 黔西苗族百年 [^11], the 化屋苗文 was designed using Han ideographs and Han components for Chuanqiandian dialect.</span>
   - Hani / 方块哈尼字 [`how-Hani`](https://scriptsource.org/ws/how-Hani) <span style="color:#bbb">▷ According to 戴庆厦文集 (vol. 5) [^4], the 老哈尼文 (哈尼字) was used in Mojiang county (墨江) for the Hao-Bai dialect Haoni subdialect of Hani language `how`.</span>
   - Gelao / 方块仡佬字 `gqu-Hani`
   - Chosen / 吏读字 [`oko-Hani`](https://scriptsource.org/ws/oko-Hani) <span style="color:#bbb">▷ According to 中韩人文社会科学研究 (vol. 2) [^5], the 吏读字 is a collective term for characters used in multiple time periods, that is 吏头, 吏札, 乡札 and 口诀.</span>
@@ -37,11 +37,16 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Sui / 方块水字 (俗写水文) [`swi-Hani`](https://scriptsource.org/ws/swi-Hani)
   - Maonan / 方块毛难字 [`mmd-Hans`](https://scriptsource.org/ws/mmd-Hans) [`mmd-Hant`](https://scriptsource.org/ws/mmd-Hant)
   - Mulao / 方块仫佬字 `mlm-Hani`
-- Oracle-Bone script / 甲骨文字
-- Bronze Inscription script / 金文字 <span style="color:#bbb">▷ Specifically to the characters of the general Bronze inscription (一般金文) from the Western Zhou to the Spring and Autumn period.</span>
+- Oracle-Bone script / 甲骨文字 [`x-oracle-bone`](https://writingsystems.info/scrlang/scripts/x-oracle-bone/)
+- Bronze Inscription script / 金文字
+  - Clan emblem bronze inscription / 族徽金文
+  - General bronze inscription / 一般金文
+  - Ornamental bronze inscription / 藻饰金文
+  - Degraded bronze inscription / 劣体金文
+  - Bird-worm Seal script / 鸟虫篆
 - Bamboo-Silk script / 简帛文字
-- Small Seal script / 小篆文字
-- Mongolian script / 蒙古文字 [`Mong`](https://scriptsource.org/scr/Mong)
+- Small Seal script / 小篆文字 [`Seal`](https://writingsystems.info/scrlang/scripts/seal/)
+- Mongolian script / 蒙古文字 [`Mong`](https://writingsystems.info/scrlang/scripts/mong/)
   - Hudum / 传统蒙古文 🖍️ [`mn-Mong.hudum`](https://scriptsource.org/ws/mn-Mong)
   - ※ Hudum Alikali / 传统蒙古文阿礼嘎礼 `sa-Mong.hudum` `xct-Mong.hudum`
   - Manchu / 满文 [`mnc-Mong.manchu`](https://scriptsource.org/ws/mnc-Mong)
@@ -51,19 +56,19 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - ※ Todo Alikali / 托忒文阿礼嘎礼 `sa-Mong.todo` `xct-Mong.todo`
   - Daur / 达呼尔文 (达斡尔文) [`dta-Mong.manchu`](https://scriptsource.org/ws/dta-Mong)
   - rGyalrong / 嘉绒文 `jya-Mong.manchu` <span style="color:#bbb">▷ Found in 满蒙藏嘉戎维五体字书.</span>
-- Soyombo script / 索永布文字 [`Soyo`](https://scriptsource.org/scr/Soyo)
-- Zanabazar Square script / 札那巴札尔文字 [`Zanb`](https://scriptsource.org/scr/Zanb)
-- Tibetan script / 藏文字 [`Tibt`](https://scriptsource.org/scr/Tibt)
+- Soyombo script / 索永布文字 [`Soyo`](https://writingsystems.info/scrlang/scripts/soyo/)
+- Zanabazar Square script / 札那巴札尔文字 [`Zanb`](https://writingsystems.info/scrlang/scripts/zanb/)
+- Tibetan script / 藏文字 [`Tibt`](https://writingsystems.info/scrlang/scripts/tibt/)
   - Tibetan / 藏文 🖍️ [`xct-Tibt.dbucan` `xct-Tibt.dbumed`](https://scriptsource.org/ws/xct-Tibt)
   - ※ Sanskrit / 梵文 `sa-Tibt`
   - rGyalrong / 嘉绒文 [`jya-Tibt`](https://scriptsource.org/ws/jya-Tibt) <span style="color:#bbb">▷ Found in 华夷译语, 嘉绒口语学习读本 and so on.</span>
   - Pumi / 韩规文 (普米文) `pmi-Tibt.dbumed` <span style="color:#bbb">▷ According to 怒江文史资料选辑 (vol. 12) [^8], classic books found in Muli (木里) and Yanyuan (盐源) are considered to be records of the northern dialect of Pumi language `pmi`.</span>
   - Minyag / 木雅文 `wmg-Tibt.dbucan` <span style="color:#bbb">▷ The first author of 木雅藏语方言词汇 [^10] is a teacher in Kangding (康定), so the book is considered to be records of the western dialect of Muya language `wmg`.</span>
-- sPungs-chen script / 大食文字邦钦体
-- sPungs-chung script / 大食文字邦琼体
-- sMar-chen script / 象雄文字玛尔钦体 [`Marc`](https://scriptsource.org/scr/Marc)
-- sMar-chung script / 象雄文字玛尔琼体
-- Arabic script / 阿拉伯文字 [`Arab`](https://scriptsource.org/scr/Arab)
+- sPungs-chen script / 大食文字邦钦体 [`x-pungchen`](https://writingsystems.info/scrlang/scripts/x-pungchen/)
+- sPungs-chung script / 大食文字邦琼体 [`x-pungchung`](https://writingsystems.info/scrlang/scripts/x-pungchung/)
+- sMar-chen script / 象雄文字玛尔钦体 [`Marc`](https://writingsystems.info/scrlang/scripts/marc/)
+- sMar-chung script / 象雄文字玛尔琼体 [`x-marchung`](https://writingsystems.info/scrlang/scripts/x-marchung/)
+- Arabic script / 阿拉伯文字 [`Arab`](https://writingsystems.info/scrlang/scripts/arab/)
   - Uygur / 维吾尔文 (original, 1937 version 🖍️, 1951 version, 1954 version, 1983 version) [`ug-Arab`](https://scriptsource.org/ws/ug-Arab)
   - Kazak / 哈萨克文 (1924 version 🖍️, 1954 version, 1983 version) [`kk-Arab`](https://scriptsource.org/ws/kk-Arab)
   - Kirgiz / 柯尔克孜文 (original 🖍️, 1954 version, 1983 version) [`ky-Arab`](https://scriptsource.org/ws/ky-Arab)
@@ -76,7 +81,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Hui Xiaojing [`zh-Arab`](https://scriptsource.org/ws/zh-Arab)
   - Dongxiang Xiaojing [`sce-Arab`](https://scriptsource.org/ws/sce-Arab)
   - Bonan Xiaojing `peh-Arab`
-- Latin script / 拉丁文字 [`Latn`](https://scriptsource.org/scr/Latn)
+- Latin script / 拉丁文字 [`Latn`](https://writingsystems.info/scrlang/scripts/latn/)
   - Lisu / 新傈僳文 ([1956 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-and-cyrillic-in-1956-orthography), [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#lisu-written-with-latin-in-1957-orthography) 🖊️) [`lis-Latn`](https://scriptsource.org/ws/lis-Latn)
   - Jingpo / 景颇文 ([original](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1895-orthography), [1940 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1940-orthography) 🖍️, [1957 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-written-with-latin-in-1957-orthography), [Password](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#jingpo-password-written-with-latin-in-1930-orthography)) [`kac-Latn`](https://scriptsource.org/ws/kac-Latn)
   - Zaiwa / 载瓦文 ([1927 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1927-orthography), [1956 version, 1957 version, 1983 version](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#zaiwa-written-with-latin-in-1983-orthography)) [`atb-Latn`](https://scriptsource.org/ws/atb-Latn)
@@ -111,7 +116,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - [Maonan / 毛南文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#maonan-written-with-latin-in-2015-orthography) [`mmd-Latn`](https://scriptsource.org/ws/mmd-Latn)
   - Nu / 怒语拼音方案 ([Nusu version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#nusu-written-with-latin-in-2018-orthography)) [`nuf-Latn`](https://scriptsource.org/ws/nuf-Latn) <span style="color:#bbb">▷ The 怒语拼音方案 is based on Nusu language `nuf` in Fugong (福贡), with due regard to other languages.</span>
   - [Ersu / 尔苏文, 尔苏语拼音转写方案](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#ersu-written-with-latin-in-2017-orthography) `ers-Latn`
-- Cyrillic script / 西里尔文字 [`Cyrl`](https://scriptsource.org/scr/Cyrl)
+- Cyrillic script / 西里尔文字 [`Cyrl`](https://writingsystems.info/scrlang/scripts/cyrl/)
   - Daur / 达斡尔文 ([1916 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1916-orthography), [1956 version](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#daur-written-with-cyrillic-in-1956-orthography)) [`dta-Cyrl`](https://scriptsource.org/ws/dta-Cyrl)
   - [Uygur / 维吾尔文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#uygur-written-with-cyrillic-in-1957-orthography) [`ug-Cyrl`](https://scriptsource.org/ws/ug-Cyrl)
   - [Kazak / 哈萨克文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#kazak-written-with-cyrillic-in-1957-orthography) [`kk-Cyrl`](https://scriptsource.org/ws/kk-Cyrl)
@@ -121,27 +126,27 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - [Uzbek / 乌孜别克文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#uzbek-written-with-cyrillic-in-1957-orthography) [`uz-Cyrl`](https://scriptsource.org/ws/uz-Cyrl)
   - [Tatar / 塔塔尔文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#tatar-written-with-cyrillic-in-1957-orthography) [`tt-Cyrl`](https://scriptsource.org/ws/tt-Cyrl)
   - [Russ / 俄罗斯文](https://kushim-jiang.github.io/scripts/2024-10-28-cyrl/#russian-written-with-cyrillic-in-1700-orthography) 🖍️ [`ru-Cyrl`](https://scriptsource.org/ws/ru-Cyrl)
-- Korean script / 朝鲜文字 🖍️ [`Hang`](https://scriptsource.org/scr/Hang)
-- Tai Tham script / 西双版纳老傣文字 🖍️ [`Lana`](https://scriptsource.org/scr/Lana)
+- Korean script / 朝鲜文字 🖍️ [`Hang`](https://writingsystems.info/scrlang/scripts/hang/)
+- Tai Tham script / 西双版纳老傣文字 🖍️ [`Lana`](https://writingsystems.info/scrlang/scripts/lana/)
   - To Tham / 多塔经文 [`khb-Lana`](https://scriptsource.org/ws/khb-Lana) <span style="color:#bbb">▷ The Blang, Deang, Khmu and Bonmit use To Tham, but there is no evidence that it is used to record their languages instead of Tai language.</span>
-- New Tai Lue script / 西双版纳新傣文字 [`Talu`](https://scriptsource.org/scr/Talu)
-- Tai Le script / 德宏傣文字 [`Tale`](https://scriptsource.org/scr/Talu)
+- New Tai Lue script / 西双版纳新傣文字 [`Talu`](https://writingsystems.info/scrlang/scripts/talu/)
+- Tai Le script / 德宏傣文字 [`Tale`](https://writingsystems.info/scrlang/scripts/tale/)
   - Tai Le / 德宏傣文 (original 🖍️, 1953 version, 1955 version, 1963 version, 1988 version) [`tdd-Tale`](https://scriptsource.org/ws/tdd-Tale)
   - To Lek / 多列经文 [`tdd-Tale`](https://scriptsource.org/ws/tdd-Tale) <span style="color:#bbb">▷ The Va, Blang and Deang use To Lek, but there is no evidence that it is used to record their languages instead of Tai language.</span>
-- Tai Don script / 金平傣文字 🖍️
-- Myanmar script / 缅文字 [`Mymr`](https://scriptsource.org/scr/Mymr)
+- Tai Don script / 金平傣文字 🖍️ [`x-tai-don`](https://writingsystems.info/scrlang/scripts/x-tai-don/)
+- Myanmar script / 缅文字 [`Mymr`](https://writingsystems.info/scrlang/scripts/mymr/)
   - Tai Pong / 傣绷文, 多绷经文 🖍️ [`tdd-Mymr`](https://scriptsource.org/ws/tdd-Mymr)
-- Liangshan Yi script / 凉山规范彝文字 🖊️ [`Yiii`](https://scriptsource.org/scr/Mymr)
+- Liangshan Yi script / 凉山规范彝文字 🖊️ [`Yiii`](https://writingsystems.info/scrlang/scripts/yiii/)
 - Classical Yi script / 滇川黔桂彝文字 🖍️
   - Sani Yi / 撒尼音节老彝字
   - Yunnan Yi / 云南规范彝文
   - Guizhou Yi / 贵州彝文
   - Universal Yi / 通用规范彝文, 通用彝文
-- Fraser script / 富能仁文字 [`Lisu`](https://scriptsource.org/scr/Lisu)
+- Fraser script / 富能仁文字 [`Lisu`](https://writingsystems.info/scrlang/scripts/lisu/)
   - Lisu / 老傈僳文 🖍️ [`lis-Lisu`](https://scriptsource.org/ws/lis-Lisu) <span style="color:#bbb">▷ The Nujiang dialect and the Yongsheng dialect are encoded as `lis`, and the Luquan dialect is encoded as `lpo`.</span>
   - Zaiwa / 载瓦文 (1989 version) [`atb-Lisu`](https://scriptsource.org/ws/atb-Lisu)
   - Naxi / 纳西教会文字 [`nxq-Lisu`](https://scriptsource.org/ws/nxq-Lisu) <span style="color:#bbb">▷ The proposal [L2/18-338R2](https://www.unicode.org/L2/L2018/18338r2-lisu-letter-yha.pdf) believes that the _Naxi Gospel of Mark_ is used to record `nxq`.</span>
-- Pollard script / 柏格理文字 [`Plrd`](https://scriptsource.org/scr/Plrd)
+- Pollard script / 柏格理文字 [`Plrd`](https://writingsystems.info/scrlang/scripts/plrd/)
   - Dahua Miao / 大花苗老苗文 (滇东北老苗文), 大花苗规范苗文 🖍️ [`hmd-Plrd`](https://scriptsource.org/ws/hmd-Plrd)
   - Xiaohua Miao / 柏格理小花苗文 [`sfm-Plrd`](https://scriptsource.org/ws/sfm-Plrd)
   - Waishu Miao / 柏格理歪梳苗文 [`hmz-Plrd`](https://scriptsource.org/ws/hmz-Plrd)
@@ -149,44 +154,53 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Bai Yi / 柏格理白彝文 [`ygp-Plrd`](https://scriptsource.org/ws/ygp-Plrd)
   - Gan Yi / 柏格理甘彝文 [`yna-Plrd`](https://scriptsource.org/ws/yna-Plrd)
   - Lisu / 柏格理东傈僳文 (框格式傈僳文, 傈坡文) [`lpo-Plrd`](https://scriptsource.org/ws/lpo-Plrd)
-- Naxi Dongba script / 纳西东巴文字 🖍️ [`Nkdb`](https://scriptsource.org/scr/Nkdb)
+- Naxi Dongba script / 纳西东巴文字 🖍️ [`Nkdb`](https://writingsystems.info/scrlang/scripts/nkdb/)
   - Eya / 俄亚东巴文 [`nxq-Nkdb.eya`](https://scriptsource.org/ws/nxq-Nkdb)
   - Ruka / 汝卡东巴文 (阮可文) [`nxq-Nkdb.ruka`](https://scriptsource.org/ws/nxq-Nkdb)
   - Baoshan / 宝山东巴文 [`nxq-Nkdb.baoshan`](https://scriptsource.org/ws/nxq-Nkdb)
-- Naxi Geba script / 纳西哥巴文字 🖍️ [`Nkgb`](https://scriptsource.org/scr/Nkgb)
-- Kharoshthi script / 佉卢文字 [`Khar`](https://scriptsource.org/scr/Khar)
-- Tocharian script / 焉耆-龟兹文字
-- Khotanese script / 于阗文字 [`Qa40`](https://scriptsource.org/scr/Qa40)
-- Old Turkic script / 突厥文字 [`Orkh`](https://scriptsource.org/scr/Orkh)
-- Old Sogdian script / 古粟特文字 [`Sogo`](https://scriptsource.org/scr/Sogo)
-- Sogdian script / 粟特文字标准体 [`Sogd`](https://scriptsource.org/scr/Sogd)
-- Manichaean script / 粟特文字摩尼体 [`Mani`](https://scriptsource.org/scr/Mani)
-- Syriac script / 叙利亚文字 [`Syrc`](https://scriptsource.org/scr/Syrc) <span style="color:#bbb">▷ Found in 大秦景教流行中国碑.</span>
-- ※ Ranjana script / 兰札文字 [`Ranj`](https://scriptsource.org/scr/Ranj)
-- ※ Siddham script / 悉昙文字 [`Sidd`](https://scriptsource.org/scr/Sidd)
-- Old Uyghur script / 回鹘文字 [`Ougr`](https://scriptsource.org/scr/Ougr)
+- Naxi Geba script / 纳西哥巴文字 🖍️ [`Nkgb`](https://writingsystems.info/scrlang/scripts/nkgb/)
+- Kharoshthi script / 佉卢文字 [`Khar`](https://writingsystems.info/scrlang/scripts/khar/)
+- Tocharian script / 焉耆-龟兹文字 [`x-tocharian`](https://writingsystems.info/scrlang/scripts/x-tocharian/)
+- Khotanese script / 于阗文字 [`x-khotanese`](https://writingsystems.info/scrlang/scripts/x-khotanese/)
+- Old Turkic script / 突厥文字 [`Orkh`](https://writingsystems.info/scrlang/scripts/orkh/)
+- Old Sogdian script / 古粟特文字 [`Sogo`](https://writingsystems.info/scrlang/scripts/sogo/)
+- Sogdian script / 粟特文字标准体 [`Sogd`](https://writingsystems.info/scrlang/scripts/sogd/)
+- Manichaean script / 粟特文字摩尼体 [`Mani`](https://writingsystems.info/scrlang/scripts/mani/)
+- Syriac script / 叙利亚文字 [`Syrc`](https://writingsystems.info/scrlang/scripts/syrc/) <span style="color:#bbb">▷ Found in 大秦景教流行中国碑.</span>
+- ※ Ranjana script / 兰札文字 [`Ranj`](https://writingsystems.info/scrlang/scripts/ranj/)
+- ※ Siddham script / 悉昙文字 [`Sidd`](https://writingsystems.info/scrlang/scripts/sidd/)
+- Old Uyghur script / 回鹘文字 [`Ougr`](https://writingsystems.info/scrlang/scripts/ougr/)
 - Uyghur-Mongolian script / 回鹘式蒙古文字
-- Tangut script / 西夏文字 [`Tang`](https://scriptsource.org/scr/Tang)
-- Sui script / 水书 [`Shui`](https://scriptsource.org/scr/Shui)
-- Khitan Large script / 契丹大字 [`Kitl`](https://scriptsource.org/scr/Kitl)
-- [Khitan Small Script / 契丹小字](https://kushim-jiang.github.io/posts/2024-07-12-kss/) [`Kits`](https://scriptsource.org/scr/Kits)
-- Jurchen script / 女真文字 [`Jurc`](https://scriptsource.org/scr/Jurc)
-- hPhags-pa script / 八思巴字 [`Phag`](https://scriptsource.org/scr/Phag)
-- Lisu Zhushu script / 傈僳竹书
-- [Nüshu script / 女书](https://kushim-jiang.github.io/posts/2024-06-12-nushu/) [`Nshu`](https://scriptsource.org/scr/Nshu)
-- Bopomofo script / 注音字母 [`Bopo`](https://scriptsource.org/scr/Bopo)
+- Tangut script / 西夏文字 [`Tang`](https://writingsystems.info/scrlang/scripts/tang/)
+- Sui script / 水书 [`Shui`](https://writingsystems.info/scrlang/scripts/shui/)
+- Khitan Large script / 契丹大字 [`Kitl`](https://writingsystems.info/scrlang/scripts/kitl/)
+- [Khitan Small Script / 契丹小字](https://kushim-jiang.github.io/posts/2024-07-12-kss/) [`Kits`](https://writingsystems.info/scrlang/scripts/kits/)
+- Jurchen script / 女真文字 [`Jurc`](https://writingsystems.info/scrlang/scripts/jurc/)
+- hPhags-pa script / 八思巴字 [`Phag`](https://writingsystems.info/scrlang/scripts/phag/)
+- Lisu Zhushu script / 傈僳竹书 [`x-lisu-syllabic`](https://writingsystems.info/scrlang/scripts/x-lisu-syllabic/)
+- [Nüshu script / 女书](https://kushim-jiang.github.io/posts/2024-06-12-nushu/) [`Nshu`](https://writingsystems.info/scrlang/scripts/nshu/)
+- Bopomofo script / 注音字母 [`Bopo`](https://writingsystems.info/scrlang/scripts/bopo/)
   - Han / 注音字母 [`zh-Bopo`](https://scriptsource.org/ws/zh-Bopo)
   - Yi / 彝语注音字母 (1920 version)
   - Miao / 胡托苗文
   - Dai / 新平傣文
-- Rma script / 尔玛文字
+- Rma script / 尔玛文字 [`x-rma`](https://writingsystems.info/scrlang/scripts/x-rma/)
 - Tuyuhun script (?) / 吐谷浑文字 <span style="color:#bbb">▷ Found in 大周故慕容府君墓誌.</span>
 - ※ To Phak Kham script / 酸角文字
-- ※ Hebrew script / 希伯来文字 [`Hebr`](https://scriptsource.org/scr/Hebr)
-- ※ Tamil script / 泰米尔文字 [`Taml`](https://scriptsource.org/scr/Taml)
-- ※ Bhaiksuki script / 信度文字 [`Bhks`](https://scriptsource.org/scr/Bhks)
-- Braille pattern / 盲文 [`Brai`](https://scriptsource.org/scr/Brai)
+- ※ Hebrew script / 希伯来文字 [`Hebr`](https://writingsystems.info/scrlang/scripts/hebr/)
+- ※ Tamil script / 泰米尔文字 [`Taml`](https://writingsystems.info/scrlang/scripts/taml/)
+- ※ Bhaiksuki script / 信度文字 [`Bhks`](https://writingsystems.info/scrlang/scripts/bhks/)
+
+## A List of Chinese Notation Systems
+
+- Braille pattern / 盲文 [`Brai`](https://writingsystems.info/scrlang/scripts/brai/)
   - Han / 汉语拼音盲文 [`zh-Brai`](https://scriptsource.org/ws/zh-Brai)
+- Gongche notation / 工尺谱 [`x-gongche`](https://writingsystems.info/scrlang/scripts/x-gongche/)
+- Jianzipu notation / 减字谱
+- Jianpu notation / 简谱
+- Staff notation / 五线谱
+- Suzipu notation / 俗字谱
+- Banzipu notation / 半字谱
 
 ## A List of Chinese Symbols
 
@@ -205,7 +219,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 - religious symbols
   - Mosuo Daba symbols / 摩梭达巴文
   - Namuzi Pazi symbols / 纳木依帕孜经书
-  - Ersu Shaba symbols / 尔苏沙巴文
+  - Ersu Shaba symbols / 尔苏沙巴文 [`x-ersu-shaba`](https://writingsystems.info/scrlang/scripts/x-ersu-shaba/)
   - Minyag symbols / 木雅经书
   - Taliu Duoxi symbols / 他留铎系文
   - Malimasa symbols / 玛丽玛萨文

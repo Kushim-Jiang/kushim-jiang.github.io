@@ -206,6 +206,7 @@ category: pages
 - Approved Minutes of UTC Meeting 181. [L2/24-221](https://www.unicode.org/L2/L2024/24221.htm).
 - Approved Minutes of UTC Meeting 183. [L2/25-085](https://www.unicode.org/L2/L2025/25085.htm).
 - Approved Minutes of UTC Meeting 185. [L2/25-226](https://www.unicode.org/L2/L2025/25226.htm).
+- Approved Minutes of UTC Meeting 188. [L2/26-151](https://www.unicode.org/L2/L2026/26151.htm).
 
 ### WG2
 
