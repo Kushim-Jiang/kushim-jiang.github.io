@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Scripts
 category: pages
@@ -110,7 +110,7 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Qiang / 拉丁羌文 (1958 version, [1993 version](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#qiang-written-with-latin-in-1993-orthography) 🖊️) [`cng-Latn`](https://scriptsource.org/ws/cng-Latn) <span style="color:#bbb">▷ The 拉丁羌文 is based on the northern dialect of the Qiang language `cng` in Chibusu town (赤不苏镇), Mao county (茂县).</span>
   - [Uygur / 维吾尔新文字, 拉丁维吾尔文](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#uygur-written-with-latin-in-1959-orthography) [`ug-Latn`](https://scriptsource.org/ws/ug-Latn)
   - [Kazak / 哈萨克新文字, 拉丁哈萨克文](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#kazak-written-with-latin-in-1959-orthography) [`kk-Latn`](https://scriptsource.org/ws/kk-Latn)
-  - [Han / 汉语拼音](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#han-written-with-latin-in-1958-orthography) [`zh-Latn`](https://scriptsource.org/ws/zh-Latn)
+  - [Han / 汉语拼音](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#han-written-with-latin-in-1958-orthography) 🖊️ [`zh-Latn`](https://scriptsource.org/ws/zh-Latn)
   - [Gin / 拉丁京文](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#gin-written-with-latin-in-1980-orthography) [`vi-Latn`](https://scriptsource.org/ws/vi-Latn)
   - [Ewenki / 拉丁鄂温克文](https://kushim-jiang.github.io/scripts/2024-09-28-latn/#ewenki-written-with-latin-in-2019-orthography) [`evn-Latn`](https://scriptsource.org/ws/evn-Latn)
   - [Maonan / 毛南文](https://kushim-jiang.github.io/scripts/2024-09-26-latn/#maonan-written-with-latin-in-2015-orthography) [`mmd-Latn`](https://scriptsource.org/ws/mmd-Latn)
@@ -193,14 +193,49 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
 
 ## A List of Chinese Notation Systems
 
+- music
+  - Gongche notation / 工尺谱 [`x-gongche`](https://writingsystems.info/scrlang/scripts/x-gongche/)
+  - Gongcha notation / 工乂谱
+  - Xi'an drum notation / 西安鼓乐谱
+  - Jianzipu notation / 减字谱
+  - Jianpu notation / 简谱
+  - Staff notation / 五线谱
+  - Suzipu notation / 俗字谱
+  - Banzipu notation / 半字谱
+- mathematics
+  - Counting rod numerals / 算筹数字
+  - Suzhou numerals / 苏州码子 (花码)
+- games
+  - Poker / 扑克牌
+  - Chinese playing cards / 纸牌
+  - Mahjong tiles / 麻将牌
+  - Pai Gow dominoes / 牌九
+  - Chinese chess notation / 中国象棋记谱法
+  - Go notation / 围棋记谱法
+- science
+  - Chemical notation / 化学符号 (化学式, 化学方程式, 结构式)
+  - Physics notation / 物理符号 (物理量, 单位符号)
+  - Mathematical notation / 数学符号
+  - Astronomical symbols / 天文符号
+- technology
+  - Engineering drawing / 工程制图符号
+  - Map symbols / 地图符号系统
+  - Circuit diagram / 电路图符号
+  - Traffic signs / 交通标志
+- divination
+  - Yin-Yang monograms and digrams / 两仪四象符号
+  - Bagua / 八卦
+  - 64 Yijing hexagrams / 六十四卦
+  - 81 Taixuanjing tetragrams / 太玄经八十一首
+  - Taijitu / 太极图
+- gesture
+  - Chinese number gestures / 中国数字手势
+- ritual
+  - Fulu / 符箓符号
+  - Huaya / 花押
 - Braille pattern / 盲文 [`Brai`](https://writingsystems.info/scrlang/scripts/brai/)
   - Han / 汉语拼音盲文 [`zh-Brai`](https://scriptsource.org/ws/zh-Brai)
-- Gongche notation / 工尺谱 [`x-gongche`](https://writingsystems.info/scrlang/scripts/x-gongche/)
-- Jianzipu notation / 减字谱
-- Jianpu notation / 简谱
-- Staff notation / 五线谱
-- Suzipu notation / 俗字谱
-- Banzipu notation / 半字谱
+- emoji
 
 ## A List of Chinese Symbols
 
