@@ -1,4 +1,7 @@
+import argparse
 import json
+import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import TypedDict
 from urllib.parse import urljoin
@@ -7,12 +10,54 @@ import requests
 from lxml import etree  # type: ignore
 
 BASE_URL = "https://sew.unicode.org/roadmaps"
+BLOCKS_URL = "https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Mozilla/5.0"})
 
 
 def _pad_left(s: str, length: int, char: str = "0") -> str:
     return s.rjust(length, char).upper()
+
+
+def fetch_ucd_blocks() -> dict[tuple[int, int], str]:
+    """Download UCD Blocks.txt and return a {(lo, hi): official block name} mapping."""
+    response = SESSION.get(BLOCKS_URL)
+    response.raise_for_status()
+    blocks: dict[tuple[int, int], str] = {}
+    for line in response.text.splitlines():
+        line = line.split("#", 1)[0].strip()
+        if not line:
+            continue
+        rng, name = [part.strip() for part in line.split(";", 1)]
+        lo, hi = rng.split("..")
+        blocks[(int(lo, 16), int(hi, 16))] = name
+    return blocks
+
+
+_RANGE_RE = re.compile(r"U\+([0-9A-F]+)\.\.U\+([0-9A-F]+)")
+
+
+def _parse_range(range_str: str) -> tuple[int, int]:
+    match = _RANGE_RE.match(range_str)
+    if match is None:
+        raise ValueError(f"cannot parse range: {range_str}")
+    return int(match.group(1), 16), int(match.group(2), 16)
+
+
+def _resolve_alias(range_str: str, name: str, blocks: dict[tuple[int, int], str]) -> str:
+    """Return the official UCD block name when it differs from the roadmap name.
+
+    Only an exact range match counts as an alias; ranges that merely span or split
+    UCD blocks (C0 Controls, the surrogates areas, ...) are left alone.
+    """
+    try:
+        key = _parse_range(range_str)
+    except ValueError:
+        return ""
+    official = blocks.get(key)
+    if official is None or official == name:
+        return ""
+    return official
 
 
 def _parse_roadmap_page(url: str) -> list:
@@ -104,6 +149,18 @@ def parse_roadmap() -> None:
         print(f"📄 parsing {idx}/{len(sub_links)}：{link}")
         all_data.extend(_parse_roadmap_page(link))
     print(f"\n✅ parsed {len(all_data)} blocks of encoding data")
+
+    print(f"📥 fetching UCD blocks: {BLOCKS_URL}")
+    blocks = fetch_ucd_blocks()
+    alias_count = 0
+    for block in all_data:
+        alias = _resolve_alias(block["range"], block["name"], blocks)
+        if alias:
+            block["alias"] = alias
+            alias_count += 1
+            print(f"   🔁 {block['range']}  {block['name']} -> {alias}")
+    print(f"✅ {alias_count} alias(es) resolved from UCD block names")
+
     with open("assets/json/roadmap.json", "w", encoding="utf-8") as f:
         json.dump(
             {"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data},
@@ -115,10 +172,18 @@ def parse_roadmap() -> None:
 
 class RoadmapBlock(TypedDict):
     name: str
+    short: str
     range: str
     cps: int
     cols: int
+    url: str
     status: str
+
+
+class RoadmapAliasBlock(RoadmapBlock, total=False):
+    """A roadmap block that also carries an official UCD block name."""
+
+    alias: str
 
 
 class Roadmap(TypedDict):
@@ -186,7 +251,72 @@ def check_missing_names() -> None:
         print("✅ all names in roadmap.json are in roadmap_zh.json")
 
 
-if __name__ == "__main__":
+class BrokenLink(TypedDict):
+    url: str
+    reason: str
+    names: list[str]
+
+
+def _check_url(url: str, timeout: int = 20) -> tuple[bool, str]:
+    try:
+        response = SESSION.head(url, timeout=timeout, allow_redirects=True)
+        if response.status_code in (403, 405, 501):
+            response = SESSION.get(url, timeout=timeout, allow_redirects=True, stream=True)
+    except requests.RequestException as exc:
+        return False, type(exc).__name__
+    if response.status_code >= 400:
+        return False, f"HTTP {response.status_code}"
+    return True, f"HTTP {response.status_code}"
+
+
+def check_links(roadmap: Roadmap | None = None, workers: int = 8, timeout: int = 20) -> list[BrokenLink]:
+    if roadmap is None:
+        roadmap = _load_roadmap("assets/json/roadmap.json")
+
+    url_names: dict[str, list[str]] = {}
+    for block in roadmap["data"]:
+        url = block.get("url") or ""
+        if not url:
+            continue
+        url_names.setdefault(url, []).append(block["name"])
+
+    print(f"🔗 checking {len(url_names)} link(s) ...")
+    broken: list[BrokenLink] = []
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(_check_url, url, timeout): url for url in url_names}
+        for future in as_completed(futures):
+            url = futures[future]
+            ok, reason = future.result()
+            if not ok:
+                broken.append({"url": url, "reason": reason, "names": url_names[url]})
+    broken.sort(key=lambda item: item["url"])
+
+    if broken:
+        print(f"⚠️ {len(broken)} unreachable link(s):")
+        for item in broken:
+            print(f"- [{item['reason']}] {item['url']}  <- {', '.join(item['names'])}")
+    else:
+        print("✅ all links in roadmap.json are reachable")
+    return broken
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Unicode roadmap utilities")
+    parser.add_argument(
+        "--check-links",
+        action="store_true",
+        help="only check that every link in assets/json/roadmap.json is reachable",
+    )
+    args = parser.parse_args()
+
+    if args.check_links:
+        check_links()
+        return
+
     parse_roadmap()
     get_names_from_file("assets/json/roadmap.json")
     check_missing_names()
+
+
+if __name__ == "__main__":
+    main()
