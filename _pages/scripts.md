@@ -154,6 +154,8 @@ Thus, in the context of Chinese writing systems, it takes three parts to accurat
   - Bai Yi / 柏格理白彝文 [`ygp-Plrd`](https://scriptsource.org/ws/ygp-Plrd)
   - Gan Yi / 柏格理甘彝文 [`yna-Plrd`](https://scriptsource.org/ws/yna-Plrd)
   - Lisu / 柏格理东傈僳文 (框格式傈僳文, 傈坡文) [`lpo-Plrd`](https://scriptsource.org/ws/lpo-Plrd)
+  - Kaduo (Hani) / 柏格理卡多文 (柏格理哈尼文) [`ktp-Plrd`](https://scriptsource.org/ws/ktp-Plrd)
+  - Bai Miao / 柏格理白苗文 [`mww-Plrd`](https://scriptsource.org/ws/mww-Plrd)
 - Naxi Dongba script / 纳西东巴文字 🖍️ [`Nkdb`](https://writingsystems.info/scrlang/scripts/nkdb/)
   - Eya / 俄亚东巴文 [`nxq-Nkdb.eya`](https://scriptsource.org/ws/nxq-Nkdb)
   - Ruka / 汝卡东巴文 (阮可文) [`nxq-Nkdb.ruka`](https://scriptsource.org/ws/nxq-Nkdb)

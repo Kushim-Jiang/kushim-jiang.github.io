@@ -1,4 +1,6 @@
+import argparse
 import json
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import TypedDict
 from urllib.parse import urljoin
@@ -186,7 +188,72 @@ def check_missing_names() -> None:
         print("✅ all names in roadmap.json are in roadmap_zh.json")
 
 
-if __name__ == "__main__":
+class BrokenLink(TypedDict):
+    url: str
+    reason: str
+    names: list[str]
+
+
+def _check_url(url: str, timeout: int = 20) -> tuple[bool, str]:
+    try:
+        response = SESSION.head(url, timeout=timeout, allow_redirects=True)
+        if response.status_code in (403, 405, 501):
+            response = SESSION.get(url, timeout=timeout, allow_redirects=True, stream=True)
+    except requests.RequestException as exc:
+        return False, type(exc).__name__
+    if response.status_code >= 400:
+        return False, f"HTTP {response.status_code}"
+    return True, f"HTTP {response.status_code}"
+
+
+def check_links(roadmap: Roadmap | None = None, workers: int = 8, timeout: int = 20) -> list[BrokenLink]:
+    if roadmap is None:
+        roadmap = _load_roadmap("assets/json/roadmap.json")
+
+    url_names: dict[str, list[str]] = {}
+    for block in roadmap["data"]:
+        url = block.get("url") or ""
+        if not url:
+            continue
+        url_names.setdefault(url, []).append(block["name"])
+
+    print(f"🔗 checking {len(url_names)} link(s) ...")
+    broken: list[BrokenLink] = []
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(_check_url, url, timeout): url for url in url_names}
+        for future in as_completed(futures):
+            url = futures[future]
+            ok, reason = future.result()
+            if not ok:
+                broken.append({"url": url, "reason": reason, "names": url_names[url]})
+    broken.sort(key=lambda item: item["url"])
+
+    if broken:
+        print(f"⚠️ {len(broken)} unreachable link(s):")
+        for item in broken:
+            print(f"- [{item['reason']}] {item['url']}  <- {', '.join(item['names'])}")
+    else:
+        print("✅ all links in roadmap.json are reachable")
+    return broken
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Unicode roadmap utilities")
+    parser.add_argument(
+        "--check-links",
+        action="store_true",
+        help="only check that every link in assets/json/roadmap.json is reachable",
+    )
+    args = parser.parse_args()
+
+    if args.check_links:
+        check_links()
+        return
+
     parse_roadmap()
     get_names_from_file("assets/json/roadmap.json")
     check_missing_names()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-15 16:26:58",
+  "date": "2026-09-21 21:54:12",
   "data": [
     {
       "name": "C0 Controls",
@@ -1420,7 +1420,7 @@
       "range": "U+FDD0..U+FDEF",
       "cps": 32,
       "cols": 2,
-      "url": "https://www.unicode.org/charts/PDF/UFDD0.pdf",
+      "url": "https://www.unicode.org/charts/PDF/UFB50.pdf",
       "status": "Published (noncharacters)"
     },
     {
@@ -1502,7 +1502,7 @@
       "cps": 16,
       "cols": 1,
       "url": "https://www.unicode.org/charts/PDF/UFFF0.pdf",
-      "status": "Published (noncharacters)"
+      "status": "Published"
     },
     {
       "name": "Linear B Syllabary",
@@ -2005,8 +2005,8 @@
       "range": "U+10D90..U+10E5F",
       "cps": 208,
       "cols": 13,
-      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/22-284",
-      "status": "Roadmapped (right-to-left)"
+      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/26-179",
+      "status": "Provisionally assigned (right-to-left)"
     },
     {
       "name": "Rumi Numeral Symbols",
@@ -2487,12 +2487,12 @@
     },
     {
       "name": "Bengali Supplement",
-      "short": "(Ba-S)",
+      "short": "Ba-S",
       "range": "U+11DF0..U+11DFF",
       "cps": 16,
       "cols": 1,
-      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/22-268R",
-      "status": "Accepted for publication"
+      "url": "https://www.unicode.org/charts/PDF/U11DF0.pdf",
+      "status": "Published"
     },
     {
       "name": "Tocharian",
@@ -2586,12 +2586,12 @@
     },
     {
       "name": "Archaic Cuneiform Numerals",
-      "short": "(Archaic Cuneiform Numerals)",
+      "short": "Archaic Cuneiform Numerals",
       "range": "U+12550..U+1268F",
       "cps": 320,
       "cols": 20,
-      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/24-210R",
-      "status": "Accepted for publication"
+      "url": "https://www.unicode.org/charts/PDF/U12550.pdf",
+      "status": "Published"
     },
     {
       "name": "Proto-Cuneiform",
@@ -2681,6 +2681,24 @@
       "cps": 1152,
       "cols": 72,
       "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/16-077R",
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Wei Rma",
+      "short": "(Wei Rma)",
+      "range": "U+16000..U+1604F",
+      "cps": 80,
+      "cols": 5,
+      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/26-058",
+      "status": "Roadmapped"
+    },
+    {
+      "name": "Wagindara",
+      "short": "(Wagindara)",
+      "range": "U+16050..U+1607F",
+      "cps": 48,
+      "cols": 3,
+      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/24-242",
       "status": "Roadmapped"
     },
     {
@@ -2825,7 +2843,7 @@
       "cps": 48,
       "cols": 3,
       "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/22-218R3",
-      "status": "Accepted for publication"
+      "status": "Provisionally assigned"
     },
     {
       "name": "Kulitan",
@@ -2945,22 +2963,22 @@
       "status": "Published"
     },
     {
-      "name": "Jurchen Script",
-      "short": "(Jurchen Script)",
+      "name": "Jurchen",
+      "short": "Jurchen",
       "range": "U+18E00..U+1919F",
       "cps": 928,
       "cols": 58,
-      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/24-139",
-      "status": "Accepted for publication"
+      "url": "https://www.unicode.org/charts/PDF/U18E00.pdf",
+      "status": "Published"
     },
     {
       "name": "Jurchen Radicals",
-      "short": "(Jurchen Radicals)",
+      "short": "Jurchen Radicals",
       "range": "U+191A0..U+191DF",
       "cps": 64,
       "cols": 4,
-      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/24-140",
-      "status": "Accepted for publication"
+      "url": "https://www.unicode.org/charts/PDF/U191A0.pdf",
+      "status": "Published"
     },
     {
       "name": "Khitan Large Script",
@@ -3234,12 +3252,12 @@
     },
     {
       "name": "Musical Symbols Supplement",
-      "short": "(Musical Symbols Supplement)",
+      "short": "Musical Symbols Supplement",
       "range": "U+1D250..U+1D28F",
       "cps": 64,
       "cols": 4,
-      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/24-090",
-      "status": "Roadmapped"
+      "url": "https://www.unicode.org/charts/PDF/U1D250.pdf",
+      "status": "Published"
     },
     {
       "name": "(Flute) and (Pipa)",
@@ -3324,12 +3342,12 @@
     },
     {
       "name": "Miscellaneous Symbols and Arrows Extended",
-      "short": "(Miscellaneous Symbols and Arrows Extended)",
+      "short": "Miscellaneous Symbols and Arrows Extended",
       "range": "U+1DB00..U+1DBFF",
       "cps": 256,
       "cols": 16,
-      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/26-054R2",
-      "status": "Accepted for publication"
+      "url": "https://www.unicode.org/charts/PDF/U1DB00.pdf",
+      "status": "Published"
     },
     {
       "name": "Leibnizian Ambiguous Signs",
@@ -3337,8 +3355,8 @@
       "range": "U+1DC00..U+1DC3F",
       "cps": 64,
       "cols": 4,
-      "url": "https://www.unicode.org/cgi-bin/GetMatchingWG2Docs.pl?N5329R2",
-      "status": "Roadmapped"
+      "url": "https://www.unicode.org/cgi-bin/GetDocumentLink?L2/26-143",
+      "status": "Provisionally assigned"
     },
     {
       "name": "Latin Extended-G",
@@ -3860,7 +3878,7 @@
       "cps": 128,
       "cols": 8,
       "url": "https://www.unicode.org/cgi-bin/GetMatchingIRGDocs.pl?N2878",
-      "status": "Roadmapped"
+      "status": "Accepted for publication"
     },
     {
       "name": "CJK Unified Ideographs Components-B",
@@ -3869,7 +3887,7 @@
       "cps": 384,
       "cols": 24,
       "url": "https://www.unicode.org/cgi-bin/GetMatchingIRGDocs.pl?N2878",
-      "status": "Roadmapped"
+      "status": "Accepted for publication"
     },
     {
       "name": "CJK Unified Ideographs Extension G",
@@ -3899,13 +3917,13 @@
       "status": "Published"
     },
     {
-      "name": "Seal Script",
-      "short": "(Seal Script)",
+      "name": "Seal",
+      "short": "Seal",
       "range": "U+3D000..U+3FC3F",
       "cps": 11328,
       "cols": 708,
-      "url": "https://www.unicode.org/cgi-bin/GetMatchingWG2Docs.pl?N5344R",
-      "status": "Accepted for publication"
+      "url": "https://www.unicode.org/charts/PDF/U3D000.pdf",
+      "status": "Published"
     },
     {
       "name": "Tag characters",

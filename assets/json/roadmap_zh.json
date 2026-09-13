@@ -885,14 +885,14 @@
     "note": "Jianzi Musical Notation 译为减字谱，Format 译为格式，Control 译为控制符。"
   },
   {
+    "name": "Jurchen",
+    "zh-cn": "女真",
+    "note": "Jurchen 习译为女真。整体表示女真文字，文字省。"
+  },
+  {
     "name": "Jurchen Radicals",
     "zh-cn": "女真部首",
     "note": "Jurchen 习译为女真，Radical 译为部首。"
-  },
-  {
-    "name": "Jurchen Script",
-    "zh-cn": "女真",
-    "note": "Jurchen 习译为女真。整体表示女真文字，文字省。"
   },
   {
     "name": "Kaida",
@@ -1720,13 +1720,13 @@
     "note": "Saurashtra 习译为萨乌拉施特拉。"
   },
   {
-    "name": "Seal Script",
+    "name": "Seal",
     "zh-cn": "篆书",
-    "note": "Seal Script 习译为篆书。"
+    "note": "Seal 习译为篆书。"
   },
   {
     "name": "Shaaldaa",
-    "zh-cn": "夏勒达",
+    "zh-cn": "沙尔达",
     "note": "Shaaldaa 来自 /ʃɑːldɑː/，暂无奥罗莫语汉译音表，暂译为沙尔达。"
   },
   {
@@ -2120,6 +2120,11 @@
     "note": "Vithkuqi 来自 viθkucçi，参考《阿尔巴尼亚汉译音表》译为维斯库奇。"
   },
   {
+    "name": "Wagindara",
+    "zh-cn": "瓦金达拉",
+    "note": "Wagindara 习译为瓦金达拉文。"
+  },
+  {
     "name": "Wancho",
     "zh-cn": "万乔",
     "note": "Wancho 来自 wantʃɔː，参考《印地汉译音表》译为万乔。"
@@ -2128,6 +2133,11 @@
     "name": "Warang Citi",
     "zh-cn": "瓦朗奇蒂",
     "note": "Warang Citi 来自 warang chiti，参考《印地汉译音表》译为瓦朗奇蒂。"
+  },
+  {
+    "name": "Wei Rma",
+    "zh-cn": "魏尔玛",
+    "note": "Wei 表示魏氏，Rma 习译为尔玛文。"
   },
   {
     "name": "Western Cham",
