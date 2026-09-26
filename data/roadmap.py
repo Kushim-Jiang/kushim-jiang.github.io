@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import TypedDict
@@ -9,12 +10,54 @@ import requests
 from lxml import etree  # type: ignore
 
 BASE_URL = "https://sew.unicode.org/roadmaps"
+BLOCKS_URL = "https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Mozilla/5.0"})
 
 
 def _pad_left(s: str, length: int, char: str = "0") -> str:
     return s.rjust(length, char).upper()
+
+
+def fetch_ucd_blocks() -> dict[tuple[int, int], str]:
+    """Download UCD Blocks.txt and return a {(lo, hi): official block name} mapping."""
+    response = SESSION.get(BLOCKS_URL)
+    response.raise_for_status()
+    blocks: dict[tuple[int, int], str] = {}
+    for line in response.text.splitlines():
+        line = line.split("#", 1)[0].strip()
+        if not line:
+            continue
+        rng, name = [part.strip() for part in line.split(";", 1)]
+        lo, hi = rng.split("..")
+        blocks[(int(lo, 16), int(hi, 16))] = name
+    return blocks
+
+
+_RANGE_RE = re.compile(r"U\+([0-9A-F]+)\.\.U\+([0-9A-F]+)")
+
+
+def _parse_range(range_str: str) -> tuple[int, int]:
+    match = _RANGE_RE.match(range_str)
+    if match is None:
+        raise ValueError(f"cannot parse range: {range_str}")
+    return int(match.group(1), 16), int(match.group(2), 16)
+
+
+def _resolve_alias(range_str: str, name: str, blocks: dict[tuple[int, int], str]) -> str:
+    """Return the official UCD block name when it differs from the roadmap name.
+
+    Only an exact range match counts as an alias; ranges that merely span or split
+    UCD blocks (C0 Controls, the surrogates areas, ...) are left alone.
+    """
+    try:
+        key = _parse_range(range_str)
+    except ValueError:
+        return ""
+    official = blocks.get(key)
+    if official is None or official == name:
+        return ""
+    return official
 
 
 def _parse_roadmap_page(url: str) -> list:
@@ -106,6 +149,18 @@ def parse_roadmap() -> None:
         print(f"📄 parsing {idx}/{len(sub_links)}：{link}")
         all_data.extend(_parse_roadmap_page(link))
     print(f"\n✅ parsed {len(all_data)} blocks of encoding data")
+
+    print(f"📥 fetching UCD blocks: {BLOCKS_URL}")
+    blocks = fetch_ucd_blocks()
+    alias_count = 0
+    for block in all_data:
+        alias = _resolve_alias(block["range"], block["name"], blocks)
+        if alias:
+            block["alias"] = alias
+            alias_count += 1
+            print(f"   🔁 {block['range']}  {block['name']} -> {alias}")
+    print(f"✅ {alias_count} alias(es) resolved from UCD block names")
+
     with open("assets/json/roadmap.json", "w", encoding="utf-8") as f:
         json.dump(
             {"date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "data": all_data},
@@ -117,10 +172,18 @@ def parse_roadmap() -> None:
 
 class RoadmapBlock(TypedDict):
     name: str
+    short: str
     range: str
     cps: int
     cols: int
+    url: str
     status: str
+
+
+class RoadmapAliasBlock(RoadmapBlock, total=False):
+    """A roadmap block that also carries an official UCD block name."""
+
+    alias: str
 
 
 class Roadmap(TypedDict):

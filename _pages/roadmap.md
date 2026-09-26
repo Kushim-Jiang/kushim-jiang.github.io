@@ -249,6 +249,8 @@ category: pages
     }
 
     let roadmapZhData = [];
+    // roadmap name -> UCD official block name, populated from roadmap.json "alias"
+    let roadmapAliasData = {};
 
     function fetchWithRetry(url, retries = 3, delay = 2000) {
         return new Promise((resolve, reject) => {
@@ -328,6 +330,18 @@ category: pages
         ttrange.innerText = "U+" + padLeft(from.toString(16).toUpperCase(), 4, '0') + ".." + "U+" + padLeft(to.toString(16).toUpperCase(), 4, '0');
         ttcps.innerText = (to - from + 1);
         ttcols.innerText = Math.ceil((to - from + 1) / 16);
+
+        // UCD official block name, shown only when it differs from the roadmap name
+        var alias = roadmapAliasData[originalName] || '';
+        var aliasRow = document.getElementById('ttaliasrow');
+        var aliasEl = document.getElementById('ttalias');
+        if (alias) {
+            aliasEl.innerHTML = alias;
+            aliasRow.style.display = '';
+        } else {
+            aliasEl.innerHTML = '';
+            aliasRow.style.display = 'none';
+        }
 
         let chineseInfo = roadmapZhData.find(item => item.name === originalName) || {};
         let chineseName = chineseInfo['zh-cn'] || '';
@@ -446,6 +460,7 @@ category: pages
 
 <div id="tooltip">
     <div><span class="hdr">Full Name:</span> <span id="ttname"></span></div>
+    <div id="ttaliasrow" style="display: none;"><span class="hdr">UCD Block:</span> <span id="ttalias"></span></div>
     <div><span class="hdr">Range:</span> <span id="ttrange"></span></div>
     <div><span class="hdr">Codepoints:</span> <span id="ttcps"></span></div>
     <div><span class="hdr">Columns:</span> <span id="ttcols"></span></div>
@@ -463,7 +478,13 @@ category: pages
             .then(data => { roadmapZhData = data; })
             .catch(err => console.error('Error loading roadmap zh:', err));
         fetchWithRetry('/assets/json/roadmap.json')
-            .then(data => { generateRoadmapSVG(data.data); })
+            .then(data => {
+                roadmapAliasData = {};
+                data.data.forEach(block => {
+                    if (block.alias) roadmapAliasData[block.name] = block.alias;
+                });
+                generateRoadmapSVG(data.data);
+            })
             .catch(err => {
                 console.error('Error loading roadmap:', err);
                 if (container) showLoadError(container, 'Failed to load roadmap data after multiple attempts.');

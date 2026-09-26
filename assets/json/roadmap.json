@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-21 21:54:12",
+  "date": "2026-09-27 02:42:47",
   "data": [
     {
       "name": "C0 Controls",
@@ -89,7 +89,8 @@
       "cps": 144,
       "cols": 9,
       "url": "https://www.unicode.org/charts/PDF/U0370.pdf",
-      "status": "Published"
+      "status": "Published",
+      "alias": "Greek and Coptic"
     },
     {
       "name": "Cyrillic",
@@ -170,7 +171,8 @@
       "cps": 64,
       "cols": 4,
       "url": "https://www.unicode.org/charts/PDF/U07C0.pdf",
-      "status": "Published (right-to-left)"
+      "status": "Published (right-to-left)",
+      "alias": "NKo"
     },
     {
       "name": "Samaritan",
@@ -431,7 +433,8 @@
       "cps": 32,
       "cols": 2,
       "url": "https://www.unicode.org/charts/PDF/U1720.pdf",
-      "status": "Published"
+      "status": "Published",
+      "alias": "Hanunoo"
     },
     {
       "name": "Buhid",
@@ -737,7 +740,8 @@
       "cps": 256,
       "cols": 16,
       "url": "https://www.unicode.org/charts/PDF/U2200.pdf",
-      "status": "Published"
+      "status": "Published",
+      "alias": "Mathematical Operators"
     },
     {
       "name": "Miscellaneous Technical",
@@ -1070,7 +1074,8 @@
       "cps": 256,
       "cols": 16,
       "url": "https://www.unicode.org/charts/PDF/U3200.pdf",
-      "status": "Published"
+      "status": "Published",
+      "alias": "Enclosed CJK Letters and Months"
     },
     {
       "name": "CJK Compatibility",
@@ -1376,7 +1381,8 @@
       "cps": 1024,
       "cols": 64,
       "url": "https://www.unicode.org/charts/PDF/UDC00.pdf",
-      "status": "Published (noncharacters)"
+      "status": "Published (noncharacters)",
+      "alias": "Low Surrogates"
     },
     {
       "name": "Private Use Area",
@@ -1484,7 +1490,8 @@
       "cps": 144,
       "cols": 9,
       "url": "https://www.unicode.org/charts/PDF/UFE70.pdf",
-      "status": "Published (right-to-left)"
+      "status": "Published (right-to-left)",
+      "alias": "Arabic Presentation Forms-B"
     },
     {
       "name": "Halfwidth & Fullwidth Forms",
@@ -1493,7 +1500,8 @@
       "cps": 240,
       "cols": 15,
       "url": "https://www.unicode.org/charts/PDF/UFF00.pdf",
-      "status": "Published"
+      "status": "Published",
+      "alias": "Halfwidth and Fullwidth Forms"
     },
     {
       "name": "Specials",
@@ -3095,7 +3103,8 @@
       "cps": 400,
       "cols": 25,
       "url": "https://www.unicode.org/charts/PDF/U1B170.pdf",
-      "status": "Published"
+      "status": "Published",
+      "alias": "Nushu"
     },
     {
       "name": "Shuishu Logograms",
@@ -3932,7 +3941,8 @@
       "cps": 128,
       "cols": 8,
       "url": "https://www.unicode.org/charts/PDF/UE0000.pdf",
-      "status": "Published"
+      "status": "Published",
+      "alias": "Tags"
     },
     {
       "name": "Variation Selectors Supplement",

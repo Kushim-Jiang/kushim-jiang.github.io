@@ -6,3 +6,6 @@ _draft/
 *.lock
 data_yaml/
 src/
+
+__pycache__/
+*.py[cod]
