@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 import requests
 from lxml import etree  # type: ignore
 
-BASE_URL = "https://sew.unicode.org/roadmaps"
+BASE_URL = "https://unicode.org/roadmaps/"
 BLOCKS_URL = "https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Mozilla/5.0"})
@@ -138,7 +138,9 @@ def _get_roadmap_links() -> list:
     response.raise_for_status()
     tree = etree.HTML(response.text)
     links = tree.cssselect("#sidenav a[href]")
-    return [urljoin(BASE_URL, link.get("href")) for link in links if urljoin(BASE_URL, link.get("href")) != BASE_URL]
+    index = BASE_URL.rstrip("/")
+    urls = [urljoin(BASE_URL, link.get("href")) for link in links]
+    return [url for url in urls if url.rstrip("/") != index]
 
 
 def parse_roadmap() -> None:
