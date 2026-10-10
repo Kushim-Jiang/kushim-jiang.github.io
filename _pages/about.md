@@ -130,6 +130,9 @@ category: pages
     - **Kushim Jiang**. Proposal to update the Mongolian variant data in UCD. [L2/26-163](https://unicode.org/L2/L2026/26163-mongolian-variant-data.pdf).
     - Ken Whistler, **Kushim Jiang**. Updates for Mongolian Variation Sequences for Unicode 18.0. [L2/26-203](https://unicode.org/L2/L2026/26203-mongolian-vs.txt).
     - 🔭️ [Proposal to deprecate the Mongolian standardized variants in UCD](https://github.com/unicode-org/sew/issues/841)
+  - technical note
+    - **Kushim Jiang**. Encoding and shaping of the Mongolian script. [UTN \#57](https://www.unicode.org/notes/tn57/).
+    - **Kushim Jiang**. Resolving cross-writing-system ambiguity in Mongolian script. [L2/26-219](https://www.unicode.org/L2/L2026/26219-mongolian-locale.pdf).
 - **other scripts**
   - Wagindara script
     - Jiaxu Yehenara, **Kushim Jiang**, Uju Tunggiya, Tupo Liu. Preliminary proposal to encode Wagindara letters for the Mongolian script. [L2/24-242](https://unicode.org/L2/L2024/24242-wagindara.pdf).
