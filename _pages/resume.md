@@ -115,6 +115,11 @@ category: pages
 
 ## Standards work
 
+### International standards
+
+- **2024.10—** — ISO/IEC 10646 (Universal Coded Character Set): participating in the drafting work; national body representative to ISO/IEC JTC1/SC2/WG2 (since 2025.06) and to its IRG (since 2025.03).
+- **2025.05—** — ISO/TC46/WG3: ISO/PWI 25293, _Transliteration of Mongolian Script into Latin Characters_, and ISO/PWI 25294, _Transliteration of Tibetan Script into Latin Characters_.
+
 ### Drafts
 
 - **2025** — _Information Technology — Specification for the Component Decomposition Description of Han Character Glyphs_.
@@ -127,6 +132,7 @@ category: pages
 - **2025** — _Table of Han Character Radicals_ (GF 0011—2022).
   - [Ministry of Education announcement (2022 revision)](http://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202211/t20221118_995332.html)
 - **2025** — _Information Technology — Rules for the Use of Nominal Characters, Variant Presentation Characters and Control Characters for the Sibe Script_, the Manchu script and the Todo (Oirat) script.
+  - Comment resolution for the Sibe and the Manchu drafts for comments (2026).
   - [GB/T 36641—2018 (Sibe)](https://std.samr.gov.cn/gb/search/gbDetailed?id=7643B2F2514D267CE05397BE0A0AAF6A)
   - [GB/T 36645—2018 (Manchu)](https://std.samr.gov.cn/gb/search/gbDetailed?id=7643B2F25167267CE05397BE0A0AAF6A)
   - [GB/T 36649—2018 (Todo)](https://std.samr.gov.cn/gb/search/gbDetailed?id=7643B2F2514F267CE05397BE0A0AAF6A)
@@ -145,6 +151,7 @@ category: pages
 
 ## Projects
 
+- **2025—2026** — _Damaged-document restoration and content extraction system_ (institute project). Technical report writing and software development.
 - **2025** — _Research on Sub-Character Granularity Representation and Database Construction for the National Common Language and Script_.
 - **2024** — _Research on the Standards Application of the National Common Language and Script in Information Technology Products_. Report finalized and submitted.
 - **2022.08—2023.05** — National Arts Fund, Communication and Promotion Funding Project (58): _The Modern Road of Han Character Design_, Central Academy of Fine Arts. Wrote the exhibition content (Stage 4), proofread all content, gave one forum talk and contributed one paper.
@@ -158,6 +165,11 @@ category: pages
 
 ## Software, data and other materials
 
+- **[yedict](https://yedict.com)** — an online dictionary of Han characters: a FastAPI backend (data loading, ZIID codes, page rules) and a Svelte frontend, with deployment and data-versioning scripts; the character tables and the scan-derived sprite sets are published in [yedict/open-data](https://atomgit.com/yedict/open-data).
+- **[cutter](https://github.com/Kushim-Jiang/cutter)** — a workbench for cutting character-head images out of scanned dictionaries (Zhonghua Zihai, Hanzi Hai, the Kangxi Dictionary, the Hanyu Da Zidian) and for standard character-set code and position tables (GB 2312, the first, second, fourth, seventh and eighth auxiliary sets, GB 18030—2022).
+- **[punquiz-cn](https://github.com/Kushim-Jiang/punquiz-cn)** and **[pun](https://github.com/Kushim-Jiang/pun)** — PunQuizCN, a benchmark of Chinese two-image homophone rebuses for vision-language models: corpus, evaluation package, datasheet and corpus pipeline.
+- **[babelsoft-py](https://github.com/BabelSoft/babelsoft-py)** — a Python port of the BabelMap/BabelPad data-processing libraries, with cross-platform desktop apps and modules for CJKV, radicals, IRG sources and the Khitan and Tangut scripts.
+- **[book](https://github.com/Kushim-Jiang/book)** — BOOKMD, a document format for reflowed books, and the two-stage pipeline that turns printed PDFs into static web ebooks.
 - **[yiyin](https://github.com/Kushim-Jiang/yiyin)** — standard Chinese transliteration of foreign personal and place names, with per-character phonetics and polyphone marking; packaged as a VS Code agent skill.
 - **[mongolian](https://github.com/Kushim-Jiang/mongolian)** — documentation, data files and the `mongfontbuilder` library behind UTN #57, _Encoding and Shaping of the Mongolian Script_.
   - [Published documentation](http://mongolian.kushim.workers.dev/)
@@ -194,3 +206,7 @@ category: pages
   - **Graphemic model**: connectedness from Old Sogdian to Sogdian; the dots from Sogdian to Uyghur; grapheme abstraction and grapheme variants; special cases (zayin, tsatslag); virtual grapheme variants.
   - **Phonemic model**: Traditional Mongolian and Todo (early analysis from a syllabic perspective); Manchu and Sibe; Sanskrit Ali Gali; Tibetan Ali Gali.
   - **Conclusion**, and **Appendix — History of the character set**: 1 misunderstood free variation selectors; 2 user agreements; 3 national standards.
+- **Book manuscript** — _Higher Scheduling Theory_, with a companion translation series on behavioural and categorical systems theory.
+  - Chapters 0—11 drafted, in five parts: mathematical prerequisites; language (how scheduling problems are stated); judgement; cost; limits and ramifications — critical paths, critical circuits and spectral bounds.
+  - **Appendices**: RCPSP, VRP and six classes of systems; LaTeX sources, figures and bibliography.
+  - **Translation series**: source texts and annotated translations of Willems, Kalman, Spivak, Myers and Rutten, with a bilingual terminology list.
