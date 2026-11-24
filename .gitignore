@@ -9,3 +9,10 @@ src/
 
 __pycache__/
 *.py[cod]
+
+# IRG review workbench state
+data/irg_review_state.json
+data/*.csv.bak
+data/irg_candidates.csv
+data/irg_complete.py
+data/irg_review.py
